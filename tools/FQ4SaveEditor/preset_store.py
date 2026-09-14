@@ -3,7 +3,7 @@ import json, os
 from pathlib import Path
 
 FIELDS=("hr","hp","at","ar","df","dr","level","ft","class_id")
-LIMITS={"hr":(1,16),"hp":(1,999),"at":(1,99),"ar":(1,99),"df":(1,99),"dr":(1,99),"level":(0,255),"ft":(0,65535),"class_id":(0,149)}
+LIMITS={"hr":(1,16),"hp":(1,999),"at":(1,99),"ar":(1,99),"df":(1,99),"dr":(1,99),"level":(0,255),"ft":(0,65535),"class_id":(0,219)}
 
 def config_path():
     root=Path(os.environ.get("APPDATA",Path.home()))/"FQ4SaveEditor"

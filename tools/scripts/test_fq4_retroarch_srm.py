@@ -19,6 +19,10 @@ def main() -> None:
     card = MemoryCard(raw)
     assert len(card.slots) == 2
     assert card.render() == raw
+    trislen = next(c for c in card.slots[0].characters() if c.index == 246)
+    assert (trislen.name_id, trislen.class_id, trislen.level, trislen.hp, trislen.hr,
+            trislen.at, trislen.ar, trislen.df, trislen.dr) == (265, 198, 58, 608, 9, 53, 57, 49, 59)
+    assert len(card.slots[0].characters()) == 511
 
     character = card.slots[0].characters()[0]
     new_hr = character.hr - 1 if character.hr > 1 else character.hr + 1
@@ -31,7 +35,7 @@ def main() -> None:
     assert edited.hr == new_hr
     assert OUTPUT.suffix == ".srm"
     assert hashlib.sha256(SOURCE.read_bytes()).hexdigest() == source_hash
-    print("PASS: RetroArch SRM parse, exact round trip, bounded edit, checksum, extension, source preservation")
+    print("PASS: RetroArch SRM, Trislen/class-198 visibility, round trip, edit, checksum, extension, source preservation")
 
 
 if __name__ == "__main__":

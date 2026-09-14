@@ -46,7 +46,7 @@ class App(tk.Tk):
         ttk.Label(right,text="레코드 번호").grid(row=row,column=0,sticky="w",pady=4); ttk.Label(right,textvariable=self.vars['index']).grid(row=row,column=1,sticky="ew"); row+=1
         ttk.Label(right,text="이름").grid(row=row,column=0,sticky="w",pady=4); ttk.Label(right,textvariable=self.vars['name']).grid(row=row,column=1,sticky="ew"); row+=1
         ttk.Label(right,text="CLASS").grid(row=row,column=0,sticky="w",pady=4)
-        self.class_box=ttk.Combobox(right,textvariable=self.class_name,state="readonly",values=[f"{i:03d}  {CLASS_NAMES[i]}" for i in range(150)],width=24); self.class_box.grid(row=row,column=1,sticky="ew"); self.class_box.bind("<<ComboboxSelected>>",lambda e:self.update_class_preview()); row+=1
+        self.class_box=ttk.Combobox(right,textvariable=self.class_name,state="readonly",values=[f"{i:03d}  {CLASS_NAMES[i]}" for i in range(len(CLASS_NAMES))],width=24); self.class_box.grid(row=row,column=1,sticky="ew"); self.class_box.bind("<<ComboboxSelected>>",lambda e:self.update_class_preview()); row+=1
         self.class_preview=ttk.Label(right,text="캐릭터를 선택하면 CLASS 이미지가 표시됩니다.",anchor="center",padding=5); self.class_preview.grid(row=row,column=0,columnspan=2,sticky="ew",pady=(2,5)); row+=1
         ttk.Button(right,text="이미지 목록에서 CLASS 선택",command=self.class_picker).grid(row=row,column=0,columnspan=2,sticky="ew",pady=(2,8)); row+=1
         for key,label,low,limit in (("ft","FT",0,65535),("level","LV",0,255),("hp","HP",1,999),("hr","HR",1,16),("at","AT",1,99),("ar","AR",1,99),("df","DF",1,99),("dr","DR",1,99)):

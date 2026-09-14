@@ -27,13 +27,14 @@ def main():
     names=json.loads((UI/'class_names.json').read_text(encoding='utf-8'));OUT.mkdir(parents=True,exist_ok=True);catalog=[]
     for i,name in enumerate(names):
         path=f'/CHR{i>>4:X}/C{i:02X}.P'; rec=by[path]; e=rec['extents'][0]; data=b''.join(raw[(e['lba']+n)*2352+24:(e['lba']+n)*2352+2072] for n in range((e['size']+2047)//2048))[:e['size']]
-        tile_ids=(16,17,18,19); indices=[]
+        base_tile=16 if len(data)>=20*256 else 0
+        tile_ids=(base_tile,base_tile+1,base_tile+2,base_tile+3); indices=[]
         for y in range(32):
             for x in range(32):
-                tile=((16,18),(17,19))[y//16][x//16]
+                tile=((tile_ids[0],tile_ids[2]),(tile_ids[1],tile_ids[3]))[y//16][x//16]
                 indices.append(data[tile*256+(y%16)*16+(x%16)])
         frame=bytes(indices); im=Image.new('RGBA',(32,32));im.putdata([rgba(x) for x in frame]);im=im.resize((64,64),Image.Resampling.NEAREST)
         fn=f'class-{i:03}.png';im.save(OUT/fn)
-        catalog.append({'id':i,'name':name,'icon':f'class_icons/{fn}','image_status':'user_approved_front_frame_normalized_palette','source':path,'source_lba':e['lba'],'tile_positions':{'top_left':16,'bottom_left':17,'top_right':18,'bottom_right':19},'palette':'normalized groups approved from CLASS 25 preview v1','frame_sha256':hashlib.sha256(frame).hexdigest()})
+        catalog.append({'id':i,'name':name,'icon':f'class_icons/{fn}','image_status':'user_approved_front_frame_normalized_palette' if base_tile==16 else 'compact_resource_first_frame_normalized_palette','source':path,'source_lba':e['lba'],'tile_positions':{'top_left':tile_ids[0],'bottom_left':tile_ids[1],'top_right':tile_ids[2],'bottom_right':tile_ids[3]},'palette':'normalized groups approved from CLASS 25 preview v1','frame_sha256':hashlib.sha256(frame).hexdigest()})
     (UI/'class_catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print('extracted',len(catalog))
 if __name__=='__main__':main()

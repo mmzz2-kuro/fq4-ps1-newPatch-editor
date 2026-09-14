@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "name": "KING",
+    "name": "キング",
     "icon": "class_icons/class-000.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR0/C00.P",
@@ -33,7 +33,7 @@
   },
   {
     "id": 2,
-    "name": "PRINCE",
+    "name": "プリンス",
     "icon": "class_icons/class-002.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR0/C02.P",
@@ -65,7 +65,7 @@
   },
   {
     "id": 4,
-    "name": "MASTER",
+    "name": "マスター",
     "icon": "class_icons/class-004.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR0/C04.P",
@@ -113,7 +113,7 @@
   },
   {
     "id": 7,
-    "name": "SHONIN",
+    "name": "ショウニン",
     "icon": "class_icons/class-007.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR0/C07.P",
@@ -129,7 +129,7 @@
   },
   {
     "id": 8,
-    "name": "CAPTAIN",
+    "name": "キャプテン",
     "icon": "class_icons/class-008.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR0/C08.P",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "name": "AMAZONES",
+    "name": "アマゾネス",
     "icon": "class_icons/class-009.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR0/C09.P",
@@ -161,7 +161,7 @@
   },
   {
     "id": 10,
-    "name": "EXORCIST",
+    "name": "エクソシスト",
     "icon": "class_icons/class-010.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR0/C0A.P",
@@ -177,7 +177,7 @@
   },
   {
     "id": 11,
-    "name": "NURSE",
+    "name": "ナース",
     "icon": "class_icons/class-011.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR0/C0B.P",
@@ -193,7 +193,7 @@
   },
   {
     "id": 12,
-    "name": "MASTER",
+    "name": "マスター",
     "icon": "class_icons/class-012.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR0/C0C.P",
@@ -209,7 +209,7 @@
   },
   {
     "id": 13,
-    "name": "WITCH",
+    "name": "ウィッチ",
     "icon": "class_icons/class-013.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR0/C0D.P",
@@ -225,7 +225,7 @@
   },
   {
     "id": 14,
-    "name": "TRAINER",
+    "name": "ケモノツカイ",
     "icon": "class_icons/class-014.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR0/C0E.P",
@@ -241,7 +241,7 @@
   },
   {
     "id": 15,
-    "name": "TACTICIA",
+    "name": "タクティシャン",
     "icon": "class_icons/class-015.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR0/C0F.P",
@@ -257,7 +257,7 @@
   },
   {
     "id": 16,
-    "name": "MASTER",
+    "name": "マスター",
     "icon": "class_icons/class-016.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR1/C10.P",
@@ -273,7 +273,7 @@
   },
   {
     "id": 17,
-    "name": "MASTER",
+    "name": "マスター",
     "icon": "class_icons/class-017.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR1/C11.P",
@@ -305,7 +305,7 @@
   },
   {
     "id": 19,
-    "name": "MONK",
+    "name": "モンク",
     "icon": "class_icons/class-019.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR1/C13.P",
@@ -321,7 +321,7 @@
   },
   {
     "id": 20,
-    "name": "PRIESTES",
+    "name": "プリーステス",
     "icon": "class_icons/class-020.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR1/C14.P",
@@ -337,7 +337,7 @@
   },
   {
     "id": 21,
-    "name": "WITCH",
+    "name": "ウィッチ",
     "icon": "class_icons/class-021.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR1/C15.P",
@@ -369,7 +369,7 @@
   },
   {
     "id": 23,
-    "name": "BROTHER",
+    "name": "ブラザー",
     "icon": "class_icons/class-023.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR1/C17.P",
@@ -385,7 +385,7 @@
   },
   {
     "id": 24,
-    "name": "BROTHER",
+    "name": "ブラザー",
     "icon": "class_icons/class-024.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR1/C18.P",
@@ -401,7 +401,7 @@
   },
   {
     "id": 25,
-    "name": "KNIGHT",
+    "name": "ナイト",
     "icon": "class_icons/class-025.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR1/C19.P",
@@ -433,7 +433,7 @@
   },
   {
     "id": 27,
-    "name": "SCOUT",
+    "name": "スカウト",
     "icon": "class_icons/class-027.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR1/C1B.P",
@@ -449,7 +449,7 @@
   },
   {
     "id": 28,
-    "name": "NINJA",
+    "name": "ニンジャ",
     "icon": "class_icons/class-028.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR1/C1C.P",
@@ -465,7 +465,7 @@
   },
   {
     "id": 29,
-    "name": "KING",
+    "name": "キング",
     "icon": "class_icons/class-029.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR1/C1D.P",
@@ -481,7 +481,7 @@
   },
   {
     "id": 30,
-    "name": "ARCHMAGE",
+    "name": "ダイマドウシ",
     "icon": "class_icons/class-030.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR1/C1E.P",
@@ -609,7 +609,7 @@
   },
   {
     "id": 38,
-    "name": "HIGHLAND",
+    "name": "ハイランダー",
     "icon": "class_icons/class-038.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR2/C26.P",
@@ -673,7 +673,7 @@
   },
   {
     "id": 42,
-    "name": "LORD",
+    "name": "ロード",
     "icon": "class_icons/class-042.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR2/C2A.P",
@@ -705,7 +705,7 @@
   },
   {
     "id": 44,
-    "name": "NECROMAN",
+    "name": "ネクロマンサー",
     "icon": "class_icons/class-044.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR2/C2C.P",
@@ -721,7 +721,7 @@
   },
   {
     "id": 45,
-    "name": "WIZARD",
+    "name": "マドウシ",
     "icon": "class_icons/class-045.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR2/C2D.P",
@@ -737,7 +737,7 @@
   },
   {
     "id": 46,
-    "name": "RED LORD",
+    "name": "レッドロード",
     "icon": "class_icons/class-046.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR2/C2E.P",
@@ -769,7 +769,7 @@
   },
   {
     "id": 48,
-    "name": "ATTACKER",
+    "name": "アタッカー",
     "icon": "class_icons/class-048.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR3/C30.P",
@@ -817,7 +817,7 @@
   },
   {
     "id": 51,
-    "name": "FULLARMO",
+    "name": "フルアーマー",
     "icon": "class_icons/class-051.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR3/C33.P",
@@ -833,7 +833,7 @@
   },
   {
     "id": 52,
-    "name": "SWORDSMA",
+    "name": "ソードマン",
     "icon": "class_icons/class-052.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR3/C34.P",
@@ -865,7 +865,7 @@
   },
   {
     "id": 54,
-    "name": "RANGER",
+    "name": "レンジャー",
     "icon": "class_icons/class-054.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR3/C36.P",
@@ -881,7 +881,7 @@
   },
   {
     "id": 55,
-    "name": "REDARMOR",
+    "name": "レッドアーマー",
     "icon": "class_icons/class-055.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR3/C37.P",
@@ -913,7 +913,7 @@
   },
   {
     "id": 57,
-    "name": "BSOLDIER",
+    "name": "B・ソルジャー",
     "icon": "class_icons/class-057.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR3/C39.P",
@@ -945,7 +945,7 @@
   },
   {
     "id": 59,
-    "name": "BSHOOTER",
+    "name": "B・シューター",
     "icon": "class_icons/class-059.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR3/C3B.P",
@@ -1025,7 +1025,7 @@
   },
   {
     "id": 64,
-    "name": "MASTER",
+    "name": "マスター",
     "icon": "class_icons/class-064.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR4/C40.P",
@@ -1041,7 +1041,7 @@
   },
   {
     "id": 65,
-    "name": "KUNGFUMA",
+    "name": "カンフーマン",
     "icon": "class_icons/class-065.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR4/C41.P",
@@ -1089,7 +1089,7 @@
   },
   {
     "id": 68,
-    "name": "RSOLDIER",
+    "name": "R・ソルジャー",
     "icon": "class_icons/class-068.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR4/C44.P",
@@ -1105,7 +1105,7 @@
   },
   {
     "id": 69,
-    "name": "RSHOOTER",
+    "name": "R・シューター",
     "icon": "class_icons/class-069.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR4/C45.P",
@@ -1185,7 +1185,7 @@
   },
   {
     "id": 74,
-    "name": "KNIGHT",
+    "name": "ナイト",
     "icon": "class_icons/class-074.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR4/C4A.P",
@@ -1201,7 +1201,7 @@
   },
   {
     "id": 75,
-    "name": "SPEAR",
+    "name": "スピア",
     "icon": "class_icons/class-075.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR4/C4B.P",
@@ -1217,7 +1217,7 @@
   },
   {
     "id": 76,
-    "name": "LANCE",
+    "name": "ランス",
     "icon": "class_icons/class-076.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR4/C4C.P",
@@ -1249,7 +1249,7 @@
   },
   {
     "id": 78,
-    "name": "PRINCESS",
+    "name": "プリンセス",
     "icon": "class_icons/class-078.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR4/C4E.P",
@@ -1265,7 +1265,7 @@
   },
   {
     "id": 79,
-    "name": "MASTER",
+    "name": "マスター",
     "icon": "class_icons/class-079.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR4/C4F.P",
@@ -1313,7 +1313,7 @@
   },
   {
     "id": 82,
-    "name": "GSOLDIER",
+    "name": "G・ソルジャー",
     "icon": "class_icons/class-082.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR5/C52.P",
@@ -1345,7 +1345,7 @@
   },
   {
     "id": 84,
-    "name": "SOLDIER",
+    "name": "ソルジャー",
     "icon": "class_icons/class-084.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR5/C54.P",
@@ -1377,7 +1377,7 @@
   },
   {
     "id": 86,
-    "name": "KNIGHT",
+    "name": "ナイト",
     "icon": "class_icons/class-086.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR5/C56.P",
@@ -1393,7 +1393,7 @@
   },
   {
     "id": 87,
-    "name": "SHOOTER",
+    "name": "シューター",
     "icon": "class_icons/class-087.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR5/C57.P",
@@ -1409,7 +1409,7 @@
   },
   {
     "id": 88,
-    "name": "ARMORBOW",
+    "name": "アーマーボウ",
     "icon": "class_icons/class-088.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR5/C58.P",
@@ -1425,7 +1425,7 @@
   },
   {
     "id": 89,
-    "name": "DAO",
+    "name": "ダオ",
     "icon": "class_icons/class-089.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR5/C59.P",
@@ -1441,7 +1441,7 @@
   },
   {
     "id": 90,
-    "name": "MARID",
+    "name": "マリッド",
     "icon": "class_icons/class-090.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR5/C5A.P",
@@ -1473,7 +1473,7 @@
   },
   {
     "id": 92,
-    "name": "JIN",
+    "name": "ジン",
     "icon": "class_icons/class-092.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR5/C5C.P",
@@ -1489,7 +1489,7 @@
   },
   {
     "id": 93,
-    "name": "ANGEL",
+    "name": "エンゼル",
     "icon": "class_icons/class-093.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR5/C5D.P",
@@ -1505,7 +1505,7 @@
   },
   {
     "id": 94,
-    "name": "DEATH",
+    "name": "デス",
     "icon": "class_icons/class-094.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR5/C5E.P",
@@ -1521,7 +1521,7 @@
   },
   {
     "id": 95,
-    "name": "DEMON",
+    "name": "デーモン",
     "icon": "class_icons/class-095.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR5/C5F.P",
@@ -1537,7 +1537,7 @@
   },
   {
     "id": 96,
-    "name": "ZOMBIE",
+    "name": "ゾンビ",
     "icon": "class_icons/class-096.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR6/C60.P",
@@ -1553,7 +1553,7 @@
   },
   {
     "id": 97,
-    "name": "SKELETON",
+    "name": "スケルトン",
     "icon": "class_icons/class-097.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR6/C61.P",
@@ -1585,7 +1585,7 @@
   },
   {
     "id": 99,
-    "name": "GOBLIN",
+    "name": "ゴブリン",
     "icon": "class_icons/class-099.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR6/C63.P",
@@ -1601,7 +1601,7 @@
   },
   {
     "id": 100,
-    "name": "GOBLIN",
+    "name": "ゴブリン",
     "icon": "class_icons/class-100.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR6/C64.P",
@@ -1617,7 +1617,7 @@
   },
   {
     "id": 101,
-    "name": "BATMAN",
+    "name": "バットマン",
     "icon": "class_icons/class-101.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR6/C65.P",
@@ -1665,7 +1665,7 @@
   },
   {
     "id": 104,
-    "name": "LIZARD",
+    "name": "リザード",
     "icon": "class_icons/class-104.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR6/C68.P",
@@ -1681,7 +1681,7 @@
   },
   {
     "id": 105,
-    "name": "LIZARDMA",
+    "name": "リザードマン",
     "icon": "class_icons/class-105.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR6/C69.P",
@@ -1697,7 +1697,7 @@
   },
   {
     "id": 106,
-    "name": "WEREBEAR",
+    "name": "ウェアベア",
     "icon": "class_icons/class-106.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR6/C6A.P",
@@ -1713,7 +1713,7 @@
   },
   {
     "id": 107,
-    "name": "WEREWOLF",
+    "name": "ウェアウルフ",
     "icon": "class_icons/class-107.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR6/C6B.P",
@@ -1761,7 +1761,7 @@
   },
   {
     "id": 110,
-    "name": "ELF BOW",
+    "name": "エルフボウ",
     "icon": "class_icons/class-110.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR6/C6E.P",
@@ -1793,7 +1793,7 @@
   },
   {
     "id": 112,
-    "name": "ELFWITCH",
+    "name": "エルフウイッチ",
     "icon": "class_icons/class-112.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR7/C70.P",
@@ -1809,7 +1809,7 @@
   },
   {
     "id": 113,
-    "name": "BIRDMAN",
+    "name": "バードマン",
     "icon": "class_icons/class-113.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR7/C71.P",
@@ -1825,7 +1825,7 @@
   },
   {
     "id": 114,
-    "name": "BIRD BOW",
+    "name": "バードボウ",
     "icon": "class_icons/class-114.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR7/C72.P",
@@ -1873,7 +1873,7 @@
   },
   {
     "id": 117,
-    "name": "WARRIOR",
+    "name": "ウォリアー",
     "icon": "class_icons/class-117.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR7/C75.P",
@@ -1953,7 +1953,7 @@
   },
   {
     "id": 122,
-    "name": "GUARD",
+    "name": "ガード",
     "icon": "class_icons/class-122.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR7/C7A.P",
@@ -2017,7 +2017,7 @@
   },
   {
     "id": 126,
-    "name": "UNDINE",
+    "name": "ウンディーネ",
     "icon": "class_icons/class-126.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR7/C7E.P",
@@ -2033,7 +2033,7 @@
   },
   {
     "id": 127,
-    "name": "GNOME",
+    "name": "ノーム",
     "icon": "class_icons/class-127.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR7/C7F.P",
@@ -2049,7 +2049,7 @@
   },
   {
     "id": 128,
-    "name": "SYLPH",
+    "name": "シルフ",
     "icon": "class_icons/class-128.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C80.P",
@@ -2065,7 +2065,7 @@
   },
   {
     "id": 129,
-    "name": "GNOME",
+    "name": "ノーム",
     "icon": "class_icons/class-129.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C81.P",
@@ -2081,7 +2081,7 @@
   },
   {
     "id": 130,
-    "name": "DELLSMIT",
+    "name": "デルスミス",
     "icon": "class_icons/class-130.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C82.P",
@@ -2097,7 +2097,7 @@
   },
   {
     "id": 131,
-    "name": "DELLSMIT",
+    "name": "デルスミス",
     "icon": "class_icons/class-131.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C83.P",
@@ -2113,7 +2113,7 @@
   },
   {
     "id": 132,
-    "name": "KING",
+    "name": "キング",
     "icon": "class_icons/class-132.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C84.P",
@@ -2129,7 +2129,7 @@
   },
   {
     "id": 133,
-    "name": "WOLFDOLL",
+    "name": "オオカミグルミ",
     "icon": "class_icons/class-133.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C85.P",
@@ -2177,7 +2177,7 @@
   },
   {
     "id": 136,
-    "name": "HUNTER",
+    "name": "ハンター",
     "icon": "class_icons/class-136.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C88.P",
@@ -2193,7 +2193,7 @@
   },
   {
     "id": 137,
-    "name": "TIGEDOLL",
+    "name": "トラグルミ",
     "icon": "class_icons/class-137.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C89.P",
@@ -2209,7 +2209,7 @@
   },
   {
     "id": 138,
-    "name": "PANDDOLL",
+    "name": "パングルミ",
     "icon": "class_icons/class-138.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C8A.P",
@@ -2225,7 +2225,7 @@
   },
   {
     "id": 139,
-    "name": "TURTDOLL",
+    "name": "ガメグルミ",
     "icon": "class_icons/class-139.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C8B.P",
@@ -2241,7 +2241,7 @@
   },
   {
     "id": 140,
-    "name": "GODZDOLL",
+    "name": "ゴジグルミ",
     "icon": "class_icons/class-140.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C8C.P",
@@ -2257,7 +2257,7 @@
   },
   {
     "id": 141,
-    "name": "CYCLOPS",
+    "name": "ヒトツメ",
     "icon": "class_icons/class-141.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C8D.P",
@@ -2273,7 +2273,7 @@
   },
   {
     "id": 142,
-    "name": "YOROI",
+    "name": "ヨロイ",
     "icon": "class_icons/class-142.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C8E.P",
@@ -2289,7 +2289,7 @@
   },
   {
     "id": 143,
-    "name": "BIGFOOT",
+    "name": "ビッグフット",
     "icon": "class_icons/class-143.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR8/C8F.P",
@@ -2305,7 +2305,7 @@
   },
   {
     "id": 144,
-    "name": "PHANTOM",
+    "name": "ファントム",
     "icon": "class_icons/class-144.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR9/C90.P",
@@ -2321,7 +2321,7 @@
   },
   {
     "id": 145,
-    "name": "THIEF",
+    "name": "シーフ",
     "icon": "class_icons/class-145.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR9/C91.P",
@@ -2337,7 +2337,7 @@
   },
   {
     "id": 146,
-    "name": "BLADEMAN",
+    "name": "ブレードマン",
     "icon": "class_icons/class-146.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR9/C92.P",
@@ -2353,7 +2353,7 @@
   },
   {
     "id": 147,
-    "name": "LADY",
+    "name": "レディ",
     "icon": "class_icons/class-147.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR9/C93.P",
@@ -2369,7 +2369,7 @@
   },
   {
     "id": 148,
-    "name": "TOAD",
+    "name": "トード",
     "icon": "class_icons/class-148.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR9/C94.P",
@@ -2385,7 +2385,7 @@
   },
   {
     "id": 149,
-    "name": "MEW",
+    "name": "ミュー",
     "icon": "class_icons/class-149.png",
     "image_status": "user_approved_front_frame_normalized_palette",
     "source": "/CHR9/C95.P",
@@ -2398,5 +2398,1125 @@
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "d46fa2db5e59fb983739760b3457f46cbcdd4e8ad737f764583514e8ad121876"
+  },
+  {
+    "id": 150,
+    "name": "モグラ",
+    "icon": "class_icons/class-150.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C96.P",
+    "source_lba": 3093,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "27a65423e1875bac4c75cdbbe513736db5cad4dc02154b90bd05f19ca7489b7f"
+  },
+  {
+    "id": 151,
+    "name": "インセクト",
+    "icon": "class_icons/class-151.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C97.P",
+    "source_lba": 3099,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "653e1ca0c1b1f0545da7048294ca4e21343342d61b67984c090246ff8d7f0a47"
+  },
+  {
+    "id": 152,
+    "name": "クラブ",
+    "icon": "class_icons/class-152.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C98.P",
+    "source_lba": 3105,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "176a639c565f0260416ff99503c59594534e9d5a4672db3042ff55942a7197b8"
+  },
+  {
+    "id": 153,
+    "name": "ヘルハウンド",
+    "icon": "class_icons/class-153.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C99.P",
+    "source_lba": 3111,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "3407b904c51bc18fb09187e0395fc2b733272c984dd6644277de5c61d0fa885d"
+  },
+  {
+    "id": 154,
+    "name": "ミミック",
+    "icon": "class_icons/class-154.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C9A.P",
+    "source_lba": 3117,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "113ddedf63c4a5ed3a4a6d0349e89e986431e419d0a08f01ce839be22d364ff3"
+  },
+  {
+    "id": 155,
+    "name": "バレスタ",
+    "icon": "class_icons/class-155.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C9B.P",
+    "source_lba": 3123,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "065120eed17bcb63c8e9fd15f57d946afb3e908bcb82aca18789c923ad4b6ba5"
+  },
+  {
+    "id": 156,
+    "name": "ハンザキ",
+    "icon": "class_icons/class-156.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C9C.P",
+    "source_lba": 3129,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "ffc78c0c16eb9564b541ffe9494cd840deb74d44193783cd6c757399e45d4a81"
+  },
+  {
+    "id": 157,
+    "name": "ネズミ",
+    "icon": "class_icons/class-157.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C9D.P",
+    "source_lba": 3135,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "b83a80c242ad51882e2b7bfb82bdfdb8efcf5f887bbf55fed0ddc1b4929ebc61"
+  },
+  {
+    "id": 158,
+    "name": "ニワトリ",
+    "icon": "class_icons/class-158.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C9E.P",
+    "source_lba": 3141,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "a70a094a9f5c83623d5019782d6eefc131caccc96f7726a432278567f31c0196"
+  },
+  {
+    "id": 159,
+    "name": "カタツムリ",
+    "icon": "class_icons/class-159.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C9F.P",
+    "source_lba": 3147,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "26350fcb8919685a7b992bacea3dd22c3485a62a63b3e5aa7fe904dafd2860b0"
+  },
+  {
+    "id": 160,
+    "name": "カタツムリ",
+    "icon": "class_icons/class-160.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CA0.P",
+    "source_lba": 3154,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "ad5970495f20b7d2d2df5a6be4d77af371fff9240b535f922aec77e5ee236c15"
+  },
+  {
+    "id": 161,
+    "name": "ヘビ",
+    "icon": "class_icons/class-161.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CA1.P",
+    "source_lba": 3160,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "9bd8827a2f1eafa3d67a89aa92173b172c777930a1321a4578dcb50776d2e2da"
+  },
+  {
+    "id": 162,
+    "name": "リンクス",
+    "icon": "class_icons/class-162.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CA2.P",
+    "source_lba": 3166,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "69f569fe5b341cb8d18ebc9cf47a8beffcccf1f699133fc320e90205efe165aa"
+  },
+  {
+    "id": 163,
+    "name": "チビドラ",
+    "icon": "class_icons/class-163.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CA3.P",
+    "source_lba": 3172,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "27f6111da99db74c9a1e6570b8e31a69f6fa780db726617a7ddf00351289e05b"
+  },
+  {
+    "id": 164,
+    "name": "エンゼル",
+    "icon": "class_icons/class-164.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CA4.P",
+    "source_lba": 3178,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "5f104eae3aca415961bcfa284072e1f4e9aea56e83b33e0ab02f8e8ae327006d"
+  },
+  {
+    "id": 165,
+    "name": "ゴーレム",
+    "icon": "class_icons/class-165.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CA5.P",
+    "source_lba": 3184,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "786026b87d9c6b4431ad7178c3962fe8f6e40447d046e8ba267589d05f2582da"
+  },
+  {
+    "id": 166,
+    "name": "キノコ",
+    "icon": "class_icons/class-166.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CA6.P",
+    "source_lba": 3190,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "dcad31ddf76cff91ce3e2b2e3417044e1cc0ae47b28a5f5e580e408890f037b3"
+  },
+  {
+    "id": 167,
+    "name": "ビッグマウス",
+    "icon": "class_icons/class-167.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CA7.P",
+    "source_lba": 3196,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "06b6f2901dbaaa6e41b1655be65c2d7527d2bb174bba7d2e7c4ea3f310486dae"
+  },
+  {
+    "id": 168,
+    "name": "ヒクイドリ",
+    "icon": "class_icons/class-168.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CA8.P",
+    "source_lba": 3202,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "bf3466bb2d13e4d188152a68bf2bc62a1e8893195bbd38d26ab1ceb2ba9be209"
+  },
+  {
+    "id": 169,
+    "name": "サーペント",
+    "icon": "class_icons/class-169.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CA9.P",
+    "source_lba": 3208,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "926f75967874991162d93703268120e755d3411ada4cc81860aa67fc35c90368"
+  },
+  {
+    "id": 170,
+    "name": "サーペント",
+    "icon": "class_icons/class-170.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CAA.P",
+    "source_lba": 3212,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "452325a0ba9619d8fb8fb4ad5249a07e0018652d9033f85eae8f8cd3a77cc677"
+  },
+  {
+    "id": 171,
+    "name": "サーペント",
+    "icon": "class_icons/class-171.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CAB.P",
+    "source_lba": 3216,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "5f01534e7e99f43b378ef4f9a9edbffd304f7f7b90ea40bfacf6260ef02b6e2b"
+  },
+  {
+    "id": 172,
+    "name": "マンイーター",
+    "icon": "class_icons/class-172.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CAC.P",
+    "source_lba": 3220,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "ffe40b327113fabe796552b381e0cd13cad79942d47ac1a449d293a2584ed973"
+  },
+  {
+    "id": 173,
+    "name": "マンイーター",
+    "icon": "class_icons/class-173.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CAD.P",
+    "source_lba": 3224,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "d14732c1474c67db2f88b478a887d4945aaa2869e022f191deea5c9f23e7d788"
+  },
+  {
+    "id": 174,
+    "name": "セキゾウ",
+    "icon": "class_icons/class-174.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CAE.P",
+    "source_lba": 3228,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "53f14d29ef0f273ba2e2912c1627b0c42f11bc183ce1f4a2b25ae22b0ca87a60"
+  },
+  {
+    "id": 175,
+    "name": "クリスタル",
+    "icon": "class_icons/class-175.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRA/CAF.P",
+    "source_lba": 3242,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "cbbf44745b17765a86729238bb1af9135afdd07eda94f014383315412b2be1fe"
+  },
+  {
+    "id": 176,
+    "name": "ハナ",
+    "icon": "class_icons/class-176.png",
+    "image_status": "compact_resource_first_frame_normalized_palette",
+    "source": "/CHRB/CB0.P",
+    "source_lba": 3249,
+    "tile_positions": {
+      "top_left": 0,
+      "bottom_left": 1,
+      "top_right": 2,
+      "bottom_right": 3
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "692a5b538c9d194b6ffd9a1f0212169f3ebc3000f1e904bc383808defdda9514"
+  },
+  {
+    "id": 177,
+    "name": "ワナ",
+    "icon": "class_icons/class-177.png",
+    "image_status": "compact_resource_first_frame_normalized_palette",
+    "source": "/CHRB/CB1.P",
+    "source_lba": 3250,
+    "tile_positions": {
+      "top_left": 0,
+      "bottom_left": 1,
+      "top_right": 2,
+      "bottom_right": 3
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "4121b5e6ef8865a660c48d73cacbafd5856a22499b028ba26a279ba836e2d52d"
+  },
+  {
+    "id": 178,
+    "name": "タイホウ",
+    "icon": "class_icons/class-178.png",
+    "image_status": "compact_resource_first_frame_normalized_palette",
+    "source": "/CHRB/CB2.P",
+    "source_lba": 3251,
+    "tile_positions": {
+      "top_left": 0,
+      "bottom_left": 1,
+      "top_right": 2,
+      "bottom_right": 3
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "e76c16350b07ae6bc331811e6ea7a57194bd8c19850c7f24412d45ca7ab6298e"
+  },
+  {
+    "id": 179,
+    "name": "マンイーター",
+    "icon": "class_icons/class-179.png",
+    "image_status": "compact_resource_first_frame_normalized_palette",
+    "source": "/CHRB/CB3.P",
+    "source_lba": 3252,
+    "tile_positions": {
+      "top_left": 0,
+      "bottom_left": 1,
+      "top_right": 2,
+      "bottom_right": 3
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "60d3e217807c2f5567567c45659782ff4662b85dc98bc44606ad2d614701423c"
+  },
+  {
+    "id": 180,
+    "name": "ドラゴン",
+    "icon": "class_icons/class-180.png",
+    "image_status": "compact_resource_first_frame_normalized_palette",
+    "source": "/CHRB/CB4.P",
+    "source_lba": 3253,
+    "tile_positions": {
+      "top_left": 0,
+      "bottom_left": 1,
+      "top_right": 2,
+      "bottom_right": 3
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "59fabdc4477e81ca57eee23662ba81a729eb08c858ce026998dbba2039ef1278"
+  },
+  {
+    "id": 181,
+    "name": "ドラゴン",
+    "icon": "class_icons/class-181.png",
+    "image_status": "compact_resource_first_frame_normalized_palette",
+    "source": "/CHRB/CB5.P",
+    "source_lba": 3254,
+    "tile_positions": {
+      "top_left": 0,
+      "bottom_left": 1,
+      "top_right": 2,
+      "bottom_right": 3
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "d3d80d9ade18bc700ef28ec72e823fd5b0ae93f535f1f86c4c2d0dd0386d4be1"
+  },
+  {
+    "id": 182,
+    "name": "ゴーレム",
+    "icon": "class_icons/class-182.png",
+    "image_status": "compact_resource_first_frame_normalized_palette",
+    "source": "/CHRB/CB6.P",
+    "source_lba": 3255,
+    "tile_positions": {
+      "top_left": 0,
+      "bottom_left": 1,
+      "top_right": 2,
+      "bottom_right": 3
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "bab76d6ce5f8f32d787eacd2f0a393e595555458ff9c19861445a1d704e1c015"
+  },
+  {
+    "id": 183,
+    "name": "カタパルト",
+    "icon": "class_icons/class-183.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRB/CB7.P",
+    "source_lba": 3256,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "e64291cb293f99aeb9680237bea6e35d52e0292c4b15b3603b8714262bab804f"
+  },
+  {
+    "id": 184,
+    "name": "サラマンダー",
+    "icon": "class_icons/class-184.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRB/CB8.P",
+    "source_lba": 3270,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "64d2baa9fccca7f39eb2519ec6046de421acfbf54e157757100b15c6edc2c192"
+  },
+  {
+    "id": 185,
+    "name": "イビルアイ",
+    "icon": "class_icons/class-185.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRB/CB9.P",
+    "source_lba": 3284,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "eb8a77bea38209469aae801811fd61846164925bc287dd4683c4a8b7553e026d"
+  },
+  {
+    "id": 186,
+    "name": "ヘルバロン",
+    "icon": "class_icons/class-186.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRB/CBA.P",
+    "source_lba": 3298,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "f3574cca501eb51a02b3059e8c7ce12582067d1ffae5488c6f19ef9bdae3100c"
+  },
+  {
+    "id": 187,
+    "name": "ブラックナイト",
+    "icon": "class_icons/class-187.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRB/CBB.P",
+    "source_lba": 3312,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "320b17cbc9c8ffbe6fff71afa70adb12f1f2e77142468f1227b7d04cee308b8e"
+  },
+  {
+    "id": 188,
+    "name": "ホースライダー",
+    "icon": "class_icons/class-188.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRB/CBC.P",
+    "source_lba": 3326,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "6b0d5c72b8b1ede650511288e89738626e54da3c5a93e713f19fe6451e259205"
+  },
+  {
+    "id": 189,
+    "name": "ケイブシャーク",
+    "icon": "class_icons/class-189.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRB/CBD.P",
+    "source_lba": 3340,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "4036c96e9ddc47289077a0922968a54af03a2d0581c9301abd864a5ba42cedf9"
+  },
+  {
+    "id": 190,
+    "name": "マッドマン",
+    "icon": "class_icons/class-190.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRB/CBE.P",
+    "source_lba": 3354,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "0166b6c1caeff425d897458010593bfe6915ae6fc6ab99701eacc47140513879"
+  },
+  {
+    "id": 191,
+    "name": "キング",
+    "icon": "class_icons/class-191.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRB/CBF.P",
+    "source_lba": 3368,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "04f7eff00b1433244248e750fac0e68c501e05c3ba1e5cb41978cc67c70b4f5f"
+  },
+  {
+    "id": 192,
+    "name": "ナイト",
+    "icon": "class_icons/class-192.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CC0.P",
+    "source_lba": 3383,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "8e16282daed8af6db76d28a4ccc3fde702f3e088fb69df8478704b790f92eb49"
+  },
+  {
+    "id": 193,
+    "name": "スリープナイト",
+    "icon": "class_icons/class-193.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CC1.P",
+    "source_lba": 3397,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "c9ea38c7678962433e02a51a968602371e03a8a21e45f361db57492e2e52161a"
+  },
+  {
+    "id": 194,
+    "name": "ナイト",
+    "icon": "class_icons/class-194.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CC2.P",
+    "source_lba": 3411,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "3ecc6285326d7f09dae028554944b0bac8aee04ae4da7ce587eb1811e6b38afb"
+  },
+  {
+    "id": 195,
+    "name": "ランス",
+    "icon": "class_icons/class-195.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CC3.P",
+    "source_lba": 3425,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "4d0c8ce139f7696ef5d04b06b4e7863745dfef0711b4290fc491b08ea7e39148"
+  },
+  {
+    "id": 196,
+    "name": "プリンス",
+    "icon": "class_icons/class-196.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CC4.P",
+    "source_lba": 3439,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "f43fcd51acf5e93e8bb6a18b7dfb3970de34185022f7ae47bc7ffa2c6c8717ca"
+  },
+  {
+    "id": 197,
+    "name": "ダークナイト",
+    "icon": "class_icons/class-197.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CC5.P",
+    "source_lba": 3453,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "827e76e85be3f7aaf3a8d071489d81b552c7b3a083ab3b2d5b308d66a929507b"
+  },
+  {
+    "id": 198,
+    "name": "ナイト",
+    "icon": "class_icons/class-198.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CC6.P",
+    "source_lba": 3467,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "8a7353bf0f70393718e26401e88897a05783ef7cd103e365eeb543a9b1f276fb"
+  },
+  {
+    "id": 199,
+    "name": "ドラゴン",
+    "icon": "class_icons/class-199.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CC7.P",
+    "source_lba": 3481,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "0260a8a047cf27cdff5d26487826ca1fc2cf7132e15df122fd2e3ded9e60ad0f"
+  },
+  {
+    "id": 200,
+    "name": "ドラゴン",
+    "icon": "class_icons/class-200.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CC8.P",
+    "source_lba": 3490,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "eb469628f00405ab22abbe97d9ade99c3e23a9122433e29588abd78773d84815"
+  },
+  {
+    "id": 201,
+    "name": "ドラゴン",
+    "icon": "class_icons/class-201.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CC9.P",
+    "source_lba": 3499,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "21f23f11c563c62579d897c2721ebb0dbbde961967866134373063ec9e3d56c5"
+  },
+  {
+    "id": 202,
+    "name": "ドラゴン",
+    "icon": "class_icons/class-202.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CCA.P",
+    "source_lba": 3508,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "267922199bfb17a0c8d2a581c3f152113d73d4aa7dfa013a605f48f2db91feb7"
+  },
+  {
+    "id": 203,
+    "name": "ケンタウロス",
+    "icon": "class_icons/class-203.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CCB.P",
+    "source_lba": 3517,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "0d31d14fe6472f9a9281cfbfe528e720ccd0868a2bad7956ec02b829a7982f4b"
+  },
+  {
+    "id": 204,
+    "name": "ケンタウロス",
+    "icon": "class_icons/class-204.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CCC.P",
+    "source_lba": 3531,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "986955eb4c8c3ad6a7df69724aad4f9df06a5bc79f91bfde07654ddc47582b6a"
+  },
+  {
+    "id": 205,
+    "name": "ケンタウロス",
+    "icon": "class_icons/class-205.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CCD.P",
+    "source_lba": 3545,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "fef9122dc086836ff1f8b9044bd783511457840dc3c6d91c14cc02e47f3c2b48"
+  },
+  {
+    "id": 206,
+    "name": "ヘルビースト",
+    "icon": "class_icons/class-206.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CCE.P",
+    "source_lba": 3559,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "35b8874b78eab4373ab1f21af279005dd058c1ce5d607b9086ef01bdef9859d4"
+  },
+  {
+    "id": 207,
+    "name": "アクスマン",
+    "icon": "class_icons/class-207.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRC/CCF.P",
+    "source_lba": 3573,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "e3742e82c0b442b2502b57c795a6499288b48262937749079a61b8a6b191fecc"
+  },
+  {
+    "id": 208,
+    "name": "ヒヨコ",
+    "icon": "class_icons/class-208.png",
+    "image_status": "compact_resource_first_frame_normalized_palette",
+    "source": "/CHRD/CD0.P",
+    "source_lba": 3588,
+    "tile_positions": {
+      "top_left": 0,
+      "bottom_left": 1,
+      "top_right": 2,
+      "bottom_right": 3
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "e60e051f0ac2c52606eb58757095082fb902cd2d3c3cbe66413132f4c5f707ce"
+  },
+  {
+    "id": 209,
+    "name": "バンパイア",
+    "icon": "class_icons/class-209.png",
+    "image_status": "compact_resource_first_frame_normalized_palette",
+    "source": "/CHRD/CD1.P",
+    "source_lba": 3590,
+    "tile_positions": {
+      "top_left": 0,
+      "bottom_left": 1,
+      "top_right": 2,
+      "bottom_right": 3
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "103d8e54f44e33163584c99ce9e4327c718bdd71fafd2b771482e57fa446e2be"
+  },
+  {
+    "id": 210,
+    "name": "イビルアイ",
+    "icon": "class_icons/class-210.png",
+    "image_status": "compact_resource_first_frame_normalized_palette",
+    "source": "/CHRD/CD2.P",
+    "source_lba": 3592,
+    "tile_positions": {
+      "top_left": 0,
+      "bottom_left": 1,
+      "top_right": 2,
+      "bottom_right": 3
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "2fa3da843d1500d3fed3ea61ebce1c38453f349d1a5be630a9cc3eca35a00956"
+  },
+  {
+    "id": 211,
+    "name": "グリフォン",
+    "icon": "class_icons/class-211.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRD/CD3.P",
+    "source_lba": 3594,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "ac21ce30b5d09f2a684db52dea585ce48b84cc968e0767613275cf364ebad7e2"
+  },
+  {
+    "id": 212,
+    "name": "ジャイアント",
+    "icon": "class_icons/class-212.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRD/CD4.P",
+    "source_lba": 3618,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "220939c2ec489814ef2ecf413cf8540cf6a2546a45e5cec907126416cc6789c6"
+  },
+  {
+    "id": 213,
+    "name": "ゴーレム",
+    "icon": "class_icons/class-213.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRD/CD5.P",
+    "source_lba": 3642,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "38319b2df7e293640c8de09fbecf5a4551f05e1f694fa4afe4c7cb9796becee7"
+  },
+  {
+    "id": 214,
+    "name": "ドラゴン",
+    "icon": "class_icons/class-214.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRD/CD6.P",
+    "source_lba": 3666,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "71b92bd59b6aaa8422cb548f8a5dcd08153353d93d0b9754274413c30dac534e"
+  },
+  {
+    "id": 215,
+    "name": "グリフォン",
+    "icon": "class_icons/class-215.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRD/CD7.P",
+    "source_lba": 3690,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "d96b1cd3914c226bbc2d2c9de88636790bc3b8e57abf958f8d6fb0ab84b1afe7"
+  },
+  {
+    "id": 216,
+    "name": "リュウキヘイ",
+    "icon": "class_icons/class-216.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRD/CD8.P",
+    "source_lba": 3714,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "ffe2def928d90fdb49388a07d4e0415dc3952fb8039377763b8fec0830b0f30c"
+  },
+  {
+    "id": 217,
+    "name": "バンパイア",
+    "icon": "class_icons/class-217.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRD/CD9.P",
+    "source_lba": 3738,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "194b1c607f09f596d7e72b56f4c242a8b0e53095cedd8eff5c5ee68ff27609dc"
+  },
+  {
+    "id": 218,
+    "name": "ガーディアン",
+    "icon": "class_icons/class-218.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHRD/CDA.P",
+    "source_lba": 3765,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "2f8ec6c0d9d1369d0a638b4a1c2584ccb8f893e65c8ee013127fcced6a1e6834"
+  },
+  {
+    "id": 219,
+    "name": "マンティコア",
+    "icon": "class_icons/class-219.png",
+    "image_status": "compact_resource_first_frame_normalized_palette",
+    "source": "/CHRD/CDB.P",
+    "source_lba": 3789,
+    "tile_positions": {
+      "top_left": 0,
+      "bottom_left": 1,
+      "top_right": 2,
+      "bottom_right": 3
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "54ebce09574996d57fd20b44dd702cbcf97803548bc2f08f661b2395296fd1ea"
   }
 ]
