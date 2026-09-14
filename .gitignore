@@ -35,6 +35,7 @@
 *.exe
 
 
+docs/fq4/analysis/
 /original/
 /patched/
 /korean-patch/
