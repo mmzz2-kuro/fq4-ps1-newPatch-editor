@@ -1,0 +1,5181 @@
+{
+  "character_count": 640,
+  "class_count": 220,
+  "custom_byte_map": {
+    "A5": "간",
+    "A6": "케",
+    "A7": "고",
+    "A8": "콘",
+    "A9": "그",
+    "AB": "노",
+    "AC": "드",
+    "AD": "르",
+    "AE": "라",
+    "AF": "란",
+    "B1": "람",
+    "B2": "라",
+    "B3": "레",
+    "B4": "렌",
+    "B5": "론",
+    "B6": "르",
+    "B7": "리",
+    "B8": "린",
+    "B9": "모",
+    "BC": "바",
+    "BD": "버",
+    "BE": "본",
+    "BF": "신",
+    "C0": "스",
+    "C1": "시",
+    "C2": "아",
+    "C3": "안",
+    "C4": "에",
+    "C5": "알",
+    "C6": "엘",
+    "C7": "오",
+    "C8": "온",
+    "C9": "올",
+    "CC": "월",
+    "CE": "이",
+    "CF": "인",
+    "D0": "제",
+    "D2": "치",
+    "D3": "카",
+    "D4": "카",
+    "D5": "크",
+    "D6": "크",
+    "D7": "키",
+    "D9": "터",
+    "DA": "톤",
+    "DB": "트",
+    "DC": "파",
+    "DD": "프",
+    "DE": "프"
+  },
+  "sources": {
+    "original_disc": "original\\First Queen IV - Varcia Senki (Japan).bin",
+    "patched_disc": "patched\\First Queen IV - Varcia Senki (kor).bin"
+  },
+  "records": [
+    {
+      "index": 0,
+      "original_hex": "",
+      "patched_hex": "",
+      "original_name": "Name ID 0",
+      "editor_name": "Name ID 0",
+      "source": "fallback-empty"
+    },
+    {
+      "index": 1,
+      "original_hex": "B1B2B5DBBD",
+      "patched_hex": "41454F4C5553",
+      "original_name": "アイオロス",
+      "editor_name": "AEOLUS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 2,
+      "original_hex": "B1B2B8",
+      "patched_hex": "C2CED5",
+      "original_name": "アイク",
+      "editor_name": "아이크",
+      "source": "custom-korean"
+    },
+    {
+      "index": 3,
+      "original_hex": "B1B2BBDEAFB8",
+      "patched_hex": "4953414143",
+      "original_name": "アイザック",
+      "editor_name": "ISAAC",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 4,
+      "original_hex": "B1B2D7BD",
+      "patched_hex": "C2CEAEC0",
+      "original_name": "アイラス",
+      "editor_name": "아이라스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 5,
+      "original_hex": "B1B0B3A8DD",
+      "patched_hex": "455257494E",
+      "original_name": "アーウィン",
+      "editor_name": "ERWIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 6,
+      "original_hex": "B1B0B6DDBFB0",
+      "patched_hex": "41524B414E534153",
+      "original_name": "アーカンソー",
+      "editor_name": "ARKANSAS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 7,
+      "original_hex": "B1B8CADED9",
+      "patched_hex": "414B424152",
+      "original_name": "アクバル",
+      "editor_name": "AKBAR",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 8,
+      "original_hex": "B1B8DED7CDDEB2DD",
+      "patched_hex": "414752415641494E",
+      "original_name": "アグラベイン",
+      "editor_name": "AGRAVAIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 9,
+      "original_hex": "B1B0C4",
+      "patched_hex": "C2DB",
+      "original_name": "アート",
+      "editor_name": "아트",
+      "source": "custom-korean"
+    },
+    {
+      "index": 10,
+      "original_hex": "B1BDDBAFC4",
+      "patched_hex": "41534C4F54",
+      "original_name": "アスロット",
+      "editor_name": "ASLOT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 11,
+      "original_hex": "B1C0DED1",
+      "patched_hex": "4144414D",
+      "original_name": "アダム",
+      "editor_name": "ADAM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 12,
+      "original_hex": "B1C5C4D8B1",
+      "patched_hex": "414E41544F4C4941",
+      "original_name": "アナトリア",
+      "editor_name": "ANATOLIA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 13,
+      "original_hex": "B1CFD9",
+      "patched_hex": "414D4152",
+      "original_name": "アマル",
+      "editor_name": "AMAR",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 14,
+      "original_hex": "B1D2AFB8BD",
+      "patched_hex": "414D4558",
+      "original_name": "アメックス",
+      "editor_name": "AMEX",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 15,
+      "original_hex": "B1D2C3DEB5",
+      "patched_hex": "414D4544454F",
+      "original_name": "アメデオ",
+      "editor_name": "AMEDEO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 16,
+      "original_hex": "B1B0C8AFB8",
+      "patched_hex": "41524E454B",
+      "original_name": "アーネック",
+      "editor_name": "ARNEK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 17,
+      "original_hex": "B1B0C9D9C4DE",
+      "patched_hex": "41524E4F4C44",
+      "original_name": "アーノルド",
+      "editor_name": "ARNOLD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 18,
+      "original_hex": "B1CDDED9",
+      "patched_hex": "4142454C",
+      "original_name": "アベル",
+      "editor_name": "ABEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 19,
+      "original_hex": "B1CEDFDBDD",
+      "patched_hex": "41504F4C4C4F",
+      "original_name": "アポロン",
+      "editor_name": "APOLLO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 20,
+      "original_hex": "B1D9B7D2C3DEBD",
+      "patched_hex": "41524348494D454445",
+      "original_name": "アルキメデス",
+      "editor_name": "ARCHIMEDE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 21,
+      "original_hex": "B1D9BCDDCCDF",
+      "patched_hex": "C5BFDD",
+      "original_name": "アルシンプ",
+      "editor_name": "알신프",
+      "source": "custom-korean"
+    },
+    {
+      "index": 22,
+      "original_hex": "B1D9BEBD",
+      "patched_hex": "414C434553",
+      "original_name": "アルセス",
+      "editor_name": "ALCES",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 23,
+      "original_hex": "B1D9CADEB0C4",
+      "patched_hex": "414C42455254",
+      "original_name": "アルバート",
+      "editor_name": "ALBERT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 24,
+      "original_hex": "B1D9CCDAAFC4DE",
+      "patched_hex": "C5DEB3DB",
+      "original_name": "アルフレッド",
+      "editor_name": "알프레트",
+      "source": "custom-korean"
+    },
+    {
+      "index": 25,
+      "original_hex": "B1DAB7BBDDC0DEB0",
+      "patched_hex": "414C4558414E444552",
+      "original_name": "アレキサンダー",
+      "editor_name": "ALEXANDER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 26,
+      "original_hex": "B1DABD",
+      "patched_hex": "C2B3C0",
+      "original_name": "アレス",
+      "editor_name": "아레스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 27,
+      "original_hex": "B1DAAFB8",
+      "patched_hex": "414C4543",
+      "original_name": "アレック",
+      "editor_name": "ALEC",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 28,
+      "original_hex": "B1B0DADD",
+      "patched_hex": "C2B4",
+      "original_name": "アーレン",
+      "editor_name": "아렌",
+      "source": "custom-korean"
+    },
+    {
+      "index": 29,
+      "original_hex": "B1DDC3DEA8",
+      "patched_hex": "414E4459",
+      "original_name": "アンディ",
+      "editor_name": "ANDY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 30,
+      "original_hex": "B1DDC4C6B5",
+      "patched_hex": "414E544F4E494F",
+      "original_name": "アントニオ",
+      "editor_name": "ANTONIO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 31,
+      "original_hex": "B1DDC4DEDA",
+      "patched_hex": "414E445245",
+      "original_name": "アンドレ",
+      "editor_name": "ANDRE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 32,
+      "original_hex": "B1DDC4DED8ADB0",
+      "patched_hex": "414E44524557",
+      "original_name": "アンドリュー",
+      "editor_name": "ANDREW",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 33,
+      "original_hex": "B2B0B6DEB0",
+      "patched_hex": "4541474552",
+      "original_name": "イーガー",
+      "editor_name": "EAGER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 34,
+      "original_hex": "B2B0B8DED9",
+      "patched_hex": "4541474C45",
+      "original_name": "イーグル",
+      "editor_name": "EAGLE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 35,
+      "original_hex": "B2C9BEDDC4",
+      "patched_hex": "494E4E4F43454E54",
+      "original_name": "イノセント",
+      "editor_name": "INNOCENT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 36,
+      "original_hex": "B2B6DBBD",
+      "patched_hex": "494341525553",
+      "original_name": "イカロス",
+      "editor_name": "ICARUS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 37,
+      "original_hex": "B2DCDD",
+      "patched_hex": "4956414E",
+      "original_name": "イワン",
+      "editor_name": "IVAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 38,
+      "original_hex": "B2DDC3DEA8",
+      "patched_hex": "494E4459",
+      "original_name": "インディ",
+      "editor_name": "INDY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 39,
+      "original_hex": "B3DEA7DDB9DED8BD",
+      "patched_hex": "56414E47454C4953",
+      "original_name": "ヴァンゲリス",
+      "editor_name": "VANGELIS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 40,
+      "original_hex": "B3AAB2DD",
+      "patched_hex": "5741594E45",
+      "original_name": "ウェイン",
+      "editor_name": "WAYNE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 41,
+      "original_hex": "B3AAD9BDDE",
+      "patched_hex": "57454C4C53",
+      "original_name": "ウェルズ",
+      "editor_name": "WELLS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 42,
+      "original_hex": "B3DEA8BDBADDC3A8",
+      "patched_hex": "564953434F4E5449",
+      "original_name": "ヴィスコンティ",
+      "editor_name": "VISCONTI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 43,
+      "original_hex": "B3A8D8B1D1",
+      "patched_hex": "57494C4C49414D",
+      "original_name": "ウィリアム",
+      "editor_name": "WILLIAM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 44,
+      "original_hex": "B3A8D9",
+      "patched_hex": "57494C4C",
+      "original_name": "ウィル",
+      "editor_name": "WILL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 45,
+      "original_hex": "B3B2DDB6DED9",
+      "patched_hex": "57494E47414C",
+      "original_name": "ウインガル",
+      "editor_name": "WINGAL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 46,
+      "original_hex": "B3AAB2CADEB0",
+      "patched_hex": "574541564552",
+      "original_name": "ウェイバー",
+      "editor_name": "WEAVER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 47,
+      "original_hex": "B3ABD9C0B0",
+      "patched_hex": "CCD9",
+      "original_name": "ウォルター",
+      "editor_name": "월터",
+      "source": "custom-korean"
+    },
+    {
+      "index": 48,
+      "original_hex": "B3ABB0DADD",
+      "patched_hex": "57415252454E",
+      "original_name": "ウォーレン",
+      "editor_name": "WARREN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 49,
+      "original_hex": "B3ABD7BD",
+      "patched_hex": "CCB2C0",
+      "original_name": "ウォラス",
+      "editor_name": "월라스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 50,
+      "original_hex": "B3AFC3DEA8",
+      "patched_hex": "574F4F4459",
+      "original_name": "ウッディ",
+      "editor_name": "WOODY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 51,
+      "original_hex": "B3D1D7B3",
+      "patched_hex": "554D524155",
+      "original_name": "ウムラウ",
+      "editor_name": "UMRAU",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 52,
+      "original_hex": "B4B2B5BD",
+      "patched_hex": "41454F53",
+      "original_name": "エイオス",
+      "editor_name": "AEOS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 53,
+      "original_hex": "B4AFBCACB0",
+      "patched_hex": "455343484552",
+      "original_name": "エッシャー",
+      "editor_name": "ESCHER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 54,
+      "original_hex": "B4C4DEB6DEB0",
+      "patched_hex": "4544474152",
+      "original_name": "エドガー",
+      "editor_name": "EDGAR",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 55,
+      "original_hex": "B4C4DED3DDC4DE",
+      "patched_hex": "45444D554E44",
+      "original_name": "エドモンド",
+      "editor_name": "EDMUND",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 56,
+      "original_hex": "B4C4DEDCB0C4DE",
+      "patched_hex": "454457415244",
+      "original_name": "エドワード",
+      "editor_name": "EDWARD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 57,
+      "original_hex": "B4CADEDDBD",
+      "patched_hex": "4556414E53",
+      "original_name": "エバンス",
+      "editor_name": "EVANS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 58,
+      "original_hex": "B4BDB6D9",
+      "patched_hex": "455343414C",
+      "original_name": "エスカル",
+      "editor_name": "ESCAL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 59,
+      "original_hex": "B4B8BFDD",
+      "patched_hex": "45584F4E",
+      "original_name": "エクソン",
+      "editor_name": "EXON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 60,
+      "original_hex": "B4B8C0B0",
+      "patched_hex": "C4D5D9",
+      "original_name": "エクター",
+      "editor_name": "에크터",
+      "source": "custom-korean"
+    },
+    {
+      "index": 61,
+      "original_hex": "B4C3DEA8",
+      "patched_hex": "4544444945",
+      "original_name": "エディ",
+      "editor_name": "EDDIE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 62,
+      "original_hex": "B4CFB0BFDD",
+      "patched_hex": "454D4552534F4E",
+      "original_name": "エマーソン",
+      "editor_name": "EMERSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 63,
+      "original_hex": "B4D0B0D9",
+      "patched_hex": "454D494C45",
+      "original_name": "エミール",
+      "editor_name": "EMILE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 64,
+      "original_hex": "B4D8B5AFC4",
+      "patched_hex": "454C494F54",
+      "original_name": "エリオット",
+      "editor_name": "ELIOT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 65,
+      "original_hex": "B4D8AFB8",
+      "patched_hex": "45524943",
+      "original_name": "エリック",
+      "editor_name": "ERIC",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 66,
+      "original_hex": "B5B0B3AAD9",
+      "patched_hex": "4F5257454C4C",
+      "original_name": "オーウェル",
+      "editor_name": "ORWELL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 67,
+      "original_hex": "B5B3D9",
+      "patched_hex": "4F574C",
+      "original_name": "オウル",
+      "editor_name": "OWL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 68,
+      "original_hex": "B5D9B8DE",
+      "patched_hex": "C7B6A9",
+      "original_name": "オルグ",
+      "editor_name": "오르그",
+      "source": "custom-korean"
+    },
+    {
+      "index": 69,
+      "original_hex": "B5BBD8CADEDD",
+      "patched_hex": "4F53554C4C4956414E",
+      "original_name": "オサリバン",
+      "editor_name": "OSULLIVAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 70,
+      "original_hex": "B5BDB6D9",
+      "patched_hex": "C7C0D4",
+      "original_name": "オスカル",
+      "editor_name": "오스카",
+      "source": "custom-korean"
+    },
+    {
+      "index": 71,
+      "original_hex": "B5BDDECEDEB0DD",
+      "patched_hex": "C7C0BE",
+      "original_name": "オズボーン",
+      "editor_name": "오스본",
+      "source": "custom-korean"
+    },
+    {
+      "index": 72,
+      "original_hex": "B5BCDEB0",
+      "patched_hex": "4F5A5A59",
+      "original_name": "オジー",
+      "editor_name": "OZZY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 73,
+      "original_hex": "B5B0BDC1DD",
+      "patched_hex": "41555354494E",
+      "original_name": "オースチン",
+      "editor_name": "AUSTIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 74,
+      "original_hex": "B5BDDBB0",
+      "patched_hex": "4F534C4F",
+      "original_name": "オスロー",
+      "editor_name": "OSLO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 75,
+      "original_hex": "B5B0BFDD",
+      "patched_hex": "4F52534F4E",
+      "original_name": "オーソン",
+      "editor_name": "ORSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 76,
+      "original_hex": "B5C3DEAFBEB3BD",
+      "patched_hex": "4F44595353455553",
+      "original_name": "オデッセウス",
+      "editor_name": "ODYSSEUS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 77,
+      "original_hex": "B5AFC4B0",
+      "patched_hex": "4F54544F",
+      "original_name": "オットー",
+      "editor_name": "OTTO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 78,
+      "original_hex": "B5B0CADED9",
+      "patched_hex": "4F5256414C",
+      "original_name": "オーバル",
+      "editor_name": "ORVAL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 79,
+      "original_hex": "B5CCDED7B2B4DD",
+      "patched_hex": "4F425249454E",
+      "original_name": "オブライエン",
+      "editor_name": "OBRIEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 80,
+      "original_hex": "B5C6B0D9",
+      "patched_hex": "4F4E45494C4C",
+      "original_name": "オニール",
+      "editor_name": "ONEILL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 81,
+      "original_hex": "B5D8CADEB0",
+      "patched_hex": "C9B7BD",
+      "original_name": "オリバー",
+      "editor_name": "올리버",
+      "source": "custom-korean"
+    },
+    {
+      "index": 82,
+      "original_hex": "B6B2",
+      "patched_hex": "D3CE",
+      "original_name": "カイ",
+      "editor_name": "카이",
+      "source": "custom-korean"
+    },
+    {
+      "index": 83,
+      "original_hex": "B6DEB2B8DED8CC",
+      "patched_hex": "4755594752494646",
+      "original_name": "ガイグリフ",
+      "editor_name": "GUYGRIFF",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 84,
+      "original_hex": "B6B2BBDEB0",
+      "patched_hex": "4B4149534552",
+      "original_name": "カイザー",
+      "editor_name": "KAISER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 85,
+      "original_hex": "B6B2D9",
+      "patched_hex": "4B594C45",
+      "original_name": "カイル",
+      "editor_name": "KYLE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 86,
+      "original_hex": "B6B5CF",
+      "patched_hex": "4B414F4D41",
+      "original_name": "カオマ",
+      "editor_name": "KAOMA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 87,
+      "original_hex": "B6BDC0B0",
+      "patched_hex": "435553544552",
+      "original_name": "カスター",
+      "editor_name": "CUSTER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 88,
+      "original_hex": "B6B0C4",
+      "patched_hex": "D3DB",
+      "original_name": "カート",
+      "editor_name": "카트",
+      "source": "custom-korean"
+    },
+    {
+      "index": 89,
+      "original_hex": "B6B0C4D7B2C4",
+      "patched_hex": "D3DBAECEDB",
+      "original_name": "カートライト",
+      "editor_name": "카트라이트",
+      "source": "custom-korean"
+    },
+    {
+      "index": 90,
+      "original_hex": "B6DEB0CBDEDD",
+      "patched_hex": "474156494E",
+      "original_name": "ガービン",
+      "editor_name": "GAVIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 91,
+      "original_hex": "B6DECCDED8B4D9",
+      "patched_hex": "4741425249454C",
+      "original_name": "ガブリエル",
+      "editor_name": "GABRIEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 92,
+      "original_hex": "B6B0D7B2D9",
+      "patched_hex": "4341524C49534C45",
+      "original_name": "カーライル",
+      "editor_name": "CARLISLE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 93,
+      "original_hex": "B6DED7B0C4DE",
+      "patched_hex": "47415252415244",
+      "original_name": "ガラード",
+      "editor_name": "GARRARD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 94,
+      "original_hex": "B6DED7",
+      "patched_hex": "D4AE",
+      "original_name": "ガラ",
+      "editor_name": "카라",
+      "source": "custom-korean"
+    },
+    {
+      "index": 95,
+      "original_hex": "B6DED8CADEB0",
+      "patched_hex": "D4B7BD",
+      "original_name": "ガリバー",
+      "editor_name": "카리버",
+      "source": "custom-korean"
+    },
+    {
+      "index": 96,
+      "original_hex": "B6B0D9",
+      "patched_hex": "4341524C",
+      "original_name": "カール",
+      "editor_name": "CARL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 97,
+      "original_hex": "B6D9DBBD",
+      "patched_hex": "4341524C4F53",
+      "original_name": "カルロス",
+      "editor_name": "CARLOS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 98,
+      "original_hex": "B6DEDAB2C4DE",
+      "patched_hex": "47414C4C414445",
+      "original_name": "ガレイド",
+      "editor_name": "GALLADE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 99,
+      "original_hex": "B6DEDABD",
+      "patched_hex": "474152455448",
+      "original_name": "ガレス",
+      "editor_name": "GARETH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 100,
+      "original_hex": "B6DDCADFC8D9D7",
+      "patched_hex": "43414D50414E454C41",
+      "original_name": "カンパネルラ",
+      "editor_name": "CAMPANELA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 101,
+      "original_hex": "B6DEDDC0DED9CC",
+      "patched_hex": "47414E44414C46",
+      "original_name": "ガンダルフ",
+      "editor_name": "GANDALF",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 102,
+      "original_hex": "B7B6DDBDDE",
+      "patched_hex": "4B494B414E53",
+      "original_name": "キカンズ",
+      "editor_name": "KIKANS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 103,
+      "original_hex": "B7B9DB",
+      "patched_hex": "43494345524F",
+      "original_name": "キケロ",
+      "editor_name": "CICERO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 104,
+      "original_hex": "B7B0BD",
+      "patched_hex": "D7C0",
+      "original_name": "キース",
+      "editor_name": "키스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 105,
+      "original_hex": "B7D8B0",
+      "patched_hex": "D7B7",
+      "original_name": "キリー",
+      "editor_name": "키리",
+      "source": "custom-korean"
+    },
+    {
+      "index": 106,
+      "original_hex": "B7DED8B1D1",
+      "patched_hex": "47494C4C49414D",
+      "original_name": "ギリアム",
+      "editor_name": "GILLIAM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 107,
+      "original_hex": "B7DED9C4",
+      "patched_hex": "47494C54",
+      "original_name": "ギルト",
+      "editor_name": "GILT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 108,
+      "original_hex": "B7DED9CCABB0C4DE",
+      "patched_hex": "D7DDDB",
+      "original_name": "ギルフォード",
+      "editor_name": "키프트",
+      "source": "custom-korean"
+    },
+    {
+      "index": 109,
+      "original_hex": "B7DED9D3B1",
+      "patched_hex": "47494C4D4F5245",
+      "original_name": "ギルモア",
+      "editor_name": "GILMORE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 110,
+      "original_hex": "B7B0DD",
+      "patched_hex": "4B45414E45",
+      "original_name": "キーン",
+      "editor_name": "KEANE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 111,
+      "original_hex": "B8B0CADFB0",
+      "patched_hex": "434F4F504552",
+      "original_name": "クーパー",
+      "editor_name": "COOPER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 112,
+      "original_hex": "B8DECCB6DEDD",
+      "patched_hex": "47554647414E",
+      "original_name": "グフガン",
+      "editor_name": "GUFGAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 113,
+      "original_hex": "B8D7B3C4DE",
+      "patched_hex": "434C4F5544",
+      "original_name": "クラウド",
+      "editor_name": "CLOUD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 114,
+      "original_hex": "B8D7B0B8",
+      "patched_hex": "434C41524B",
+      "original_name": "クラーク",
+      "editor_name": "CLARK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 115,
+      "original_hex": "B8DED7CAD1",
+      "patched_hex": "47524148414D",
+      "original_name": "グラハム",
+      "editor_name": "GRAHAM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 116,
+      "original_hex": "B8DED7DD",
+      "patched_hex": "D5B4",
+      "original_name": "グラン",
+      "editor_name": "크렌",
+      "source": "custom-korean"
+    },
+    {
+      "index": 117,
+      "original_hex": "B8D8D0B1",
+      "patched_hex": "4352494D4541",
+      "original_name": "クリミア",
+      "editor_name": "CRIMEA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 118,
+      "original_hex": "B8D8BDC4CCA7B0",
+      "patched_hex": "4348524953544F5048",
+      "original_name": "クリストファー",
+      "editor_name": "CHRISTOPH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 119,
+      "original_hex": "B8DED8CCDAAFC4DE",
+      "patched_hex": "A9B7DDB3AC",
+      "original_name": "グリフレッド",
+      "editor_name": "그리프레드",
+      "source": "custom-korean"
+    },
+    {
+      "index": 120,
+      "original_hex": "B8DED8B0DD",
+      "patched_hex": "A9B8",
+      "original_name": "グリーン",
+      "editor_name": "그린",
+      "source": "custom-korean"
+    },
+    {
+      "index": 121,
+      "original_hex": "B8B0D9",
+      "patched_hex": "434F4F4C",
+      "original_name": "クール",
+      "editor_name": "COOL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 122,
+      "original_hex": "B8DAB2",
+      "patched_hex": "D6B3CE",
+      "original_name": "クレイ",
+      "editor_name": "크레이",
+      "source": "custom-korean"
+    },
+    {
+      "index": 123,
+      "original_hex": "B8DEDAB2BD",
+      "patched_hex": "A9B3CEC0",
+      "original_name": "グレイス",
+      "editor_name": "그레이스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 124,
+      "original_hex": "B8DEDAAFB8",
+      "patched_hex": "47524543",
+      "original_name": "グレック",
+      "editor_name": "GREC",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 125,
+      "original_hex": "B8DAC6B1",
+      "patched_hex": "434C454E5941",
+      "original_name": "クレニア",
+      "editor_name": "CLENYA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 126,
+      "original_hex": "B8DAD2DDC4",
+      "patched_hex": "434C454D454E54",
+      "original_name": "クレメント",
+      "editor_name": "CLEMENT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 127,
+      "original_hex": "B8DBB0C4DE",
+      "patched_hex": "434C41554445",
+      "original_name": "クロード",
+      "editor_name": "CLAUDE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 128,
+      "original_hex": "B9DEB2B4D8BD",
+      "patched_hex": "4745494C4C4953",
+      "original_name": "ゲイエリス",
+      "editor_name": "GEILLIS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 129,
+      "original_hex": "B9DEB2D9",
+      "patched_hex": "47414C45",
+      "original_name": "ゲイル",
+      "editor_name": "GALE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 130,
+      "original_hex": "B9DEB2D8B0",
+      "patched_hex": "A6B7",
+      "original_name": "ゲイリー",
+      "editor_name": "케리",
+      "source": "custom-korean"
+    },
+    {
+      "index": 131,
+      "original_hex": "B9B2DBDD",
+      "patched_hex": "A6CEB5",
+      "original_name": "ケイロン",
+      "editor_name": "케이론",
+      "source": "custom-korean"
+    },
+    {
+      "index": 132,
+      "original_hex": "B9B2DD",
+      "patched_hex": "4B414E45",
+      "original_name": "ケイン",
+      "editor_name": "KANE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 133,
+      "original_hex": "B9B0BCB0",
+      "patched_hex": "4341534559",
+      "original_name": "ケーシー",
+      "editor_name": "CASEY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 134,
+      "original_hex": "B9CBDEDD",
+      "patched_hex": "4B4556494E",
+      "original_name": "ケビン",
+      "editor_name": "KEVIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 135,
+      "original_hex": "B9B0C6AFCB",
+      "patched_hex": "4B4F454E4947",
+      "original_name": "ケーニッヒ",
+      "editor_name": "KOENIG",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 136,
+      "original_hex": "B9DED7DD",
+      "patched_hex": "A6AF",
+      "original_name": "ゲラン",
+      "editor_name": "케란",
+      "source": "custom-korean"
+    },
+    {
+      "index": 137,
+      "original_hex": "B9B2BCB0",
+      "patched_hex": "4341534559",
+      "original_name": "ケイシー",
+      "editor_name": "CASEY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 138,
+      "original_hex": "B9D9B1AFB8",
+      "patched_hex": "4B45524F554143",
+      "original_name": "ケルアック",
+      "editor_name": "KEROUAC",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 139,
+      "original_hex": "B9DED9B8DE",
+      "patched_hex": "47455247",
+      "original_name": "ゲルグ",
+      "editor_name": "GERG",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 140,
+      "original_hex": "B9DEDABD",
+      "patched_hex": "A6B3C0",
+      "original_name": "ゲレス",
+      "editor_name": "케레스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 141,
+      "original_hex": "B9DD",
+      "patched_hex": "4B454E",
+      "original_name": "ケン",
+      "editor_name": "KEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 142,
+      "original_hex": "B9DDC4",
+      "patched_hex": "4B454E54",
+      "original_name": "ケント",
+      "editor_name": "KENT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 143,
+      "original_hex": "BAB8B0DD",
+      "patched_hex": "434F434F4F4E",
+      "original_name": "コクーン",
+      "editor_name": "COCOON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 144,
+      "original_hex": "BAB0C4C6B0",
+      "patched_hex": "434F5552544E4559",
+      "original_name": "コートニー",
+      "editor_name": "COURTNEY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 145,
+      "original_hex": "BADEB0C4DEDD",
+      "patched_hex": "474F52444F4E",
+      "original_name": "ゴードン",
+      "editor_name": "GORDON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 146,
+      "original_hex": "BAC5DD",
+      "patched_hex": "434F4E414E",
+      "original_name": "コナン",
+      "editor_name": "CONAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 147,
+      "original_hex": "BAD0ADD7B0BDDE",
+      "patched_hex": "434F4D4D554C4C4552",
+      "original_name": "コミュラーズ",
+      "editor_name": "COMMULLER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 148,
+      "original_hex": "BAD8DDBDDE",
+      "patched_hex": "434F4C4C494E53",
+      "original_name": "コリンズ",
+      "editor_name": "COLLINS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 149,
+      "original_hex": "BAD9CBDEDD",
+      "patched_hex": "434F4C56494E",
+      "original_name": "コルビン",
+      "editor_name": "COLVIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 150,
+      "original_hex": "BADEDBDDBADE",
+      "patched_hex": "A7B5",
+      "original_name": "ゴロンゴ",
+      "editor_name": "고론",
+      "source": "custom-korean"
+    },
+    {
+      "index": 151,
+      "original_hex": "BADEB0D9",
+      "patched_hex": "474F414C",
+      "original_name": "ゴール",
+      "editor_name": "GOAL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 152,
+      "original_hex": "BADDD7AFC4DE",
+      "patched_hex": "A8AEDB",
+      "original_name": "コンラッド",
+      "editor_name": "콘라트",
+      "source": "custom-korean"
+    },
+    {
+      "index": 153,
+      "original_hex": "BBB2D3DD",
+      "patched_hex": "53494D4F4E",
+      "original_name": "サイモン",
+      "editor_name": "SIMON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 154,
+      "original_hex": "BBB8DE",
+      "patched_hex": "BFD5",
+      "original_name": "サグ",
+      "editor_name": "신크",
+      "source": "custom-korean"
+    },
+    {
+      "index": 155,
+      "original_hex": "BBDEB8BEDD",
+      "patched_hex": "5341584F4E59",
+      "original_name": "ザクセン",
+      "editor_name": "SAXONY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 156,
+      "original_hex": "BBB8DBDD",
+      "patched_hex": "BFD5B5",
+      "original_name": "サクロン",
+      "editor_name": "신크론",
+      "source": "custom-korean"
+    },
+    {
+      "index": 157,
+      "original_hex": "BBBBDECBDEB0",
+      "patched_hex": "534F5448454259",
+      "original_name": "サザビー",
+      "editor_name": "SOTHEBY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 158,
+      "original_hex": "BBCCABB0B8",
+      "patched_hex": "535546464F4C4B",
+      "original_name": "サフォーク",
+      "editor_name": "SUFFOLK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 159,
+      "original_hex": "BBD0ADB4D9",
+      "patched_hex": "53414D55454C",
+      "original_name": "サミュエル",
+      "editor_name": "SAMUEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 160,
+      "original_hex": "BBD1",
+      "patched_hex": "53414D",
+      "original_name": "サム",
+      "editor_name": "SAM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 161,
+      "original_hex": "BBD1BFDD",
+      "patched_hex": "53414D534F4E",
+      "original_name": "サムソン",
+      "editor_name": "SAMSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 162,
+      "original_hex": "BBB0CBDEDD",
+      "patched_hex": "53415256494E",
+      "original_name": "サービン",
+      "editor_name": "SARVIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 163,
+      "original_hex": "BBD7CFDDC3BD",
+      "patched_hex": "53414C414D414E5445",
+      "original_name": "サラマンテス",
+      "editor_name": "SALAMANTE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 164,
+      "original_hex": "BBD9B6",
+      "patched_hex": "5341524B41",
+      "original_name": "サルカ",
+      "editor_name": "SARKA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 165,
+      "original_hex": "BCB0B8DED7D1",
+      "patched_hex": "C1A9B1",
+      "original_name": "シーグラム",
+      "editor_name": "시그람",
+      "source": "custom-korean"
+    },
+    {
+      "index": 166,
+      "original_hex": "BCC4DE",
+      "patched_hex": "534944",
+      "original_name": "シド",
+      "editor_name": "SID",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 167,
+      "original_hex": "BCDED0B0",
+      "patched_hex": "4A494D4D59",
+      "original_name": "ジミー",
+      "editor_name": "JIMMY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 168,
+      "original_hex": "BCD3DD",
+      "patched_hex": "53494D4F4E",
+      "original_name": "シモン",
+      "editor_name": "SIMON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 169,
+      "original_hex": "BCDEACB8BFDD",
+      "patched_hex": "4A41434B534F4E",
+      "original_name": "ジャクソン",
+      "editor_name": "JACKSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 170,
+      "original_hex": "BCDEACB0D1AFBCAD",
+      "patched_hex": "4A41524D55534348",
+      "original_name": "ジャームッシュ",
+      "editor_name": "JARMUSCH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 171,
+      "original_hex": "BCDEACAFB7B0",
+      "patched_hex": "4A41434B4945",
+      "original_name": "ジャッキー",
+      "editor_name": "JACKIE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 172,
+      "original_hex": "BCACB0DBAFC4",
+      "patched_hex": "434841524C4F545445",
+      "original_name": "シャーロット",
+      "editor_name": "CHARLOTTE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 173,
+      "original_hex": "BCDEACDD",
+      "patched_hex": "4A45414E",
+      "original_name": "ジャン",
+      "editor_name": "JEAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 174,
+      "original_hex": "BCDEADB0C4DE",
+      "patched_hex": "4A554445",
+      "original_name": "ジュード",
+      "editor_name": "JUDE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 175,
+      "original_hex": "BCDEADD8B1BD",
+      "patched_hex": "4A554C495553",
+      "original_name": "ジュリアス",
+      "editor_name": "JULIUS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 176,
+      "original_hex": "BCDEADB0D9",
+      "patched_hex": "4A554C4553",
+      "original_name": "ジュール",
+      "editor_name": "JULES",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 177,
+      "original_hex": "BCDEAAB2BFDD",
+      "patched_hex": "4A41534F4E",
+      "original_name": "ジェイソン",
+      "editor_name": "JASON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 178,
+      "original_hex": "BCDEAAB2B8",
+      "patched_hex": "D0CED5",
+      "original_name": "ジェイク",
+      "editor_name": "제이크",
+      "source": "custom-korean"
+    },
+    {
+      "index": 179,
+      "original_hex": "BCDEAABD",
+      "patched_hex": "D0C0",
+      "original_name": "ジェス",
+      "editor_name": "제스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 180,
+      "original_hex": "BCDEAAC4DE",
+      "patched_hex": "4A4544",
+      "original_name": "ジェド",
+      "editor_name": "JED",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 181,
+      "original_hex": "BCDEAAB0D1BD",
+      "patched_hex": "4A414D4553",
+      "original_name": "ジェームス",
+      "editor_name": "JAMES",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 182,
+      "original_hex": "BCDEAACC",
+      "patched_hex": "D0DD",
+      "original_name": "ジェフ",
+      "editor_name": "제프",
+      "source": "custom-korean"
+    },
+    {
+      "index": 183,
+      "original_hex": "BCDEAACCA7B0BFDD",
+      "patched_hex": "4A4546464552534F4E",
+      "original_name": "ジェファーソン",
+      "editor_name": "JEFFERSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 184,
+      "original_hex": "BCDEAACCD8",
+      "patched_hex": "D0DDB7",
+      "original_name": "ジェフリ",
+      "editor_name": "제프리",
+      "source": "custom-korean"
+    },
+    {
+      "index": 185,
+      "original_hex": "BCAAB0DD",
+      "patched_hex": "5348414E45",
+      "original_name": "シェーン",
+      "editor_name": "SHANE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 186,
+      "original_hex": "BCDEAEB0BCDE",
+      "patched_hex": "47454F524745",
+      "original_name": "ジョージ",
+      "editor_name": "GEORGE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 187,
+      "original_hex": "BCDEAEBECC",
+      "patched_hex": "4A4F53455048",
+      "original_name": "ジョセフ",
+      "editor_name": "JOSEPH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 188,
+      "original_hex": "BCDEAECADEDDC6",
+      "patched_hex": "47494F56414E4E49",
+      "original_name": "ジョバンニ",
+      "editor_name": "GIOVANNI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 189,
+      "original_hex": "BCDEAEC5BBDD",
+      "patched_hex": "4A4F4E415448414E",
+      "original_name": "ジョナサン",
+      "editor_name": "JONATHAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 190,
+      "original_hex": "BCDEAED9BCDEAE",
+      "patched_hex": "47494F5247494F",
+      "original_name": "ジョルジョ",
+      "editor_name": "GIORGIO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 191,
+      "original_hex": "BCDEAEDD",
+      "patched_hex": "4A4F484E",
+      "original_name": "ジョン",
+      "editor_name": "JOHN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 192,
+      "original_hex": "BCAEB0DD",
+      "patched_hex": "5345414E",
+      "original_name": "ショーン",
+      "editor_name": "SEAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 193,
+      "original_hex": "BCD7B0C9",
+      "patched_hex": "C1AEAB",
+      "original_name": "シラーノ",
+      "editor_name": "시라노",
+      "source": "custom-korean"
+    },
+    {
+      "index": 194,
+      "original_hex": "BCDED9CDDEB0D9",
+      "patched_hex": "47494C42455254",
+      "original_name": "ジルベール",
+      "editor_name": "GILBERT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 195,
+      "original_hex": "BCD9CCDABD",
+      "patched_hex": "53494C504852455353",
+      "original_name": "シルフレス",
+      "editor_name": "SILPHRESS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 196,
+      "original_hex": "BCDAC9BD",
+      "patched_hex": "C1B3ABC0",
+      "original_name": "シレノス",
+      "editor_name": "시레노스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 197,
+      "original_hex": "BCD7DD",
+      "patched_hex": "53494C414E",
+      "original_name": "シラン",
+      "editor_name": "SILAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 198,
+      "original_hex": "BCDDCCDFBFDD",
+      "patched_hex": "53494D50534F4E",
+      "original_name": "シンプソン",
+      "editor_name": "SIMPSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 199,
+      "original_hex": "BDBAAFC4",
+      "patched_hex": "53434F5454",
+      "original_name": "スコット",
+      "editor_name": "SCOTT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 200,
+      "original_hex": "BDC0AFC4DE",
+      "patched_hex": "C0D9AC",
+      "original_name": "スタッド",
+      "editor_name": "스터드",
+      "source": "custom-korean"
+    },
+    {
+      "index": 201,
+      "original_hex": "BDC3A8B0CCDE",
+      "patched_hex": "5354455645",
+      "original_name": "スティーブ",
+      "editor_name": "STEVE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 202,
+      "original_hex": "BDC3CCA7DD",
+      "patched_hex": "5354455048454E",
+      "original_name": "ステファン",
+      "editor_name": "STEPHEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 203,
+      "original_hex": "BDC1ADB1B0C4",
+      "patched_hex": "535455415254",
+      "original_name": "スチュアート",
+      "editor_name": "STUART",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 204,
+      "original_hex": "BDC4B0DD",
+      "patched_hex": "C0DA",
+      "original_name": "ストーン",
+      "editor_name": "스톤",
+      "source": "custom-korean"
+    },
+    {
+      "index": 205,
+      "original_hex": "BDCDDFB8C4D7",
+      "patched_hex": "53504543545241",
+      "original_name": "スペクトラ",
+      "editor_name": "SPECTRA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 206,
+      "original_hex": "BDD0BD",
+      "patched_hex": "534D495448",
+      "original_name": "スミス",
+      "editor_name": "SMITH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 207,
+      "original_hex": "BDD7AFBCAD",
+      "patched_hex": "534C415348",
+      "original_name": "スラッシュ",
+      "editor_name": "SLASH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 208,
+      "original_hex": "BDD8B0C4",
+      "patched_hex": "C0B7DDDB",
+      "original_name": "スリート",
+      "editor_name": "스리프트",
+      "source": "custom-korean"
+    },
+    {
+      "index": 209,
+      "original_hex": "BDDAB2",
+      "patched_hex": "C0B3CE",
+      "original_name": "スレイ",
+      "editor_name": "스레이",
+      "source": "custom-korean"
+    },
+    {
+      "index": 210,
+      "original_hex": "BEB0B6DEDD",
+      "patched_hex": "534147414E",
+      "original_name": "セーガン",
+      "editor_name": "SAGAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 211,
+      "original_hex": "BEBCD9",
+      "patched_hex": "434543494C",
+      "original_name": "セシル",
+      "editor_name": "CECIL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 212,
+      "original_hex": "BEDEC4DED9CC",
+      "patched_hex": "5A45444F4C5048",
+      "original_name": "ゼドルフ",
+      "editor_name": "ZEDOLPH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 213,
+      "original_hex": "BEDEC6BD",
+      "patched_hex": "5A454E495448",
+      "original_name": "ゼニス",
+      "editor_name": "ZENITH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 214,
+      "original_hex": "BEDEC8D9",
+      "patched_hex": "5A454E454C",
+      "original_name": "ゼネル",
+      "editor_name": "ZENEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 215,
+      "original_hex": "BEC9B1",
+      "patched_hex": "53454E4F41",
+      "original_name": "セノア",
+      "editor_name": "SENOA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 216,
+      "original_hex": "D0D7DD",
+      "patched_hex": "4D494C414E",
+      "original_name": "ミラン",
+      "editor_name": "MILAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 217,
+      "original_hex": "BEDABD",
+      "patched_hex": "4345524553",
+      "original_name": "セレス",
+      "editor_name": "CERES",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 218,
+      "original_hex": "BEDDC4D9B2BD",
+      "patched_hex": "5354204C4F554953",
+      "original_name": "セントルイス",
+      "editor_name": "ST LOUIS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 219,
+      "original_hex": "BFD8AFC4",
+      "patched_hex": "534F4C4954",
+      "original_name": "ソリット",
+      "editor_name": "SOLIT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 220,
+      "original_hex": "BFDEDB",
+      "patched_hex": "5A4F52524F",
+      "original_name": "ゾロ",
+      "editor_name": "ZORRO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 221,
+      "original_hex": "BFDEDD",
+      "patched_hex": "5A4F4E",
+      "original_name": "ゾン",
+      "editor_name": "ZON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 222,
+      "original_hex": "C0B2BFDD",
+      "patched_hex": "5459534F4E",
+      "original_name": "タイソン",
+      "editor_name": "TYSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 223,
+      "original_hex": "C0B2C0DD",
+      "patched_hex": "544954414E",
+      "original_name": "タイタン",
+      "editor_name": "TITAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 224,
+      "original_hex": "C0B2D7B0",
+      "patched_hex": "54594C4552",
+      "original_name": "タイラー",
+      "editor_name": "TYLER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 225,
+      "original_hex": "C0DEB2C0DEDBBD",
+      "patched_hex": "44414544414C5553",
+      "original_name": "ダイダロス",
+      "editor_name": "DAEDALUS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 226,
+      "original_hex": "C0DEB2DADD",
+      "patched_hex": "445952454E",
+      "original_name": "ダイレン",
+      "editor_name": "DYREN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 227,
+      "original_hex": "C0DEB8DED7BD",
+      "patched_hex": "444F55474C4153",
+      "original_name": "ダグラス",
+      "editor_name": "DOUGLAS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 228,
+      "original_hex": "C0DEBDC3A8DD",
+      "patched_hex": "44555354494E",
+      "original_name": "ダスティン",
+      "editor_name": "DUSTIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 229,
+      "original_hex": "C0DEAFC4DE",
+      "patched_hex": "444144",
+      "original_name": "ダッド",
+      "editor_name": "DAD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 230,
+      "original_hex": "C0DEC5",
+      "patched_hex": "44414E41",
+      "original_name": "ダナ",
+      "editor_name": "DANA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 231,
+      "original_hex": "C0B0C5B0",
+      "patched_hex": "5455524E4552",
+      "original_name": "ターナー",
+      "editor_name": "TURNER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 232,
+      "original_hex": "C0DEC6B4D9",
+      "patched_hex": "44414E49454C",
+      "original_name": "ダニエル",
+      "editor_name": "DANIEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 233,
+      "original_hex": "C0DED8B3BD",
+      "patched_hex": "444152495553",
+      "original_name": "ダリウス",
+      "editor_name": "DARIUS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 234,
+      "original_hex": "C0DEDD",
+      "patched_hex": "44414E",
+      "original_name": "ダン",
+      "editor_name": "DAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 235,
+      "original_hex": "C0DEDDC4DD",
+      "patched_hex": "44414E544F4E",
+      "original_name": "ダントン",
+      "editor_name": "DANTON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 236,
+      "original_hex": "C1AAAFC4",
+      "patched_hex": "43484554",
+      "original_name": "チェット",
+      "editor_name": "CHET",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 237,
+      "original_hex": "C1ACAFCCDFCFDD",
+      "patched_hex": "434841504D414E",
+      "original_name": "チャップマン",
+      "editor_name": "CHAPMAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 238,
+      "original_hex": "C1ACB0D9BDDE",
+      "patched_hex": "434841524C4553",
+      "original_name": "チャールズ",
+      "editor_name": "CHARLES",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 239,
+      "original_hex": "C1ACB0D8B0",
+      "patched_hex": "434841524C4945",
+      "original_name": "チャーリー",
+      "editor_name": "CHARLIE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 240,
+      "original_hex": "C1ACAFB8",
+      "patched_hex": "434855434B",
+      "original_name": "チャック",
+      "editor_name": "CHUCK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 241,
+      "original_hex": "C2DDB8DEB0BD",
+      "patched_hex": "54554E475553",
+      "original_name": "ツングース",
+      "editor_name": "TUNGUS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 242,
+      "original_hex": "C2CFDDBDB7B0",
+      "patched_hex": "54554D414E534B59",
+      "original_name": "ツマンスキー",
+      "editor_name": "TUMANSKY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 243,
+      "original_hex": "C3DEA8C5C0DEDD",
+      "patched_hex": "44494E4144414E",
+      "original_name": "ディナダン",
+      "editor_name": "DINADAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 244,
+      "original_hex": "C3DEA8DDB6DEB0",
+      "patched_hex": "44494E474552",
+      "original_name": "ディンガー",
+      "editor_name": "DINGER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 245,
+      "original_hex": "C3B5",
+      "patched_hex": "5448454F",
+      "original_name": "テオ",
+      "editor_name": "THEO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 246,
+      "original_hex": "C3DEB6D2DBDD",
+      "patched_hex": "444543414D45524F4E",
+      "original_name": "デカメロン",
+      "editor_name": "DECAMERON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 247,
+      "original_hex": "C3DEA8AFB8",
+      "patched_hex": "4449434B",
+      "original_name": "ディック",
+      "editor_name": "DICK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 248,
+      "original_hex": "C3BD",
+      "patched_hex": "54455353",
+      "original_name": "テス",
+      "editor_name": "TESS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 249,
+      "original_hex": "C3BDB6",
+      "patched_hex": "5445534B41",
+      "original_name": "テスカ",
+      "editor_name": "TESKA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 250,
+      "original_hex": "C3DECBDEAFC4",
+      "patched_hex": "4441564944",
+      "original_name": "デビット",
+      "editor_name": "DAVID",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 251,
+      "original_hex": "C3DEC6BD",
+      "patched_hex": "44454E4E4953",
+      "original_name": "デニス",
+      "editor_name": "DENNIS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 252,
+      "original_hex": "C3C9B0D9",
+      "patched_hex": "54454E4F52",
+      "original_name": "テノール",
+      "editor_name": "TENOR",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 253,
+      "original_hex": "C3D8B0",
+      "patched_hex": "5445525259",
+      "original_name": "テリー",
+      "editor_name": "TERRY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 254,
+      "original_hex": "C3DEADD7DD",
+      "patched_hex": "445552414E",
+      "original_name": "デュラン",
+      "editor_name": "DURAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 255,
+      "original_hex": "C4AFC4DE",
+      "patched_hex": "544F4444",
+      "original_name": "トッド",
+      "editor_name": "TODD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 256,
+      "original_hex": "C4B0CFBD",
+      "patched_hex": "54484F4D4153",
+      "original_name": "トーマス",
+      "editor_name": "THOMAS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 257,
+      "original_hex": "C4C6B0",
+      "patched_hex": "544F4E59",
+      "original_name": "トニー",
+      "editor_name": "TONY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 258,
+      "original_hex": "C4D1",
+      "patched_hex": "544F4D",
+      "original_name": "トム",
+      "editor_name": "TOM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 259,
+      "original_hex": "C4D1BFDD",
+      "patched_hex": "54484F4D534F4E",
+      "original_name": "トムソン",
+      "editor_name": "THOMSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 260,
+      "original_hex": "C4DED0C6B8",
+      "patched_hex": "444F4D494E4943",
+      "original_name": "ドミニク",
+      "editor_name": "DOMINIC",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 261,
+      "original_hex": "C4B0D7BD",
+      "patched_hex": "544155525553",
+      "original_name": "トーラス",
+      "editor_name": "TAURUS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 262,
+      "original_hex": "C4DED7D1BD",
+      "patched_hex": "4452554D53",
+      "original_name": "ドラムス",
+      "editor_name": "DRUMS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 263,
+      "original_hex": "C4DED7DDB8",
+      "patched_hex": "4452554E4B",
+      "original_name": "ドランク",
+      "editor_name": "DRUNK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 264,
+      "original_hex": "C4D7CEDED9C0",
+      "patched_hex": "545241564F4C5441",
+      "original_name": "トラボルタ",
+      "editor_name": "TRAVOLTA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 265,
+      "original_hex": "C4D8BDD7D1",
+      "patched_hex": "DBB7C0B4",
+      "original_name": "トリスラム",
+      "editor_name": "트리스렌",
+      "source": "custom-korean"
+    },
+    {
+      "index": 266,
+      "original_hex": "C4D9B0CFDD",
+      "patched_hex": "5452554D414E",
+      "original_name": "トルーマン",
+      "editor_name": "TRUMAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 267,
+      "original_hex": "C4DEDAB2B8",
+      "patched_hex": "ACB3CED5",
+      "original_name": "ドレイク",
+      "editor_name": "드레이크",
+      "source": "custom-korean"
+    },
+    {
+      "index": 268,
+      "original_hex": "C4DEB0DD",
+      "patched_hex": "4441574E",
+      "original_name": "ドーン",
+      "editor_name": "DAWN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 269,
+      "original_hex": "C4DDBDDED7BD",
+      "patched_hex": "544F4E5A4C4153",
+      "original_name": "トンズラス",
+      "editor_name": "TONZLAS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 270,
+      "original_hex": "C5B2BCDEAAD9",
+      "patched_hex": "4E4947454C",
+      "original_name": "ナイジェル",
+      "editor_name": "NIGEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 271,
+      "original_hex": "C5BED9",
+      "patched_hex": "4E4153534552",
+      "original_name": "ナセル",
+      "editor_name": "NASSER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 272,
+      "original_hex": "C6B5D7",
+      "patched_hex": "4E494F4C41",
+      "original_name": "ニオラ",
+      "editor_name": "NIOLA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 273,
+      "original_hex": "C6B7B0C0",
+      "patched_hex": "4E494B495441",
+      "original_name": "ニキータ",
+      "editor_name": "NIKITA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 274,
+      "original_hex": "C6AFB8",
+      "patched_hex": "4E49434B",
+      "original_name": "ニック",
+      "editor_name": "NICK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 275,
+      "original_hex": "C6BAD7B2",
+      "patched_hex": "4E494B4F4C4149",
+      "original_name": "ニコライ",
+      "editor_name": "NIKOLAI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 276,
+      "original_hex": "C6B0D9",
+      "patched_hex": "4E45494C",
+      "original_name": "ニール",
+      "editor_name": "NEIL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 277,
+      "original_hex": "C8B2CCDE",
+      "patched_hex": "4E415645",
+      "original_name": "ネイブ",
+      "editor_name": "NAVE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 278,
+      "original_hex": "C8D9BFDD",
+      "patched_hex": "4E454C534F4E",
+      "original_name": "ネルソン",
+      "editor_name": "NELSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 279,
+      "original_hex": "C9DBDD",
+      "patched_hex": "4E4F4C4F4E",
+      "original_name": "ノロン",
+      "editor_name": "NOLON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 280,
+      "original_hex": "C9B4D9",
+      "patched_hex": "ABC6",
+      "original_name": "ノエル",
+      "editor_name": "노엘",
+      "source": "custom-korean"
+    },
+    {
+      "index": 281,
+      "original_hex": "C9BDC4D7C0DED1BD",
+      "patched_hex": "4E4F5354524144414D",
+      "original_name": "ノストラダムス",
+      "editor_name": "NOSTRADAM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 282,
+      "original_hex": "C9B0C4DD",
+      "patched_hex": "4E4F52544F4E",
+      "original_name": "ノートン",
+      "editor_name": "NORTON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 283,
+      "original_hex": "C9B2CFDD",
+      "patched_hex": "4E45554D414E4E",
+      "original_name": "ノイマン",
+      "editor_name": "NEUMANN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 284,
+      "original_hex": "C9B0D7DD",
+      "patched_hex": "4E4F4C414E",
+      "original_name": "ノーラン",
+      "editor_name": "NOLAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 285,
+      "original_hex": "C9CFB0D1",
+      "patched_hex": "4E4F4D414D",
+      "original_name": "ノマーム",
+      "editor_name": "NOMAM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 286,
+      "original_hex": "CADFB2B1BD",
+      "patched_hex": "50495553",
+      "original_name": "パイアス",
+      "editor_name": "PIUS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 287,
+      "original_hex": "CAB2B1AFC4",
+      "patched_hex": "4859415454",
+      "original_name": "ハイアット",
+      "editor_name": "HYATT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 288,
+      "original_hex": "CAB2CFDD",
+      "patched_hex": "48594D414E",
+      "original_name": "ハイマン",
+      "editor_name": "HYMAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 289,
+      "original_hex": "CAB3B1B0",
+      "patched_hex": "4841554552",
+      "original_name": "ハウアー",
+      "editor_name": "HAUER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 290,
+      "original_hex": "CAB3B4D9",
+      "patched_hex": "484F57454C4C",
+      "original_name": "ハウエル",
+      "editor_name": "HOWELL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 291,
+      "original_hex": "CADFB3DB",
+      "patched_hex": "5041554C4F",
+      "original_name": "パウロ",
+      "editor_name": "PAULO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 292,
+      "original_hex": "CADEB6D7AFC4",
+      "patched_hex": "BCD3AEDB",
+      "original_name": "バカラット",
+      "editor_name": "바카라트",
+      "source": "custom-korean"
+    },
+    {
+      "index": 293,
+      "original_hex": "CADEB0B8DAB2",
+      "patched_hex": "BDD6B7",
+      "original_name": "バークレイ",
+      "editor_name": "버크리",
+      "source": "custom-korean"
+    },
+    {
+      "index": 294,
+      "original_hex": "CABBDEB3AAB2",
+      "patched_hex": "4841544841574159",
+      "original_name": "ハザウェイ",
+      "editor_name": "HATHAWAY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 295,
+      "original_hex": "CADEAFBCAD",
+      "patched_hex": "42415348",
+      "original_name": "バッシュ",
+      "editor_name": "BASH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 296,
+      "original_hex": "CADFB0BCCADED9",
+      "patched_hex": "504552434956414C",
+      "original_name": "パーシバル",
+      "editor_name": "PERCIVAL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 297,
+      "original_hex": "CADEB0BCDEAABD",
+      "patched_hex": "BCD0C0",
+      "original_name": "バージェス",
+      "editor_name": "바제스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 298,
+      "original_hex": "CADFB0BFDD",
+      "patched_hex": "504152534F4E",
+      "original_name": "パーソン",
+      "editor_name": "PARSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 299,
+      "original_hex": "CADEC3DEA8B1BD",
+      "patched_hex": "424144495553",
+      "original_name": "バディアス",
+      "editor_name": "BADIUS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 300,
+      "original_hex": "CAB0C4",
+      "patched_hex": "48415254",
+      "original_name": "ハート",
+      "editor_name": "HART",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 301,
+      "original_hex": "CADEB0C4DD",
+      "patched_hex": "425552544F4E",
+      "original_name": "バートン",
+      "editor_name": "BURTON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 302,
+      "original_hex": "CADFAFC4",
+      "patched_hex": "504154",
+      "original_name": "パット",
+      "editor_name": "PAT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 303,
+      "original_hex": "CADEC4DECADEDD",
+      "patched_hex": "42414442414E",
+      "original_name": "バドバン",
+      "editor_name": "BADBAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 304,
+      "original_hex": "CADFC4D7AFBCAD",
+      "patched_hex": "504154524153434845",
+      "original_name": "パトラッシュ",
+      "editor_name": "PATRASCHE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 305,
+      "original_hex": "CADEC4D7B0",
+      "patched_hex": "4255544C4552",
+      "original_name": "バトラー",
+      "editor_name": "BUTLER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 306,
+      "original_hex": "CADEB0C5B0C4DE",
+      "patched_hex": "4245524E415244",
+      "original_name": "バーナード",
+      "editor_name": "BERNARD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 307,
+      "original_hex": "CAC9B0CADEB0",
+      "patched_hex": "48414E4F564552",
+      "original_name": "ハノーバー",
+      "editor_name": "HANOVER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 308,
+      "original_hex": "CAB0CADFB0",
+      "patched_hex": "484152504552",
+      "original_name": "ハーパー",
+      "editor_name": "HARPER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 309,
+      "original_hex": "CACFB0",
+      "patched_hex": "48414D4D4552",
+      "original_name": "ハマー",
+      "editor_name": "HAMMER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 310,
+      "original_hex": "CAD0D9C4DD",
+      "patched_hex": "48414D494C544F4E",
+      "original_name": "ハミルトン",
+      "editor_name": "HAMILTON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 311,
+      "original_hex": "CADEB0D1",
+      "patched_hex": "4241554D",
+      "original_name": "バーム",
+      "editor_name": "BAUM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 312,
+      "original_hex": "CADFD7D0C3DEBD",
+      "patched_hex": "50414C414D49444553",
+      "original_name": "パラミデス",
+      "editor_name": "PALAMIDES",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 313,
+      "original_hex": "CADFD8AFBCAD",
+      "patched_hex": "504152495348",
+      "original_name": "パリッシュ",
+      "editor_name": "PARISH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 314,
+      "original_hex": "CADED9C3DEA8",
+      "patched_hex": "42414C4449",
+      "original_name": "バルディ",
+      "editor_name": "BALDI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 315,
+      "original_hex": "CADED9C4DED9",
+      "patched_hex": "42414C444552",
+      "original_name": "バルドル",
+      "editor_name": "BALDER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 316,
+      "original_hex": "CADBD9C4DE",
+      "patched_hex": "4841524F4C44",
+      "original_name": "ハロルド",
+      "editor_name": "HAROLD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 317,
+      "original_hex": "CADCB0C4DE",
+      "patched_hex": "484F57415244",
+      "original_name": "ハワード",
+      "editor_name": "HOWARD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 318,
+      "original_hex": "CADDBD",
+      "patched_hex": "48414E53",
+      "original_name": "ハンス",
+      "editor_name": "HANS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 319,
+      "original_hex": "CADEB0DDBDDE",
+      "patched_hex": "4255524E53",
+      "original_name": "バーンズ",
+      "editor_name": "BURNS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 320,
+      "original_hex": "CADEDDB8BD",
+      "patched_hex": "42414E4B53",
+      "original_name": "バンクス",
+      "editor_name": "BANKS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 321,
+      "original_hex": "CADDBEDD",
+      "patched_hex": "48414E53454E",
+      "original_name": "ハンセン",
+      "editor_name": "HANSEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 322,
+      "original_hex": "CADEC2",
+      "patched_hex": "BCDB",
+      "original_name": "バツ",
+      "editor_name": "바트",
+      "source": "custom-korean"
+    },
+    {
+      "index": 323,
+      "original_hex": "CADDCCDFBCACB0",
+      "patched_hex": "48414D505348495245",
+      "original_name": "ハンプシャー",
+      "editor_name": "HAMPSHIRE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 324,
+      "original_hex": "CBDEAFB8DEA5CDDEDD",
+      "patched_hex": "4249472042454E",
+      "original_name": "ビッグ・ベン",
+      "editor_name": "BIG BEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 325,
+      "original_hex": "CBBDC0B0",
+      "patched_hex": "484953544552",
+      "original_name": "ヒスター",
+      "editor_name": "HISTER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 326,
+      "original_hex": "CBDFB0C0B0",
+      "patched_hex": "5045544552",
+      "original_name": "ピーター",
+      "editor_name": "PETER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 327,
+      "original_hex": "CBDFB0C0B0BFDD",
+      "patched_hex": "5045544552534F4E",
+      "original_name": "ピーターソン",
+      "editor_name": "PETERSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 328,
+      "original_hex": "CBADB0B2",
+      "patched_hex": "48554559",
+      "original_name": "ヒューイ",
+      "editor_name": "HUEY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 329,
+      "original_hex": "CBADB0BDC4DD",
+      "patched_hex": "484F5553544F4E",
+      "original_name": "ヒューストン",
+      "editor_name": "HOUSTON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 330,
+      "original_hex": "CBADB0CFDD",
+      "patched_hex": "48554D414E",
+      "original_name": "ヒューマン",
+      "editor_name": "HUMAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 331,
+      "original_hex": "CBDED9",
+      "patched_hex": "42494C4C",
+      "original_name": "ビル",
+      "editor_name": "BILL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 332,
+      "original_hex": "CBDEDDBEDDC4",
+      "patched_hex": "56494E43454E54",
+      "original_name": "ビンセント",
+      "editor_name": "VINCENT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 333,
+      "original_hex": "CCA7AFC4CFDD",
+      "patched_hex": "4641544D414E",
+      "original_name": "ファットマン",
+      "editor_name": "FATMAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 334,
+      "original_hex": "CCA7CBDE",
+      "patched_hex": "46414249",
+      "original_name": "ファビ",
+      "editor_name": "FABI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 335,
+      "original_hex": "CCA8B1AFC4",
+      "patched_hex": "46494154",
+      "original_name": "フィアット",
+      "editor_name": "FIAT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 336,
+      "original_hex": "CCA8D8AFCCDF",
+      "patched_hex": "5048494C4950",
+      "original_name": "フィリップ",
+      "editor_name": "PHILIP",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 337,
+      "original_hex": "CCA8D9",
+      "patched_hex": "5048494C",
+      "original_name": "フィル",
+      "editor_name": "PHIL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 338,
+      "original_hex": "CCA8D9D3B1",
+      "patched_hex": "46494C4C4D4F5245",
+      "original_name": "フィルモア",
+      "editor_name": "FILLMORE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 339,
+      "original_hex": "CCB0B3DEA7B0",
+      "patched_hex": "DEBD",
+      "original_name": "フーヴァー",
+      "editor_name": "프버",
+      "source": "custom-korean"
+    },
+    {
+      "index": 340,
+      "original_hex": "CCAAC6AFB8BD",
+      "patched_hex": "50484F454E4958",
+      "original_name": "フェニックス",
+      "editor_name": "PHOENIX",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 341,
+      "original_hex": "CCAAD9C5DDC4DE",
+      "patched_hex": "4645524E414E444F",
+      "original_name": "フェルナンド",
+      "editor_name": "FERNANDO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 342,
+      "original_hex": "CCAAD9C5DDC3DEBD",
+      "patched_hex": "4645524E414E44455A",
+      "original_name": "フェルナンデス",
+      "editor_name": "FERNANDEZ",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 343,
+      "original_hex": "CCAAD9D8",
+      "patched_hex": "4645524C49",
+      "original_name": "フェルリ",
+      "editor_name": "FERLI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 344,
+      "original_hex": "CCDECCDEB6",
+      "patched_hex": "4255424B41",
+      "original_name": "ブブカ",
+      "editor_name": "BUBKA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 345,
+      "original_hex": "CCDED7C6B6DEDD",
+      "patched_hex": "4252414E4E4947414E",
+      "original_name": "ブラニガン",
+      "editor_name": "BRANNIGAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 346,
+      "original_hex": "CCD7DDBA",
+      "patched_hex": "4652414E434F",
+      "original_name": "フランコ",
+      "editor_name": "FRANCO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 347,
+      "original_hex": "CCD7DDBFDC",
+      "patched_hex": "4652414E434F4953",
+      "original_name": "フランソワ",
+      "editor_name": "FRANCOIS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 348,
+      "original_hex": "CCD7DDC1AABDBA",
+      "patched_hex": "4652414E434553434F",
+      "original_name": "フランチェスコ",
+      "editor_name": "FRANCESCO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 349,
+      "original_hex": "CCDED9B0C4",
+      "patched_hex": "4252555445",
+      "original_name": "ブルート",
+      "editor_name": "BRUTE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 350,
+      "original_hex": "CCDAB2B1",
+      "patched_hex": "DEB3CEC2",
+      "original_name": "フレイア",
+      "editor_name": "프레이아",
+      "source": "custom-korean"
+    },
+    {
+      "index": 351,
+      "original_hex": "CCDEDAB2B8",
+      "patched_hex": "424C414B45",
+      "original_name": "ブレイク",
+      "editor_name": "BLAKE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 352,
+      "original_hex": "CCDAAFC4DE",
+      "patched_hex": "DDB3AC",
+      "original_name": "フレッド",
+      "editor_name": "프레드",
+      "source": "custom-korean"
+    },
+    {
+      "index": 353,
+      "original_hex": "CCDBB2C4DE",
+      "patched_hex": "464C4F5944",
+      "original_name": "フロイド",
+      "editor_name": "FLOYD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 354,
+      "original_hex": "CCDBBDC4",
+      "patched_hex": "46524F5354",
+      "original_name": "フロスト",
+      "editor_name": "FROST",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 355,
+      "original_hex": "CDDEB2BD",
+      "patched_hex": "42415953",
+      "original_name": "ベイス",
+      "editor_name": "BAYS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 356,
+      "original_hex": "CDDDB9DED9",
+      "patched_hex": "48454E47454C",
+      "original_name": "ヘンゲル",
+      "editor_name": "HENGEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 357,
+      "original_hex": "CDDED7B0C4DE",
+      "patched_hex": "424552415244",
+      "original_name": "ベラード",
+      "editor_name": "BERARD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 358,
+      "original_hex": "CDD8B5BD",
+      "patched_hex": "48454C494F53",
+      "original_name": "ヘリオス",
+      "editor_name": "HELIOS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 359,
+      "original_hex": "CDDFD8C9B1",
+      "patched_hex": "50454C4C494E4F5245",
+      "original_name": "ペリノア",
+      "editor_name": "PELLINORE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 360,
+      "original_hex": "CDD8B8BD",
+      "patched_hex": "48454C4958",
+      "original_name": "ヘリクス",
+      "editor_name": "HELIX",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 361,
+      "original_hex": "CDDED9B6DEB0",
+      "patched_hex": "424552474552",
+      "original_name": "ベルガー",
+      "editor_name": "BERGER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 362,
+      "original_hex": "CDDED9DD",
+      "patched_hex": "4245524E",
+      "original_name": "ベルン",
+      "editor_name": "BERN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 363,
+      "original_hex": "CDDFDABD",
+      "patched_hex": "504552455A",
+      "original_name": "ペレス",
+      "editor_name": "PEREZ",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 364,
+      "original_hex": "CDDEDDBFDD",
+      "patched_hex": "42454E534F4E",
+      "original_name": "ベンソン",
+      "editor_name": "BENSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 365,
+      "original_hex": "CDDDD8B0",
+      "patched_hex": "48454E5259",
+      "original_name": "ヘンリー",
+      "editor_name": "HENRY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 366,
+      "original_hex": "CEDEB6DEB0C4DE",
+      "patched_hex": "424F47415244",
+      "original_name": "ボガード",
+      "editor_name": "BOGARD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 367,
+      "original_hex": "CEB0B7DDBD",
+      "patched_hex": "4841574B494E53",
+      "original_name": "ホーキンス",
+      "editor_name": "HAWKINS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 368,
+      "original_hex": "CEB0B8",
+      "patched_hex": "4841574B",
+      "original_name": "ホーク",
+      "editor_name": "HAWK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 369,
+      "original_hex": "CEBE",
+      "patched_hex": "4A4F5345",
+      "original_name": "ホセ",
+      "editor_name": "JOSE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 370,
+      "original_hex": "CEB0C5B0",
+      "patched_hex": "484F524E4552",
+      "original_name": "ホーナー",
+      "editor_name": "HORNER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 371,
+      "original_hex": "CEDEC6CC",
+      "patched_hex": "424F4E4946",
+      "original_name": "ボニフ",
+      "editor_name": "BONIF",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 372,
+      "original_hex": "CEB0D9C3DEDD",
+      "patched_hex": "484F4C44454E",
+      "original_name": "ホールデン",
+      "editor_name": "HOLDEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 373,
+      "original_hex": "CEDFB0D9",
+      "patched_hex": "5041554C",
+      "original_name": "ポール",
+      "editor_name": "PAUL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 374,
+      "original_hex": "CEDEB0D9BD",
+      "patched_hex": "424F4C4553",
+      "original_name": "ボールス",
+      "editor_name": "BOLES",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 375,
+      "original_hex": "CEDCB2C4",
+      "patched_hex": "5748495445",
+      "original_name": "ホワイト",
+      "editor_name": "WHITE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 376,
+      "original_hex": "CFB2B9D9",
+      "patched_hex": "4D49434841454C",
+      "original_name": "マイケル",
+      "editor_name": "MICHAEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 377,
+      "original_hex": "CFB2BEDD",
+      "patched_hex": "4D45495353454E",
+      "original_name": "マイセン",
+      "editor_name": "MEISSEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 378,
+      "original_hex": "CFB2D9",
+      "patched_hex": "4D494C4553",
+      "original_name": "マイル",
+      "editor_name": "MILES",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 379,
+      "original_hex": "CFB2D9BD",
+      "patched_hex": "4D494C4553",
+      "original_name": "マイルス",
+      "editor_name": "MILES",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 380,
+      "original_hex": "CFAFB6B0C4C6B0",
+      "patched_hex": "4D43434152544E4559",
+      "original_name": "マッカートニー",
+      "editor_name": "MCCARTNEY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 381,
+      "original_hex": "CFB0B8",
+      "patched_hex": "4D41524B",
+      "original_name": "マーク",
+      "editor_name": "MARK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 382,
+      "original_hex": "CFAFB8",
+      "patched_hex": "4D4143",
+      "original_name": "マック",
+      "editor_name": "MAC",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 383,
+      "original_hex": "CFAFB8BD",
+      "patched_hex": "4D4158",
+      "original_name": "マックス",
+      "editor_name": "MAX",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 384,
+      "original_hex": "CFB2D4B0",
+      "patched_hex": "4D45594552",
+      "original_name": "マイヤー",
+      "editor_name": "MEYER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 385,
+      "original_hex": "CFB8BFDD",
+      "patched_hex": "4D41584F4E",
+      "original_name": "マクソン",
+      "editor_name": "MAXON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 386,
+      "original_hex": "CFB0BCB0",
+      "patched_hex": "4D41524359",
+      "original_name": "マーシー",
+      "editor_name": "MARCY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 387,
+      "original_hex": "CFC0C4DEB0D9",
+      "patched_hex": "4D415441444F52",
+      "original_name": "マタドール",
+      "editor_name": "MATADOR",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 388,
+      "original_hex": "CFC4DED8AFC4DE",
+      "patched_hex": "4D4144524944",
+      "original_name": "マドリッド",
+      "editor_name": "MADRID",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 389,
+      "original_hex": "CFD8AFB8",
+      "patched_hex": "4D414C49434B",
+      "original_name": "マリック",
+      "editor_name": "MALICK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 390,
+      "original_hex": "CFD8AFC4",
+      "patched_hex": "4D41524954",
+      "original_name": "マリット",
+      "editor_name": "MARIT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 391,
+      "original_hex": "CFD9BD",
+      "patched_hex": "4D415253",
+      "original_name": "マルス",
+      "editor_name": "MARS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 392,
+      "original_hex": "CFD9BA",
+      "patched_hex": "4D4152434F",
+      "original_name": "マルコ",
+      "editor_name": "MARCO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 393,
+      "original_hex": "CFDAB2",
+      "patched_hex": "4D41524549",
+      "original_name": "マレイ",
+      "editor_name": "MAREI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 394,
+      "original_hex": "CFDAB0D1",
+      "patched_hex": "4D4152454D",
+      "original_name": "マレーム",
+      "editor_name": "MAREM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 395,
+      "original_hex": "CFDDC3A8BD",
+      "patched_hex": "4D414E544953",
+      "original_name": "マンティス",
+      "editor_name": "MANTIS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 396,
+      "original_hex": "D0B0BEDED9",
+      "patched_hex": "4D494553454C",
+      "original_name": "ミーゼル",
+      "editor_name": "MIESEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 397,
+      "original_hex": "D0AFB8",
+      "patched_hex": "4D49434B",
+      "original_name": "ミック",
+      "editor_name": "MICK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 398,
+      "original_hex": "D0B9B0DA",
+      "patched_hex": "4D494348454C45",
+      "original_name": "ミケーレ",
+      "editor_name": "MICHELE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 399,
+      "original_hex": "D0AFC1AAD9",
+      "patched_hex": "4D49544348454C4C",
+      "original_name": "ミッチェル",
+      "editor_name": "MITCHELL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 400,
+      "original_hex": "D0D7B0BCDEAD",
+      "patched_hex": "4D4952414745",
+      "original_name": "ミラージュ",
+      "editor_name": "MIRAGE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 401,
+      "original_hex": "D0D9",
+      "patched_hex": "4D494C4C",
+      "original_name": "ミル",
+      "editor_name": "MILL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 402,
+      "original_hex": "D1AFB8",
+      "patched_hex": "4D4F4F4B",
+      "original_name": "ムック",
+      "editor_name": "MOOK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 403,
+      "original_hex": "D1B0C4DD",
+      "patched_hex": "4D4F55544F4E",
+      "original_name": "ムートン",
+      "editor_name": "MOUTON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 404,
+      "original_hex": "D1CADED7B8",
+      "patched_hex": "4D55424152414B",
+      "original_name": "ムバラク",
+      "editor_name": "MUBARAK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 405,
+      "original_hex": "D2B2CDDED8DD",
+      "patched_hex": "4D415942454C4C494E",
+      "original_name": "メイベリン",
+      "editor_name": "MAYBELLIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 406,
+      "original_hex": "D2AFC3",
+      "patched_hex": "4D45545445",
+      "original_name": "メッテ",
+      "editor_name": "METTE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 407,
+      "original_hex": "D2C4DBDD",
+      "patched_hex": "4D4554524F4E",
+      "original_name": "メトロン",
+      "editor_name": "METRON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 408,
+      "original_hex": "D2D9",
+      "patched_hex": "4D454C",
+      "original_name": "メル",
+      "editor_name": "MEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 409,
+      "original_hex": "D2DDC3DED9",
+      "patched_hex": "4D454E44454C",
+      "original_name": "メンデル",
+      "editor_name": "MENDEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 410,
+      "original_hex": "D3B0C4DD",
+      "patched_hex": "B9DA",
+      "original_name": "モートン",
+      "editor_name": "모톤",
+      "source": "custom-korean"
+    },
+    {
+      "index": 411,
+      "original_hex": "D3BCDED8B1C6",
+      "patched_hex": "4D4F4449474C49414E",
+      "original_name": "モジリアニ",
+      "editor_name": "MODIGLIAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 412,
+      "original_hex": "D3CAD2C4DE",
+      "patched_hex": "4D4F48414D4D4544",
+      "original_name": "モハメド",
+      "editor_name": "MOHAMMED",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 413,
+      "original_hex": "D3B0BEDE",
+      "patched_hex": "4D4F534553",
+      "original_name": "モーゼ",
+      "editor_name": "MOSES",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 414,
+      "original_hex": "D3D7B0D9",
+      "patched_hex": "4D4F52414C",
+      "original_name": "モラール",
+      "editor_name": "MORAL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 415,
+      "original_hex": "D3D8BCAA",
+      "patched_hex": "B9B7D0",
+      "original_name": "モリシェ",
+      "editor_name": "모리제",
+      "source": "custom-korean"
+    },
+    {
+      "index": 416,
+      "original_hex": "D3D9C4",
+      "patched_hex": "4D4F4C54",
+      "original_name": "モルト",
+      "editor_name": "MOLT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 417,
+      "original_hex": "D3DDC3B6D9DB",
+      "patched_hex": "4D4F4E54454341524C",
+      "original_name": "モンテカルロ",
+      "editor_name": "MONTECARL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 418,
+      "original_hex": "D3DDC0C5",
+      "patched_hex": "4D4F4E54414E41",
+      "original_name": "モンタナ",
+      "editor_name": "MONTANA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 419,
+      "original_hex": "D4BACCDE",
+      "patched_hex": "4A41434F42",
+      "original_name": "ヤコブ",
+      "editor_name": "JACOB",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 420,
+      "original_hex": "D4B0DD",
+      "patched_hex": "4A41484E",
+      "original_name": "ヤーン",
+      "editor_name": "JAHN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 421,
+      "original_hex": "D4DDB8DE",
+      "patched_hex": "C5A9",
+      "original_name": "ヤング",
+      "editor_name": "알그",
+      "source": "custom-korean"
+    },
+    {
+      "index": 422,
+      "original_hex": "D5B0BCDEA8",
+      "patched_hex": "4555474945",
+      "original_name": "ユージィ",
+      "editor_name": "EUGIE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 423,
+      "original_hex": "D5B0D8",
+      "patched_hex": "59555249",
+      "original_name": "ユーリ",
+      "editor_name": "YURI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 424,
+      "original_hex": "D6B0B2",
+      "patched_hex": "594F49",
+      "original_name": "ヨーイ",
+      "editor_name": "YOI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 425,
+      "original_hex": "D6BEDECC",
+      "patched_hex": "4A4F534546",
+      "original_name": "ヨゼフ",
+      "editor_name": "JOSEF",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 426,
+      "original_hex": "D6BCADB1",
+      "patched_hex": "4A4F53485541",
+      "original_name": "ヨシュア",
+      "editor_name": "JOSHUA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 427,
+      "original_hex": "D6CADD",
+      "patched_hex": "4A4F48414E",
+      "original_name": "ヨハン",
+      "editor_name": "JOHAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 428,
+      "original_hex": "D6CADDBFDD",
+      "patched_hex": "4A4F48414E53534F4E",
+      "original_name": "ヨハンソン",
+      "editor_name": "JOHANSSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 429,
+      "original_hex": "D6B0CFDD",
+      "patched_hex": "59454F4D414E",
+      "original_name": "ヨーマン",
+      "editor_name": "YEOMAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 430,
+      "original_hex": "D7B2B5BD",
+      "patched_hex": "AECEC7C0",
+      "original_name": "ライオス",
+      "editor_name": "라이오스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 431,
+      "original_hex": "D7B2B5C8D9",
+      "patched_hex": "4C494F4E454C",
+      "original_name": "ライオネル",
+      "editor_name": "LIONEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 432,
+      "original_hex": "D7B2B5AFC4",
+      "patched_hex": "52494F54",
+      "original_name": "ライオット",
+      "editor_name": "RIOT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 433,
+      "original_hex": "D7B2C3DEA8B0DD",
+      "patched_hex": "52594445454E",
+      "original_name": "ライディーン",
+      "editor_name": "RYDEEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 434,
+      "original_hex": "D7B3B4D9",
+      "patched_hex": "524F57454C4C",
+      "original_name": "ラウエル",
+      "editor_name": "ROWELL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 435,
+      "original_hex": "D7B3C0DE",
+      "patched_hex": "4C41554441",
+      "original_name": "ラウダ",
+      "editor_name": "LAUDA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 436,
+      "original_hex": "D7B0B8",
+      "patched_hex": "AED5",
+      "original_name": "ラーク",
+      "editor_name": "라크",
+      "source": "custom-korean"
+    },
+    {
+      "index": 437,
+      "original_hex": "D7AFB7B0",
+      "patched_hex": "B2D5",
+      "original_name": "ラッキー",
+      "editor_name": "라크",
+      "source": "custom-korean"
+    },
+    {
+      "index": 438,
+      "original_hex": "D7AFBED9",
+      "patched_hex": "52555353454C4C",
+      "original_name": "ラッセル",
+      "editor_name": "RUSSELL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 439,
+      "original_hex": "D7BCADC3DEA8",
+      "patched_hex": "52555348444945",
+      "original_name": "ラシュディ",
+      "editor_name": "RUSHDIE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 440,
+      "original_hex": "D7C4B8D8CC",
+      "patched_hex": "524154434C49464645",
+      "original_name": "ラトクリフ",
+      "editor_name": "RATCLIFFE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 441,
+      "original_hex": "D7BDB6D9",
+      "patched_hex": "52415343414C",
+      "original_name": "ラスカル",
+      "editor_name": "RASCAL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 442,
+      "original_hex": "D7C6B5BD",
+      "patched_hex": "4C414E494F53",
+      "original_name": "ラニオス",
+      "editor_name": "LANIOS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 443,
+      "original_hex": "D7CCA7B4DB",
+      "patched_hex": "5241504841454C",
+      "original_name": "ラファエロ",
+      "editor_name": "RAPHAEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 444,
+      "original_hex": "D7CADEB0D9",
+      "patched_hex": "4C41424152",
+      "original_name": "ラバール",
+      "editor_name": "LABAR",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 445,
+      "original_hex": "D7D1",
+      "patched_hex": "B1",
+      "original_name": "ラム",
+      "editor_name": "람",
+      "source": "custom-korean"
+    },
+    {
+      "index": 446,
+      "original_hex": "D7D3D7AFB8",
+      "patched_hex": "AEB9D5",
+      "original_name": "ラモラック",
+      "editor_name": "라모크",
+      "source": "custom-korean"
+    },
+    {
+      "index": 447,
+      "original_hex": "D7D8B0",
+      "patched_hex": "AEB7",
+      "original_name": "ラリー",
+      "editor_name": "라리",
+      "source": "custom-korean"
+    },
+    {
+      "index": 448,
+      "original_hex": "D7D9CC",
+      "patched_hex": "AEADD4",
+      "original_name": "ラルフ",
+      "editor_name": "라르카",
+      "source": "custom-korean"
+    },
+    {
+      "index": 449,
+      "original_hex": "D7DDB8DED7B0",
+      "patched_hex": "AFD6B2",
+      "original_name": "ラングラー",
+      "editor_name": "란크라",
+      "source": "custom-korean"
+    },
+    {
+      "index": 450,
+      "original_hex": "D7DDC3DEA8B0",
+      "patched_hex": "52414E4459",
+      "original_name": "ランディー",
+      "editor_name": "RANDY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 451,
+      "original_hex": "D7DDC4DECFB0B8",
+      "patched_hex": "4C414E444D41524B",
+      "original_name": "ランドマーク",
+      "editor_name": "LANDMARK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 452,
+      "original_hex": "D7DDC0DED9CC",
+      "patched_hex": "52414E44414C5048",
+      "original_name": "ランダルフ",
+      "editor_name": "RANDALPH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 453,
+      "original_hex": "D8B0B6DED9",
+      "patched_hex": "524547414C",
+      "original_name": "リーガル",
+      "editor_name": "REGAL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 454,
+      "original_hex": "D8B6DEC1AECC",
+      "patched_hex": "4C49474143484556",
+      "original_name": "リガチョフ",
+      "editor_name": "LIGACHEV",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 455,
+      "original_hex": "D8BDDAB0",
+      "patched_hex": "B7C0B3",
+      "original_name": "リスレー",
+      "editor_name": "리스레",
+      "source": "custom-korean"
+    },
+    {
+      "index": 456,
+      "original_hex": "D8AFB8",
+      "patched_hex": "B7D5",
+      "original_name": "リック",
+      "editor_name": "리크",
+      "source": "custom-korean"
+    },
+    {
+      "index": 457,
+      "original_hex": "D8C1ACB0C4DE",
+      "patched_hex": "52494348415244",
+      "original_name": "リチャード",
+      "editor_name": "RICHARD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 458,
+      "original_hex": "D8CADEB0",
+      "patched_hex": "B7BC",
+      "original_name": "リバー",
+      "editor_name": "리바",
+      "source": "custom-korean"
+    },
+    {
+      "index": 459,
+      "original_hex": "D8D3B0C4",
+      "patched_hex": "B7B9DB",
+      "original_name": "リモート",
+      "editor_name": "리모트",
+      "source": "custom-korean"
+    },
+    {
+      "index": 460,
+      "original_hex": "D9B2",
+      "patched_hex": "4C4F554953",
+      "original_name": "ルイ",
+      "editor_name": "LOUIS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 461,
+      "original_hex": "D9BCB1BD",
+      "patched_hex": "4C5543495553",
+      "original_name": "ルシアス",
+      "editor_name": "LUCIUS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 462,
+      "original_hex": "D9B6",
+      "patched_hex": "4C554B41",
+      "original_name": "ルカ",
+      "editor_name": "LUKA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 463,
+      "original_hex": "D9B0B8",
+      "patched_hex": "4C554B45",
+      "original_name": "ルーク",
+      "editor_name": "LUKE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 464,
+      "original_hex": "D9B8BEDD",
+      "patched_hex": "4C5558454E",
+      "original_name": "ルクセン",
+      "editor_name": "LUXEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 465,
+      "original_hex": "D9C0B0",
+      "patched_hex": "4C5554484552",
+      "original_name": "ルター",
+      "editor_name": "LUTHER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 466,
+      "original_hex": "D9C4DEB6DEB0",
+      "patched_hex": "525544474552",
+      "original_name": "ルドガー",
+      "editor_name": "RUDGER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 467,
+      "original_hex": "D9C4DED9CC",
+      "patched_hex": "5255444F4C46",
+      "original_name": "ルドルフ",
+      "editor_name": "RUDOLF",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 468,
+      "original_hex": "D9C9B1B0D9",
+      "patched_hex": "52454E4F4952",
+      "original_name": "ルノアール",
+      "editor_name": "RENOIR",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 469,
+      "original_hex": "D9D8AFB8",
+      "patched_hex": "525552494B",
+      "original_name": "ルリック",
+      "editor_name": "RURIK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 470,
+      "original_hex": "D9B0D8B0C4DE",
+      "patched_hex": "4C4F552052454544",
+      "original_name": "ルーリード",
+      "editor_name": "LOU REED",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 471,
+      "original_hex": "DAB2",
+      "patched_hex": "B3CE",
+      "original_name": "レイ",
+      "editor_name": "레이",
+      "source": "custom-korean"
+    },
+    {
+      "index": 472,
+      "original_hex": "DAB2C4DD",
+      "patched_hex": "B3CEDA",
+      "original_name": "レイトン",
+      "editor_name": "레이톤",
+      "source": "custom-korean"
+    },
+    {
+      "index": 473,
+      "original_hex": "DAB2D3DDC4DE",
+      "patched_hex": "5241594D4F4E44",
+      "original_name": "レイモンド",
+      "editor_name": "RAYMOND",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 474,
+      "original_hex": "DAB2DD",
+      "patched_hex": "B3CF",
+      "original_name": "レイン",
+      "editor_name": "레인",
+      "source": "custom-korean"
+    },
+    {
+      "index": 475,
+      "original_hex": "DAB5",
+      "patched_hex": "B3C7",
+      "original_name": "レオ",
+      "editor_name": "레오",
+      "source": "custom-korean"
+    },
+    {
+      "index": 476,
+      "original_hex": "DAB5C5D9C4DE",
+      "patched_hex": "B3AC",
+      "original_name": "レオナルド",
+      "editor_name": "레드",
+      "source": "custom-korean"
+    },
+    {
+      "index": 477,
+      "original_hex": "DAB5DD",
+      "patched_hex": "B3C8",
+      "original_name": "レオン",
+      "editor_name": "레온",
+      "source": "custom-korean"
+    },
+    {
+      "index": 478,
+      "original_hex": "DAB0B6DEDD",
+      "patched_hex": "52454147414E",
+      "original_name": "レーガン",
+      "editor_name": "REAGAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 479,
+      "original_hex": "DAB8BD",
+      "patched_hex": "B3D5C0",
+      "original_name": "レクス",
+      "editor_name": "레크스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 480,
+      "original_hex": "DAAFB8DECFDD",
+      "patched_hex": "4C45474D414E",
+      "original_name": "レッグマン",
+      "editor_name": "LEGMAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 481,
+      "original_hex": "DAA5BCDEDDCCDF",
+      "patched_hex": "4C45205A494D50",
+      "original_name": "レ・ジンプ",
+      "editor_name": "LE ZIMP",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 482,
+      "original_hex": "DAC5B0",
+      "patched_hex": "4C454E4E41",
+      "original_name": "レナー",
+      "editor_name": "LENNA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 483,
+      "original_hex": "DAC5B0C4DE",
+      "patched_hex": "4C454F4E415244",
+      "original_name": "レナード",
+      "editor_name": "LEONARD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 484,
+      "original_hex": "DACADFB0C4DE",
+      "patched_hex": "4C454F50415244",
+      "original_name": "レパード",
+      "editor_name": "LEOPARD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 485,
+      "original_hex": "DACBDEB0",
+      "patched_hex": "4C45424259",
+      "original_name": "レビー",
+      "editor_name": "LEBBY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 486,
+      "original_hex": "DACCD8B0",
+      "patched_hex": "B3DDB7",
+      "original_name": "レフリー",
+      "editor_name": "레프리",
+      "source": "custom-korean"
+    },
+    {
+      "index": 487,
+      "original_hex": "DADDCCDED7DDC4",
+      "patched_hex": "52454D4252414E4454",
+      "original_name": "レンブラント",
+      "editor_name": "REMBRANDT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 488,
+      "original_hex": "DBB2C4DE",
+      "patched_hex": "4C4C4F5944",
+      "original_name": "ロイド",
+      "editor_name": "LLOYD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 489,
+      "original_hex": "DBBDCFDD",
+      "patched_hex": "524F54484D414E",
+      "original_name": "ロスマン",
+      "editor_name": "ROTHMAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 490,
+      "original_hex": "DBAFB8",
+      "patched_hex": "4C4F434B45",
+      "original_name": "ロック",
+      "editor_name": "LOCKE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 491,
+      "original_hex": "DBB8DEC5B0",
+      "patched_hex": "524F474E4552",
+      "original_name": "ログナー",
+      "editor_name": "ROGNER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 492,
+      "original_hex": "DBBCDEACB0",
+      "patched_hex": "524F474552",
+      "original_name": "ロジャー",
+      "editor_name": "ROGER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 493,
+      "original_hex": "DBC4DED8B9DEBD",
+      "patched_hex": "524F4452494755455A",
+      "original_name": "ロドリゲス",
+      "editor_name": "RODRIGUEZ",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 494,
+      "original_hex": "DBCBDEDD",
+      "patched_hex": "524F42494E",
+      "original_name": "ロビン",
+      "editor_name": "ROBIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 495,
+      "original_hex": "DBCDDED9C4",
+      "patched_hex": "524F424552544F",
+      "original_name": "ロベルト",
+      "editor_name": "ROBERTO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 496,
+      "original_hex": "DBC5D9C4DE",
+      "patched_hex": "524F4E414C44",
+      "original_name": "ロナルド",
+      "editor_name": "RONALD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 497,
+      "original_hex": "DBD1",
+      "patched_hex": "524F4D",
+      "original_name": "ロム",
+      "editor_name": "ROM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 498,
+      "original_hex": "DBB0D7DD",
+      "patched_hex": "4C415552454E54",
+      "original_name": "ローラン",
+      "editor_name": "LAURENT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 499,
+      "original_hex": "DBDADDBD",
+      "patched_hex": "4C415752454E4345",
+      "original_name": "ロレンス",
+      "editor_name": "LAWRENCE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 500,
+      "original_hex": "DCB2D9C4DE",
+      "patched_hex": "57494C44",
+      "original_name": "ワイルド",
+      "editor_name": "WILD",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 501,
+      "original_hex": "DCB0BD",
+      "patched_hex": "574F525448",
+      "original_name": "ワース",
+      "editor_name": "WORTH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 502,
+      "original_hex": "DCAFC4",
+      "patched_hex": "57415454",
+      "original_name": "ワット",
+      "editor_name": "WATT",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 503,
+      "original_hex": "DCC4BFDD",
+      "patched_hex": "574154534F4E",
+      "original_name": "ワトソン",
+      "editor_name": "WATSON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 504,
+      "original_hex": "DCD1",
+      "patched_hex": "5748414D",
+      "original_name": "ワム",
+      "editor_name": "WHAM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 505,
+      "original_hex": "DCB0B8DEC5B0",
+      "patched_hex": "5741474E4552",
+      "original_name": "ワーグナー",
+      "editor_name": "WAGNER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 506,
+      "original_hex": "C4DEB8C0B0CCB0",
+      "patched_hex": "444F43544F5257484F",
+      "original_name": "ドクターフー",
+      "editor_name": "DOCTORWHO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 507,
+      "original_hex": "",
+      "patched_hex": "",
+      "original_name": "Name ID 507",
+      "editor_name": "Name ID 507",
+      "source": "fallback-empty"
+    },
+    {
+      "index": 508,
+      "original_hex": "",
+      "patched_hex": "",
+      "original_name": "Name ID 508",
+      "editor_name": "Name ID 508",
+      "source": "fallback-empty"
+    },
+    {
+      "index": 509,
+      "original_hex": "",
+      "patched_hex": "",
+      "original_name": "Name ID 509",
+      "editor_name": "Name ID 509",
+      "source": "fallback-empty"
+    },
+    {
+      "index": 510,
+      "original_hex": "",
+      "patched_hex": "",
+      "original_name": "Name ID 510",
+      "editor_name": "Name ID 510",
+      "source": "fallback-empty"
+    },
+    {
+      "index": 511,
+      "original_hex": "",
+      "patched_hex": "",
+      "original_name": "Name ID 511",
+      "editor_name": "Name ID 511",
+      "source": "fallback-empty"
+    },
+    {
+      "index": 512,
+      "original_hex": "B1BDC4D8B1",
+      "patched_hex": "4153544F524941",
+      "original_name": "アストリア",
+      "editor_name": "ASTORIA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 513,
+      "original_hex": "B1DD",
+      "patched_hex": "C3",
+      "original_name": "アン",
+      "editor_name": "안",
+      "source": "custom-korean"
+    },
+    {
+      "index": 514,
+      "original_hex": "B1DDC5",
+      "patched_hex": "414E4E41",
+      "original_name": "アンナ",
+      "editor_name": "ANNA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 515,
+      "original_hex": "B2BBDECDDED7",
+      "patched_hex": "49534142454C4C41",
+      "original_name": "イザベラ",
+      "editor_name": "ISABELLA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 516,
+      "original_hex": "B2BFDED9C3DE",
+      "patched_hex": "CED0D6",
+      "original_name": "イゾルデ",
+      "editor_name": "이제크",
+      "source": "custom-korean"
+    },
+    {
+      "index": 517,
+      "original_hex": "B4B2C4DED8B1DD",
+      "patched_hex": "41445249414E",
+      "original_name": "エイドリアン",
+      "editor_name": "ADRIAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 518,
+      "original_hex": "B4CFC6B4D9",
+      "patched_hex": "454D4D414E55454C",
+      "original_name": "エマニエル",
+      "editor_name": "EMMANUEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 519,
+      "original_hex": "B4D8BBDECDDEBD",
+      "patched_hex": "454C495A4142455448",
+      "original_name": "エリザベス",
+      "editor_name": "ELIZABETH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 520,
+      "original_hex": "B4D8B0BEDE",
+      "patched_hex": "C6B7D0",
+      "original_name": "エリーゼ",
+      "editor_name": "엘리제",
+      "source": "custom-korean"
+    },
+    {
+      "index": 521,
+      "original_hex": "B4DAB2DD",
+      "patched_hex": "C4B3CF",
+      "original_name": "エレイン",
+      "editor_name": "에레인",
+      "source": "custom-korean"
+    },
+    {
+      "index": 522,
+      "original_hex": "B6B0D7",
+      "patched_hex": "D3AE",
+      "original_name": "カーラ",
+      "editor_name": "카라",
+      "source": "custom-korean"
+    },
+    {
+      "index": 523,
+      "original_hex": "B7ACDBD9",
+      "patched_hex": "4341524F4C",
+      "original_name": "キャロル",
+      "editor_name": "CAROL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 524,
+      "original_hex": "B8D8BDC3A8",
+      "patched_hex": "43485249535459",
+      "original_name": "クリスティ",
+      "editor_name": "CHRISTY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 525,
+      "original_hex": "BAC3A8B0",
+      "patched_hex": "434F5459",
+      "original_name": "コティー",
+      "editor_name": "COTY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 526,
+      "original_hex": "BBD7BB",
+      "patched_hex": "BFAEC0",
+      "original_name": "サラサ",
+      "editor_name": "신라스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 527,
+      "original_hex": "BBD8B1",
+      "patched_hex": "BFB7C2",
+      "original_name": "サリア",
+      "editor_name": "신리아",
+      "source": "custom-korean"
+    },
+    {
+      "index": 528,
+      "original_hex": "BBD8B0",
+      "patched_hex": "BFB7",
+      "original_name": "サリー",
+      "editor_name": "신리",
+      "source": "custom-korean"
+    },
+    {
+      "index": 529,
+      "original_hex": "BCB6DEC6B0",
+      "patched_hex": "5349474F55524E4559",
+      "original_name": "シガニー",
+      "editor_name": "SIGOURNEY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 530,
+      "original_hex": "BCDEADC3DEA8",
+      "patched_hex": "4A554459",
+      "original_name": "ジュディ",
+      "editor_name": "JUDY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 531,
+      "original_hex": "BCDEADD8B0",
+      "patched_hex": "4A554C4945",
+      "original_name": "ジュリー",
+      "editor_name": "JULIE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 532,
+      "original_hex": "BCAAB2B7B2",
+      "patched_hex": "5348414B4559",
+      "original_name": "シェイキイ",
+      "editor_name": "SHAKEY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 533,
+      "original_hex": "BCDEAAC6B0",
+      "patched_hex": "4A454E4E59",
+      "original_name": "ジェニー",
+      "editor_name": "JENNY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 534,
+      "original_hex": "BCDEAAB0DD",
+      "patched_hex": "D0CF",
+      "original_name": "ジェーン",
+      "editor_name": "제인",
+      "source": "custom-korean"
+    },
+    {
+      "index": 535,
+      "original_hex": "BCDEAAC6CCA7B0",
+      "patched_hex": "4A454E4E49464552",
+      "original_name": "ジェニファー",
+      "editor_name": "JENNIFER",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 536,
+      "original_hex": "BCDEAEBECCA8B0C7",
+      "patched_hex": "4A4F53455048494E45",
+      "original_name": "ジョセフィーヌ",
+      "editor_name": "JOSEPHINE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 537,
+      "original_hex": "BCD9CBDEB1",
+      "patched_hex": "53594C564941",
+      "original_name": "シルビア",
+      "editor_name": "SYLVIA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 538,
+      "original_hex": "BCDDBCB1",
+      "patched_hex": "43594E54484941",
+      "original_name": "シンシア",
+      "editor_name": "CYNTHIA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 539,
+      "original_hex": "BDB0BBDEDD",
+      "patched_hex": "535553414E",
+      "original_name": "スーザン",
+      "editor_name": "SUSAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 540,
+      "original_hex": "BFC6B1",
+      "patched_hex": "534F4E4941",
+      "original_name": "ソニア",
+      "editor_name": "SONIA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 541,
+      "original_hex": "C0DEB2B1C5",
+      "patched_hex": "4449414E41",
+      "original_name": "ダイアナ",
+      "editor_name": "DIANA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 542,
+      "original_hex": "C1AAD9BCB0",
+      "patched_hex": "4348454C534541",
+      "original_name": "チェルシー",
+      "editor_name": "CHELSEA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 543,
+      "original_hex": "C3DED0",
+      "patched_hex": "44454D49",
+      "original_name": "デミ",
+      "editor_name": "DEMI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 544,
+      "original_hex": "C4DAB2BCB0",
+      "patched_hex": "DBB3CEC1",
+      "original_name": "トレイシー",
+      "editor_name": "트레이시",
+      "source": "custom-korean"
+    },
+    {
+      "index": 545,
+      "original_hex": "C5C0B0BCAC",
+      "patched_hex": "4E415441534841",
+      "original_name": "ナターシャ",
+      "editor_name": "NATASHA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 546,
+      "original_hex": "C5C0D8B0",
+      "patched_hex": "4E4154414C4945",
+      "original_name": "ナタリー",
+      "editor_name": "NATALIE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 547,
+      "original_hex": "C6B0C5",
+      "patched_hex": "4E494E41",
+      "original_name": "ニーナ",
+      "editor_name": "NINA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 548,
+      "original_hex": "C6D0ADB0",
+      "patched_hex": "4E494D5545",
+      "original_name": "ニミュー",
+      "editor_name": "NIMUE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 549,
+      "original_hex": "CADEB0CADED7",
+      "patched_hex": "BCBCAE",
+      "original_name": "バーバラ",
+      "editor_name": "바바라",
+      "source": "custom-korean"
+    },
+    {
+      "index": 550,
+      "original_hex": "CAC6B0",
+      "patched_hex": "484F4E4559",
+      "original_name": "ハニー",
+      "editor_name": "HONEY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 551,
+      "original_hex": "CBDEC8CBDEB1",
+      "patched_hex": "56494E41564941",
+      "original_name": "ビネビア",
+      "editor_name": "VINAVIA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 552,
+      "original_hex": "CBDED8B1DD",
+      "patched_hex": "56494C4C49414E",
+      "original_name": "ビリアン",
+      "editor_name": "VILLIAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 553,
+      "original_hex": "CCDED8BCDEAFC4",
+      "patched_hex": "42524944474554",
+      "original_name": "ブリジット",
+      "editor_name": "BRIDGET",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 554,
+      "original_hex": "CCDFD8BEDD",
+      "patched_hex": "DDB7B4",
+      "original_name": "プリセン",
+      "editor_name": "프리렌",
+      "source": "custom-korean"
+    },
+    {
+      "index": 555,
+      "original_hex": "CCDBB0DADDBD",
+      "patched_hex": "464C4F52454E4345",
+      "original_name": "フローレンス",
+      "editor_name": "FLORENCE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 556,
+      "original_hex": "CFD8B1DD",
+      "patched_hex": "4D415249414E",
+      "original_name": "マリアン",
+      "editor_name": "MARIAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 557,
+      "original_hex": "CFD8D8DD",
+      "patched_hex": "4D4152494C594E",
+      "original_name": "マリリン",
+      "editor_name": "MARILYN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 558,
+      "original_hex": "D0D0",
+      "patched_hex": "4D494D49",
+      "original_name": "ミミ",
+      "editor_name": "MIMI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 559,
+      "original_hex": "D0D8B0",
+      "patched_hex": "4D494C4C59",
+      "original_name": "ミリー",
+      "editor_name": "MILLY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 560,
+      "original_hex": "D2B1D8B0",
+      "patched_hex": "4D415259",
+      "original_name": "メアリー",
+      "editor_name": "MARY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 561,
+      "original_hex": "D2B8DE",
+      "patched_hex": "4D4547",
+      "original_name": "メグ",
+      "editor_name": "MEG",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 562,
+      "original_hex": "D3C5D8BB",
+      "patched_hex": "4D4F4E41204C495341",
+      "original_name": "モナリサ",
+      "editor_name": "MONA LISA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 563,
+      "original_hex": "D3DDDBB0",
+      "patched_hex": "4D4F4E524F45",
+      "original_name": "モンロー",
+      "editor_name": "MONROE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 564,
+      "original_hex": "D5D8B1",
+      "patched_hex": "59554C4941",
+      "original_name": "ユリア",
+      "editor_name": "YULIA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 565,
+      "original_hex": "D7D7",
+      "patched_hex": "AEAE",
+      "original_name": "ララ",
+      "editor_name": "라라",
+      "source": "custom-korean"
+    },
+    {
+      "index": 566,
+      "original_hex": "D8D8B1",
+      "patched_hex": "B7B7C2",
+      "original_name": "リリア",
+      "editor_name": "리리아",
+      "source": "custom-korean"
+    },
+    {
+      "index": 567,
+      "original_hex": "D9CBDEB0",
+      "patched_hex": "52554259",
+      "original_name": "ルビー",
+      "editor_name": "RUBY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 568,
+      "original_hex": "DAB2C1AAD9",
+      "patched_hex": "52414348454C",
+      "original_name": "レイチェル",
+      "editor_name": "RACHEL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 569,
+      "original_hex": "DBBBDEDDC5",
+      "patched_hex": "524F53414E4E41",
+      "original_name": "ロザンナ",
+      "editor_name": "ROSANNA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 570,
+      "original_hex": "DBB0BDDE",
+      "patched_hex": "524F5345",
+      "original_name": "ローズ",
+      "editor_name": "ROSE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 571,
+      "original_hex": "DBB0D7",
+      "patched_hex": "4C4F4C41",
+      "original_name": "ローラ",
+      "editor_name": "LOLA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 572,
+      "original_hex": "DBDDD8B1",
+      "patched_hex": "B5B7C2",
+      "original_name": "ロンリア",
+      "editor_name": "론리아",
+      "source": "custom-korean"
+    },
+    {
+      "index": 573,
+      "original_hex": "",
+      "patched_hex": "",
+      "original_name": "Name ID 573",
+      "editor_name": "Name ID 573",
+      "source": "fallback-empty"
+    },
+    {
+      "index": 574,
+      "original_hex": "",
+      "patched_hex": "",
+      "original_name": "Name ID 574",
+      "editor_name": "Name ID 574",
+      "source": "fallback-empty"
+    },
+    {
+      "index": 575,
+      "original_hex": "",
+      "patched_hex": "",
+      "original_name": "Name ID 575",
+      "editor_name": "Name ID 575",
+      "source": "fallback-empty"
+    },
+    {
+      "index": 576,
+      "original_hex": "B4D9CCA8DD",
+      "patched_hex": "454C46494E",
+      "original_name": "エルフィン",
+      "editor_name": "ELFIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 577,
+      "original_hex": "B4D9CCA7DD",
+      "patched_hex": "454C46414E",
+      "original_name": "エルファン",
+      "editor_name": "ELFAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 578,
+      "original_hex": "B4D9CCB6DEDDC4DE",
+      "patched_hex": "C6DDA5AC",
+      "original_name": "エルフガンド",
+      "editor_name": "엘프간드",
+      "source": "custom-korean"
+    },
+    {
+      "index": 579,
+      "original_hex": "B4D9C6B0C6AE",
+      "patched_hex": "454C4E494E4F",
+      "original_name": "エルニーニョ",
+      "editor_name": "ELNINO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 580,
+      "original_hex": "B4D9CCDBB0DADD",
+      "patched_hex": "454C464C4F52454E",
+      "original_name": "エルフローレン",
+      "editor_name": "ELFLOREN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 581,
+      "original_hex": "B4D9B1D7B2D2DD",
+      "patched_hex": "454C414C41594D454E",
+      "original_name": "エルアライメン",
+      "editor_name": "ELALAYMEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 582,
+      "original_hex": "B4D9C4DED7C4DE",
+      "patched_hex": "454C444F5241444F",
+      "original_name": "エルドラド",
+      "editor_name": "ELDORADO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 583,
+      "original_hex": "B4D9D2BD",
+      "patched_hex": "454C4D4553",
+      "original_name": "エルメス",
+      "editor_name": "ELMES",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 584,
+      "original_hex": "B4D9B4D8",
+      "patched_hex": "454C454C49",
+      "original_name": "エルエリ",
+      "editor_name": "ELELI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 585,
+      "original_hex": "B4D9B3AAB2",
+      "patched_hex": "454C574159",
+      "original_name": "エルウェイ",
+      "editor_name": "ELWAY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 586,
+      "original_hex": "B4D9CADFC1B0C9",
+      "patched_hex": "C6DCD2AB",
+      "original_name": "エルパチーノ",
+      "editor_name": "엘파치노",
+      "source": "custom-korean"
+    },
+    {
+      "index": 587,
+      "original_hex": "B4D9BBD9CADEC4DED9",
+      "patched_hex": "454C53414C5641444F",
+      "original_name": "エルサルバドル",
+      "editor_name": "ELSALVADO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 588,
+      "original_hex": "B4D9CCD9",
+      "patched_hex": "C6DDB6",
+      "original_name": "エルフル",
+      "editor_name": "엘프르",
+      "source": "custom-korean"
+    },
+    {
+      "index": 589,
+      "original_hex": "B4D9BDB2B0C4",
+      "patched_hex": "454C5357454554",
+      "original_name": "エルスイート",
+      "editor_name": "ELSWEET",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 590,
+      "original_hex": "B4D9BBB2B0BDDE",
+      "patched_hex": "454C53415953",
+      "original_name": "エルサイーズ",
+      "editor_name": "ELSAYS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 591,
+      "original_hex": "B4D9D1",
+      "patched_hex": "454C4D",
+      "original_name": "エルム",
+      "editor_name": "ELM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 592,
+      "original_hex": "B4D9BBDAD1",
+      "patched_hex": "454C53414C454D",
+      "original_name": "エルサレム",
+      "editor_name": "ELSALEM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 593,
+      "original_hex": "B4D9C4AFB7AD",
+      "patched_hex": "454C544F4B5955",
+      "original_name": "エルトッキュ",
+      "editor_name": "ELTOKYU",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 594,
+      "original_hex": "B4D9CCD7DDBD",
+      "patched_hex": "C6DDAFC0",
+      "original_name": "エルフランス",
+      "editor_name": "엘프란스",
+      "source": "custom-korean"
+    },
+    {
+      "index": 595,
+      "original_hex": "B4B0D9BCDEDDBCDEAC",
+      "patched_hex": "454C47494E4741",
+      "original_name": "エールジンジャ",
+      "editor_name": "ELGINGA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 596,
+      "original_hex": "B4D9CCBBB0CBDEBD",
+      "patched_hex": "454C46534552564943",
+      "original_name": "エルフサービス",
+      "editor_name": "ELFSERVIC",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 597,
+      "original_hex": "BADED7B2B1DD",
+      "patched_hex": "D5AECEC5",
+      "original_name": "ゴライアン",
+      "editor_name": "크라이알",
+      "source": "custom-korean"
+    },
+    {
+      "index": 598,
+      "original_hex": "BADEB0B6DEDD",
+      "patched_hex": "474F47414E",
+      "original_name": "ゴーガン",
+      "editor_name": "GOGAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 599,
+      "original_hex": "BADEC4DEB3AADD",
+      "patched_hex": "474F4457454E",
+      "original_name": "ゴドウェン",
+      "editor_name": "GODWEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 600,
+      "original_hex": "BADED7B8BEDD",
+      "patched_hex": "474F52414B53454E",
+      "original_name": "ゴラクセン",
+      "editor_name": "GORAKSEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 601,
+      "original_hex": "BADEB6B2DD",
+      "patched_hex": "474F4B414E",
+      "original_name": "ゴカイン",
+      "editor_name": "GOKAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 602,
+      "original_hex": "BADECCDED8B6DEDD",
+      "patched_hex": "474F42524947414E",
+      "original_name": "ゴブリガン",
+      "editor_name": "GOBRIGAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 603,
+      "original_hex": "BADED7DD",
+      "patched_hex": "A7AF",
+      "original_name": "ゴラン",
+      "editor_name": "고란",
+      "source": "custom-korean"
+    },
+    {
+      "index": 604,
+      "original_hex": "B5D7BCD7DD",
+      "patched_hex": "4F524143494C414E",
+      "original_name": "オラシラン",
+      "editor_name": "ORACILAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 605,
+      "original_hex": "B5D7BAAFC0",
+      "patched_hex": "4F4C41434F545441",
+      "original_name": "オラコッタ",
+      "editor_name": "OLACOTTA",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 606,
+      "original_hex": "BADDC0DED1",
+      "patched_hex": "434F4E44414D",
+      "original_name": "コンダム",
+      "editor_name": "CONDAM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 607,
+      "original_hex": "C4DEB3C0DED1",
+      "patched_hex": "444F5544414D",
+      "original_name": "ドウダム",
+      "editor_name": "DOUDAM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 608,
+      "original_hex": "C4DED9C4D1",
+      "patched_hex": "444F52544D",
+      "original_name": "ドルトム",
+      "editor_name": "DORTM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 609,
+      "original_hex": "CADDC3DED1",
+      "patched_hex": "48414E44454D",
+      "original_name": "ハンデム",
+      "editor_name": "HANDEM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 610,
+      "original_hex": "DAB8C0DED1",
+      "patched_hex": "52454B44414D",
+      "original_name": "レクダム",
+      "editor_name": "REKDAM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 611,
+      "original_hex": "DBAFC3D1",
+      "patched_hex": "524F54454D",
+      "original_name": "ロッテム",
+      "editor_name": "ROTEM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 612,
+      "original_hex": "D0C6CFD1",
+      "patched_hex": "4D494E494D554D",
+      "original_name": "ミニマム",
+      "editor_name": "MINIMUM",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 613,
+      "original_hex": "B8D7B2DD",
+      "patched_hex": "D6AECF",
+      "original_name": "クライン",
+      "editor_name": "크라인",
+      "source": "custom-korean"
+    },
+    {
+      "index": 614,
+      "original_hex": "B9DEDADD",
+      "patched_hex": "474552454E",
+      "original_name": "ゲレン",
+      "editor_name": "GEREN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 615,
+      "original_hex": "CADFDDB7DD",
+      "patched_hex": "50554E4B494E",
+      "original_name": "パンキン",
+      "editor_name": "PUNKIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 616,
+      "original_hex": "CBDFB0C4",
+      "patched_hex": "50455445",
+      "original_name": "ピート",
+      "editor_name": "PETE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 617,
+      "original_hex": "CBDED9CEDEBD",
+      "patched_hex": "42494C424F5353",
+      "original_name": "ビルボス",
+      "editor_name": "BILBOSS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 618,
+      "original_hex": "D4DDBEDD",
+      "patched_hex": "4A414E5353454E",
+      "original_name": "ヤンセン",
+      "editor_name": "JANSSEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 619,
+      "original_hex": "C3DED9CAB2D9",
+      "patched_hex": "44454C4845494C",
+      "original_name": "デルハイル",
+      "editor_name": "DELHEIL",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 620,
+      "original_hex": "B9DDC0BD",
+      "patched_hex": "4B454E544153",
+      "original_name": "ケンタス",
+      "editor_name": "KENTAS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 621,
+      "original_hex": "B9DDC0C4B0B8",
+      "patched_hex": "4B454E544154414C4B",
+      "original_name": "ケンタトーク",
+      "editor_name": "KENTATALK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 622,
+      "original_hex": "B9DDC0B2DD",
+      "patched_hex": "4B454E5441494E",
+      "original_name": "ケンタイン",
+      "editor_name": "KENTAIN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 623,
+      "original_hex": "B9DDC0BBDDB8",
+      "patched_hex": "4B454E544153414E4B",
+      "original_name": "ケンタサンク",
+      "editor_name": "KENTASANK",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 624,
+      "original_hex": "B9DDC0C7BD",
+      "patched_hex": "4B454E54414E5553",
+      "original_name": "ケンタヌス",
+      "editor_name": "KENTANUS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 625,
+      "original_hex": "B9DDC0D1BABD",
+      "patched_hex": "4B454E54414D434F53",
+      "original_name": "ケンタムコス",
+      "editor_name": "KENTAMCOS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 626,
+      "original_hex": "B9DDC0B0B6DEB2",
+      "patched_hex": "4B454E5441474159",
+      "original_name": "ケンターガイ",
+      "editor_name": "KENTAGAY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 627,
+      "original_hex": "B9DDC0CE",
+      "patched_hex": "4B454E5441484F",
+      "original_name": "ケンタホ",
+      "editor_name": "KENTAHO",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 628,
+      "original_hex": "B9DDC0B6B0B4",
+      "patched_hex": "4B454E54414B4145",
+      "original_name": "ケンタカーエ",
+      "editor_name": "KENTAKAE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 629,
+      "original_hex": "B9DDC0B0D7B2D9",
+      "patched_hex": "4B454E54414C594C45",
+      "original_name": "ケンターライル",
+      "editor_name": "KENTALYLE",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 630,
+      "original_hex": "B9DDC0AFB8BD",
+      "patched_hex": "4B454E544158",
+      "original_name": "ケンタックス",
+      "editor_name": "KENTAX",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 631,
+      "original_hex": "B9DDC0D9B5B0",
+      "patched_hex": "4B454E544152554F48",
+      "original_name": "ケンタルオー",
+      "editor_name": "KENTARUOH",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 632,
+      "original_hex": "B9DDC0C9B0BC",
+      "patched_hex": "43454E54414E4F5353",
+      "original_name": "ケンタノーシ",
+      "editor_name": "CENTANOSS",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 633,
+      "original_hex": "B9DDC0B0B9DD",
+      "patched_hex": "4B454E54414B454E",
+      "original_name": "ケンターケン",
+      "editor_name": "KENTAKEN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 634,
+      "original_hex": "B9DDC0B2B7",
+      "patched_hex": "4B454E5441494B49",
+      "original_name": "ケンタイキ",
+      "editor_name": "KENTAIKI",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 635,
+      "original_hex": "B9DDC0AFB7B0",
+      "patched_hex": "4B454E5455434B59",
+      "original_name": "ケンタッキー",
+      "editor_name": "KENTUCKY",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 636,
+      "original_hex": "B9DEC4DE",
+      "patched_hex": "474544",
+      "original_name": "ゲド",
+      "editor_name": "GED",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 637,
+      "original_hex": "B9DEB0DBDD",
+      "patched_hex": "4745524F4E",
+      "original_name": "ゲーロン",
+      "editor_name": "GERON",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 638,
+      "original_hex": "B9DED7DD",
+      "patched_hex": "474552414E",
+      "original_name": "ゲラン",
+      "editor_name": "GERAN",
+      "source": "ascii-patched"
+    },
+    {
+      "index": 639,
+      "original_hex": "B9DEB2D9",
+      "patched_hex": "4741494C",
+      "original_name": "ゲイル",
+      "editor_name": "GAIL",
+      "source": "ascii-patched"
+    }
+  ]
+}

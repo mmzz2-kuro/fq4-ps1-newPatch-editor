@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File tools/scripts/build_fq4_save_editor_exe.ps1
