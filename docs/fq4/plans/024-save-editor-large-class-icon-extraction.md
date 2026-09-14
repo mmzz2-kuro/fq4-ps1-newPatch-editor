@@ -1,6 +1,6 @@
 # FQ4-PLAN-024 세이브 에디터 대형 CLASS 이미지 추출 보정
 - 작성일: 2026-09-14
-- 상태: **사용자 확인 대기**
+- 상태: **완료**
 - 대상 도구: `tools/FQ4SaveEditor/`
 - 관련 스크립트: `tools/scripts/extract_fq4_class_icons.py`
 - 완료 문서 예정: `docs/fq4/finish/024-save-editor-large-class-icon-extraction.md`

@@ -1,2816 +1,2992 @@
 [
   {
     "id": 0,
-    "name": "キング",
+    "name": "왕(아레스-전)-[카리온]",
     "icon": "class_icons/class-000.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C00.P",
     "source_lba": 2192,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "fe4df35e267886d5a03e4c7f3d75a3c21c3f21c2112b089123cd607c16d59a3a"
   },
   {
     "id": 1,
-    "name": "ユウシャ",
+    "name": "용사(에레인)-[카리온]",
     "icon": "class_icons/class-001.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C01.P",
     "source_lba": 2198,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "5bee210c70fbf5fbd6dfa8260c1c1da2b43ab3c2946428aa1caca8db3cafbbe6"
   },
   {
     "id": 2,
-    "name": "プリンス",
+    "name": "왕자(알프레드-전)-[카리온]",
     "icon": "class_icons/class-002.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C02.P",
     "source_lba": 2204,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "ab24f8846dc3ad5878ff6658ae8bd3b60363de4166452627e7832de5e44151e3"
   },
   {
     "id": 3,
-    "name": "マスターナイト",
+    "name": "마스터나이트(곤라트)-[카리온]",
     "icon": "class_icons/class-003.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C03.P",
     "source_lba": 2210,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "039adde05cacd7dbd060a84469dc293bd5aebf462eedfa3d3b561f6f636723e9"
   },
   {
     "id": 4,
-    "name": "マスター",
+    "name": "마스터(라모크)-[카리온]",
     "icon": "class_icons/class-004.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C04.P",
     "source_lba": 2216,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "b815635ccc78c2831b54f041c360d95abdb3b7999b61fab63f1c43c1fa332576"
   },
   {
     "id": 5,
-    "name": "キング",
+    "name": "왕(케크-전)-[베니크]",
     "icon": "class_icons/class-005.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C05.P",
     "source_lba": 2222,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "53e9c08fd9703321f16a5bde958dfda6913999df43f15446cb6fe314553ae3be"
   },
   {
     "id": 6,
-    "name": "キング",
+    "name": "왕(아레스-후)",
     "icon": "class_icons/class-006.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C06.P",
     "source_lba": 2228,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "0f29f147e5e4bddf923feb018bd0a5403e1c109bba742e24b9b4bcfc0bd7a24d"
   },
   {
     "id": 7,
-    "name": "ショウニン",
+    "name": "상인",
     "icon": "class_icons/class-007.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C07.P",
     "source_lba": 2234,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "331f709143ad4dfa968add423dc102d0850b15e1b1dbe400ab5c54e047c95f62"
   },
   {
     "id": 8,
-    "name": "キャプテン",
+    "name": "캡틴(트라크)",
     "icon": "class_icons/class-008.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C08.P",
     "source_lba": 2240,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "6489798942e3c566787e63c48d0e046d428d38b839d026ec3bbf048b491b68e1"
   },
   {
     "id": 9,
-    "name": "アマゾネス",
+    "name": "아마조네스(루리아)",
     "icon": "class_icons/class-009.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C09.P",
     "source_lba": 2246,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "70ba256bd26b5f079249e2a50109bb51970b6c6ba56efe4cc129d372899389e1"
   },
   {
     "id": 10,
-    "name": "エクソシスト",
+    "name": "엑소시스트(슈이키)",
     "icon": "class_icons/class-010.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C0A.P",
     "source_lba": 2252,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "0793a75aea31fe9ac0913bd9a7f3247ccb1b3d4f6614698cb975c96204ec4b13"
   },
   {
     "id": 11,
-    "name": "ナース",
+    "name": "간호사",
     "icon": "class_icons/class-011.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C0B.P",
     "source_lba": 2258,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "859a870165e05d5f8e645a6b84825181cc6426344f7a09855af1285c2725657f"
   },
   {
     "id": 12,
-    "name": "マスター",
+    "name": "마스터(마법성주인)",
     "icon": "class_icons/class-012.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C0C.P",
     "source_lba": 2264,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "924e1d436594da1c1d9c792e3d6c174485a1ffb8d081467b1509f9198cc8b6f9"
   },
   {
     "id": 13,
-    "name": "ウィッチ",
+    "name": "위치(마법성-에라)",
     "icon": "class_icons/class-013.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C0D.P",
     "source_lba": 2270,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "8c0774e3a6da1c34ceec48e99bf804867d7db81a6185277536e5d7f732b8a34a"
   },
   {
     "id": 14,
-    "name": "ケモノツカイ",
+    "name": "조련사(토렌크)",
     "icon": "class_icons/class-014.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C0E.P",
     "source_lba": 2276,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "db079178d73fd14f6d695cfa3c414d7c12fd1c40c9f7ed92dd8b5b9be907e9b7"
   },
   {
     "id": 15,
-    "name": "タクティシャン",
+    "name": "전술사",
     "icon": "class_icons/class-015.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR0/C0F.P",
     "source_lba": 2282,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "569f836f45e4b56e270fc50cf9a1c1ba4a7b5cbc84b89673eaeed2f8b778fe1c"
   },
   {
     "id": 16,
-    "name": "マスター",
+    "name": "마스터(헤이아치)-[휴리아]",
     "icon": "class_icons/class-016.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C10.P",
     "source_lba": 2289,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "877267c6481f624198ba3d533e94014d3b23b9f7a861d0e4bfcf5c28611b55cd"
   },
   {
     "id": 17,
-    "name": "マスター",
+    "name": "마스터(여성형)-[그레이스]",
     "icon": "class_icons/class-017.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C11.P",
     "source_lba": 2295,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "46dd7feb81ac6f94515fc99d2ec811fc608d2231b984097338c890ddbb1ff730"
   },
   {
     "id": 18,
-    "name": "プリースト",
+    "name": "프리스트(얀샤프)",
     "icon": "class_icons/class-018.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C12.P",
     "source_lba": 2301,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "49e3294aa9a468e76a00a7a1385e5e1add07bfd6b36f97510113a9dfbd8c6f87"
   },
   {
     "id": 19,
-    "name": "モンク",
+    "name": "몽크",
     "icon": "class_icons/class-019.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C13.P",
     "source_lba": 2307,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "d88cac842cc05053d5d7f5a0e498809fb9c8c8e24690cf695b63ed863dd86b9a"
   },
   {
     "id": 20,
-    "name": "プリーステス",
+    "name": "프리스테스(여성직자)-[그레이스]",
     "icon": "class_icons/class-020.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C14.P",
     "source_lba": 2313,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "6073c9f32a308056d2b6228c16f1f5bd41aee1488c07f091ba15b775fe1950c3"
   },
   {
     "id": 21,
-    "name": "ウィッチ",
+    "name": "마녀(적군)",
     "icon": "class_icons/class-021.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C15.P",
     "source_lba": 2319,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "df5664966c2a27508612f0a259917db10306571073b468a91e6a8cfe64eb96a6"
   },
   {
     "id": 22,
-    "name": "マスターウィッチ",
+    "name": "마스터위치(이제클)",
     "icon": "class_icons/class-022.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C16.P",
     "source_lba": 2325,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "ac27c0474b64773ec475167e772e6cce56e942ab04608fafc650820f676f2a93"
   },
   {
     "id": 23,
-    "name": "ブラザー",
+    "name": "형제(칼)",
     "icon": "class_icons/class-023.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C17.P",
     "source_lba": 2331,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "5bd50a165eb2c56c5f1b64a9b082774a0f6b6a00750bceed6ca0fb8b942b98df"
   },
   {
     "id": 24,
-    "name": "ブラザー",
+    "name": "형제(칼방패)",
     "icon": "class_icons/class-024.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C18.P",
     "source_lba": 2337,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "45e72b469b0406efa903f03e7a6344392342889c5050200b0bbeffab180e1109"
   },
   {
     "id": 25,
-    "name": "ナイト",
+    "name": "나이트(라딘칼-트리스렌)",
     "icon": "class_icons/class-025.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C19.P",
     "source_lba": 2343,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "47352d715e18ed684e84a76c4e59089aeb7ae1f69880d8fe178030929f149041"
   },
   {
     "id": 26,
-    "name": "プリンス",
+    "name": "왕자(알프레드-후)",
     "icon": "class_icons/class-026.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C1A.P",
     "source_lba": 2349,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "181864bb675c019f0b4334ef87bdb25b5e9a3e519982b518b6775f9f5bc0d13e"
   },
   {
     "id": 27,
-    "name": "スカウト",
+    "name": "스카우트(도둑)",
     "icon": "class_icons/class-027.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C1B.P",
     "source_lba": 2355,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "0a788192b07410acd0c192fd2273c4ba1110a2ffd2670849a76b152899f8b5d4"
   },
   {
     "id": 28,
-    "name": "ニンジャ",
+    "name": "닌자",
     "icon": "class_icons/class-028.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C1C.P",
     "source_lba": 2361,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "59a1cf657c1423433faee6a7712b608d1a23138bc5cfd229e52f026e4f212829"
   },
   {
     "id": 29,
-    "name": "キング",
+    "name": "왕(제넬루)-[바르시아]",
     "icon": "class_icons/class-029.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C1D.P",
     "source_lba": 2367,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "f42e26c37734b38148bbeeefda08dd359a7da7fe12d08685e967e359a2cad02c"
   },
   {
     "id": 30,
-    "name": "ダイマドウシ",
+    "name": "대마도사-[바르시아]",
     "icon": "class_icons/class-030.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C1E.P",
     "source_lba": 2373,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "00ed90f0714b3c7c46441df07a364363e89edaa5d4c9415d36b2ec91a658da0f"
   },
   {
     "id": 31,
-    "name": "シテンノウ",
+    "name": "사천왕(바위)-[바르시아]",
     "icon": "class_icons/class-031.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR1/C1F.P",
     "source_lba": 2379,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 32
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "d8880e3626fb644afb111012c4f66d8fec9899714d4505fd6786c1d5302fb15b"
   },
   {
     "id": 32,
-    "name": "シテンノウ",
+    "name": "사천왕(노호크)-[바르시아]",
     "icon": "class_icons/class-032.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C20.P",
     "source_lba": 2384,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 32
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "d314ee949fd99ee27501eff631fdcc5f28ac5b7eb688b6f801682aaf287e72bd"
   },
   {
     "id": 33,
-    "name": "シテンノウ",
+    "name": "사천왕(불꽃)-[바르시아]",
     "icon": "class_icons/class-033.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C21.P",
     "source_lba": 2388,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 32
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "fb8819d54c6aefaecd1373be92f82086b69fb1b504b088c8ae2263c4ed7f74d9"
   },
   {
     "id": 34,
-    "name": "シテンノウ",
+    "name": "사천왕(바람)-[바르시아]",
     "icon": "class_icons/class-034.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C22.P",
     "source_lba": 2392,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 32
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "c3aeab7c855527eeeaa90d4f3297563322e902c1f2883d6fdc25fbbbb2c1cfeb"
   },
   {
     "id": 35,
-    "name": "キング",
+    "name": "왕()",
     "icon": "class_icons/class-035.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C23.P",
     "source_lba": 2396,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "c286a163a858bd6239ca4a63ec8549bd2c02a015348cc524426e7db02a14836f"
   },
   {
     "id": 36,
-    "name": "プリンス",
+    "name": "왕자(동마시아)-[바르시아]",
     "icon": "class_icons/class-036.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C24.P",
     "source_lba": 2402,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "3c455966bac138be9a2107420d4397d73f3d6833a337bab85459947a835338bd"
   },
   {
     "id": 37,
-    "name": "キング",
+    "name": "왕(동마시아)-[바르시아]",
     "icon": "class_icons/class-037.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C25.P",
     "source_lba": 2408,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "a88ab7dca9f9b0504a4c73a5352518b6fbc39ee4cc9302aa361702082e8d41f5"
   },
   {
     "id": 38,
-    "name": "ハイランダー",
+    "name": "하이랜더(돼지투사)",
     "icon": "class_icons/class-038.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C26.P",
     "source_lba": 2414,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "58979fe90bf77e221cf00c8a2191aba42890942afd5ebe5363cd158ece1fbe8f"
   },
   {
     "id": 39,
-    "name": "キング",
+    "name": "왕(알카니아)-[바르시아]",
     "icon": "class_icons/class-039.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C27.P",
     "source_lba": 2420,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "5db86068b86917f0fb808b90766ccafe2ccebd98a8e89b67181c2a2412f15a2f"
   },
   {
     "id": 40,
-    "name": "ブラックナイト",
+    "name": "블랙나이트(적군)-[바르시아]",
     "icon": "class_icons/class-040.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C28.P",
     "source_lba": 2426,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "4b6bec1bbc924acac96e99a819b73184e36370ef8246d6ff0f08b1565034dcbe"
   },
   {
     "id": 41,
-    "name": "バロン",
+    "name": "바론(적군)-[바르시아]",
     "icon": "class_icons/class-041.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C29.P",
     "source_lba": 2432,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "68858495c0eb6549110f1696e01a5999c44276c4dfaff84205ec65ee0805236d"
   },
   {
     "id": 42,
-    "name": "ロード",
+    "name": "로드(적군)-[바르시아]",
     "icon": "class_icons/class-042.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C2A.P",
     "source_lba": 2438,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "216451c5d2aeed336afccfae4c2b24d6751b33415eba23111a18db04972672f0"
   },
   {
     "id": 43,
-    "name": "レッドナイト",
+    "name": "레드나이트(적군)-[바르시아]",
     "icon": "class_icons/class-043.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C2B.P",
     "source_lba": 2444,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "fac8ea59e7bb315c527c9f7358574bc301c76795f6ee2cd24b8feea76a7caac1"
   },
   {
     "id": 44,
-    "name": "ネクロマンサー",
+    "name": "네크로맨서(적군)-[바르시아]",
     "icon": "class_icons/class-044.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C2C.P",
     "source_lba": 2450,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "04ed35304c1dbf11f6edb1d526a550e038196d10a638ea1dbec4aa1b98fe3e24"
   },
   {
     "id": 45,
-    "name": "マドウシ",
+    "name": "마도사(적군)-[바르시아]",
     "icon": "class_icons/class-045.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C2D.P",
     "source_lba": 2456,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "313a3685e40cc28f9eb569763d42a21ee875ed0ca1729b8562ef152173086308"
   },
   {
     "id": 46,
-    "name": "レッドロード",
+    "name": "레드로드(적군)-[바르시아]",
     "icon": "class_icons/class-046.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C2E.P",
     "source_lba": 2462,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "ca08970be1415b46fb61007f47d7eb4f3d580cb4482af20964058f14b4c1eb26"
   },
   {
     "id": 47,
-    "name": "バーバリアン",
+    "name": "바바리안(적군)-[바르시아]",
     "icon": "class_icons/class-047.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR2/C2F.P",
     "source_lba": 2468,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "8cd516b8f651ed82de155e52598c0a459a8670677a2fccaacde216a1f8ec91f4"
   },
   {
     "id": 48,
-    "name": "アタッカー",
+    "name": "어택커(적군)-[바르시아]",
     "icon": "class_icons/class-048.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C30.P",
     "source_lba": 2475,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "ee449da22aba7dfe0674cd5d6206814c17131920c3f3c90fe0383e5c03218b34"
   },
   {
     "id": 49,
-    "name": "ダークナイト",
+    "name": "다크나이트(적군)-[바르시아]",
     "icon": "class_icons/class-049.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C31.P",
     "source_lba": 2481,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "e34c911ac22ed5ab48b544bdc5fc59930404a3582f241f90a7b36c824b45de9c"
   },
   {
     "id": 50,
-    "name": "ヘルナイト",
+    "name": "헬나이트(적군)-[바르시아]",
     "icon": "class_icons/class-050.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C32.P",
     "source_lba": 2487,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "1a71c7805173ad906584c2047284bebdae630fd0ced70776736610a81e4ca202"
   },
   {
     "id": 51,
-    "name": "フルアーマー",
+    "name": "풀아머(적군)-[바르시아]",
     "icon": "class_icons/class-051.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C33.P",
     "source_lba": 2493,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "e6c6e449ad07aaea814835d22cef2ecc3de44c86f04e70c1bbe36527060ecf74"
   },
   {
     "id": 52,
-    "name": "ソードマン",
+    "name": "소드맨(적군)-[바르시아]",
     "icon": "class_icons/class-052.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C34.P",
     "source_lba": 2499,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "b7544119e4d905016349b8d10887a961a30651233040f3a04090d8c32052464c"
   },
   {
     "id": 53,
-    "name": "スカルナイト",
+    "name": "스컬나이트(미렌)",
     "icon": "class_icons/class-053.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C35.P",
     "source_lba": 2505,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "b130a9ecf127fb32994e2da317cbd6cbc62fe70f7a9c9f38970041475e392230"
   },
   {
     "id": 54,
-    "name": "レンジャー",
+    "name": "레인저(특전사)",
     "icon": "class_icons/class-054.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C36.P",
     "source_lba": 2511,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "a29611b866b99c0bea27721892a035d55480d5ea4cc5bf60d8c8bd2081130325"
   },
   {
     "id": 55,
-    "name": "レッドアーマー",
+    "name": "레드아머(빨간병사)",
     "icon": "class_icons/class-055.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C37.P",
     "source_lba": 2517,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "c2e9d8af75d2d04d1d76f19130d62d0fb8816f20f2d3cb6a15e7df90af6c6c6d"
   },
   {
     "id": 56,
-    "name": "ボウナイト",
+    "name": "보우나이트(동서마시아)-[바르시아]",
     "icon": "class_icons/class-056.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C38.P",
     "source_lba": 2523,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "a13dbda5400a4f28fae8875b52c0ed34ca93168fc30855ffe9933c9d810faf73"
   },
   {
     "id": 57,
-    "name": "B・ソルジャー",
+    "name": "B・솔져-[바르시아]",
     "icon": "class_icons/class-057.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C39.P",
     "source_lba": 2529,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "152cc3b9705a1bc83d9345bf4bea971684812aff70b1c45c9af3607b8bd2a357"
   },
   {
     "id": 58,
-    "name": "B・ファイター",
+    "name": "B・파이터-[바르시아]",
     "icon": "class_icons/class-058.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C3A.P",
     "source_lba": 2535,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "99d9f57aa91b8509f914b0e95808018ac982a5aee95d6ba186bbfdeac08b50d2"
   },
   {
     "id": 59,
-    "name": "B・シューター",
+    "name": "B・슈터-[바르시아]",
     "icon": "class_icons/class-059.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C3B.P",
     "source_lba": 2541,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "3adfbb1f3d8035eccb7fcc886abff1c1b154624e9c3a781e76a4c9154ad4260e"
   },
   {
     "id": 60,
-    "name": "M・ゴーレム",
+    "name": "M・골렘(독)",
     "icon": "class_icons/class-060.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C3C.P",
     "source_lba": 2547,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "4523042c90889d14a0cdb317069af447a30c0288954e60a819dda3751ed6148c"
   },
   {
     "id": 61,
-    "name": "I・ゴーレム",
+    "name": "I・골렘(석화)",
     "icon": "class_icons/class-061.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C3D.P",
     "source_lba": 2553,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "50cbea69c2dfab2b3ae018dc05907723977ae4462aaeaa7e73293ff719608850"
   },
   {
     "id": 62,
-    "name": "C・ゴーレム",
+    "name": "C・골렘(구름)",
     "icon": "class_icons/class-062.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C3E.P",
     "source_lba": 2559,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "b01fbc7e263442ee5b649fe33159d8f42390342d17d3ff624a3cb9438d189c3d"
   },
   {
     "id": 63,
-    "name": "キング",
+    "name": "왕(윌터)-[레스터]",
     "icon": "class_icons/class-063.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR3/C3F.P",
     "source_lba": 2565,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "7c157694e3951b8596ecd8db6ca934b93a9249c85141ae925c49d0b1deb5ed95"
   },
   {
     "id": 64,
-    "name": "マスター",
+    "name": "마스터-[레스터]",
     "icon": "class_icons/class-064.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C40.P",
     "source_lba": 2572,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "45f63c5852097474d209c42f6fca992c4bfad3cb54049c7bc0e36468bc85aef4"
   },
   {
     "id": 65,
-    "name": "カンフーマン",
+    "name": "쿵푸맨-[레스터]",
     "icon": "class_icons/class-065.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C41.P",
     "source_lba": 2578,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "04206ff8ea54e7fd5e902e61ff40fd227023d2b3e8bb9419e90b6987231336f7"
   },
   {
     "id": 66,
-    "name": "ユウシャ",
+    "name": "용사(여기사)-[레스터]",
     "icon": "class_icons/class-066.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C42.P",
     "source_lba": 2584,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "ec0c0e7452e8dd0fb369a40cfb484d73eafa10cb17acf542aa6f97d5f3e9fbf2"
   },
   {
     "id": 67,
-    "name": "レッドナイト",
+    "name": "레드나이트(적기사)-[레스터]",
     "icon": "class_icons/class-067.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C43.P",
     "source_lba": 2590,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "ec37b436f0dce52e7ae336f15a05681989c6449f9e83e9bcae1e5c66fabd34e3"
   },
   {
     "id": 68,
-    "name": "R・ソルジャー",
+    "name": "R・솔져-[레스터]",
     "icon": "class_icons/class-068.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C44.P",
     "source_lba": 2596,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "f355b7d73d229ca83699b84d59c7f273d6184f59662ccfffc2a0aa1c0105e29f"
   },
   {
     "id": 69,
-    "name": "R・シューター",
+    "name": "R・슈터-[레스터]",
     "icon": "class_icons/class-069.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C45.P",
     "source_lba": 2602,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "1c1f31e1c1221d85fa0c0c16b505c6cdcf64b344af4a150e51201e9ce1a4c694"
   },
   {
     "id": 70,
-    "name": "プリンス",
+    "name": "왕자(레크스)-[휴리아]",
     "icon": "class_icons/class-070.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C46.P",
     "source_lba": 2608,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "afec4befd7ba47ed6443729893f7c9a1a4c5a4ac435356322c53403aff9db7ae"
   },
   {
     "id": 71,
-    "name": "プリンス",
+    "name": "왕자(크렌/글렌)-[휴리아]",
     "icon": "class_icons/class-071.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C47.P",
     "source_lba": 2614,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "e7408d0191d97bd478feb32081340dd9eb6df2ca6d8874c4e609c9af68715cc9"
   },
   {
     "id": 72,
-    "name": "スリープナイト",
+    "name": "슬립나이트(키프트/길포드)-[휴리아]",
     "icon": "class_icons/class-072.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C48.P",
     "source_lba": 2620,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "71b5e86296abff638398abedec2679dbb7688367d8a8407ca76a6ee185d899c1"
   },
   {
     "id": 73,
-    "name": "ホワイトナイト",
+    "name": "화이트나이트-[휴리아]",
     "icon": "class_icons/class-073.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C49.P",
     "source_lba": 2626,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "a85e0ebb59f1acdf5032ac58dae2f015f03cf2b90396f56a3dd668038286b4f3"
   },
   {
     "id": 74,
-    "name": "ナイト",
+    "name": "나이트-[휴리아]",
     "icon": "class_icons/class-074.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C4A.P",
     "source_lba": 2632,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "7f14625bd2d4712758b0ff5acf5fbca1351980056313a5181a8cec45113a4644"
   },
   {
     "id": 75,
-    "name": "スピア",
+    "name": "스피어-[휴리아]",
     "icon": "class_icons/class-075.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C4B.P",
     "source_lba": 2638,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "07619d4c13d7eadf23921a45000a4df547fa8d1e4e095b4959958cae27506f5a"
   },
   {
     "id": 76,
-    "name": "ランス",
+    "name": "랜스-[휴리아]",
     "icon": "class_icons/class-076.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C4C.P",
     "source_lba": 2644,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "a9cec908940bfb0842c754d21c42bde865e41b553272c362e41f8a4dc3260cf5"
   },
   {
     "id": 77,
-    "name": "キング",
+    "name": "왕-[그레이스]",
     "icon": "class_icons/class-077.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C4D.P",
     "source_lba": 2650,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "21bad7d80cbd9f29f8dbba5e8c4643bbd3c720ba8bcb9e47f30ec91f4d6ceed0"
   },
   {
     "id": 78,
-    "name": "プリンセス",
+    "name": "공주-[그레이스]",
     "icon": "class_icons/class-078.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C4E.P",
     "source_lba": 2656,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "b93418483156cc7f8f9fbc46d5080b85fd2a8dade9dadc749a6cd3aa6f0a6ac6"
   },
   {
     "id": 79,
-    "name": "マスター",
+    "name": "마스터-[그레이스]",
     "icon": "class_icons/class-079.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR4/C4F.P",
     "source_lba": 2662,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "0c358152049a4fa0c1b159a1f4ede34ba0fc42d17f0900a55bd1021a5077676c"
   },
   {
     "id": 80,
-    "name": "バード",
+    "name": "바드(아폴로)",
     "icon": "class_icons/class-080.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C50.P",
     "source_lba": 2669,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "f5573dbb331fea4c7febe5576f85288dc533a70f9469cfa141e876b1b18c3412"
   },
   {
     "id": 81,
-    "name": "グリーンナイト",
+    "name": "그린나이트-[그레이스]",
     "icon": "class_icons/class-081.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C51.P",
     "source_lba": 2675,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "950961661eeef9522a720b584e4106009c903708313dab994965c236096a5919"
   },
   {
     "id": 82,
-    "name": "G・ソルジャー",
+    "name": "G・솔져-[그레이스]",
     "icon": "class_icons/class-082.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C52.P",
     "source_lba": 2681,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "5aeefed303e82c75e5d59adbbef218de869c782a5e0f75433e58f023da41c9fe"
   },
   {
     "id": 83,
-    "name": "G・ファイター",
+    "name": "G・파이터-[그레이스]",
     "icon": "class_icons/class-083.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C53.P",
     "source_lba": 2687,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "e66351d51ef4d0b2f0afd6965347c70ff7788a5258843e4993beb0c4b6a1b796"
   },
   {
     "id": 84,
-    "name": "ソルジャー",
+    "name": "솔져-[카리온]",
     "icon": "class_icons/class-084.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C54.P",
     "source_lba": 2693,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "ae4c4ae3403ece53b2fcb31320d3fb49d5915fadeaa28ac6813569e2804af2b7"
   },
   {
     "id": 85,
-    "name": "ファイター",
+    "name": "파이터-[카리온]",
     "icon": "class_icons/class-085.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C55.P",
     "source_lba": 2699,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "d4e5c2c11f02c4898e983363029f58fb0eee4cdeb170362b854dab2f768b7dd2"
   },
   {
     "id": 86,
-    "name": "ナイト",
+    "name": "나이트-[카리온]",
     "icon": "class_icons/class-086.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C56.P",
     "source_lba": 2705,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "26a785264011c2cfe822531223902def887a2259e9c0dff1d0fd42271eb61911"
   },
   {
     "id": 87,
-    "name": "シューター",
+    "name": "슈터-[카리온]",
     "icon": "class_icons/class-087.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C57.P",
     "source_lba": 2711,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "a118045b8cbd63ae88f4e4984d477df56961ca93b7781ca5b9b98e1f6f872707"
   },
   {
     "id": 88,
-    "name": "アーマーボウ",
+    "name": "아머보우-[카리온]",
     "icon": "class_icons/class-088.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C58.P",
     "source_lba": 2717,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "bb854c007afdf91e61c862fc89e9cdfa553a41fb9900d81940061db36e7a7aeb"
   },
   {
     "id": 89,
-    "name": "ダオ",
+    "name": "다오(소환-골렘)",
     "icon": "class_icons/class-089.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C59.P",
     "source_lba": 2723,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "785d651de55d349764b15e5681dbedf9db249ceab31a27547ea5b151076acc2d"
   },
   {
     "id": 90,
-    "name": "マリッド",
+    "name": "마리드(소환)",
     "icon": "class_icons/class-090.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C5A.P",
     "source_lba": 2729,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "51210281366e51380bd79a46c484582047bcb72c91a2b2fc93405bccc5112e60"
   },
   {
     "id": 91,
-    "name": "イーフリート",
+    "name": "이프리트(소환)",
     "icon": "class_icons/class-091.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C5B.P",
     "source_lba": 2735,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "49734a4b42e0b1dd91abec58a1efdd0fec0a61bd89d957393ab140ec1077cce4"
   },
   {
     "id": 92,
-    "name": "ジン",
+    "name": "진(소환)",
     "icon": "class_icons/class-092.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C5C.P",
     "source_lba": 2741,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "00836db35a573fe10826a3fb258f7813f8becf4270813ccb84f6b5ff8ef2e71a"
   },
   {
     "id": 93,
-    "name": "エンゼル",
+    "name": "엔젤(소환)",
     "icon": "class_icons/class-093.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C5D.P",
     "source_lba": 2747,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "3b554f0151033db89eac17090f4173e3308faeef9c1497b6585698b7d96eee97"
   },
   {
     "id": 94,
-    "name": "デス",
+    "name": "데스(소환)",
     "icon": "class_icons/class-094.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C5E.P",
     "source_lba": 2753,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "d1b4ab966d11daadea4786ee1680fb7e37f39d261465f0a60e47d99c7ac5a9ec"
   },
   {
     "id": 95,
-    "name": "デーモン",
+    "name": "데몬(소환)",
     "icon": "class_icons/class-095.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR5/C5F.P",
     "source_lba": 2759,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "802cab6fadbd5c9d25c3117f69e3b1157a8d24234bfd54ce44d3b5cd930222a4"
   },
   {
     "id": 96,
-    "name": "ゾンビ",
+    "name": "좀비(소환)",
     "icon": "class_icons/class-096.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C60.P",
     "source_lba": 2766,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "51547ee1fbbc8d6c5c1cd8cc4f3776ee537fc0d1fd2a28826d6bf305a423d548"
   },
   {
     "id": 97,
-    "name": "スケルトン",
+    "name": "스켈레톤(소환)",
     "icon": "class_icons/class-097.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C61.P",
     "source_lba": 2772,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "eb7c45ad84c84687b163741e74e81b6f78c925aaeb736092e94a489c8aae7347"
   },
   {
     "id": 98,
-    "name": "ゴースト",
+    "name": "고스트",
     "icon": "class_icons/class-098.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C62.P",
     "source_lba": 2778,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "6b6abbfdccf5f4f72974c186bd4bf96abb2bbfc8de85c57a1e9b752350dc1f7a"
   },
   {
     "id": 99,
-    "name": "ゴブリン",
+    "name": "고블린",
     "icon": "class_icons/class-099.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C63.P",
     "source_lba": 2784,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "88f3043053bacfdb0d20e1f01fde085b46fc50609ebf89a02f491c80806ea17e"
   },
   {
     "id": 100,
-    "name": "ゴブリン",
+    "name": "고블린(무기)",
     "icon": "class_icons/class-100.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C64.P",
     "source_lba": 2790,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "cd8f54f84af95efec7be77c24ef6fb98b501aec001065e84e9117b6b803cc3fb"
   },
   {
     "id": 101,
-    "name": "バットマン",
+    "name": "박쥐맨",
     "icon": "class_icons/class-101.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C65.P",
     "source_lba": 2796,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "7162786964c2ef70c71e23f1e108a06d1d7b9a86ec3418805668c13d25075f4d"
   },
   {
     "id": 102,
-    "name": "オーク",
+    "name": "오크",
     "icon": "class_icons/class-102.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C66.P",
     "source_lba": 2802,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "912a6532099c985c3f2a87fe1049b05324be3a49df3d0f79dc7ce09826e8cf1a"
   },
   {
     "id": 103,
-    "name": "オーク",
+    "name": "오크(무기)",
     "icon": "class_icons/class-103.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C67.P",
     "source_lba": 2808,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "340bee9fdbec1021b23ac2e1933c84d80e4fcc8708c7c90231890eacb7778784"
   },
   {
     "id": 104,
-    "name": "リザード",
+    "name": "리자드",
     "icon": "class_icons/class-104.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C68.P",
     "source_lba": 2814,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "84ad65883bb3558f6011df56efeabfc86224a5907b33acf684afaaf74352f1e8"
   },
   {
     "id": 105,
-    "name": "リザードマン",
+    "name": "리자드맨(무기)",
     "icon": "class_icons/class-105.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C69.P",
     "source_lba": 2820,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "f68e77360261ecde85ae59851cdc9420333a95850d5c5f9f190b154bd005d744"
   },
   {
     "id": 106,
-    "name": "ウェアベア",
+    "name": "웨어베어",
     "icon": "class_icons/class-106.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C6A.P",
     "source_lba": 2826,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "41b02c85dfcb1e1ed1f3a48748c58e7720e73c8d33c31a0ada364162d178a1e8"
   },
   {
     "id": 107,
-    "name": "ウェアウルフ",
+    "name": "웨어울프",
     "icon": "class_icons/class-107.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C6B.P",
     "source_lba": 2832,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "07460d4d57e4b22789229cad4c11b3047efd2c636e517ec4625acf7f4e0603df"
   },
   {
     "id": 108,
-    "name": "エルフキング",
+    "name": "엘프왕-[사넷트]",
     "icon": "class_icons/class-108.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C6C.P",
     "source_lba": 2838,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "f23fa89a2ca98a26cb42b2b29af501c51f30f23abe2f4fc2a0dfbc3dcacfe2b9"
   },
   {
     "id": 109,
-    "name": "エルフ",
+    "name": "엘프-[사넷트]",
     "icon": "class_icons/class-109.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C6D.P",
     "source_lba": 2844,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "bc19c197d8bab3ebd54ff40d9df5dccac0c549a381a1afc4c40f469992697279"
   },
   {
     "id": 110,
-    "name": "エルフボウ",
+    "name": "엘프보우-[사넷트]",
     "icon": "class_icons/class-110.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C6E.P",
     "source_lba": 2850,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "1a6eb197aca4c414dc25fea46478d1e3e0550173a8270500cca923f280675d22"
   },
   {
     "id": 111,
-    "name": "エルフナイト",
+    "name": "엘프나이트-[사넷트]",
     "icon": "class_icons/class-111.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR6/C6F.P",
     "source_lba": 2856,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "1ee8c775c0ccd2a459f8774771ec293ac53b2a13d2d4ff1a8c971bc3954afa65"
   },
   {
     "id": 112,
-    "name": "エルフウイッチ",
+    "name": "엘프위치-[사넷트]",
     "icon": "class_icons/class-112.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C70.P",
     "source_lba": 2863,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "34943d33a25f76141604e626535c87482fb837bc13572c961250a14254c06b84"
   },
   {
     "id": 113,
-    "name": "バードマン",
+    "name": "버드맨",
     "icon": "class_icons/class-113.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C71.P",
     "source_lba": 2869,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "6058c3689a2565fe91b838eae0b713f921f52911675777326ab8560e4da8bc64"
   },
   {
     "id": 114,
-    "name": "バードボウ",
+    "name": "버드보우",
     "icon": "class_icons/class-114.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C72.P",
     "source_lba": 2875,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "a32bd8397e877696062928af2cc98e183029b3165bcf5f27daba8b00ea1a9e1b"
   },
   {
     "id": 115,
-    "name": "バードナイト",
+    "name": "버드나이트",
     "icon": "class_icons/class-115.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C73.P",
     "source_lba": 2881,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "08f29a3743417f10226533ae54b753e2d90ba84f50f017d404704c62bd767947"
   },
   {
     "id": 116,
-    "name": "キング",
+    "name": "왕-[뮬톤]",
     "icon": "class_icons/class-116.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C74.P",
     "source_lba": 2887,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "57bb3d43e33c77bfaa007c4dc87905c1d4c8d84d68ba2766a41cbf5b0bbd3da1"
   },
   {
     "id": 117,
-    "name": "ウォリアー",
+    "name": "워리어-[뮬톤]",
     "icon": "class_icons/class-117.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C75.P",
     "source_lba": 2893,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "bda79c901011cf36f8a60d8f3466b00e981f462716901ae20bdce258cb3ac2ff"
   },
   {
     "id": 118,
-    "name": "バイキング",
+    "name": "바이킹-[뮬톤]",
     "icon": "class_icons/class-118.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C76.P",
     "source_lba": 2899,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "bb8f65a50cda19606d5d6e0e083280ab3a1a087e0797c4022ccfe56ae0202b1f"
   },
   {
     "id": 119,
-    "name": "バロン",
+    "name": "바론-[뮬톤]",
     "icon": "class_icons/class-119.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C77.P",
     "source_lba": 2905,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "4a0c848351754a7adca4d1088cf166a3b62a09f99577cdf4d6e416f92ce313b0"
   },
   {
     "id": 120,
-    "name": "マスターアクス",
+    "name": "마스터액스-[뮬톤]",
     "icon": "class_icons/class-120.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C78.P",
     "source_lba": 2911,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "c9e879d860a6d6629f60cbc3ebd4c14aadc855825aa260f9ce4148cfca0cc08f"
   },
   {
     "id": 121,
-    "name": "マスターランス",
+    "name": "마스터랜스-[뮬톤]",
     "icon": "class_icons/class-121.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C79.P",
     "source_lba": 2917,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "4288678975a7d58d406b8554badd3e5fa6d146faa545a09c306720fe77a03676"
   },
   {
     "id": 122,
-    "name": "ガード",
+    "name": "가드-[뮬톤]",
     "icon": "class_icons/class-122.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C7A.P",
     "source_lba": 2923,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "7dee7c643c8ee3bd21be250ecc607daa556bc361e1949e0a0bde4acc5a9aab37"
   },
   {
     "id": 123,
-    "name": "ミズノオウ",
+    "name": "물의왕",
     "icon": "class_icons/class-123.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C7B.P",
     "source_lba": 2929,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "5cffdf0e30a91262bd9af6c86093fe70cdef3fa03099ee5743f4bea6907b04a3"
   },
   {
     "id": 124,
-    "name": "ツチノオウ",
+    "name": "땅의왕",
     "icon": "class_icons/class-124.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C7C.P",
     "source_lba": 2935,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "f8f95d8a2f4633777b648e4605bff12abb69596fe12a2d7f4928007652808ad0"
   },
   {
     "id": 125,
-    "name": "カゼノオウ",
+    "name": "바람의왕",
     "icon": "class_icons/class-125.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C7D.P",
     "source_lba": 2941,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "1a5005ea65339310179d0085727dd9a3fc73f322462d345bd3308b5650dc1c54"
   },
   {
     "id": 126,
-    "name": "ウンディーネ",
+    "name": "운디네",
     "icon": "class_icons/class-126.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C7E.P",
     "source_lba": 2947,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "2ffed38adb23c390343062619275bb720df25364417edb6b4eba4dcadc20f54c"
   },
   {
     "id": 127,
-    "name": "ノーム",
+    "name": "노움(창)",
     "icon": "class_icons/class-127.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR7/C7F.P",
     "source_lba": 2953,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "4004d06fa8950382a26cbf93e5257c631cdf2e272b06625838c46af30b0abb1a"
   },
   {
     "id": 128,
-    "name": "シルフ",
+    "name": "실프",
     "icon": "class_icons/class-128.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C80.P",
     "source_lba": 2960,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "af5f3ab35c464746678739fa912a30f96d1402ab0a3f4f6f60d454bb3f9bb175"
   },
   {
     "id": 129,
-    "name": "ノーム",
+    "name": "노움(맨손)",
     "icon": "class_icons/class-129.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C81.P",
     "source_lba": 2966,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "217f0d7dedca9ce804dde1caf9d5cb58fefe44ab7bc253afda089180176e6746"
   },
   {
     "id": 130,
-    "name": "デルスミス",
+    "name": "델스미스(지팡이)",
     "icon": "class_icons/class-130.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C82.P",
     "source_lba": 2972,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "bbc395bae090aa169559c40a7c8d02958520db05338bf00b3a5533eb81ee37d6"
   },
   {
     "id": 131,
-    "name": "デルスミス",
+    "name": "델스미스(창)",
     "icon": "class_icons/class-131.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C83.P",
     "source_lba": 2978,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "88d3d23338b25584fbff168743e8ddd91133cdb9845669861ffe8f30a3275c0b"
   },
   {
     "id": 132,
-    "name": "キング",
+    "name": "왕(케크-후)",
     "icon": "class_icons/class-132.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C84.P",
     "source_lba": 2984,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "6b9a76a1cd4f4ed757719c81756d7f3e978b3f072c78be73fe71c5037378bb23"
   },
   {
     "id": 133,
-    "name": "オオカミグルミ",
+    "name": "늑대탈(칼브)",
     "icon": "class_icons/class-133.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C85.P",
     "source_lba": 2990,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "98982030933f0d7edc3033364ac0e9507eabc77497536627e0f7ac46be7dab30"
   },
   {
     "id": 134,
-    "name": "ユウシャ",
+    "name": "용사(활)",
     "icon": "class_icons/class-134.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C86.P",
     "source_lba": 2996,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "206cf7ea7c19c22f08b68560faa987f31024b95c834a960e143939b42665d7ae"
   },
   {
     "id": 135,
-    "name": "マスターボウ",
+    "name": "마스터보우(활)",
     "icon": "class_icons/class-135.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C87.P",
     "source_lba": 3002,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "89d9fef16124b2c91d026aa00afa0915b3e632df1a6c84415f74706ef198dc2b"
   },
   {
     "id": 136,
-    "name": "ハンター",
+    "name": "헌터(활)",
     "icon": "class_icons/class-136.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C88.P",
     "source_lba": 3008,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "fb79f2004a50fad5939ef34dffcf6df9a7a56c18c6e3d4b974ce502320dd469b"
   },
   {
     "id": 137,
-    "name": "トラグルミ",
+    "name": "호랑이탈(칼브)",
     "icon": "class_icons/class-137.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C89.P",
     "source_lba": 3014,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "6f2efa47c7312b935ab4fa637301af9f2a7c71f8876cba50236fc54620f4ec87"
   },
   {
     "id": 138,
-    "name": "パングルミ",
+    "name": "팬더탈(칼브)",
     "icon": "class_icons/class-138.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C8A.P",
     "source_lba": 3020,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "859426be8999b75e13e41a714ccfb1e805dab82176694e3cd9c5e8ee23126a91"
   },
   {
     "id": 139,
-    "name": "ガメグルミ",
+    "name": "거북이탈(칼브)",
     "icon": "class_icons/class-139.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C8B.P",
     "source_lba": 3026,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "5b8530cf1cc0f78f0c037ab0f26ba035c2c0dbe0d18c3e4a3dfb9ed9f66bc3e6"
   },
   {
     "id": 140,
-    "name": "ゴジグルミ",
+    "name": "공룡탈(칼브)",
     "icon": "class_icons/class-140.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C8C.P",
     "source_lba": 3032,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "7769afb2c502a38ec2788064efc3d32109cea030a256784bf051ab59f44d993b"
   },
   {
     "id": 141,
-    "name": "ヒトツメ",
+    "name": "히토츠메",
     "icon": "class_icons/class-141.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C8D.P",
     "source_lba": 3038,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "d35da8dc9d3fe478263bc0de319fa61fef8df12cdae54ff01addd59568bf68bc"
   },
   {
     "id": 142,
-    "name": "ヨロイ",
+    "name": "요로이(갑옷)",
     "icon": "class_icons/class-142.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C8E.P",
     "source_lba": 3044,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "cf9e2d08e517cbc04122ecbdedc40205efd7c386c2a6183d61156e0f10df6738"
   },
   {
     "id": 143,
-    "name": "ビッグフット",
+    "name": "빅풋",
     "icon": "class_icons/class-143.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR8/C8F.P",
     "source_lba": 3050,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "168fcada3d0970731a2890fb6003118db109eae7a9d287fc0d9690e2d9f1eaea"
   },
   {
     "id": 144,
-    "name": "ファントム",
+    "name": "팬텀",
     "icon": "class_icons/class-144.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C90.P",
     "source_lba": 3057,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "5109eb205a16f83085fdcb1febdad11091be5aea9af1de3db551111c53d010c9"
   },
   {
     "id": 145,
-    "name": "シーフ",
+    "name": "시프",
     "icon": "class_icons/class-145.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C91.P",
     "source_lba": 3063,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "8747d0e7856cac09c6bc266bcbb87e9b2a73ba92095edb589c1d5b2aadd67dc7"
   },
   {
     "id": 146,
-    "name": "ブレードマン",
+    "name": "브레드맨",
     "icon": "class_icons/class-146.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C92.P",
     "source_lba": 3069,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "9dd2cb9677f1db2bdacff3116b9d399d0dcda56a6eace5565efd4f4ce9277fa2"
   },
   {
     "id": 147,
-    "name": "レディ",
+    "name": "레이디",
     "icon": "class_icons/class-147.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C93.P",
     "source_lba": 3075,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "42b08032ba67c3c4528bf4ba1aa036db18ebb92bc719b135fc15e9330ab9ad3b"
   },
   {
     "id": 148,
-    "name": "トード",
+    "name": "토드(개구리)",
     "icon": "class_icons/class-148.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C94.P",
     "source_lba": 3081,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "80726c3c497c4672e6e18cb6871f8271a6ac7569decbd7e141b8ef794b617c35"
   },
   {
     "id": 149,
-    "name": "ミュー",
+    "name": "지네",
     "icon": "class_icons/class-149.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C95.P",
     "source_lba": 3087,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "d46fa2db5e59fb983739760b3457f46cbcdd4e8ad737f764583514e8ad121876"
   },
   {
     "id": 150,
-    "name": "モグラ",
+    "name": "두더지",
     "icon": "class_icons/class-150.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C96.P",
     "source_lba": 3093,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "27a65423e1875bac4c75cdbbe513736db5cad4dc02154b90bd05f19ca7489b7f"
   },
   {
     "id": 151,
-    "name": "インセクト",
+    "name": "인섹트(벌레)",
     "icon": "class_icons/class-151.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C97.P",
     "source_lba": 3099,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "653e1ca0c1b1f0545da7048294ca4e21343342d61b67984c090246ff8d7f0a47"
   },
   {
     "id": 152,
-    "name": "クラブ",
+    "name": "크랩(게)",
     "icon": "class_icons/class-152.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C98.P",
     "source_lba": 3105,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "176a639c565f0260416ff99503c59594534e9d5a4672db3042ff55942a7197b8"
   },
   {
     "id": 153,
-    "name": "ヘルハウンド",
+    "name": "헬하운드",
     "icon": "class_icons/class-153.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C99.P",
     "source_lba": 3111,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "3407b904c51bc18fb09187e0395fc2b733272c984dd6644277de5c61d0fa885d"
   },
   {
     "id": 154,
-    "name": "ミミック",
+    "name": "미믹",
     "icon": "class_icons/class-154.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C9A.P",
     "source_lba": 3117,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "113ddedf63c4a5ed3a4a6d0349e89e986431e419d0a08f01ce839be22d364ff3"
   },
   {
     "id": 155,
-    "name": "バレスタ",
+    "name": "발리스타",
     "icon": "class_icons/class-155.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C9B.P",
     "source_lba": 3123,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "065120eed17bcb63c8e9fd15f57d946afb3e908bcb82aca18789c923ad4b6ba5"
   },
   {
     "id": 156,
-    "name": "ハンザキ",
+    "name": "왕올챙이",
     "icon": "class_icons/class-156.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C9C.P",
     "source_lba": 3129,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "ffc78c0c16eb9564b541ffe9494cd840deb74d44193783cd6c757399e45d4a81"
   },
   {
     "id": 157,
-    "name": "ネズミ",
+    "name": "쥐",
     "icon": "class_icons/class-157.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C9D.P",
     "source_lba": 3135,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "b83a80c242ad51882e2b7bfb82bdfdb8efcf5f887bbf55fed0ddc1b4929ebc61"
   },
   {
     "id": 158,
-    "name": "ニワトリ",
+    "name": "닭",
     "icon": "class_icons/class-158.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C9E.P",
     "source_lba": 3141,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "a70a094a9f5c83623d5019782d6eefc131caccc96f7726a432278567f31c0196"
   },
   {
     "id": 159,
-    "name": "カタツムリ",
+    "name": "달팽이(적군)",
     "icon": "class_icons/class-159.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHR9/C9F.P",
     "source_lba": 3147,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "26350fcb8919685a7b992bacea3dd22c3485a62a63b3e5aa7fe904dafd2860b0"
   },
   {
     "id": 160,
-    "name": "カタツムリ",
+    "name": "달팽이(아군)",
     "icon": "class_icons/class-160.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CA0.P",
     "source_lba": 3154,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "ad5970495f20b7d2d2df5a6be4d77af371fff9240b535f922aec77e5ee236c15"
   },
   {
     "id": 161,
-    "name": "ヘビ",
+    "name": "뱀",
     "icon": "class_icons/class-161.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CA1.P",
     "source_lba": 3160,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "9bd8827a2f1eafa3d67a89aa92173b172c777930a1321a4578dcb50776d2e2da"
   },
   {
     "id": 162,
-    "name": "リンクス",
+    "name": "링크스",
     "icon": "class_icons/class-162.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CA2.P",
     "source_lba": 3166,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "69f569fe5b341cb8d18ebc9cf47a8beffcccf1f699133fc320e90205efe165aa"
   },
   {
     "id": 163,
-    "name": "チビドラ",
+    "name": "새끼드래곤",
     "icon": "class_icons/class-163.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CA3.P",
     "source_lba": 3172,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "27f6111da99db74c9a1e6570b8e31a69f6fa780db726617a7ddf00351289e05b"
   },
   {
     "id": 164,
-    "name": "エンゼル",
+    "name": "천사",
     "icon": "class_icons/class-164.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CA4.P",
     "source_lba": 3178,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "5f104eae3aca415961bcfa284072e1f4e9aea56e83b33e0ab02f8e8ae327006d"
   },
   {
     "id": 165,
-    "name": "ゴーレム",
+    "name": "골렘(바위인간)",
     "icon": "class_icons/class-165.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CA5.P",
     "source_lba": 3184,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "786026b87d9c6b4431ad7178c3962fe8f6e40447d046e8ba267589d05f2582da"
   },
   {
     "id": 166,
-    "name": "キノコ",
+    "name": "버섯(독)",
     "icon": "class_icons/class-166.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CA6.P",
     "source_lba": 3190,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "dcad31ddf76cff91ce3e2b2e3417044e1cc0ae47b28a5f5e580e408890f037b3"
   },
   {
     "id": 167,
-    "name": "ビッグマウス",
+    "name": "빅마우스",
     "icon": "class_icons/class-167.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CA7.P",
     "source_lba": 3196,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "06b6f2901dbaaa6e41b1655be65c2d7527d2bb174bba7d2e7c4ea3f310486dae"
   },
   {
     "id": 168,
-    "name": "ヒクイドリ",
+    "name": "도마뱀",
     "icon": "class_icons/class-168.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CA8.P",
     "source_lba": 3202,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "bf3466bb2d13e4d188152a68bf2bc62a1e8893195bbd38d26ab1ceb2ba9be209"
   },
   {
     "id": 169,
-    "name": "サーペント",
+    "name": "서펜트(머리)",
     "icon": "class_icons/class-169.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CA9.P",
     "source_lba": 3208,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 32
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "926f75967874991162d93703268120e755d3411ada4cc81860aa67fc35c90368"
   },
   {
     "id": 170,
-    "name": "サーペント",
+    "name": "서펜트(몸)",
     "icon": "class_icons/class-170.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CAA.P",
     "source_lba": 3212,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 32
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "452325a0ba9619d8fb8fb4ad5249a07e0018652d9033f85eae8f8cd3a77cc677"
   },
   {
     "id": 171,
-    "name": "サーペント",
+    "name": "서펜트(꼬리)",
     "icon": "class_icons/class-171.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CAB.P",
     "source_lba": 3216,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 32
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "5f01534e7e99f43b378ef4f9a9edbffd304f7f7b90ea40bfacf6260ef02b6e2b"
   },
   {
     "id": 172,
-    "name": "マンイーター",
+    "name": "맨이터(공)",
     "icon": "class_icons/class-172.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CAC.P",
     "source_lba": 3220,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 32
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "ffe40b327113fabe796552b381e0cd13cad79942d47ac1a449d293a2584ed973"
   },
   {
     "id": 173,
-    "name": "マンイーター",
+    "name": "맨이터(입)",
     "icon": "class_icons/class-173.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CAD.P",
     "source_lba": 3224,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 32
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "d14732c1474c67db2f88b478a887d4945aaa2869e022f191deea5c9f23e7d788"
   },
   {
     "id": 174,
-    "name": "セキゾウ",
+    "name": "석상",
     "icon": "class_icons/class-174.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRA/CAE.P",
     "source_lba": 3228,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "53f14d29ef0f273ba2e2912c1627b0c42f11bc183ce1f4a2b25ae22b0ca87a60"
+    "frame_sha256": "eb5170a478fb76d652e9f20577e27e22ea4a3232550244ea9c494bb88310c1c1"
   },
   {
     "id": 175,
-    "name": "クリスタル",
+    "name": "크리스탈",
     "icon": "class_icons/class-175.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRA/CAF.P",
     "source_lba": 3242,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 48
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "cbbf44745b17765a86729238bb1af9135afdd07eda94f014383315412b2be1fe"
@@ -2819,14 +2995,15 @@
     "id": 176,
     "name": "ハナ",
     "icon": "class_icons/class-176.png",
-    "image_status": "compact_resource_first_frame_normalized_palette",
+    "image_status": "compact_resource_first_frame_column_major_normalized_palette",
     "source": "/CHRB/CB0.P",
     "source_lba": 3249,
-    "tile_positions": {
-      "top_left": 0,
-      "bottom_left": 1,
-      "top_right": 2,
-      "bottom_right": 3
+    "tile_layout": {
+      "base_tile": 0,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 4
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "692a5b538c9d194b6ffd9a1f0212169f3ebc3000f1e904bc383808defdda9514"
@@ -2835,14 +3012,15 @@
     "id": 177,
     "name": "ワナ",
     "icon": "class_icons/class-177.png",
-    "image_status": "compact_resource_first_frame_normalized_palette",
+    "image_status": "compact_resource_first_frame_column_major_normalized_palette",
     "source": "/CHRB/CB1.P",
     "source_lba": 3250,
-    "tile_positions": {
-      "top_left": 0,
-      "bottom_left": 1,
-      "top_right": 2,
-      "bottom_right": 3
+    "tile_layout": {
+      "base_tile": 0,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 4
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "4121b5e6ef8865a660c48d73cacbafd5856a22499b028ba26a279ba836e2d52d"
@@ -2851,14 +3029,15 @@
     "id": 178,
     "name": "タイホウ",
     "icon": "class_icons/class-178.png",
-    "image_status": "compact_resource_first_frame_normalized_palette",
+    "image_status": "compact_resource_first_frame_column_major_normalized_palette",
     "source": "/CHRB/CB2.P",
     "source_lba": 3251,
-    "tile_positions": {
-      "top_left": 0,
-      "bottom_left": 1,
-      "top_right": 2,
-      "bottom_right": 3
+    "tile_layout": {
+      "base_tile": 0,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 4
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "e76c16350b07ae6bc331811e6ea7a57194bd8c19850c7f24412d45ca7ab6298e"
@@ -2867,14 +3046,15 @@
     "id": 179,
     "name": "マンイーター",
     "icon": "class_icons/class-179.png",
-    "image_status": "compact_resource_first_frame_normalized_palette",
+    "image_status": "compact_resource_first_frame_column_major_normalized_palette",
     "source": "/CHRB/CB3.P",
     "source_lba": 3252,
-    "tile_positions": {
-      "top_left": 0,
-      "bottom_left": 1,
-      "top_right": 2,
-      "bottom_right": 3
+    "tile_layout": {
+      "base_tile": 0,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 4
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "60d3e217807c2f5567567c45659782ff4662b85dc98bc44606ad2d614701423c"
@@ -2883,14 +3063,15 @@
     "id": 180,
     "name": "ドラゴン",
     "icon": "class_icons/class-180.png",
-    "image_status": "compact_resource_first_frame_normalized_palette",
+    "image_status": "compact_resource_first_frame_column_major_normalized_palette",
     "source": "/CHRB/CB4.P",
     "source_lba": 3253,
-    "tile_positions": {
-      "top_left": 0,
-      "bottom_left": 1,
-      "top_right": 2,
-      "bottom_right": 3
+    "tile_layout": {
+      "base_tile": 0,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 4
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "59fabdc4477e81ca57eee23662ba81a729eb08c858ce026998dbba2039ef1278"
@@ -2899,14 +3080,15 @@
     "id": 181,
     "name": "ドラゴン",
     "icon": "class_icons/class-181.png",
-    "image_status": "compact_resource_first_frame_normalized_palette",
+    "image_status": "compact_resource_first_frame_column_major_normalized_palette",
     "source": "/CHRB/CB5.P",
     "source_lba": 3254,
-    "tile_positions": {
-      "top_left": 0,
-      "bottom_left": 1,
-      "top_right": 2,
-      "bottom_right": 3
+    "tile_layout": {
+      "base_tile": 0,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 4
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "d3d80d9ade18bc700ef28ec72e823fd5b0ae93f535f1f86c4c2d0dd0386d4be1"
@@ -2915,606 +3097,644 @@
     "id": 182,
     "name": "ゴーレム",
     "icon": "class_icons/class-182.png",
-    "image_status": "compact_resource_first_frame_normalized_palette",
+    "image_status": "compact_resource_first_frame_column_major_normalized_palette",
     "source": "/CHRB/CB6.P",
     "source_lba": 3255,
-    "tile_positions": {
-      "top_left": 0,
-      "bottom_left": 1,
-      "top_right": 2,
-      "bottom_right": 3
+    "tile_layout": {
+      "base_tile": 0,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 4
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "bab76d6ce5f8f32d787eacd2f0a393e595555458ff9c19861445a1d704e1c015"
   },
   {
     "id": 183,
-    "name": "カタパルト",
+    "name": "카타팔트",
     "icon": "class_icons/class-183.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRB/CB7.P",
     "source_lba": 3256,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "e64291cb293f99aeb9680237bea6e35d52e0292c4b15b3603b8714262bab804f"
+    "frame_sha256": "58341584ea8b270cbf6b4b6e523c70756937346a523638959f26db0dd3311f09"
   },
   {
     "id": 184,
-    "name": "サラマンダー",
+    "name": "사라만다",
     "icon": "class_icons/class-184.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRB/CB8.P",
     "source_lba": 3270,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "64d2baa9fccca7f39eb2519ec6046de421acfbf54e157757100b15c6edc2c192"
+    "frame_sha256": "873ffcac2735c677f39311800d934b91b647799c4149be3f54891715bfde8976"
   },
   {
     "id": 185,
-    "name": "イビルアイ",
+    "name": "이빌아이",
     "icon": "class_icons/class-185.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRB/CB9.P",
     "source_lba": 3284,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "eb8a77bea38209469aae801811fd61846164925bc287dd4683c4a8b7553e026d"
+    "frame_sha256": "c302d7cf832e0cd14f5eae3933361d9b0d45195546bc4a3a9f62fabf15fe1b3e"
   },
   {
     "id": 186,
-    "name": "ヘルバロン",
+    "name": "헬바론(요새)-[바르시아]",
     "icon": "class_icons/class-186.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRB/CBA.P",
     "source_lba": 3298,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "f3574cca501eb51a02b3059e8c7ce12582067d1ffae5488c6f19ef9bdae3100c"
+    "frame_sha256": "2aacf2a6989e3edfb84d4acdfcefdace11737df06905469050b86a60a29d40fd"
   },
   {
     "id": 187,
-    "name": "ブラックナイト",
+    "name": "블랙나이트(말)-[바르시아]",
     "icon": "class_icons/class-187.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRB/CBB.P",
     "source_lba": 3312,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "320b17cbc9c8ffbe6fff71afa70adb12f1f2e77142468f1227b7d04cee308b8e"
+    "frame_sha256": "6c541b5bb35f3e28f442e603d670b46bae4068017e705edb75755718cf020f78"
   },
   {
     "id": 188,
-    "name": "ホースライダー",
+    "name": "호스라이더-[바르시아]",
     "icon": "class_icons/class-188.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRB/CBC.P",
     "source_lba": 3326,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "6b0d5c72b8b1ede650511288e89738626e54da3c5a93e713f19fe6451e259205"
+    "frame_sha256": "1dec1338d9ceacf37a803fae57aad878ae526f1e9f28e326b4d3237acf3465b3"
   },
   {
     "id": 189,
-    "name": "ケイブシャーク",
+    "name": "케이브샤크",
     "icon": "class_icons/class-189.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRB/CBD.P",
     "source_lba": 3340,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "4036c96e9ddc47289077a0922968a54af03a2d0581c9301abd864a5ba42cedf9"
+    "frame_sha256": "51e22b6c42a77e0ddf1969f25e0ccc45244ef39f3f8f83d7e69408931f4903ee"
   },
   {
     "id": 190,
-    "name": "マッドマン",
+    "name": "매드맨(잠자리)",
     "icon": "class_icons/class-190.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRB/CBE.P",
     "source_lba": 3354,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "0166b6c1caeff425d897458010593bfe6915ae6fc6ab99701eacc47140513879"
+    "frame_sha256": "9d81fdddff7c6950f8e4aa08aa41bc074e0e360599a4a4be367e12382ed46b0f"
   },
   {
     "id": 191,
-    "name": "キング",
+    "name": "[말]왕(아레스-후)-[카리온]",
     "icon": "class_icons/class-191.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRB/CBF.P",
     "source_lba": 3368,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "04f7eff00b1433244248e750fac0e68c501e05c3ba1e5cb41978cc67c70b4f5f"
+    "frame_sha256": "b3c6b70e940424ad4b979711c25d560545198639b581143e4d0e58d8ac3c08cb"
   },
   {
     "id": 192,
-    "name": "ナイト",
+    "name": "[말]나이트-[카리온]",
     "icon": "class_icons/class-192.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CC0.P",
     "source_lba": 3383,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "8e16282daed8af6db76d28a4ccc3fde702f3e088fb69df8478704b790f92eb49"
+    "frame_sha256": "5ca2af583b1e5bf40c77db6e54ad50a17b63f579dd3993c1ed066ff304733917"
   },
   {
     "id": 193,
-    "name": "スリープナイト",
+    "name": "[말]슬립나이트(키프트/길포드)",
     "icon": "class_icons/class-193.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CC1.P",
     "source_lba": 3397,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "c9ea38c7678962433e02a51a968602371e03a8a21e45f361db57492e2e52161a"
+    "frame_sha256": "bd9337f1584cb6e5901e51b37f351ab7a84e394aa8acb9f87eabe89d25a2e617"
   },
   {
     "id": 194,
-    "name": "ナイト",
+    "name": "[말]나이트-[휴리아]",
     "icon": "class_icons/class-194.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CC2.P",
     "source_lba": 3411,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "3ecc6285326d7f09dae028554944b0bac8aee04ae4da7ce587eb1811e6b38afb"
+    "frame_sha256": "aea01bdf75aba3efba26e2a662c86e3b6454537ae52f52728cd474e236cf5e33"
   },
   {
     "id": 195,
-    "name": "ランス",
+    "name": "[말]랜스-[휴리아]",
     "icon": "class_icons/class-195.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CC3.P",
     "source_lba": 3425,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "4d0c8ce139f7696ef5d04b06b4e7863745dfef0711b4290fc491b08ea7e39148"
+    "frame_sha256": "df99d99a08cb0783277f7b29bb80e06ab5a9eac8b1805733098a5acfffb189ee"
   },
   {
     "id": 196,
-    "name": "プリンス",
+    "name": "[말]왕자(크렌)-[휴리아]",
     "icon": "class_icons/class-196.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CC4.P",
     "source_lba": 3439,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "f43fcd51acf5e93e8bb6a18b7dfb3970de34185022f7ae47bc7ffa2c6c8717ca"
+    "frame_sha256": "aa408734648a1591fce7f93258234f66edcb0c72f81eb7e83e0807ecc42bf097"
   },
   {
     "id": 197,
-    "name": "ダークナイト",
+    "name": "[말]다크나이트(암흑기사/서마시아)-[바르시아]",
     "icon": "class_icons/class-197.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CC5.P",
     "source_lba": 3453,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "827e76e85be3f7aaf3a8d071489d81b552c7b3a083ab3b2d5b308d66a929507b"
+    "frame_sha256": "0c79bb6f24e653f20135f28b7fb55cbb2624909c41935d6916bcd239f6c77c4f"
   },
   {
     "id": 198,
-    "name": "ナイト",
+    "name": "[말]나이트(라딘칼/트리스렌)-[카리온]",
     "icon": "class_icons/class-198.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CC6.P",
     "source_lba": 3467,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "8a7353bf0f70393718e26401e88897a05783ef7cd103e365eeb543a9b1f276fb"
+    "frame_sha256": "37e06e27a3d91f5724f5f0feb7d878978d327c7039af1ff5ade0f66320c92415"
   },
   {
     "id": 199,
-    "name": "ドラゴン",
+    "name": "드래곤(머리)",
     "icon": "class_icons/class-199.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CC7.P",
     "source_lba": 3481,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 72
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "0260a8a047cf27cdff5d26487826ca1fc2cf7132e15df122fd2e3ded9e60ad0f"
+    "frame_sha256": "f1c7f13f72437675fa85b33bd390bd61d4f5e8133044817dd14597c3b68f5f6e"
   },
   {
     "id": 200,
-    "name": "ドラゴン",
+    "name": "드래곤(몸통1)",
     "icon": "class_icons/class-200.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CC8.P",
     "source_lba": 3490,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 72
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "eb469628f00405ab22abbe97d9ade99c3e23a9122433e29588abd78773d84815"
+    "frame_sha256": "69f6e4e05f8f14dcebf8ad9f9ba8316286f574e129737ba0d907f1fa26a8420f"
   },
   {
     "id": 201,
-    "name": "ドラゴン",
+    "name": "드래곤(몸통2)",
     "icon": "class_icons/class-201.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CC9.P",
     "source_lba": 3499,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 72
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "21f23f11c563c62579d897c2721ebb0dbbde961967866134373063ec9e3d56c5"
+    "frame_sha256": "4a5fe2f807caa1b99c3662b612cfad0cf5af30880db1514d2c28c7ab47cc4b1d"
   },
   {
     "id": 202,
-    "name": "ドラゴン",
+    "name": "드래곤(꼬리)",
     "icon": "class_icons/class-202.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CCA.P",
     "source_lba": 3508,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 72
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "267922199bfb17a0c8d2a581c3f152113d73d4aa7dfa013a605f48f2db91feb7"
+    "frame_sha256": "ed0be92ea13cb20a7c65fa7f75a3a980c9e86d83a7c14b67c4e35e2ba27c62bf"
   },
   {
     "id": 203,
-    "name": "ケンタウロス",
+    "name": "켄타우로스(칼)",
     "icon": "class_icons/class-203.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CCB.P",
     "source_lba": 3517,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "0d31d14fe6472f9a9281cfbfe528e720ccd0868a2bad7956ec02b829a7982f4b"
+    "frame_sha256": "746cf909e80b527e1222383d6a8c33edaf92e8f0275472332917ed88bc5aa0ab"
   },
   {
     "id": 204,
-    "name": "ケンタウロス",
+    "name": "켄타우로스(활)",
     "icon": "class_icons/class-204.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CCC.P",
     "source_lba": 3531,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "986955eb4c8c3ad6a7df69724aad4f9df06a5bc79f91bfde07654ddc47582b6a"
+    "frame_sha256": "7fc9dc3fa12e19824e77ce24fd19d9cd6f847c0f6a8c96ebe4dba1246fd606d6"
   },
   {
     "id": 205,
-    "name": "ケンタウロス",
+    "name": "켄타우로스(칼방패)",
     "icon": "class_icons/class-205.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CCD.P",
     "source_lba": 3545,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "fef9122dc086836ff1f8b9044bd783511457840dc3c6d91c14cc02e47f3c2b48"
+    "frame_sha256": "4d4f3f5a47e7d1a8bfe5d9c6b083de4d125384b1622300538a6f735e26d13611"
   },
   {
     "id": 206,
-    "name": "ヘルビースト",
+    "name": "헬비스트",
     "icon": "class_icons/class-206.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CCE.P",
     "source_lba": 3559,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "35b8874b78eab4373ab1f21af279005dd058c1ce5d607b9086ef01bdef9859d4"
+    "frame_sha256": "bf70415ff5abd654fe0d42e5661c9ce047968d837fcdf5e7aa90cce0440fa989"
   },
   {
     "id": 207,
-    "name": "アクスマン",
+    "name": "엑스맨",
     "icon": "class_icons/class-207.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRC/CCF.P",
     "source_lba": 3573,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 108
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "e3742e82c0b442b2502b57c795a6499288b48262937749079a61b8a6b191fecc"
+    "frame_sha256": "9f9c95117aa007f3b3aeb3ece0da94f7e0fb5cca4294f52ba9f16bd6ff8719f3"
   },
   {
     "id": 208,
-    "name": "ヒヨコ",
+    "name": "병아리",
     "icon": "class_icons/class-208.png",
-    "image_status": "compact_resource_first_frame_normalized_palette",
+    "image_status": "compact_resource_first_frame_column_major_normalized_palette",
     "source": "/CHRD/CD0.P",
     "source_lba": 3588,
-    "tile_positions": {
-      "top_left": 0,
-      "bottom_left": 1,
-      "top_right": 2,
-      "bottom_right": 3
+    "tile_layout": {
+      "base_tile": 0,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 12
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "e60e051f0ac2c52606eb58757095082fb902cd2d3c3cbe66413132f4c5f707ce"
   },
   {
     "id": 209,
-    "name": "バンパイア",
+    "name": "뱀파이어(박쥐형)",
     "icon": "class_icons/class-209.png",
-    "image_status": "compact_resource_first_frame_normalized_palette",
+    "image_status": "compact_resource_first_frame_column_major_normalized_palette",
     "source": "/CHRD/CD1.P",
     "source_lba": 3590,
-    "tile_positions": {
-      "top_left": 0,
-      "bottom_left": 1,
-      "top_right": 2,
-      "bottom_right": 3
+    "tile_layout": {
+      "base_tile": 0,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 12
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "103d8e54f44e33163584c99ce9e4327c718bdd71fafd2b771482e57fa446e2be"
   },
   {
     "id": 210,
-    "name": "イビルアイ",
+    "name": "이빌아이(스몰형)",
     "icon": "class_icons/class-210.png",
-    "image_status": "compact_resource_first_frame_normalized_palette",
+    "image_status": "compact_resource_first_frame_column_major_normalized_palette",
     "source": "/CHRD/CD2.P",
     "source_lba": 3592,
-    "tile_positions": {
-      "top_left": 0,
-      "bottom_left": 1,
-      "top_right": 2,
-      "bottom_right": 3
+    "tile_layout": {
+      "base_tile": 0,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 12
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "2fa3da843d1500d3fed3ea61ebce1c38453f349d1a5be630a9cc3eca35a00956"
   },
   {
     "id": 211,
-    "name": "グリフォン",
+    "name": "그리폰",
     "icon": "class_icons/class-211.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRD/CD3.P",
     "source_lba": 3594,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "ac21ce30b5d09f2a684db52dea585ce48b84cc968e0767613275cf364ebad7e2"
   },
   {
     "id": 212,
-    "name": "ジャイアント",
+    "name": "자이언트",
     "icon": "class_icons/class-212.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRD/CD4.P",
     "source_lba": 3618,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "220939c2ec489814ef2ecf413cf8540cf6a2546a45e5cec907126416cc6789c6"
   },
   {
     "id": 213,
-    "name": "ゴーレム",
+    "name": "골렘(큰사이즈)",
     "icon": "class_icons/class-213.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRD/CD5.P",
     "source_lba": 3642,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "38319b2df7e293640c8de09fbecf5a4551f05e1f694fa4afe4c7cb9796becee7"
   },
   {
     "id": 214,
-    "name": "ドラゴン",
+    "name": "드래곤(소환형)",
     "icon": "class_icons/class-214.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRD/CD6.P",
     "source_lba": 3666,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "71b92bd59b6aaa8422cb548f8a5dcd08153353d93d0b9754274413c30dac534e"
   },
   {
     "id": 215,
-    "name": "グリフォン",
+    "name": "그리폰",
     "icon": "class_icons/class-215.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRD/CD7.P",
     "source_lba": 3690,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "d96b1cd3914c226bbc2d2c9de88636790bc3b8e57abf958f8d6fb0ab84b1afe7"
   },
   {
     "id": 216,
-    "name": "リュウキヘイ",
+    "name": "용기병",
     "icon": "class_icons/class-216.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRD/CD8.P",
     "source_lba": 3714,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "ffe2def928d90fdb49388a07d4e0415dc3952fb8039377763b8fec0830b0f30c"
   },
   {
     "id": 217,
-    "name": "バンパイア",
+    "name": "뱀파이어",
     "icon": "class_icons/class-217.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
     "source": "/CHRD/CD9.P",
     "source_lba": 3738,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 36,
+      "width_tiles": 3,
+      "height_tiles": 3,
+      "column_major": true,
+      "tile_count": 216
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "194b1c607f09f596d7e72b56f4c242a8b0e53095cedd8eff5c5ee68ff27609dc"
+    "frame_sha256": "eae30d0e6b524ccd5783f054bd948d7b5a703802a3f52d8efa5a2f752e521713"
   },
   {
     "id": 218,
-    "name": "ガーディアン",
+    "name": "가디언",
     "icon": "class_icons/class-218.png",
-    "image_status": "user_approved_front_frame_normalized_palette",
+    "image_status": "front_frame_32x32_column_major_normalized_palette",
     "source": "/CHRD/CDA.P",
     "source_lba": 3765,
-    "tile_positions": {
-      "top_left": 16,
-      "bottom_left": 17,
-      "top_right": 18,
-      "bottom_right": 19
+    "tile_layout": {
+      "base_tile": 16,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "2f8ec6c0d9d1369d0a638b4a1c2584ccb8f893e65c8ee013127fcced6a1e6834"
   },
   {
     "id": 219,
-    "name": "マンティコア",
+    "name": "맨티코어",
     "icon": "class_icons/class-219.png",
-    "image_status": "compact_resource_first_frame_normalized_palette",
+    "image_status": "compact_resource_first_frame_column_major_normalized_palette",
     "source": "/CHRD/CDB.P",
     "source_lba": 3789,
-    "tile_positions": {
-      "top_left": 0,
-      "bottom_left": 1,
-      "top_right": 2,
-      "bottom_right": 3
+    "tile_layout": {
+      "base_tile": 0,
+      "width_tiles": 2,
+      "height_tiles": 2,
+      "column_major": true,
+      "tile_count": 4
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
     "frame_sha256": "54ebce09574996d57fd20b44dd702cbcf97803548bc2f08f661b2395296fd1ea"
