@@ -3692,35 +3692,35 @@
     "id": 217,
     "name": "뱀파이어",
     "icon": "class_icons/class-217.png",
-    "image_status": "large_front_frame_64x64_column_major_normalized_palette",
+    "image_status": "large_front_frame_96x96_column_major_fit64_normalized_palette",
     "source": "/CHRD/CD9.P",
     "source_lba": 3738,
     "tile_layout": {
-      "base_tile": 64,
-      "width_tiles": 4,
-      "height_tiles": 4,
+      "base_tile": 0,
+      "width_tiles": 6,
+      "height_tiles": 6,
       "column_major": true,
       "tile_count": 216
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "4cd973efbed36e70ef78d1b7d4d58c7a4addd9d677e8daeaa2c4510c9942f0cc"
+    "frame_sha256": "3d541fc81b0195f6d122dbf19ce10a298d0e4917383d8eea9e767067e959044c"
   },
   {
     "id": 218,
     "name": "가디언",
     "icon": "class_icons/class-218.png",
-    "image_status": "large_front_frame_64x64_column_major_normalized_palette",
+    "image_status": "large_front_frame_128x128_column_major_fit64_normalized_palette",
     "source": "/CHRD/CDA.P",
     "source_lba": 3765,
     "tile_layout": {
-      "base_tile": 64,
-      "width_tiles": 4,
-      "height_tiles": 4,
+      "base_tile": 0,
+      "width_tiles": 8,
+      "height_tiles": 8,
       "column_major": true,
       "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "2032a82ba2108fe1d27a243c4426f25d02acc593275e991547a3f15ff435845d"
+    "frame_sha256": "28fae64cd3d2cd922394f5bb0024cb317f12084e46d9349eba7bd3ca6ac8a950"
   },
   {
     "id": 219,
