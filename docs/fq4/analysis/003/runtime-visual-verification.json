@@ -1,0 +1,50 @@
+{
+  "plan": "FQ4-PLAN-003",
+  "result": "unresolved",
+  "inputs": {
+    "normal_bios": {
+      "path": "original/scph1001.bin",
+      "sha256": "71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3"
+    },
+    "duckstation_bios_copy": {
+      "path": "work/fq4/tools/duckstation/bios/scph1001.bin",
+      "sha256": "71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3"
+    },
+    "work_rom": {
+      "path": "work/fq4/rom/current.bin",
+      "size": 101140704,
+      "sha256": "e419b4018a8aa02facc3a425ef05f325cb0fc0130e5822015ce43fa2e0baded9"
+    },
+    "cue": {
+      "path": "work/fq4/rom/current.cue",
+      "sha256": "4929138280e6ade1ed46d8cb145e2fe1177005fe47db96a60d38b90e274caccc"
+    }
+  },
+  "boot_observation": {
+    "game_id_slps_00604": true,
+    "bios_v2_2_selected": true,
+    "bios_region_ntsc_u": true,
+    "disc_region_ntsc_j": true,
+    "system_booted": true,
+    "kernel_initialized": true
+  },
+  "visual_observation": {
+    "representative_screen_reached_by_normal_input": false,
+    "final_pixels_observed": false,
+    "exit_and_reentry_tested": false,
+    "screenshots_created": 0
+  },
+  "automation_failures": [
+    "Trusted RPC service is not configured: sky",
+    "cua.listApps is not a function",
+    "Windows sandbox failed while applying deny-read ACLs; node_repl kernel exited"
+  ],
+  "single_work_rom": {
+    "bin_count": 1,
+    "paths": [
+      "work/fq4/rom/current.bin"
+    ],
+    "pass": true
+  },
+  "claim_limit": "This run proves a fresh normal-BIOS boot only. It does not prove normal-input reachability, final Korean pixels, surrounding UI integrity, or exit/re-entry behavior."
+}

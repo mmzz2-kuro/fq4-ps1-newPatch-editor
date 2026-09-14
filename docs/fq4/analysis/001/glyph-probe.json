@@ -1,0 +1,65 @@
+{
+  "evidence_class": "isolated function execution, experimental relocation; not normal BIOS boot or game execution",
+  "bios_sha256": "f8658d98e32c6a8560a832c50f74f84662e1bff98c486c6480c207a2b404b88f",
+  "entry": "0x65e0",
+  "relocation": "BIOS file 0xfb00 mapped to RAM 0",
+  "converter": "250826 executable 0x80046674; 6 valid glyph probes; A2=0",
+  "results": [
+    {
+      "code": "0x8140",
+      "returned_address": "0xbfc66000",
+      "bios_offset": "0x66000",
+      "glyph_sha256": "0679246d6c4216de0daa08e5523fb2674db2b6599c3b72ff946b488a15290b62",
+      "game_converter_matches_static_decode": true,
+      "converted_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+    },
+    {
+      "code": "0x889f",
+      "returned_address": "0xbfc69d68",
+      "bios_offset": "0x69d68",
+      "glyph_sha256": "4d8e5130e3e16c017606116a6205225aea8b0a46007a243098f05da6388acd65",
+      "game_converter_matches_static_decode": true,
+      "converted_sha256": "aeed257d6bde237d466f036f4e0b60b81f5e06f26b551f0813205d22c584abab"
+    },
+    {
+      "code": "0x8952",
+      "returned_address": "0xbfc6aa88",
+      "bios_offset": "0x6aa88",
+      "glyph_sha256": "bbc0b479448e60d70db62157808a9531353ab48f6ccd762deea63c3b9bb80faf",
+      "game_converter_matches_static_decode": true,
+      "converted_sha256": "3b006688ccf5dd1db761a33312802c7981666a31c6e287b2790f5d9af9b91ef6"
+    },
+    {
+      "code": "0x8eb5",
+      "returned_address": "0xbfc7242c",
+      "bios_offset": "0x7242c",
+      "glyph_sha256": "438e50e4f2a0f1b3fec51281edd6dc0b3f31f314cc0edbd8a8fc4f34201ec721",
+      "game_converter_matches_static_decode": true,
+      "converted_sha256": "dfdf744988117e95498f54853421182e077a2983cc3a9670ed7dafbee5c81246"
+    },
+    {
+      "code": "0x917e",
+      "returned_address": "0xbfc75ff0",
+      "bios_offset": "0x75ff0",
+      "glyph_sha256": "5e735b8fa73ec6bf6b1e5542b57c9f6799dfa0fc0f94331f575041d416a58705",
+      "game_converter_matches_static_decode": true,
+      "converted_sha256": "2628b260775fa2862a4df8e0841459dd79f351fe16b57ffd049e5fe396c77051"
+    },
+    {
+      "code": "0x8144",
+      "returned_address": "0xbfc66078",
+      "bios_offset": "0x66078",
+      "glyph_sha256": "b9e473db93c5a4c6445fa95da04b1c97749ab6e69834516555273f6e741fa09b",
+      "game_converter_matches_static_decode": true,
+      "converted_sha256": "823703adc56df771df9a239f2ebab4a5ff476a260e9be96ff8b5c214cafdd54a"
+    },
+    {
+      "code": "0x0",
+      "returned_address": "0xffffffff"
+    },
+    {
+      "code": "0xffff",
+      "returned_address": "0xffffffff"
+    }
+  ]
+}

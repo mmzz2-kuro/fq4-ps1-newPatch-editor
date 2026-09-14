@@ -1,0 +1,50 @@
+
+# ROM 카트리지 이미지
+# 주의: 메가드라이브 ROM 확장자 .md 는 Markdown 과 충돌하므로 무시하지 않는다.
+#       이 repo 는 전량 .md 문서이므로 *.md 를 ignore 하면 안 된다.
+#       메가드라이브 덤프는 확장자가 아니라 디렉토리(예: roms/)로 격리한다.
+*.sfc
+*.smc
+*.gen
+*.bin
+*.gg
+*.pce
+*.sms
+*.nes
+*.gb
+*.gba
+*.n64
+*.z64
+*.v64
+
+# 디스크 이미지 (CD/GD-ROM, 플로피)
+*.iso
+*.cue
+*.img
+*.chd
+*.gdi
+*.cdi
+*.ccd
+*.mds
+*.mdf
+*.hdi
+*.fdi
+*.d88
+*.xdf
+
+*.exe
+
+
+/original/
+/patched/
+/korean-patch/
+/work/
+__pycache__/
+
+out/
+my-patch/
+memcard/
+dos-save/
+tools/dist/
+savestates/
+

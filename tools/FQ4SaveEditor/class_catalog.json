@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 0,
+    "name": "KING",
+    "icon": "class_icons/class-000.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C00.P",
+    "source_lba": 2192,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "fe4df35e267886d5a03e4c7f3d75a3c21c3f21c2112b089123cd607c16d59a3a"
+  },
+  {
+    "id": 1,
+    "name": "ユウシャ",
+    "icon": "class_icons/class-001.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C01.P",
+    "source_lba": 2198,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "5bee210c70fbf5fbd6dfa8260c1c1da2b43ab3c2946428aa1caca8db3cafbbe6"
+  },
+  {
+    "id": 2,
+    "name": "PRINCE",
+    "icon": "class_icons/class-002.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C02.P",
+    "source_lba": 2204,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "ab24f8846dc3ad5878ff6658ae8bd3b60363de4166452627e7832de5e44151e3"
+  },
+  {
+    "id": 3,
+    "name": "マスターナイト",
+    "icon": "class_icons/class-003.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C03.P",
+    "source_lba": 2210,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "039adde05cacd7dbd060a84469dc293bd5aebf462eedfa3d3b561f6f636723e9"
+  },
+  {
+    "id": 4,
+    "name": "MASTER",
+    "icon": "class_icons/class-004.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C04.P",
+    "source_lba": 2216,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "b815635ccc78c2831b54f041c360d95abdb3b7999b61fab63f1c43c1fa332576"
+  },
+  {
+    "id": 5,
+    "name": "キング",
+    "icon": "class_icons/class-005.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C05.P",
+    "source_lba": 2222,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "53e9c08fd9703321f16a5bde958dfda6913999df43f15446cb6fe314553ae3be"
+  },
+  {
+    "id": 6,
+    "name": "キング",
+    "icon": "class_icons/class-006.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C06.P",
+    "source_lba": 2228,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "0f29f147e5e4bddf923feb018bd0a5403e1c109bba742e24b9b4bcfc0bd7a24d"
+  },
+  {
+    "id": 7,
+    "name": "SHONIN",
+    "icon": "class_icons/class-007.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C07.P",
+    "source_lba": 2234,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "331f709143ad4dfa968add423dc102d0850b15e1b1dbe400ab5c54e047c95f62"
+  },
+  {
+    "id": 8,
+    "name": "CAPTAIN",
+    "icon": "class_icons/class-008.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C08.P",
+    "source_lba": 2240,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "6489798942e3c566787e63c48d0e046d428d38b839d026ec3bbf048b491b68e1"
+  },
+  {
+    "id": 9,
+    "name": "AMAZONES",
+    "icon": "class_icons/class-009.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C09.P",
+    "source_lba": 2246,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "70ba256bd26b5f079249e2a50109bb51970b6c6ba56efe4cc129d372899389e1"
+  },
+  {
+    "id": 10,
+    "name": "EXORCIST",
+    "icon": "class_icons/class-010.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C0A.P",
+    "source_lba": 2252,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "0793a75aea31fe9ac0913bd9a7f3247ccb1b3d4f6614698cb975c96204ec4b13"
+  },
+  {
+    "id": 11,
+    "name": "NURSE",
+    "icon": "class_icons/class-011.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C0B.P",
+    "source_lba": 2258,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "859a870165e05d5f8e645a6b84825181cc6426344f7a09855af1285c2725657f"
+  },
+  {
+    "id": 12,
+    "name": "MASTER",
+    "icon": "class_icons/class-012.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C0C.P",
+    "source_lba": 2264,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "924e1d436594da1c1d9c792e3d6c174485a1ffb8d081467b1509f9198cc8b6f9"
+  },
+  {
+    "id": 13,
+    "name": "WITCH",
+    "icon": "class_icons/class-013.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C0D.P",
+    "source_lba": 2270,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "8c0774e3a6da1c34ceec48e99bf804867d7db81a6185277536e5d7f732b8a34a"
+  },
+  {
+    "id": 14,
+    "name": "TRAINER",
+    "icon": "class_icons/class-014.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C0E.P",
+    "source_lba": 2276,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "db079178d73fd14f6d695cfa3c414d7c12fd1c40c9f7ed92dd8b5b9be907e9b7"
+  },
+  {
+    "id": 15,
+    "name": "TACTICIA",
+    "icon": "class_icons/class-015.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR0/C0F.P",
+    "source_lba": 2282,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "569f836f45e4b56e270fc50cf9a1c1ba4a7b5cbc84b89673eaeed2f8b778fe1c"
+  },
+  {
+    "id": 16,
+    "name": "MASTER",
+    "icon": "class_icons/class-016.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C10.P",
+    "source_lba": 2289,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "877267c6481f624198ba3d533e94014d3b23b9f7a861d0e4bfcf5c28611b55cd"
+  },
+  {
+    "id": 17,
+    "name": "MASTER",
+    "icon": "class_icons/class-017.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C11.P",
+    "source_lba": 2295,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "46dd7feb81ac6f94515fc99d2ec811fc608d2231b984097338c890ddbb1ff730"
+  },
+  {
+    "id": 18,
+    "name": "プリースト",
+    "icon": "class_icons/class-018.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C12.P",
+    "source_lba": 2301,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "49e3294aa9a468e76a00a7a1385e5e1add07bfd6b36f97510113a9dfbd8c6f87"
+  },
+  {
+    "id": 19,
+    "name": "MONK",
+    "icon": "class_icons/class-019.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C13.P",
+    "source_lba": 2307,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "d88cac842cc05053d5d7f5a0e498809fb9c8c8e24690cf695b63ed863dd86b9a"
+  },
+  {
+    "id": 20,
+    "name": "PRIESTES",
+    "icon": "class_icons/class-020.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C14.P",
+    "source_lba": 2313,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "6073c9f32a308056d2b6228c16f1f5bd41aee1488c07f091ba15b775fe1950c3"
+  },
+  {
+    "id": 21,
+    "name": "WITCH",
+    "icon": "class_icons/class-021.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C15.P",
+    "source_lba": 2319,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "df5664966c2a27508612f0a259917db10306571073b468a91e6a8cfe64eb96a6"
+  },
+  {
+    "id": 22,
+    "name": "マスターウィッチ",
+    "icon": "class_icons/class-022.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C16.P",
+    "source_lba": 2325,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "ac27c0474b64773ec475167e772e6cce56e942ab04608fafc650820f676f2a93"
+  },
+  {
+    "id": 23,
+    "name": "BROTHER",
+    "icon": "class_icons/class-023.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C17.P",
+    "source_lba": 2331,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "5bd50a165eb2c56c5f1b64a9b082774a0f6b6a00750bceed6ca0fb8b942b98df"
+  },
+  {
+    "id": 24,
+    "name": "BROTHER",
+    "icon": "class_icons/class-024.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C18.P",
+    "source_lba": 2337,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "45e72b469b0406efa903f03e7a6344392342889c5050200b0bbeffab180e1109"
+  },
+  {
+    "id": 25,
+    "name": "KNIGHT",
+    "icon": "class_icons/class-025.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C19.P",
+    "source_lba": 2343,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "47352d715e18ed684e84a76c4e59089aeb7ae1f69880d8fe178030929f149041"
+  },
+  {
+    "id": 26,
+    "name": "プリンス",
+    "icon": "class_icons/class-026.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C1A.P",
+    "source_lba": 2349,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "181864bb675c019f0b4334ef87bdb25b5e9a3e519982b518b6775f9f5bc0d13e"
+  },
+  {
+    "id": 27,
+    "name": "SCOUT",
+    "icon": "class_icons/class-027.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C1B.P",
+    "source_lba": 2355,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "0a788192b07410acd0c192fd2273c4ba1110a2ffd2670849a76b152899f8b5d4"
+  },
+  {
+    "id": 28,
+    "name": "NINJA",
+    "icon": "class_icons/class-028.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C1C.P",
+    "source_lba": 2361,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "59a1cf657c1423433faee6a7712b608d1a23138bc5cfd229e52f026e4f212829"
+  },
+  {
+    "id": 29,
+    "name": "KING",
+    "icon": "class_icons/class-029.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C1D.P",
+    "source_lba": 2367,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "f42e26c37734b38148bbeeefda08dd359a7da7fe12d08685e967e359a2cad02c"
+  },
+  {
+    "id": 30,
+    "name": "ARCHMAGE",
+    "icon": "class_icons/class-030.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C1E.P",
+    "source_lba": 2373,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "00ed90f0714b3c7c46441df07a364363e89edaa5d4c9415d36b2ec91a658da0f"
+  },
+  {
+    "id": 31,
+    "name": "シテンノウ",
+    "icon": "class_icons/class-031.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR1/C1F.P",
+    "source_lba": 2379,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "d8880e3626fb644afb111012c4f66d8fec9899714d4505fd6786c1d5302fb15b"
+  },
+  {
+    "id": 32,
+    "name": "シテンノウ",
+    "icon": "class_icons/class-032.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C20.P",
+    "source_lba": 2384,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "d314ee949fd99ee27501eff631fdcc5f28ac5b7eb688b6f801682aaf287e72bd"
+  },
+  {
+    "id": 33,
+    "name": "シテンノウ",
+    "icon": "class_icons/class-033.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C21.P",
+    "source_lba": 2388,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "fb8819d54c6aefaecd1373be92f82086b69fb1b504b088c8ae2263c4ed7f74d9"
+  },
+  {
+    "id": 34,
+    "name": "シテンノウ",
+    "icon": "class_icons/class-034.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C22.P",
+    "source_lba": 2392,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "c3aeab7c855527eeeaa90d4f3297563322e902c1f2883d6fdc25fbbbb2c1cfeb"
+  },
+  {
+    "id": 35,
+    "name": "キング",
+    "icon": "class_icons/class-035.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C23.P",
+    "source_lba": 2396,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "c286a163a858bd6239ca4a63ec8549bd2c02a015348cc524426e7db02a14836f"
+  },
+  {
+    "id": 36,
+    "name": "プリンス",
+    "icon": "class_icons/class-036.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C24.P",
+    "source_lba": 2402,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "3c455966bac138be9a2107420d4397d73f3d6833a337bab85459947a835338bd"
+  },
+  {
+    "id": 37,
+    "name": "キング",
+    "icon": "class_icons/class-037.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C25.P",
+    "source_lba": 2408,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "a88ab7dca9f9b0504a4c73a5352518b6fbc39ee4cc9302aa361702082e8d41f5"
+  },
+  {
+    "id": 38,
+    "name": "HIGHLAND",
+    "icon": "class_icons/class-038.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C26.P",
+    "source_lba": 2414,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "58979fe90bf77e221cf00c8a2191aba42890942afd5ebe5363cd158ece1fbe8f"
+  },
+  {
+    "id": 39,
+    "name": "キング",
+    "icon": "class_icons/class-039.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C27.P",
+    "source_lba": 2420,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "5db86068b86917f0fb808b90766ccafe2ccebd98a8e89b67181c2a2412f15a2f"
+  },
+  {
+    "id": 40,
+    "name": "ブラックナイト",
+    "icon": "class_icons/class-040.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C28.P",
+    "source_lba": 2426,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "4b6bec1bbc924acac96e99a819b73184e36370ef8246d6ff0f08b1565034dcbe"
+  },
+  {
+    "id": 41,
+    "name": "バロン",
+    "icon": "class_icons/class-041.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C29.P",
+    "source_lba": 2432,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "68858495c0eb6549110f1696e01a5999c44276c4dfaff84205ec65ee0805236d"
+  },
+  {
+    "id": 42,
+    "name": "LORD",
+    "icon": "class_icons/class-042.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C2A.P",
+    "source_lba": 2438,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "216451c5d2aeed336afccfae4c2b24d6751b33415eba23111a18db04972672f0"
+  },
+  {
+    "id": 43,
+    "name": "レッドナイト",
+    "icon": "class_icons/class-043.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C2B.P",
+    "source_lba": 2444,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "fac8ea59e7bb315c527c9f7358574bc301c76795f6ee2cd24b8feea76a7caac1"
+  },
+  {
+    "id": 44,
+    "name": "NECROMAN",
+    "icon": "class_icons/class-044.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C2C.P",
+    "source_lba": 2450,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "04ed35304c1dbf11f6edb1d526a550e038196d10a638ea1dbec4aa1b98fe3e24"
+  },
+  {
+    "id": 45,
+    "name": "WIZARD",
+    "icon": "class_icons/class-045.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C2D.P",
+    "source_lba": 2456,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "313a3685e40cc28f9eb569763d42a21ee875ed0ca1729b8562ef152173086308"
+  },
+  {
+    "id": 46,
+    "name": "RED LORD",
+    "icon": "class_icons/class-046.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C2E.P",
+    "source_lba": 2462,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "ca08970be1415b46fb61007f47d7eb4f3d580cb4482af20964058f14b4c1eb26"
+  },
+  {
+    "id": 47,
+    "name": "バーバリアン",
+    "icon": "class_icons/class-047.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR2/C2F.P",
+    "source_lba": 2468,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "8cd516b8f651ed82de155e52598c0a459a8670677a2fccaacde216a1f8ec91f4"
+  },
+  {
+    "id": 48,
+    "name": "ATTACKER",
+    "icon": "class_icons/class-048.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C30.P",
+    "source_lba": 2475,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "ee449da22aba7dfe0674cd5d6206814c17131920c3f3c90fe0383e5c03218b34"
+  },
+  {
+    "id": 49,
+    "name": "ダークナイト",
+    "icon": "class_icons/class-049.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C31.P",
+    "source_lba": 2481,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "e34c911ac22ed5ab48b544bdc5fc59930404a3582f241f90a7b36c824b45de9c"
+  },
+  {
+    "id": 50,
+    "name": "ヘルナイト",
+    "icon": "class_icons/class-050.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C32.P",
+    "source_lba": 2487,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "1a71c7805173ad906584c2047284bebdae630fd0ced70776736610a81e4ca202"
+  },
+  {
+    "id": 51,
+    "name": "FULLARMO",
+    "icon": "class_icons/class-051.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C33.P",
+    "source_lba": 2493,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "e6c6e449ad07aaea814835d22cef2ecc3de44c86f04e70c1bbe36527060ecf74"
+  },
+  {
+    "id": 52,
+    "name": "SWORDSMA",
+    "icon": "class_icons/class-052.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C34.P",
+    "source_lba": 2499,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "b7544119e4d905016349b8d10887a961a30651233040f3a04090d8c32052464c"
+  },
+  {
+    "id": 53,
+    "name": "スカルナイト",
+    "icon": "class_icons/class-053.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C35.P",
+    "source_lba": 2505,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "b130a9ecf127fb32994e2da317cbd6cbc62fe70f7a9c9f38970041475e392230"
+  },
+  {
+    "id": 54,
+    "name": "RANGER",
+    "icon": "class_icons/class-054.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C36.P",
+    "source_lba": 2511,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "a29611b866b99c0bea27721892a035d55480d5ea4cc5bf60d8c8bd2081130325"
+  },
+  {
+    "id": 55,
+    "name": "REDARMOR",
+    "icon": "class_icons/class-055.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C37.P",
+    "source_lba": 2517,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "c2e9d8af75d2d04d1d76f19130d62d0fb8816f20f2d3cb6a15e7df90af6c6c6d"
+  },
+  {
+    "id": 56,
+    "name": "ボウナイト",
+    "icon": "class_icons/class-056.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C38.P",
+    "source_lba": 2523,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "a13dbda5400a4f28fae8875b52c0ed34ca93168fc30855ffe9933c9d810faf73"
+  },
+  {
+    "id": 57,
+    "name": "BSOLDIER",
+    "icon": "class_icons/class-057.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C39.P",
+    "source_lba": 2529,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "152cc3b9705a1bc83d9345bf4bea971684812aff70b1c45c9af3607b8bd2a357"
+  },
+  {
+    "id": 58,
+    "name": "B・ファイター",
+    "icon": "class_icons/class-058.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C3A.P",
+    "source_lba": 2535,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "99d9f57aa91b8509f914b0e95808018ac982a5aee95d6ba186bbfdeac08b50d2"
+  },
+  {
+    "id": 59,
+    "name": "BSHOOTER",
+    "icon": "class_icons/class-059.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C3B.P",
+    "source_lba": 2541,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "3adfbb1f3d8035eccb7fcc886abff1c1b154624e9c3a781e76a4c9154ad4260e"
+  },
+  {
+    "id": 60,
+    "name": "M・ゴーレム",
+    "icon": "class_icons/class-060.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C3C.P",
+    "source_lba": 2547,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "4523042c90889d14a0cdb317069af447a30c0288954e60a819dda3751ed6148c"
+  },
+  {
+    "id": 61,
+    "name": "I・ゴーレム",
+    "icon": "class_icons/class-061.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C3D.P",
+    "source_lba": 2553,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "50cbea69c2dfab2b3ae018dc05907723977ae4462aaeaa7e73293ff719608850"
+  },
+  {
+    "id": 62,
+    "name": "C・ゴーレム",
+    "icon": "class_icons/class-062.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C3E.P",
+    "source_lba": 2559,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "b01fbc7e263442ee5b649fe33159d8f42390342d17d3ff624a3cb9438d189c3d"
+  },
+  {
+    "id": 63,
+    "name": "キング",
+    "icon": "class_icons/class-063.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR3/C3F.P",
+    "source_lba": 2565,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "7c157694e3951b8596ecd8db6ca934b93a9249c85141ae925c49d0b1deb5ed95"
+  },
+  {
+    "id": 64,
+    "name": "MASTER",
+    "icon": "class_icons/class-064.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C40.P",
+    "source_lba": 2572,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "45f63c5852097474d209c42f6fca992c4bfad3cb54049c7bc0e36468bc85aef4"
+  },
+  {
+    "id": 65,
+    "name": "KUNGFUMA",
+    "icon": "class_icons/class-065.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C41.P",
+    "source_lba": 2578,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "04206ff8ea54e7fd5e902e61ff40fd227023d2b3e8bb9419e90b6987231336f7"
+  },
+  {
+    "id": 66,
+    "name": "ユウシャ",
+    "icon": "class_icons/class-066.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C42.P",
+    "source_lba": 2584,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "ec0c0e7452e8dd0fb369a40cfb484d73eafa10cb17acf542aa6f97d5f3e9fbf2"
+  },
+  {
+    "id": 67,
+    "name": "レッドナイト",
+    "icon": "class_icons/class-067.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C43.P",
+    "source_lba": 2590,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "ec37b436f0dce52e7ae336f15a05681989c6449f9e83e9bcae1e5c66fabd34e3"
+  },
+  {
+    "id": 68,
+    "name": "RSOLDIER",
+    "icon": "class_icons/class-068.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C44.P",
+    "source_lba": 2596,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "f355b7d73d229ca83699b84d59c7f273d6184f59662ccfffc2a0aa1c0105e29f"
+  },
+  {
+    "id": 69,
+    "name": "RSHOOTER",
+    "icon": "class_icons/class-069.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C45.P",
+    "source_lba": 2602,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "1c1f31e1c1221d85fa0c0c16b505c6cdcf64b344af4a150e51201e9ce1a4c694"
+  },
+  {
+    "id": 70,
+    "name": "プリンス",
+    "icon": "class_icons/class-070.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C46.P",
+    "source_lba": 2608,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "afec4befd7ba47ed6443729893f7c9a1a4c5a4ac435356322c53403aff9db7ae"
+  },
+  {
+    "id": 71,
+    "name": "プリンス",
+    "icon": "class_icons/class-071.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C47.P",
+    "source_lba": 2614,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "e7408d0191d97bd478feb32081340dd9eb6df2ca6d8874c4e609c9af68715cc9"
+  },
+  {
+    "id": 72,
+    "name": "スリープナイト",
+    "icon": "class_icons/class-072.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C48.P",
+    "source_lba": 2620,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "71b5e86296abff638398abedec2679dbb7688367d8a8407ca76a6ee185d899c1"
+  },
+  {
+    "id": 73,
+    "name": "ホワイトナイト",
+    "icon": "class_icons/class-073.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C49.P",
+    "source_lba": 2626,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "a85e0ebb59f1acdf5032ac58dae2f015f03cf2b90396f56a3dd668038286b4f3"
+  },
+  {
+    "id": 74,
+    "name": "KNIGHT",
+    "icon": "class_icons/class-074.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C4A.P",
+    "source_lba": 2632,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "7f14625bd2d4712758b0ff5acf5fbca1351980056313a5181a8cec45113a4644"
+  },
+  {
+    "id": 75,
+    "name": "SPEAR",
+    "icon": "class_icons/class-075.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C4B.P",
+    "source_lba": 2638,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "07619d4c13d7eadf23921a45000a4df547fa8d1e4e095b4959958cae27506f5a"
+  },
+  {
+    "id": 76,
+    "name": "LANCE",
+    "icon": "class_icons/class-076.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C4C.P",
+    "source_lba": 2644,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "a9cec908940bfb0842c754d21c42bde865e41b553272c362e41f8a4dc3260cf5"
+  },
+  {
+    "id": 77,
+    "name": "キング",
+    "icon": "class_icons/class-077.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C4D.P",
+    "source_lba": 2650,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "21bad7d80cbd9f29f8dbba5e8c4643bbd3c720ba8bcb9e47f30ec91f4d6ceed0"
+  },
+  {
+    "id": 78,
+    "name": "PRINCESS",
+    "icon": "class_icons/class-078.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C4E.P",
+    "source_lba": 2656,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "b93418483156cc7f8f9fbc46d5080b85fd2a8dade9dadc749a6cd3aa6f0a6ac6"
+  },
+  {
+    "id": 79,
+    "name": "MASTER",
+    "icon": "class_icons/class-079.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR4/C4F.P",
+    "source_lba": 2662,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "0c358152049a4fa0c1b159a1f4ede34ba0fc42d17f0900a55bd1021a5077676c"
+  },
+  {
+    "id": 80,
+    "name": "バード",
+    "icon": "class_icons/class-080.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C50.P",
+    "source_lba": 2669,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "f5573dbb331fea4c7febe5576f85288dc533a70f9469cfa141e876b1b18c3412"
+  },
+  {
+    "id": 81,
+    "name": "グリーンナイト",
+    "icon": "class_icons/class-081.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C51.P",
+    "source_lba": 2675,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "950961661eeef9522a720b584e4106009c903708313dab994965c236096a5919"
+  },
+  {
+    "id": 82,
+    "name": "GSOLDIER",
+    "icon": "class_icons/class-082.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C52.P",
+    "source_lba": 2681,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "5aeefed303e82c75e5d59adbbef218de869c782a5e0f75433e58f023da41c9fe"
+  },
+  {
+    "id": 83,
+    "name": "G・ファイター",
+    "icon": "class_icons/class-083.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C53.P",
+    "source_lba": 2687,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "e66351d51ef4d0b2f0afd6965347c70ff7788a5258843e4993beb0c4b6a1b796"
+  },
+  {
+    "id": 84,
+    "name": "SOLDIER",
+    "icon": "class_icons/class-084.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C54.P",
+    "source_lba": 2693,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "ae4c4ae3403ece53b2fcb31320d3fb49d5915fadeaa28ac6813569e2804af2b7"
+  },
+  {
+    "id": 85,
+    "name": "ファイター",
+    "icon": "class_icons/class-085.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C55.P",
+    "source_lba": 2699,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "d4e5c2c11f02c4898e983363029f58fb0eee4cdeb170362b854dab2f768b7dd2"
+  },
+  {
+    "id": 86,
+    "name": "KNIGHT",
+    "icon": "class_icons/class-086.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C56.P",
+    "source_lba": 2705,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "26a785264011c2cfe822531223902def887a2259e9c0dff1d0fd42271eb61911"
+  },
+  {
+    "id": 87,
+    "name": "SHOOTER",
+    "icon": "class_icons/class-087.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C57.P",
+    "source_lba": 2711,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "a118045b8cbd63ae88f4e4984d477df56961ca93b7781ca5b9b98e1f6f872707"
+  },
+  {
+    "id": 88,
+    "name": "ARMORBOW",
+    "icon": "class_icons/class-088.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C58.P",
+    "source_lba": 2717,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "bb854c007afdf91e61c862fc89e9cdfa553a41fb9900d81940061db36e7a7aeb"
+  },
+  {
+    "id": 89,
+    "name": "DAO",
+    "icon": "class_icons/class-089.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C59.P",
+    "source_lba": 2723,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "785d651de55d349764b15e5681dbedf9db249ceab31a27547ea5b151076acc2d"
+  },
+  {
+    "id": 90,
+    "name": "MARID",
+    "icon": "class_icons/class-090.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C5A.P",
+    "source_lba": 2729,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "51210281366e51380bd79a46c484582047bcb72c91a2b2fc93405bccc5112e60"
+  },
+  {
+    "id": 91,
+    "name": "イーフリート",
+    "icon": "class_icons/class-091.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C5B.P",
+    "source_lba": 2735,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "49734a4b42e0b1dd91abec58a1efdd0fec0a61bd89d957393ab140ec1077cce4"
+  },
+  {
+    "id": 92,
+    "name": "JIN",
+    "icon": "class_icons/class-092.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C5C.P",
+    "source_lba": 2741,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "00836db35a573fe10826a3fb258f7813f8becf4270813ccb84f6b5ff8ef2e71a"
+  },
+  {
+    "id": 93,
+    "name": "ANGEL",
+    "icon": "class_icons/class-093.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C5D.P",
+    "source_lba": 2747,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "3b554f0151033db89eac17090f4173e3308faeef9c1497b6585698b7d96eee97"
+  },
+  {
+    "id": 94,
+    "name": "DEATH",
+    "icon": "class_icons/class-094.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C5E.P",
+    "source_lba": 2753,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "d1b4ab966d11daadea4786ee1680fb7e37f39d261465f0a60e47d99c7ac5a9ec"
+  },
+  {
+    "id": 95,
+    "name": "DEMON",
+    "icon": "class_icons/class-095.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR5/C5F.P",
+    "source_lba": 2759,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "802cab6fadbd5c9d25c3117f69e3b1157a8d24234bfd54ce44d3b5cd930222a4"
+  },
+  {
+    "id": 96,
+    "name": "ZOMBIE",
+    "icon": "class_icons/class-096.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C60.P",
+    "source_lba": 2766,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "51547ee1fbbc8d6c5c1cd8cc4f3776ee537fc0d1fd2a28826d6bf305a423d548"
+  },
+  {
+    "id": 97,
+    "name": "SKELETON",
+    "icon": "class_icons/class-097.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C61.P",
+    "source_lba": 2772,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "eb7c45ad84c84687b163741e74e81b6f78c925aaeb736092e94a489c8aae7347"
+  },
+  {
+    "id": 98,
+    "name": "ゴースト",
+    "icon": "class_icons/class-098.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C62.P",
+    "source_lba": 2778,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "6b6abbfdccf5f4f72974c186bd4bf96abb2bbfc8de85c57a1e9b752350dc1f7a"
+  },
+  {
+    "id": 99,
+    "name": "GOBLIN",
+    "icon": "class_icons/class-099.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C63.P",
+    "source_lba": 2784,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "88f3043053bacfdb0d20e1f01fde085b46fc50609ebf89a02f491c80806ea17e"
+  },
+  {
+    "id": 100,
+    "name": "GOBLIN",
+    "icon": "class_icons/class-100.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C64.P",
+    "source_lba": 2790,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "cd8f54f84af95efec7be77c24ef6fb98b501aec001065e84e9117b6b803cc3fb"
+  },
+  {
+    "id": 101,
+    "name": "BATMAN",
+    "icon": "class_icons/class-101.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C65.P",
+    "source_lba": 2796,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "7162786964c2ef70c71e23f1e108a06d1d7b9a86ec3418805668c13d25075f4d"
+  },
+  {
+    "id": 102,
+    "name": "オーク",
+    "icon": "class_icons/class-102.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C66.P",
+    "source_lba": 2802,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "912a6532099c985c3f2a87fe1049b05324be3a49df3d0f79dc7ce09826e8cf1a"
+  },
+  {
+    "id": 103,
+    "name": "オーク",
+    "icon": "class_icons/class-103.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C67.P",
+    "source_lba": 2808,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "340bee9fdbec1021b23ac2e1933c84d80e4fcc8708c7c90231890eacb7778784"
+  },
+  {
+    "id": 104,
+    "name": "LIZARD",
+    "icon": "class_icons/class-104.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C68.P",
+    "source_lba": 2814,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "84ad65883bb3558f6011df56efeabfc86224a5907b33acf684afaaf74352f1e8"
+  },
+  {
+    "id": 105,
+    "name": "LIZARDMA",
+    "icon": "class_icons/class-105.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C69.P",
+    "source_lba": 2820,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "f68e77360261ecde85ae59851cdc9420333a95850d5c5f9f190b154bd005d744"
+  },
+  {
+    "id": 106,
+    "name": "WEREBEAR",
+    "icon": "class_icons/class-106.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C6A.P",
+    "source_lba": 2826,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "41b02c85dfcb1e1ed1f3a48748c58e7720e73c8d33c31a0ada364162d178a1e8"
+  },
+  {
+    "id": 107,
+    "name": "WEREWOLF",
+    "icon": "class_icons/class-107.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C6B.P",
+    "source_lba": 2832,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "07460d4d57e4b22789229cad4c11b3047efd2c636e517ec4625acf7f4e0603df"
+  },
+  {
+    "id": 108,
+    "name": "エルフキング",
+    "icon": "class_icons/class-108.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C6C.P",
+    "source_lba": 2838,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "f23fa89a2ca98a26cb42b2b29af501c51f30f23abe2f4fc2a0dfbc3dcacfe2b9"
+  },
+  {
+    "id": 109,
+    "name": "エルフ",
+    "icon": "class_icons/class-109.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C6D.P",
+    "source_lba": 2844,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "bc19c197d8bab3ebd54ff40d9df5dccac0c549a381a1afc4c40f469992697279"
+  },
+  {
+    "id": 110,
+    "name": "ELF BOW",
+    "icon": "class_icons/class-110.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C6E.P",
+    "source_lba": 2850,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "1a6eb197aca4c414dc25fea46478d1e3e0550173a8270500cca923f280675d22"
+  },
+  {
+    "id": 111,
+    "name": "エルフナイト",
+    "icon": "class_icons/class-111.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR6/C6F.P",
+    "source_lba": 2856,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "1ee8c775c0ccd2a459f8774771ec293ac53b2a13d2d4ff1a8c971bc3954afa65"
+  },
+  {
+    "id": 112,
+    "name": "ELFWITCH",
+    "icon": "class_icons/class-112.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C70.P",
+    "source_lba": 2863,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "34943d33a25f76141604e626535c87482fb837bc13572c961250a14254c06b84"
+  },
+  {
+    "id": 113,
+    "name": "BIRDMAN",
+    "icon": "class_icons/class-113.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C71.P",
+    "source_lba": 2869,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "6058c3689a2565fe91b838eae0b713f921f52911675777326ab8560e4da8bc64"
+  },
+  {
+    "id": 114,
+    "name": "BIRD BOW",
+    "icon": "class_icons/class-114.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C72.P",
+    "source_lba": 2875,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "a32bd8397e877696062928af2cc98e183029b3165bcf5f27daba8b00ea1a9e1b"
+  },
+  {
+    "id": 115,
+    "name": "バードナイト",
+    "icon": "class_icons/class-115.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C73.P",
+    "source_lba": 2881,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "08f29a3743417f10226533ae54b753e2d90ba84f50f017d404704c62bd767947"
+  },
+  {
+    "id": 116,
+    "name": "キング",
+    "icon": "class_icons/class-116.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C74.P",
+    "source_lba": 2887,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "57bb3d43e33c77bfaa007c4dc87905c1d4c8d84d68ba2766a41cbf5b0bbd3da1"
+  },
+  {
+    "id": 117,
+    "name": "WARRIOR",
+    "icon": "class_icons/class-117.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C75.P",
+    "source_lba": 2893,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "bda79c901011cf36f8a60d8f3466b00e981f462716901ae20bdce258cb3ac2ff"
+  },
+  {
+    "id": 118,
+    "name": "バイキング",
+    "icon": "class_icons/class-118.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C76.P",
+    "source_lba": 2899,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "bb8f65a50cda19606d5d6e0e083280ab3a1a087e0797c4022ccfe56ae0202b1f"
+  },
+  {
+    "id": 119,
+    "name": "バロン",
+    "icon": "class_icons/class-119.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C77.P",
+    "source_lba": 2905,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "4a0c848351754a7adca4d1088cf166a3b62a09f99577cdf4d6e416f92ce313b0"
+  },
+  {
+    "id": 120,
+    "name": "マスターアクス",
+    "icon": "class_icons/class-120.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C78.P",
+    "source_lba": 2911,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "c9e879d860a6d6629f60cbc3ebd4c14aadc855825aa260f9ce4148cfca0cc08f"
+  },
+  {
+    "id": 121,
+    "name": "マスターランス",
+    "icon": "class_icons/class-121.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C79.P",
+    "source_lba": 2917,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "4288678975a7d58d406b8554badd3e5fa6d146faa545a09c306720fe77a03676"
+  },
+  {
+    "id": 122,
+    "name": "GUARD",
+    "icon": "class_icons/class-122.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C7A.P",
+    "source_lba": 2923,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "7dee7c643c8ee3bd21be250ecc607daa556bc361e1949e0a0bde4acc5a9aab37"
+  },
+  {
+    "id": 123,
+    "name": "ミズノオウ",
+    "icon": "class_icons/class-123.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C7B.P",
+    "source_lba": 2929,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "5cffdf0e30a91262bd9af6c86093fe70cdef3fa03099ee5743f4bea6907b04a3"
+  },
+  {
+    "id": 124,
+    "name": "ツチノオウ",
+    "icon": "class_icons/class-124.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C7C.P",
+    "source_lba": 2935,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "f8f95d8a2f4633777b648e4605bff12abb69596fe12a2d7f4928007652808ad0"
+  },
+  {
+    "id": 125,
+    "name": "カゼノオウ",
+    "icon": "class_icons/class-125.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C7D.P",
+    "source_lba": 2941,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "1a5005ea65339310179d0085727dd9a3fc73f322462d345bd3308b5650dc1c54"
+  },
+  {
+    "id": 126,
+    "name": "UNDINE",
+    "icon": "class_icons/class-126.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C7E.P",
+    "source_lba": 2947,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "2ffed38adb23c390343062619275bb720df25364417edb6b4eba4dcadc20f54c"
+  },
+  {
+    "id": 127,
+    "name": "GNOME",
+    "icon": "class_icons/class-127.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR7/C7F.P",
+    "source_lba": 2953,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "4004d06fa8950382a26cbf93e5257c631cdf2e272b06625838c46af30b0abb1a"
+  },
+  {
+    "id": 128,
+    "name": "SYLPH",
+    "icon": "class_icons/class-128.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C80.P",
+    "source_lba": 2960,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "af5f3ab35c464746678739fa912a30f96d1402ab0a3f4f6f60d454bb3f9bb175"
+  },
+  {
+    "id": 129,
+    "name": "GNOME",
+    "icon": "class_icons/class-129.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C81.P",
+    "source_lba": 2966,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "217f0d7dedca9ce804dde1caf9d5cb58fefe44ab7bc253afda089180176e6746"
+  },
+  {
+    "id": 130,
+    "name": "DELLSMIT",
+    "icon": "class_icons/class-130.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C82.P",
+    "source_lba": 2972,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "bbc395bae090aa169559c40a7c8d02958520db05338bf00b3a5533eb81ee37d6"
+  },
+  {
+    "id": 131,
+    "name": "DELLSMIT",
+    "icon": "class_icons/class-131.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C83.P",
+    "source_lba": 2978,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "88d3d23338b25584fbff168743e8ddd91133cdb9845669861ffe8f30a3275c0b"
+  },
+  {
+    "id": 132,
+    "name": "KING",
+    "icon": "class_icons/class-132.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C84.P",
+    "source_lba": 2984,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "6b9a76a1cd4f4ed757719c81756d7f3e978b3f072c78be73fe71c5037378bb23"
+  },
+  {
+    "id": 133,
+    "name": "WOLFDOLL",
+    "icon": "class_icons/class-133.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C85.P",
+    "source_lba": 2990,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "98982030933f0d7edc3033364ac0e9507eabc77497536627e0f7ac46be7dab30"
+  },
+  {
+    "id": 134,
+    "name": "ユウシャ",
+    "icon": "class_icons/class-134.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C86.P",
+    "source_lba": 2996,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "206cf7ea7c19c22f08b68560faa987f31024b95c834a960e143939b42665d7ae"
+  },
+  {
+    "id": 135,
+    "name": "マスターボウ",
+    "icon": "class_icons/class-135.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C87.P",
+    "source_lba": 3002,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "89d9fef16124b2c91d026aa00afa0915b3e632df1a6c84415f74706ef198dc2b"
+  },
+  {
+    "id": 136,
+    "name": "HUNTER",
+    "icon": "class_icons/class-136.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C88.P",
+    "source_lba": 3008,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "fb79f2004a50fad5939ef34dffcf6df9a7a56c18c6e3d4b974ce502320dd469b"
+  },
+  {
+    "id": 137,
+    "name": "TIGEDOLL",
+    "icon": "class_icons/class-137.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C89.P",
+    "source_lba": 3014,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "6f2efa47c7312b935ab4fa637301af9f2a7c71f8876cba50236fc54620f4ec87"
+  },
+  {
+    "id": 138,
+    "name": "PANDDOLL",
+    "icon": "class_icons/class-138.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C8A.P",
+    "source_lba": 3020,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "859426be8999b75e13e41a714ccfb1e805dab82176694e3cd9c5e8ee23126a91"
+  },
+  {
+    "id": 139,
+    "name": "TURTDOLL",
+    "icon": "class_icons/class-139.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C8B.P",
+    "source_lba": 3026,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "5b8530cf1cc0f78f0c037ab0f26ba035c2c0dbe0d18c3e4a3dfb9ed9f66bc3e6"
+  },
+  {
+    "id": 140,
+    "name": "GODZDOLL",
+    "icon": "class_icons/class-140.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C8C.P",
+    "source_lba": 3032,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "7769afb2c502a38ec2788064efc3d32109cea030a256784bf051ab59f44d993b"
+  },
+  {
+    "id": 141,
+    "name": "CYCLOPS",
+    "icon": "class_icons/class-141.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C8D.P",
+    "source_lba": 3038,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "d35da8dc9d3fe478263bc0de319fa61fef8df12cdae54ff01addd59568bf68bc"
+  },
+  {
+    "id": 142,
+    "name": "YOROI",
+    "icon": "class_icons/class-142.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C8E.P",
+    "source_lba": 3044,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "cf9e2d08e517cbc04122ecbdedc40205efd7c386c2a6183d61156e0f10df6738"
+  },
+  {
+    "id": 143,
+    "name": "BIGFOOT",
+    "icon": "class_icons/class-143.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR8/C8F.P",
+    "source_lba": 3050,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "168fcada3d0970731a2890fb6003118db109eae7a9d287fc0d9690e2d9f1eaea"
+  },
+  {
+    "id": 144,
+    "name": "PHANTOM",
+    "icon": "class_icons/class-144.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C90.P",
+    "source_lba": 3057,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "5109eb205a16f83085fdcb1febdad11091be5aea9af1de3db551111c53d010c9"
+  },
+  {
+    "id": 145,
+    "name": "THIEF",
+    "icon": "class_icons/class-145.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C91.P",
+    "source_lba": 3063,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "8747d0e7856cac09c6bc266bcbb87e9b2a73ba92095edb589c1d5b2aadd67dc7"
+  },
+  {
+    "id": 146,
+    "name": "BLADEMAN",
+    "icon": "class_icons/class-146.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C92.P",
+    "source_lba": 3069,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "9dd2cb9677f1db2bdacff3116b9d399d0dcda56a6eace5565efd4f4ce9277fa2"
+  },
+  {
+    "id": 147,
+    "name": "LADY",
+    "icon": "class_icons/class-147.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C93.P",
+    "source_lba": 3075,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "42b08032ba67c3c4528bf4ba1aa036db18ebb92bc719b135fc15e9330ab9ad3b"
+  },
+  {
+    "id": 148,
+    "name": "TOAD",
+    "icon": "class_icons/class-148.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C94.P",
+    "source_lba": 3081,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "80726c3c497c4672e6e18cb6871f8271a6ac7569decbd7e141b8ef794b617c35"
+  },
+  {
+    "id": 149,
+    "name": "MEW",
+    "icon": "class_icons/class-149.png",
+    "image_status": "user_approved_front_frame_normalized_palette",
+    "source": "/CHR9/C95.P",
+    "source_lba": 3087,
+    "tile_positions": {
+      "top_left": 16,
+      "bottom_left": 17,
+      "top_right": 18,
+      "bottom_right": 19
+    },
+    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "frame_sha256": "d46fa2db5e59fb983739760b3457f46cbcdd4e8ad737f764583514e8ad121876"
+  }
+]

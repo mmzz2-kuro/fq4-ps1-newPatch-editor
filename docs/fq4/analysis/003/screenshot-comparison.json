@@ -1,0 +1,37 @@
+{
+  "plan": "FQ4-PLAN-003",
+  "screenshots": {
+    "normal_bios": {
+      "source": "work/fq4/tools/duckstation/screenshots/ファーストクィーンⅣ　バルシア戦記 2026-09-13-13-31-26.png",
+      "evidence_copy": "work/fq4/003/normal-bios-menu.png",
+      "size": 663164,
+      "width": 1200,
+      "height": 914,
+      "sha256": "9c90caba781ebc82d38efca007d47810a4a955741a7e2d8d97888bf3e69a0e63"
+    },
+    "korean_bios": {
+      "source": "work/fq4/tools/duckstation/screenshots/ファーストクィーンⅣ　バルシア戦記 2026-09-13-13-33-09.png",
+      "evidence_copy": "work/fq4/003/korean-bios-menu.png",
+      "size": 634859,
+      "width": 1200,
+      "height": 914,
+      "sha256": "f8f15fd4d2218487cb8a14e9d94466e4fc51e7d6e315879950fd6815cc860c55"
+    }
+  },
+  "same_dimensions": true,
+  "user_identification": {
+    "normal_bios_capture": "2026-09-13 13:31:26",
+    "korean_bios_capture": "2026-09-13 13:33:09"
+  },
+  "manual_visual_observation": {
+    "same_scene": "world-map command menu",
+    "normal_bios": "menu text renders as incorrect Japanese/ideographic glyphs",
+    "korean_bios": "menu text renders as Korean; first entries include 시간경과, 부대이동, 탐색",
+    "selected_followup_strings": [
+      "시간경과",
+      "부대이동",
+      "탐색"
+    ]
+  },
+  "claim_limit": "The captures demonstrate BIOS-dependent glyph selection in this menu. They do not yet demonstrate a ROM-resident replacement for the selected strings."
+}

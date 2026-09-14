@@ -1,0 +1,52 @@
+[
+  {
+    "path": "original/First Queen IV - Varcia Senki (Japan).bin",
+    "size": 101140704,
+    "sha256": "858f3a806cbb97d0b9dd1a43c285989ac31200959c3fbff61296780a99b81e2a"
+  },
+  {
+    "path": "original/First Queen IV - Varcia Senki (Japan).cue",
+    "size": 103,
+    "sha256": "f4673563a2fe7baf36d79c429dd0683e1149c7e353a526562df714284266888b"
+  },
+  {
+    "path": "patched/First Queen IV - Varcia Senki (kor).bin",
+    "size": 101140704,
+    "sha256": "56efd993ffae15709bf3230c27e5fab35d3461616a31a95fbc56263ca65586b3"
+  },
+  {
+    "path": "patched/First Queen IV - Varcia Senki (kor).cue",
+    "size": 101,
+    "sha256": "609b6f00fab584bf6df4c2b0c3832c10ae61def9ec8012f58298be48f67464f2"
+  },
+  {
+    "path": "korean-patch/SCPH1001.BIN",
+    "size": 524288,
+    "sha256": "f8658d98e32c6a8560a832c50f74f84662e1bff98c486c6480c207a2b404b88f"
+  },
+  {
+    "path": "korean-patch/xdelta.exe",
+    "size": 227840,
+    "sha256": "847f811f51bbbf31f25962169e552a09cb0751678c62c198bd9da8db86474361"
+  },
+  {
+    "path": "korean-patch/xdeltaUI.exe",
+    "size": 80896,
+    "sha256": "6632e97a3b9edb6374608706a32ec67ae02d4e491f4bc8e66220f52dddcfbe2e"
+  },
+  {
+    "path": "korean-patch/패치 방법.png",
+    "size": 10933,
+    "sha256": "cad8c8cea2bcc9fac372555eb1792f40a1be4da07db33abb19dfe7b70b63c372"
+  },
+  {
+    "path": "korean-patch/퍼스트퀸4 한글패치(241112).xdelta",
+    "size": 16817849,
+    "sha256": "238ba2a9726a0f22d520e09a179b04e12b72d58735f6e53e8a016d396f649789"
+  },
+  {
+    "path": "korean-patch/퍼스트퀸4 한글패치(250826).xdelta",
+    "size": 16817939,
+    "sha256": "86b9404f0e596f5dc300234465da4fb6a80cd9a603b5c9658d544be8bcf6abd2"
+  }
+]

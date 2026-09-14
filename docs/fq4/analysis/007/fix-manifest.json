@@ -1,0 +1,7 @@
+{
+  "status": "partial_failure",
+  "confirmed_fixes": ["use game CD wrapper 0x8008F600", "pass logical LBA 24034 so internal +150 resolves to raw LBA 24184"],
+  "runtime_result": {"setloc": "05:22:34", "first_raw_lba": 24184, "font_ready": 0, "ram_font_sha256": "9e715fb475f286aa4a3d4a5f329f9ad310ce4abedcfb68c6a76aa60f98175cbd", "error": "Data interrupt was not delivered"},
+  "remaining_cause": "loader is called from an initialization context where CD data interrupts are not serviced",
+  "next_change": "move the one-time loader invocation to a proven post-interrupt initialization or safe main-loop point"
+}

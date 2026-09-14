@@ -1,0 +1,153 @@
+{
+  "status": "pass_root_cause_confirmed",
+  "known_glyphs": 13,
+  "old_base": "0x69d60",
+  "corrected_base": "0x69d68",
+  "constant_byte_error": -8,
+  "stride": 30,
+  "records": [
+    {
+      "character": "교",
+      "game_code": "8952",
+      "dense_index": 112,
+      "expected_bios_offset": "0x6aa88",
+      "old_bios_offset": "0x6aa80",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "bbc0b479448e60d70db62157808a9531353ab48f6ccd762deea63c3b9bb80faf",
+      "old_sha256": "d31e2f3e93b75753cf78762176fd2671a8641d4a8c3a5ae5c93a9662a157501a"
+    },
+    {
+      "character": "섭",
+      "game_code": "8EB5",
+      "dense_index": 1150,
+      "expected_bios_offset": "0x7242c",
+      "old_bios_offset": "0x72424",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "438e50e4f2a0f1b3fec51281edd6dc0b3f31f314cc0edbd8a8fc4f34201ec721",
+      "old_sha256": "09ab88f58f69ada8a5bcdb744f97658c596da73be679b0c0e6260949bad1a721"
+    },
+    {
+      "character": "중",
+      "game_code": "917E",
+      "dense_index": 1660,
+      "expected_bios_offset": "0x75ff0",
+      "old_bios_offset": "0x75fe8",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "5e735b8fa73ec6bf6b1e5542b57c9f6799dfa0fc0f94331f575041d416a58705",
+      "old_sha256": "7dcb4a747ac1a0b5ad33928dda5682017b557583be936d01a4db4e748fcab0dc"
+    },
+    {
+      "character": "시",
+      "game_code": "8F62",
+      "dense_index": 1256,
+      "expected_bios_offset": "0x73098",
+      "old_bios_offset": "0x73090",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "1d6a357fe3801260b84dafb84766d448599326729cf54a1f321abee7c75020c3",
+      "old_sha256": "74249717c52b10df473a97ff8ff7eb4c76aa5bb61a2ec458c257794847ac5bf7"
+    },
+    {
+      "character": "간",
+      "game_code": "88A1",
+      "dense_index": 2,
+      "expected_bios_offset": "0x69da4",
+      "old_bios_offset": "0x69d9c",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "0d8a8f9288493d05c5eadf1400670bd27951321d1c5e2e9ff430a9ef1a144edb",
+      "old_sha256": "a10d8d2b641f88c93864bdca92d2c2414a452c8f01e1269257e00fc60c744b0e"
+    },
+    {
+      "character": "경",
+      "game_code": "88E4",
+      "dense_index": 69,
+      "expected_bios_offset": "0x6a57e",
+      "old_bios_offset": "0x6a576",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "001b1197251339908593b147c31ff7ca27160e2e29f6318bc25ef892858e2119",
+      "old_sha256": "9915d8388473da48bf6f308dfb51f2c89dbc4c2dc754e22c2f7673040d4a1ef8"
+    },
+    {
+      "character": "과",
+      "game_code": "88F8",
+      "dense_index": 89,
+      "expected_bios_offset": "0x6a7d6",
+      "old_bios_offset": "0x6a7ce",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "a13e16466c9e43bc41b31af070d515a88f38580d5a96cf80eabc948d6a99415a",
+      "old_sha256": "5658def40bc736c3d0ec8bca22794dc2ac6ca64bad14b1c51ec310a6e143dfbc"
+    },
+    {
+      "character": "부",
+      "game_code": "8DCC",
+      "dense_index": 985,
+      "expected_bios_offset": "0x710d6",
+      "old_bios_offset": "0x710ce",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "cf56d1f7d2b09f675ee799df3b7440b27cec82f35162c85a89f3dbc967e4ffe0",
+      "old_sha256": "326f22085964f5abcac50eae62e92e139e88b46cc68ab2609a556dabbf2f9e2a"
+    },
+    {
+      "character": "대",
+      "game_code": "8AE9",
+      "dense_index": 450,
+      "expected_bios_offset": "0x6d224",
+      "old_bios_offset": "0x6d21c",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "a9779f0aa56c94e43635595bd7fb26c4d8bb7c1b23acc44817bfd41e2d3cdfe0",
+      "old_sha256": "07cf215ca591a618769336ad388ad8e59cde6b85dff41e2f8aa81c83cee50ae9"
+    },
+    {
+      "character": "이",
+      "game_code": "90CA",
+      "dense_index": 1547,
+      "expected_bios_offset": "0x752b2",
+      "old_bios_offset": "0x752aa",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "5d376433c748470079ed9dc6645431c8855be4ae7edd5865222982aa8bf0c948",
+      "old_sha256": "5cd35954c77a8fb4f473469b2c5e2e065590862831b88099e42dc0b5742c8936"
+    },
+    {
+      "character": "동",
+      "game_code": "8B5E",
+      "dense_index": 500,
+      "expected_bios_offset": "0x6d800",
+      "old_bios_offset": "0x6d7f8",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "c8da58296ac7879ec0cc01ad2a3824a73a720cdab534c3b18088c89c840a9812",
+      "old_sha256": "3a03a1d2fbe17b8bd2a80a6310018f166bb85444e14a046f9a5eafa468c5e9b3"
+    },
+    {
+      "character": "탐",
+      "game_code": "935C",
+      "dense_index": 2002,
+      "expected_bios_offset": "0x78804",
+      "old_bios_offset": "0x787fc",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "4d96fdfee9dc8500d2710e2a936c6d2d85b6f98bdf1d88599df870e0c2112525",
+      "old_sha256": "8de53ee0b52a6786290333d05068cded2b00d455928a3db27d085c490bdb7b1f"
+    },
+    {
+      "character": "색",
+      "game_code": "8E96",
+      "dense_index": 1119,
+      "expected_bios_offset": "0x7208a",
+      "old_bios_offset": "0x72082",
+      "byte_error": -8,
+      "derived_base": "0x69d68",
+      "expected_sha256": "73f39668cf14f079d4557f5c2e36a1531e10eba113a2f314e5d82dec9da579ec",
+      "old_sha256": "1b927f6428b5ecb8a4770a0a0b22e127ffd850f2eb42df85ab36732c3cc0cc28"
+    }
+  ]
+}

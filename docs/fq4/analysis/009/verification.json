@@ -1,0 +1,21 @@
+{
+  "status": "technical_pass_visual_confirmation_pending",
+  "artifact_sha256": "123b2356a444139f1b874685b9f7f8ddc2f1101d07e2dedb013cefd1449e0937",
+  "artifact_size": 101140704,
+  "runtime": {
+    "bios": "standard BIOS copy",
+    "font_base": "0x801e6528",
+    "font_ready": 1,
+    "font_bytes": 70500,
+    "font_sha256": "7d49b80781a274ebd0b83abcff87889c9081be7a3a3e9139b2314414ab520a84",
+    "trailer_hex": "46513446010000002e09000064130100"
+  },
+  "isolated": {
+    "pass": true,
+    "lookup_valid_codes": 2350,
+    "edc_ecc_checked_sectors": 38,
+    "dummy_extent_preserved": true
+  },
+  "rom_bin_count": 1,
+  "visual_confirmation": "pending user play test"
+}

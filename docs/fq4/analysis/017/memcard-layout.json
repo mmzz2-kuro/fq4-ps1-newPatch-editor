@@ -1,0 +1,30 @@
+{
+  "format": "raw PS1 memory card",
+  "size": 131072,
+  "sha256": "176bc0afc005e5f5ef17b62973f02151cfe0cf319d7f968f2c41b0f0dfdd1b22",
+  "directory_checksum": "XOR bytes 0..126 stored at 127",
+  "fq4_slots": [
+    {
+      "filename": "BISLPS-00604-1",
+      "start_block": 1,
+      "blocks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": 32768
+    },
+    {
+      "filename": "BISLPS-00604-2",
+      "start_block": 5,
+      "blocks": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "size": 32768
+    }
+  ]
+}

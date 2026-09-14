@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "exe": "tools/dist/FQ4-Standard-BIOS-Korean-Tool.exe",
+  "exe_size": 14998036,
+  "exe_sha256": "11a39d203ef2a53f1ab875a41a2b10b3cbd569325839137eb6086c10ce34eb63",
+  "generated_rom_sha256": "616ae2e0e44949b9217b94de336fc2e279e621e8753039d0a77818829f59c45d",
+  "repaired_sectors": 11046,
+  "full_disc_bad_sectors": 0,
+  "cue_valid": true,
+  "worker_exit_code": 0,
+  "test_rom_removed": true
+}

@@ -1,0 +1,28 @@
+{
+  "status": "repaired",
+  "repair_scope": {
+    "lba_range_scanned_by_product": [10030, 22653],
+    "repaired_sector_count": 11046,
+    "bytes_rewritten_per_sector": 280,
+    "fields": {
+      "edc": 4,
+      "p_parity": 172,
+      "q_parity": 104
+    }
+  },
+  "preserved_fields": [
+    "12-byte sync",
+    "4-byte MSF/mode header",
+    "8-byte XA subheader",
+    "2048-byte Form 1 user data"
+  ],
+  "final_full_disc_failures": {
+    "sync": 0,
+    "header": 0,
+    "subheader": 0,
+    "edc": 0,
+    "p": 0,
+    "q": 0
+  },
+  "current_rom_sha256": "616ae2e0e44949b9217b94de336fc2e279e621e8753039d0a77818829f59c45d"
+}

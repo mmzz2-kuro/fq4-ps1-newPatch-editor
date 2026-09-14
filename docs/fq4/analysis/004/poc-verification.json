@@ -1,0 +1,290 @@
+{
+  "artifact_sha256": "1911cfe9d9ca963a2761414c5df0881115759628ffdea637c97f8dbf62da3b86",
+  "evidence_class": "artifact verification and isolated MIPS execution; visual runtime is separate",
+  "custom_results": [
+    {
+      "character": "교",
+      "code": "8952",
+      "returned": "0x800ecd00",
+      "converted_sha256": "3b006688ccf5dd1db761a33312802c7981666a31c6e287b2790f5d9af9b91ef6",
+      "matches_static_decode": true
+    },
+    {
+      "character": "섭",
+      "code": "8EB5",
+      "returned": "0x800ecd1e",
+      "converted_sha256": "dfdf744988117e95498f54853421182e077a2983cc3a9670ed7dafbee5c81246",
+      "matches_static_decode": true
+    },
+    {
+      "character": "중",
+      "code": "917E",
+      "returned": "0x800ecd3c",
+      "converted_sha256": "2628b260775fa2862a4df8e0841459dd79f351fe16b57ffd049e5fe396c77051",
+      "matches_static_decode": true
+    },
+    {
+      "character": "시",
+      "code": "8F62",
+      "returned": "0x800ecd5a",
+      "converted_sha256": "afe78373d3c7946eeb66731c6a0bac553980c7ed7b1803516d0738c0a053e06b",
+      "matches_static_decode": true
+    },
+    {
+      "character": "간",
+      "code": "88A1",
+      "returned": "0x800ecd78",
+      "converted_sha256": "f450140c8ff43523b6ead8b9942f42ac3373d6eddaeb27a4da6cadbd009e9513",
+      "matches_static_decode": true
+    },
+    {
+      "character": "경",
+      "code": "88E4",
+      "returned": "0x800ecd96",
+      "converted_sha256": "c2e8eb15f43a7629190dd5ed69b7091bf1da6dd8c16232489fc0a8333ca3a85e",
+      "matches_static_decode": true
+    },
+    {
+      "character": "과",
+      "code": "88F8",
+      "returned": "0x800ecdb4",
+      "converted_sha256": "718378fb5adeed5d7859748e424e06cedeb02ba021b7b9f55875b13eef8e4d83",
+      "matches_static_decode": true
+    },
+    {
+      "character": "부",
+      "code": "8DCC",
+      "returned": "0x800ecdd2",
+      "converted_sha256": "7b1a32245db739c4f2f97b1e03ee117b7046aa761edbfe7db23c6ba8dc75aece",
+      "matches_static_decode": true
+    },
+    {
+      "character": "대",
+      "code": "8AE9",
+      "returned": "0x800ecdf0",
+      "converted_sha256": "87033468bd1ac9f549f8a8aa2661d139bee9a5923947c1b1ef76e43bb7fca686",
+      "matches_static_decode": true
+    },
+    {
+      "character": "이",
+      "code": "90CA",
+      "returned": "0x800ece0e",
+      "converted_sha256": "eeec1c52505bbba3f195f4765bc5837d7751169e37f837a95a84acfac88c43a0",
+      "matches_static_decode": true
+    },
+    {
+      "character": "동",
+      "code": "8B5E",
+      "returned": "0x800ece2c",
+      "converted_sha256": "293b0dfcada53a43fa0a855408684f27b8da1f321f019abb58a098bdb5a498e3",
+      "matches_static_decode": true
+    },
+    {
+      "character": "탐",
+      "code": "935C",
+      "returned": "0x800ece4a",
+      "converted_sha256": "071e7fdbd16fd778b7cf7d7b2b6114d81c0fa8a4499758642835ff538c94b502",
+      "matches_static_decode": true
+    },
+    {
+      "character": "색",
+      "code": "8E96",
+      "returned": "0x800ece68",
+      "converted_sha256": "9ee10c7a1835b9bb4a1a0a404dac7cf8bf871075199419ee7a83a991aa6e2ecc",
+      "matches_static_decode": true
+    }
+  ],
+  "fallback": [
+    {
+      "pc": "0xb0",
+      "a0": "0x8140",
+      "t1": "0x51",
+      "t2": "0xb0"
+    }
+  ],
+  "instruction_count": 29,
+  "instructions": [
+    {
+      "address": "0x800ecc40",
+      "bytes": "0e80083c",
+      "mnemonic": "lui",
+      "operands": "$t0, 0x800e"
+    },
+    {
+      "address": "0x800ecc44",
+      "bytes": "c0cc0835",
+      "mnemonic": "ori",
+      "operands": "$t0, $t0, 0xccc0"
+    },
+    {
+      "address": "0x800ecc48",
+      "bytes": "0d000934",
+      "mnemonic": "ori",
+      "operands": "$t1, $zero, 0xd"
+    },
+    {
+      "address": "0x800ecc4c",
+      "bytes": "00000a95",
+      "mnemonic": "lhu",
+      "operands": "$t2, ($t0)"
+    },
+    {
+      "address": "0x800ecc50",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc54",
+      "bytes": "0c008a10",
+      "mnemonic": "beq",
+      "operands": "$a0, $t2, 0x800ecc88"
+    },
+    {
+      "address": "0x800ecc58",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc5c",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc60",
+      "bytes": "04000825",
+      "mnemonic": "addiu",
+      "operands": "$t0, $t0, 4"
+    },
+    {
+      "address": "0x800ecc64",
+      "bytes": "ffff2925",
+      "mnemonic": "addiu",
+      "operands": "$t1, $t1, -1"
+    },
+    {
+      "address": "0x800ecc68",
+      "bytes": "f8ff2015",
+      "mnemonic": "bnez",
+      "operands": "$t1, 0x800ecc4c"
+    },
+    {
+      "address": "0x800ecc6c",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc70",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc74",
+      "bytes": "b0000a24",
+      "mnemonic": "addiu",
+      "operands": "$t2, $zero, 0xb0"
+    },
+    {
+      "address": "0x800ecc78",
+      "bytes": "51000924",
+      "mnemonic": "addiu",
+      "operands": "$t1, $zero, 0x51"
+    },
+    {
+      "address": "0x800ecc7c",
+      "bytes": "08004001",
+      "mnemonic": "jr",
+      "operands": "$t2"
+    },
+    {
+      "address": "0x800ecc80",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc84",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc88",
+      "bytes": "02000295",
+      "mnemonic": "lhu",
+      "operands": "$v0, 2($t0)"
+    },
+    {
+      "address": "0x800ecc8c",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc90",
+      "bytes": "40510200",
+      "mnemonic": "sll",
+      "operands": "$t2, $v0, 5"
+    },
+    {
+      "address": "0x800ecc94",
+      "bytes": "40100200",
+      "mnemonic": "sll",
+      "operands": "$v0, $v0, 1"
+    },
+    {
+      "address": "0x800ecc98",
+      "bytes": "23104201",
+      "mnemonic": "subu",
+      "operands": "$v0, $t2, $v0"
+    },
+    {
+      "address": "0x800ecc9c",
+      "bytes": "0e800a3c",
+      "mnemonic": "lui",
+      "operands": "$t2, 0x800e"
+    },
+    {
+      "address": "0x800ecca0",
+      "bytes": "00cd4a35",
+      "mnemonic": "ori",
+      "operands": "$t2, $t2, 0xcd00"
+    },
+    {
+      "address": "0x800ecca4",
+      "bytes": "21104a00",
+      "mnemonic": "addu",
+      "operands": "$v0, $v0, $t2"
+    },
+    {
+      "address": "0x800ecca8",
+      "bytes": "0800e003",
+      "mnemonic": "jr",
+      "operands": "$ra"
+    },
+    {
+      "address": "0x800eccac",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800eccb0",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    }
+  ],
+  "iso_file_records": 398,
+  "target_string_count": 3,
+  "unique_glyph_count": 13,
+  "pass": true,
+  "limitations": [
+    "No final screen pixels were observed in this verifier.",
+    "The development zero region is not established as product-safe."
+  ]
+}

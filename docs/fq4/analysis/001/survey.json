@@ -1,0 +1,52 @@
+{
+  "python": "3.10.6",
+  "structures": {
+    "original": {
+      "sectors": 43002,
+      "forms": {
+        "1": 40654,
+        "2": 2348
+      },
+      "volume_id": "",
+      "volume_blocks": 43002,
+      "files": 398,
+      "boot": [
+        {
+          "path": "/SLPS_006.04;1",
+          "pc": "0x80082bc0",
+          "load": "0x80010000",
+          "load_size": 1073152
+        },
+        {
+          "path": "/SYSTEM.CNF;1",
+          "text": "BOOT = cdrom:\\SLPS_006.04;1\r\nTCB = 4\r\nEVENT = 10\r\nSTACK = 801FFF00\r\n\u001a"
+        }
+      ]
+    },
+    "patched": {
+      "sectors": 43002,
+      "forms": {
+        "1": 40653,
+        "2": 2349
+      },
+      "volume_id": "",
+      "volume_blocks": 43002,
+      "files": 398,
+      "boot": [
+        {
+          "path": "/SLPS_006.04;1",
+          "pc": "0x80082bc0",
+          "load": "0x80010000",
+          "load_size": 1073152
+        },
+        {
+          "path": "/SYSTEM.CNF;1",
+          "text": "BOOT = cdrom:\\SLPS_006.04;1\r\nTCB = 4\r\nEVENT = 10\r\nSTACK = 801FFF00\r\n\u001a"
+        }
+      ]
+    }
+  },
+  "changed_bytes": 23728296,
+  "changed_sectors": 12709,
+  "changed_files": 5
+}

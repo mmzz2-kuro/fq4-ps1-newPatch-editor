@@ -1,0 +1,45 @@
+{
+  "stop": "S02",
+  "font_base": "0x801e6928",
+  "font_ready": 0,
+  "ram_sha256": "5b930244cf15d94312f970e76cb40a151018a1ce8780272006bcb977fdd73bee",
+  "patterns": [
+    {
+      "sector_index": 0,
+      "lba": 24184,
+      "fingerprint_sha256": "731253c716447c8cd09fb69d246ea68c08f566ccf89e0dbb2cb45108c402387d",
+      "hits": []
+    },
+    {
+      "sector_index": 1,
+      "lba": 24185,
+      "fingerprint_sha256": "4b53efe1a3fefa184978658064e48e2e4561fcbd6ea62031d7fecf8535c36e04",
+      "hits": []
+    },
+    {
+      "sector_index": 2,
+      "lba": 24186,
+      "fingerprint_sha256": "8b78bcbe642a92ee57b0bcc7132baf3ee093231c575b8ba769f82fb71c020899",
+      "hits": []
+    },
+    {
+      "sector_index": 17,
+      "lba": 24201,
+      "fingerprint_sha256": "0ead223c987e16c24c5bce70ab9d78909c72dc90062aa7b3e9d57a0af0b470a2",
+      "hits": []
+    },
+    {
+      "sector_index": 33,
+      "lba": 24217,
+      "fingerprint_sha256": "3212d6a6dc8c1b37c491caffb05de9c9f72f6526655e6b503e7c419dc847a4cf",
+      "hits": []
+    },
+    {
+      "sector_index": 34,
+      "lba": 24218,
+      "fingerprint_sha256": "d2a2aa9b3255f1bef3b2a76fc95a5a1163abab4e7cb2cee5e809e25467de7eb7",
+      "hits": []
+    }
+  ],
+  "base_window_sha256": "485e8518f037f7b5c6e115f55dd09a711202ab07b19944f7dc37874f5801a7d1"
+}

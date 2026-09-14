@@ -1,0 +1,70 @@
+{
+  "evidence_class": "runtime after explicit CPU-state intervention; not normal-play reachability or screenshot evidence",
+  "baseline_pc": "0x80091280",
+  "scratch": "0x801ff960",
+  "input_codes": [
+    "0x8952",
+    "0x8eb5",
+    "0x917e"
+  ],
+  "hook_events": [
+    {
+      "code": "0x8952",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x8eb5",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x917e",
+      "ra": "0x800465a8"
+    }
+  ],
+  "upload_events": [
+    {
+      "code": "0x8952",
+      "rect_pointer": "0x801ffdc8",
+      "rect_xywh": [
+        512,
+        416,
+        4,
+        16
+      ],
+      "data_pointer": "0x801ffdd0",
+      "data_sha256": "3b006688ccf5dd1db761a33312802c7981666a31c6e287b2790f5d9af9b91ef6",
+      "matches_supplied_bios_conversion": true
+    },
+    {
+      "code": "0x8eb5",
+      "rect_pointer": "0x801ffdc8",
+      "rect_xywh": [
+        516,
+        416,
+        4,
+        16
+      ],
+      "data_pointer": "0x801ffdd0",
+      "data_sha256": "dfdf744988117e95498f54853421182e077a2983cc3a9670ed7dafbee5c81246",
+      "matches_supplied_bios_conversion": true
+    },
+    {
+      "code": "0x917e",
+      "rect_pointer": "0x801ffdc8",
+      "rect_xywh": [
+        520,
+        416,
+        4,
+        16
+      ],
+      "data_pointer": "0x801ffdd0",
+      "data_sha256": "2628b260775fa2862a4df8e0841459dd79f351fe16b57ffd049e5fe396c77051",
+      "matches_supplied_bios_conversion": true
+    }
+  ],
+  "returned_to_baseline_pc": true,
+  "cpu_registers_and_scratch_restored": true,
+  "global_and_gpu_state_restored": false,
+  "pass": true,
+  "claim_limit": "Proves real game lookup, conversion, and LoadImage call under the selected normal BIOS. Does not prove final pixels were visible or normal-play route reachability."
+}

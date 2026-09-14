@@ -1,0 +1,25 @@
+{
+  "pass": true,
+  "artifact_sha256": "123b2356a444139f1b874685b9f7f8ddc2f1101d07e2dedb013cefd1449e0937",
+  "iso_files": 398,
+  "dummy_extent_preserved": true,
+  "font_sha256": "7d49b80781a274ebd0b83abcff87889c9081be7a3a3e9139b2314414ab520a84",
+  "loader": {
+    "initial_pool": 482304,
+    "reduced_pool": 410624,
+    "font_base": "0x801e6468",
+    "ready": 1
+  },
+  "lookup_valid_codes": 2350,
+  "fallback": {
+    "address": "0xb0",
+    "a0": "0x8140",
+    "a1": "0x5e9a",
+    "a2": "0x801f7468"
+  },
+  "edc_ecc_checked_sectors": 38,
+  "limitations": [
+    "Runtime boot and screen verification are separate.",
+    "The isolated SDK calls are mocked at their verified entry ABIs."
+  ]
+}

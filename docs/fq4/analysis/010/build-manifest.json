@@ -1,0 +1,458 @@
+{
+  "status": "built_pending_runtime_verification",
+  "input_sha256": "1911cfe9d9ca963a2761414c5df0881115759628ffdea637c97f8dbf62da3b86",
+  "output_sha256": "95bb338e4f836f37323b9011491f0fd7e376b31b4fc5514bccd6bf613f0df83e",
+  "output_size": 101140704,
+  "font": {
+    "source_offset": "0x69d68",
+    "bytes": 70500,
+    "sha256": "44b980275ca25888762cbd595e7eb2a4b39a57e7b49187b3f486cdbd4981e539",
+    "disc_lba": 24184,
+    "sectors": 35,
+    "magic_offset": 70500
+  },
+  "ram": {
+    "reserve_bytes": 71680,
+    "font_base_global": "0x800ecf40",
+    "ready_global": "0x800ecf44"
+  },
+  "functions": {
+    "wrapper": "0x800ecc40",
+    "lookup": "0x800ecd80",
+    "game_cd_read": "0x8008f600",
+    "game_cd_data_sync": "0x8008c648",
+    "CdControl": "0x8008c204",
+    "CdRead": "0x8008e1fc",
+    "CdReadSync": "0x8008e5ac"
+  },
+  "code": {
+    "wrapper_bytes": 248,
+    "lookup_bytes": 400,
+    "wrapper_source": "\n        addiu $sp, $sp, -0x30\n        sw $ra, 0x2c($sp)\n        sw $s0, 0x28($sp)\n        sw $s1, 0x24($sp)\n        sw $s2, 0x20($sp)\n        lui $s0, 0x800e\n        ori $s0, $s0, 0xcf40\n        sw $zero, 4($s0)\n        lui $t0, 0x8011\n        lw $t1, 0x59fc($t0)\n        nop\n        lui $t2, 1\n        ori $t2, $t2, 0x1800\n        subu $t1, $t1, $t2\n        sw $t1, 0x59fc($t0)\n        lw $t3, 0x5c10($t0)\n        nop\n        addu $t4, $t3, $t1\n        sw $t4, 0($s0)\n        jal 0x8004a61c\n        nop\n        move $s1, $zero\n        lw $s2, 0($s0)\n        nop\n    sector_loop:\n        addiu $a0, $zero, 1\n        ori $a1, $zero, 0x5e78\n        addu $a1, $a1, $s1\n        move $a2, $s2\n        jal 0x8008f600\n        nop\n        beqz $v0, load_fail\n        nop\n        addiu $s1, $s1, 1\n        addiu $s2, $s2, 0x800\n        slti $t0, $s1, 35\n        bnez $t0, sector_loop\n        nop\n        lw $t0, 0($s0)\n        nop\n        lui $t1, 1\n        ori $t1, $t1, 0x1364\n        addu $t0, $t0, $t1\n        lw $t1, 0($t0)\n        lui $t2, 0x4634\n        ori $t2, $t2, 0x5146\n        bne $t1, $t2, load_fail\n        nop\n        addiu $t0, $zero, 1\n        sw $t0, 4($s0)\n    load_fail:\n        lw $ra, 0x2c($sp)\n        lw $s0, 0x28($sp)\n        lw $s1, 0x24($sp)\n        lw $s2, 0x20($sp)\n        addiu $sp, $sp, 0x30\n        jr $ra\n        nop\n    ",
+    "lookup_source": "\n        lui $t7, 0x800e\n        ori $t7, $t7, 0xcf40\n        lw $t6, 4($t7)\n        nop\n        beqz $t6, fallback\n        nop\n        srl $t0, $a0, 8\n        andi $t1, $a0, 0xff\n        sltiu $t2, $t0, 0x81\n        bnez $t2, fallback\n        nop\n        sltiu $t2, $t0, 0xa0\n        bnez $t2, lead_low\n        nop\n        sltiu $t2, $t0, 0xe0\n        bnez $t2, fallback\n        nop\n        sltiu $t2, $t0, 0xf0\n        beqz $t2, fallback\n        nop\n        addiu $t0, $t0, -0xc1\n        b lead_done\n        nop\n    lead_low:\n        addiu $t0, $t0, -0x81\n    lead_done:\n        sll $t0, $t0, 1\n        addiu $t0, $t0, 0x21\n        sltiu $t2, $t1, 0x40\n        bnez $t2, fallback\n        nop\n        sltiu $t2, $t1, 0x7f\n        bnez $t2, trail_low\n        nop\n        addiu $t2, $zero, 0x7f\n        beq $t1, $t2, fallback\n        nop\n        sltiu $t2, $t1, 0x9f\n        bnez $t2, trail_mid\n        nop\n        sltiu $t2, $t1, 0xfd\n        beqz $t2, fallback\n        nop\n        addiu $t0, $t0, 1\n        addiu $t1, $t1, -0x7e\n        b range_check\n        nop\n    trail_low:\n        addiu $t1, $t1, -0x1f\n        b range_check\n        nop\n    trail_mid:\n        addiu $t1, $t1, -0x20\n    range_check:\n        sltiu $t2, $t0, 0x30\n        bnez $t2, fallback\n        nop\n        sltiu $t2, $t0, 0x49\n        beqz $t2, fallback\n        nop\n        sltiu $t2, $t1, 0x21\n        bnez $t2, fallback\n        nop\n        sltiu $t2, $t1, 0x7f\n        beqz $t2, fallback\n        nop\n        addiu $t0, $t0, -0x30\n        addiu $t1, $t1, -0x21\n        sll $t2, $t0, 6\n        sll $t3, $t0, 5\n        addu $t2, $t2, $t3\n        sll $t3, $t0, 1\n        subu $t0, $t2, $t3\n        addu $t0, $t0, $t1\n        sll $t2, $t0, 5\n        sll $t3, $t0, 1\n        subu $t0, $t2, $t3\n        lw $v0, 0($t7)\n        nop\n        addu $v0, $v0, $t0\n        jr $ra\n        nop\n    fallback:\n        addiu $t2, $zero, 0xb0\n        addiu $t1, $zero, 0x51\n        jr $t2\n        nop\n    ",
+    "wrapper_disassembly": [
+      "800ecc40: addiu $sp, $sp, -0x30",
+      "800ecc44: sw $ra, 0x2c($sp)",
+      "800ecc48: sw $s0, 0x28($sp)",
+      "800ecc4c: sw $s1, 0x24($sp)",
+      "800ecc50: sw $s2, 0x20($sp)",
+      "800ecc54: lui $s0, 0x800e",
+      "800ecc58: ori $s0, $s0, 0xcf40",
+      "800ecc5c: sw $zero, 4($s0)",
+      "800ecc60: lui $t0, 0x8011",
+      "800ecc64: lw $t1, 0x59fc($t0)",
+      "800ecc68: nop ",
+      "800ecc6c: lui $t2, 1",
+      "800ecc70: ori $t2, $t2, 0x1800",
+      "800ecc74: subu $t1, $t1, $t2",
+      "800ecc78: sw $t1, 0x59fc($t0)",
+      "800ecc7c: lw $t3, 0x5c10($t0)",
+      "800ecc80: nop ",
+      "800ecc84: addu $t4, $t3, $t1",
+      "800ecc88: sw $t4, ($s0)",
+      "800ecc8c: jal 0x8004a61c",
+      "800ecc90: nop ",
+      "800ecc94: nop ",
+      "800ecc98: move $s1, $zero",
+      "800ecc9c: lw $s2, ($s0)",
+      "800ecca0: nop ",
+      "800ecca4: addiu $a0, $zero, 1",
+      "800ecca8: ori $a1, $zero, 0x5e78",
+      "800eccac: addu $a1, $a1, $s1",
+      "800eccb0: move $a2, $s2",
+      "800eccb4: jal 0x8008f600",
+      "800eccb8: nop ",
+      "800eccbc: nop ",
+      "800eccc0: beqz $v0, 0x800ecd18",
+      "800eccc4: nop ",
+      "800eccc8: nop ",
+      "800ecccc: addiu $s1, $s1, 1",
+      "800eccd0: addiu $s2, $s2, 0x800",
+      "800eccd4: slti $t0, $s1, 0x23",
+      "800eccd8: bnez $t0, 0x800ecca4",
+      "800eccdc: nop ",
+      "800ecce0: nop ",
+      "800ecce4: lw $t0, ($s0)",
+      "800ecce8: nop ",
+      "800eccec: lui $t1, 1",
+      "800eccf0: ori $t1, $t1, 0x1364",
+      "800eccf4: addu $t0, $t0, $t1",
+      "800eccf8: lw $t1, ($t0)",
+      "800eccfc: lui $t2, 0x4634",
+      "800ecd00: ori $t2, $t2, 0x5146",
+      "800ecd04: bne $t1, $t2, 0x800ecd18",
+      "800ecd08: nop ",
+      "800ecd0c: nop ",
+      "800ecd10: addiu $t0, $zero, 1",
+      "800ecd14: sw $t0, 4($s0)",
+      "800ecd18: lw $ra, 0x2c($sp)",
+      "800ecd1c: lw $s0, 0x28($sp)",
+      "800ecd20: lw $s1, 0x24($sp)",
+      "800ecd24: lw $s2, 0x20($sp)",
+      "800ecd28: addiu $sp, $sp, 0x30",
+      "800ecd2c: jr $ra",
+      "800ecd30: nop ",
+      "800ecd34: nop "
+    ],
+    "lookup_disassembly": [
+      "800ecd80: lui $t7, 0x800e",
+      "800ecd84: ori $t7, $t7, 0xcf40",
+      "800ecd88: lw $t6, 4($t7)",
+      "800ecd8c: nop ",
+      "800ecd90: beqz $t6, 0x800ecefc",
+      "800ecd94: nop ",
+      "800ecd98: nop ",
+      "800ecd9c: srl $t0, $a0, 8",
+      "800ecda0: andi $t1, $a0, 0xff",
+      "800ecda4: sltiu $t2, $t0, 0x81",
+      "800ecda8: bnez $t2, 0x800ecefc",
+      "800ecdac: nop ",
+      "800ecdb0: nop ",
+      "800ecdb4: sltiu $t2, $t0, 0xa0",
+      "800ecdb8: bnez $t2, 0x800ecdf4",
+      "800ecdbc: nop ",
+      "800ecdc0: nop ",
+      "800ecdc4: sltiu $t2, $t0, 0xe0",
+      "800ecdc8: bnez $t2, 0x800ecefc",
+      "800ecdcc: nop ",
+      "800ecdd0: nop ",
+      "800ecdd4: sltiu $t2, $t0, 0xf0",
+      "800ecdd8: beqz $t2, 0x800ecefc",
+      "800ecddc: nop ",
+      "800ecde0: nop ",
+      "800ecde4: addiu $t0, $t0, -0xc1",
+      "800ecde8: b 0x800ecdf8",
+      "800ecdec: nop ",
+      "800ecdf0: nop ",
+      "800ecdf4: addiu $t0, $t0, -0x81",
+      "800ecdf8: sll $t0, $t0, 1",
+      "800ecdfc: addiu $t0, $t0, 0x21",
+      "800ece00: sltiu $t2, $t1, 0x40",
+      "800ece04: bnez $t2, 0x800ecefc",
+      "800ece08: nop ",
+      "800ece0c: nop ",
+      "800ece10: sltiu $t2, $t1, 0x7f",
+      "800ece14: bnez $t2, 0x800ece64",
+      "800ece18: nop ",
+      "800ece1c: nop ",
+      "800ece20: addiu $t2, $zero, 0x7f",
+      "800ece24: beq $t1, $t2, 0x800ecefc",
+      "800ece28: nop ",
+      "800ece2c: nop ",
+      "800ece30: sltiu $t2, $t1, 0x9f",
+      "800ece34: bnez $t2, 0x800ece74",
+      "800ece38: nop ",
+      "800ece3c: nop ",
+      "800ece40: sltiu $t2, $t1, 0xfd",
+      "800ece44: beqz $t2, 0x800ecefc",
+      "800ece48: nop ",
+      "800ece4c: nop ",
+      "800ece50: addiu $t0, $t0, 1",
+      "800ece54: addiu $t1, $t1, -0x7e",
+      "800ece58: b 0x800ece78",
+      "800ece5c: nop ",
+      "800ece60: nop ",
+      "800ece64: addiu $t1, $t1, -0x1f",
+      "800ece68: b 0x800ece78",
+      "800ece6c: nop ",
+      "800ece70: nop ",
+      "800ece74: addiu $t1, $t1, -0x20",
+      "800ece78: sltiu $t2, $t0, 0x30",
+      "800ece7c: bnez $t2, 0x800ecefc",
+      "800ece80: nop ",
+      "800ece84: nop ",
+      "800ece88: sltiu $t2, $t0, 0x49",
+      "800ece8c: beqz $t2, 0x800ecefc",
+      "800ece90: nop ",
+      "800ece94: nop ",
+      "800ece98: sltiu $t2, $t1, 0x21",
+      "800ece9c: bnez $t2, 0x800ecefc",
+      "800ecea0: nop ",
+      "800ecea4: nop ",
+      "800ecea8: sltiu $t2, $t1, 0x7f",
+      "800eceac: beqz $t2, 0x800ecefc",
+      "800eceb0: nop ",
+      "800eceb4: nop ",
+      "800eceb8: addiu $t0, $t0, -0x30",
+      "800ecebc: addiu $t1, $t1, -0x21",
+      "800ecec0: sll $t2, $t0, 6",
+      "800ecec4: sll $t3, $t0, 5",
+      "800ecec8: addu $t2, $t2, $t3",
+      "800ececc: sll $t3, $t0, 1",
+      "800eced0: subu $t0, $t2, $t3",
+      "800eced4: addu $t0, $t0, $t1",
+      "800eced8: sll $t2, $t0, 5",
+      "800ecedc: sll $t3, $t0, 1",
+      "800ecee0: subu $t0, $t2, $t3",
+      "800ecee4: lw $v0, ($t7)",
+      "800ecee8: nop ",
+      "800eceec: addu $v0, $v0, $t0",
+      "800ecef0: jr $ra",
+      "800ecef4: nop ",
+      "800ecef8: nop ",
+      "800ecefc: addiu $t2, $zero, 0xb0",
+      "800ecf00: addiu $t1, $zero, 0x51",
+      "800ecf04: jr $t2",
+      "800ecf08: nop ",
+      "800ecf0c: nop "
+    ]
+  },
+  "writes": [
+    {
+      "name": "runtime_code_and_globals",
+      "exe_offset": "0xdd440",
+      "ram": "0x800ecc40",
+      "length": 784,
+      "before_sha256": "5bba69257d34fab33717b0ad769233a7abcc06ce973ab7b56baa851096b50ea0",
+      "after_sha256": "16c7eee71ae4c8e1285d20cf7f902888f6cbbc05554d02bbcc397a4869353ec7"
+    },
+    {
+      "name": "pool_init_call",
+      "exe_offset": "0x4238",
+      "ram": "0x80013a38",
+      "length": 8,
+      "before_sha256": "8938cced7922c5c7240582bcee17afa40a90cd57fc8be2cb502c6e68cbfe701d",
+      "after_sha256": "482c7561c6ba8be67b95cd6f0c2987edce82c2db0fdf4caad0f29685a9f5bb05"
+    },
+    {
+      "name": "krom_lookup_hook",
+      "exe_offset": "0x7348c",
+      "ram": "0x80082c8c",
+      "length": 8,
+      "before_sha256": "a2872709d59e7c7cd5a1b901db1521893c1a9a868527ae674506916d3fb7f8dd",
+      "after_sha256": "a1a8b3cc776e710fbcb89e9e0daa04f442830c232d12405d469bcf0e94a8cbaf"
+    }
+  ],
+  "touched_sectors": [
+    {
+      "lba": 32,
+      "before_sha256": "190dd010e21c3bcb06187a2e050ce7177ebb10159e1f793ba61b68a46359ec73",
+      "after_sha256": "9a012e24a7909865e57c563d02966954473f1bf99a4404171e9c381e6401c921"
+    },
+    {
+      "lba": 254,
+      "before_sha256": "e2cfabb387a5c09ac21def1ee8632dfe3365f33f2bd5cef1a5253054df2f3d97",
+      "after_sha256": "24df0fb4c7a2b23f93013309c8c5b890006338f0072222ba1ddbcd237ea9f490"
+    },
+    {
+      "lba": 466,
+      "before_sha256": "ef9307c7c92446e94f4ed625213a552924885a0f67e0794a883be6a806e748ea",
+      "after_sha256": "93ec6cb79fc879d778a1269301c400321591bb5d18c72875340b424208ef8d19"
+    },
+    {
+      "lba": 24184,
+      "before_sha256": "dab5c92d18e84d45f63704952c10e3a46787cfed9a24fe316a2d9f7a5ffa0ca2",
+      "after_sha256": "2734b505cd24996f783a7ec227d2c08f8cb761d20574ad38e75bcedae6d2188c"
+    },
+    {
+      "lba": 24185,
+      "before_sha256": "bb3974192696d6ad7f8c10b4a3c6315a3c5477cd4772be46d44faa5087483f2e",
+      "after_sha256": "14582463d2fc332fe5f3e7755a83033dc36d3b34f21dc24d03a57a6a7c3d8031"
+    },
+    {
+      "lba": 24186,
+      "before_sha256": "830b61183d0ac462c3c40e2583e10d3dce038fbe7b9bf3437e1552ed1060d9b0",
+      "after_sha256": "ed3c2bf3539a5568e6282d5a121d2ed59af729ef11c8992c7542deb77a68f833"
+    },
+    {
+      "lba": 24187,
+      "before_sha256": "55a80f8c4cd7d598027134fa4696162b7aa7b1224fd177b52ca82793059de372",
+      "after_sha256": "ab42fe1766ef42dfa0ccca5a30ddd2132acd5cdb2899a7081e97563eaf4ecd37"
+    },
+    {
+      "lba": 24188,
+      "before_sha256": "0b5c55e748bdb58af85ae9d000f86770e76d60ddee4b2c6c32ea69d4f52686d1",
+      "after_sha256": "78c7f05d496f2d7379dcace5c4555a9465193bcdd771042bda1655936022f63b"
+    },
+    {
+      "lba": 24189,
+      "before_sha256": "109375a14061f9b26efd4b697fe8356a63c480bdee01b77f405dec72d7d3b057",
+      "after_sha256": "8d48486eb8b0ddb34e78951460a44e730a76e003e2c2ad3b4d98ab39c09f208b"
+    },
+    {
+      "lba": 24190,
+      "before_sha256": "615a5bf60fa8367ce4244172fefb496f88d584632a6f6aafa22dec17e5f44e8f",
+      "after_sha256": "7d94f1ad10f35428bede006897a8130388aee0309288ba80fbf3e8e110ecb85e"
+    },
+    {
+      "lba": 24191,
+      "before_sha256": "736d7313686b4574905e74d3f5b3035b030f185f5763844ddbf1e163e09c6cbb",
+      "after_sha256": "c458b27afe75940d8eecc091ee24bf51663b8314e5f49bdd44670f0dc6e258e6"
+    },
+    {
+      "lba": 24192,
+      "before_sha256": "c7cef9a03ffb28f03f8d4afbafcd7b5585007b9e69cbd15e1da9277d4b64c969",
+      "after_sha256": "e109db4bf635a3f85d96ca7151c3784ec8a330ca57e755902193a355c0f3d0ea"
+    },
+    {
+      "lba": 24193,
+      "before_sha256": "1a1535b5d5f5a8f984f1813872b933d8b929e5dd98ebadab1a80486176f22d94",
+      "after_sha256": "2d3cc3f963669a1ee7c721bb6ab33a21183b3dc9e49e715fcc38defadb907e91"
+    },
+    {
+      "lba": 24194,
+      "before_sha256": "842157868cac88aecfce34db9aa61530d954a1e31f094bc191da9e9321262562",
+      "after_sha256": "8bd85a71a1007b034ff9aa75dffa7b51257ffb8c8b3cb9e220a6495736cea01f"
+    },
+    {
+      "lba": 24195,
+      "before_sha256": "9252304ab6ae4d504ecad204a89ee76ab6c70b6775b538b7faeb4cbcaf02febb",
+      "after_sha256": "ba4d2f850e66f0fbf05fbeafc729063cdcf524656c2467cf121d01b8998637af"
+    },
+    {
+      "lba": 24196,
+      "before_sha256": "217627c7b225a09ceb44e970367a5ca9e3b94bdac6448945427cfc2db40aefbd",
+      "after_sha256": "212971c387981d197b72fa202142dde54155d2f4359700a30e46210ea424b767"
+    },
+    {
+      "lba": 24197,
+      "before_sha256": "6c4085e1f2e4537bbc71dedc2fc427adb97564702cd9e1d3cbac7fd9432bb67f",
+      "after_sha256": "2ceed8c71c808adb6c9ae3815f4221b0b49b1298505ff21a5106093f6a29e45c"
+    },
+    {
+      "lba": 24198,
+      "before_sha256": "60ebabc1bf9f999dac1a14f4cbee17229e32afda4e31617a304262ee5af68251",
+      "after_sha256": "1c81e86b533e217d85c143e79415e1ae865ca608b20983e6ef654bb4ac173001"
+    },
+    {
+      "lba": 24199,
+      "before_sha256": "eb3e98540b494155804e81e481ac3851f5b331770d0f64f74ee20bf58fd3fc7f",
+      "after_sha256": "76cf74b472fe6ce400e64ae35d94c839e054cc4083c5e99b43548f687a3bef3a"
+    },
+    {
+      "lba": 24200,
+      "before_sha256": "acce649e5a391478fe8ff5fba0171afa913ee1cf04ade3654fc3f3bfb4c120ee",
+      "after_sha256": "14efc5bdc1bf75ced0a54c30a31627c96b53fa37401553512cf43d75ec2f9005"
+    },
+    {
+      "lba": 24201,
+      "before_sha256": "9e9df3ad2673b0b0a9c9f2c762472a4fb39841aeba61b09382eaf573868ad775",
+      "after_sha256": "8dc83b7b1e17994dcae5870860c00736961f354655b1a5f5fdd3a633286248be"
+    },
+    {
+      "lba": 24202,
+      "before_sha256": "ecaa076438a105906b82367d4c99cd182503873709c90e4fb5597935806e3393",
+      "after_sha256": "7783267577e0de79a221aaeafa13e77cf6aa3ce062e27ff6441602db394eabb2"
+    },
+    {
+      "lba": 24203,
+      "before_sha256": "0c892091ea86798f406ed85a216694e5eb4c72eec28ed10c98e2d6376d1d4f53",
+      "after_sha256": "0c6f2ce308d9967059c9bce1d62e81ddfe83f47914c5da1ef1e5282ef9789130"
+    },
+    {
+      "lba": 24204,
+      "before_sha256": "c43fc493e347cd7c628697b228e6625ba16354a3dda11ff794bf0b2393ebb02d",
+      "after_sha256": "3e35fc4f69a3c2ac3777c5a03859a39f5f4850bf10bdfe1cac02af8ba61209c8"
+    },
+    {
+      "lba": 24205,
+      "before_sha256": "bb9f6068e22a5da4ca4f474bfe6e377432a0ae9118aaded17f27e10aa32b5fa2",
+      "after_sha256": "5446bfeb9af77b6078ef27189d5bc67019eb22f45beb7315a627a296424fc004"
+    },
+    {
+      "lba": 24206,
+      "before_sha256": "bafe28eac0a0632c095a2c0e31544827f1f57eb8c4d0e7ce94a4043f0847fd55",
+      "after_sha256": "2bcec235775a425ac5e84ec6854f02906db3b39501bd1ff2c73aa8b30e829765"
+    },
+    {
+      "lba": 24207,
+      "before_sha256": "015490e3a2c8c0d40e474e1b7d737a8762cfd19e1f9cc09b8001c05f980853a3",
+      "after_sha256": "b01fdc2256380d1273ee95504f7b82a5f97b4cf82cc120ebbaac64772d52871c"
+    },
+    {
+      "lba": 24208,
+      "before_sha256": "522ecb5132f09efb166a67d3d2365276b1b56d35a1fff14a2cbb1ceab49b22d7",
+      "after_sha256": "a07498248a5bd0b7a4bef636453e0dab2329ffe39457410a64d70ac313d4a5c5"
+    },
+    {
+      "lba": 24209,
+      "before_sha256": "5fbcb4e0412120578b5e3f6ee695b69eedf9490f7ebe7b0b718894394689e82f",
+      "after_sha256": "cc4170275dd7af9f72741aea786fa76ba2668716b946e567ae92a32f8332e708"
+    },
+    {
+      "lba": 24210,
+      "before_sha256": "da5c6faf8fd2bae1db5109e0899a95ede5ccda03d761ab94d4a3f24d7304a71a",
+      "after_sha256": "8f9d7763e23d43fb66667c3ff7f86e26561d4386163ff7adeeaa9718b88dfc86"
+    },
+    {
+      "lba": 24211,
+      "before_sha256": "d32edb72cbc22d374febc82deed1a413a4363e31bb5c5653855edaa90492644d",
+      "after_sha256": "99c8c2248edceb39c19a3719c8b298915b3b1b560c581df48ab513d46daea794"
+    },
+    {
+      "lba": 24212,
+      "before_sha256": "2274962cbf7ed16cf32de093d22defe8d58edf98f00cd0774432c4e70ff36a10",
+      "after_sha256": "4caf4fbac747e3ac04cdc8d1ce5df1c8c709e298beedd622ed0d7e4644652a0f"
+    },
+    {
+      "lba": 24213,
+      "before_sha256": "a2e300aef01b193e12e46363559c304603fcc14e0891fe5de552f4776ae73376",
+      "after_sha256": "038f78f9f4acc006b15ed623ed21e90962802bcedf0d0d8bb2cec7c744317413"
+    },
+    {
+      "lba": 24214,
+      "before_sha256": "e656745a85c0fe8642c8d2c2436855e68df6efc737eedca427fe68ea2410d39c",
+      "after_sha256": "2662b8d19e7f22d32b8dd6a844bd917fd118fee7fb25389295b825a0974134d1"
+    },
+    {
+      "lba": 24215,
+      "before_sha256": "0164723b1792d1009ccb39e1df2030c0d6b5ea5066d3cc4b682b898989165f23",
+      "after_sha256": "261715c574e23a857627399274db3b1ff07e2e5ab284d6d8f758b7224bbafd46"
+    },
+    {
+      "lba": 24216,
+      "before_sha256": "91648aa04b62e35f67f693072d37c7c0f378906272eb0f6eb940677c8a88802f",
+      "after_sha256": "7ec15ded22aa415e11c139df34828bfb9856ee3904343f3c30d2884ec98fa7c7"
+    },
+    {
+      "lba": 24217,
+      "before_sha256": "f2e812dff61af3975d395d6b1bbdf1cfd8bdb8df2f03156ea32669f9a41e3bb0",
+      "after_sha256": "ae80740754d1df9482214166c1639a5d677cad794041371b91693ac96642af3c"
+    },
+    {
+      "lba": 24218,
+      "before_sha256": "b351378dedefff9cc9d50a6e87056736d1e2d42222883ee28352a5bda63cbbad",
+      "after_sha256": "32e2d3caddeb9885540f2fa3f3d512f0624eff1fcbaa4cdb27e6039e67dbbd75"
+    }
+  ],
+  "raw_diff_sectors": [
+    32,
+    254,
+    466,
+    24184,
+    24185,
+    24186,
+    24187,
+    24188,
+    24189,
+    24190,
+    24191,
+    24192,
+    24193,
+    24194,
+    24195,
+    24196,
+    24197,
+    24198,
+    24199,
+    24200,
+    24201,
+    24202,
+    24203,
+    24204,
+    24205,
+    24206,
+    24207,
+    24208,
+    24209,
+    24210,
+    24211,
+    24212,
+    24213,
+    24214,
+    24215,
+    24216,
+    24217,
+    24218
+  ]
+}

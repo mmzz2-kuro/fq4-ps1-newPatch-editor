@@ -1,0 +1,7 @@
+{
+  "python": "3.10.6",
+  "capstone": "5.0.7",
+  "unicorn": "2.1.4",
+  "Pillow": "12.2.0",
+  "xdelta": "3.0u"
+}

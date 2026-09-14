@@ -1,0 +1,27 @@
+{
+  "profile": "fq4-korean-sjis-v1",
+  "versions": {
+    "241112": {
+      "patch_sha256": "238ba2a9726a0f22d520e09a179b04e12b72d58735f6e53e8a016d396f649789",
+      "patched_image_sha256": "56efd993ffae15709bf3230c27e5fab35d3461616a31a95fbc56263ca65586b3",
+      "final_image_sha256": "ffac52e3564b302fce2c999f2a713162338e6a2bce8e1d052c559e4271b07b42",
+      "compatible": true
+    },
+    "250826": {
+      "patch_sha256": "86b9404f0e596f5dc300234465da4fb6a80cd9a603b5c9658d544be8bcf6abd2",
+      "patched_image_sha256": "9363cdfa247d38f5f819f5e79a25ff25ada3b2394f887726f29231da6ccbffb5",
+      "final_image_sha256": "616ae2e0e44949b9217b94de336fc2e279e621e8753039d0a77818829f59c45d",
+      "compatible": true
+    }
+  },
+  "common": {
+    "exe_lba": 24,
+    "exe_size": 1075200,
+    "dummy_lba": 24184,
+    "init_call": "0x80013a38",
+    "krom_hook": "0x80082c8c",
+    "signature_policy": "unique",
+    "missing_signature_rejected": true,
+    "duplicate_signature_rejected": true
+  }
+}

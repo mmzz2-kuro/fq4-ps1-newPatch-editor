@@ -1,0 +1,19 @@
+{
+  "user_statement": "patched/ was made with 241112, not 250826 (2026-09-13)",
+  "reproductions": [
+    {
+      "patch": "korean-patch/퍼스트퀸4 한글패치(241112).xdelta",
+      "output_sha256": "56efd993ffae15709bf3230c27e5fab35d3461616a31a95fbc56263ca65586b3",
+      "size": 101140704,
+      "mode": "stdout streaming hash; no image output",
+      "exit_code": 0
+    },
+    {
+      "patch": "korean-patch/퍼스트퀸4 한글패치(250826).xdelta",
+      "output_sha256": "9363cdfa247d38f5f819f5e79a25ff25ada3b2394f887726f29231da6ccbffb5",
+      "size": 101140704,
+      "mode": "stdout streaming hash; no image output",
+      "exit_code": 0
+    }
+  ]
+}

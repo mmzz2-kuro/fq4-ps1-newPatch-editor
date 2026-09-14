@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "builder": "tools/dist/FQ4-Standard-BIOS-Korean-Tool.exe",
+  "test_path_class": "Korean characters and spaces",
+  "output_size": 101140704,
+  "expected_sha256": "95bb338e4f836f37323b9011491f0fd7e376b31b4fc5514bccd6bf613f0df83e",
+  "actual_sha256": "95bb338e4f836f37323b9011491f0fd7e376b31b4fc5514bccd6bf613f0df83e",
+  "byte_identical_to_plan_010_011": true,
+  "cue_valid": true,
+  "cue_encoding": "UTF-8 with BOM",
+  "track_mode": "MODE2/2352",
+  "test_output_removed": true,
+  "retained_full_work_roms": 1
+}

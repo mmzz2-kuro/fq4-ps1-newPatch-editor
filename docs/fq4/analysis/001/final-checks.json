@@ -1,0 +1,26 @@
+{
+  "changed_sector_owners": {
+    "/SLPS_006.04;1": 48,
+    "/SYS/TITLE1.GRP;1": 19,
+    "/SYS/TITLE2.GRP;1": 19,
+    "/MOV/MOV03.STR;1": 8400,
+    "/MOV/MOV04.STR;1": 4223
+  },
+  "unowned_changed_sectors": [],
+  "form_changes": [
+    {
+      "sector": 18429,
+      "owner": [
+        "/MOV/MOV03.STR;1"
+      ],
+      "original_form": 1,
+      "patched_form": 2
+    }
+  ],
+  "load_end": "0x80116000",
+  "workspace_roms": [
+    "work/fq4/rom/current.bin"
+  ],
+  "input_preserved": true,
+  "renderer_direct_call_candidates": 34
+}

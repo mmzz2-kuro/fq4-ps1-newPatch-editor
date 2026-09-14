@@ -1,0 +1,363 @@
+{
+  "status": "development_menu_poc",
+  "baseline_sha256": "9363cdfa247d38f5f819f5e79a25ff25ada3b2394f887726f29231da6ccbffb5",
+  "prior_poc_sha256": "e419b4018a8aa02facc3a425ef05f325cb0fc0130e5822015ce43fa2e0baded9",
+  "output_sha256": "1911cfe9d9ca963a2761414c5df0881115759628ffdea637c97f8dbf62da3b86",
+  "output_size": 101140704,
+  "code": {
+    "ram": "0x800ecc40",
+    "length": 116,
+    "source": "\n        lui $t0, 0x800e\n        ori $t0, $t0, 0xccc0\n        ori $t1, $zero, 13\n    loop:\n        lhu $t2, 0($t0)\n        nop\n        beq $a0, $t2, found\n        nop\n        addiu $t0, $t0, 4\n        addiu $t1, $t1, -1\n        bnez $t1, loop\n        nop\n        addiu $t2, $zero, 0xb0\n        addiu $t1, $zero, 0x51\n        jr $t2\n        nop\n    found:\n        lhu $v0, 2($t0)\n        nop\n        sll $t2, $v0, 5\n        sll $v0, $v0, 1\n        subu $v0, $t2, $v0\n        lui $t2, 0x800e\n        ori $t2, $t2, 0xcd00\n        addu $v0, $v0, $t2\n        jr $ra\n        nop\n    ",
+    "disassembly": [
+      {
+        "address": "0x800ecc40",
+        "bytes": "0e80083c",
+        "mnemonic": "lui",
+        "operands": "$t0, 0x800e"
+      },
+      {
+        "address": "0x800ecc44",
+        "bytes": "c0cc0835",
+        "mnemonic": "ori",
+        "operands": "$t0, $t0, 0xccc0"
+      },
+      {
+        "address": "0x800ecc48",
+        "bytes": "0d000934",
+        "mnemonic": "ori",
+        "operands": "$t1, $zero, 0xd"
+      },
+      {
+        "address": "0x800ecc4c",
+        "bytes": "00000a95",
+        "mnemonic": "lhu",
+        "operands": "$t2, ($t0)"
+      },
+      {
+        "address": "0x800ecc50",
+        "bytes": "00000000",
+        "mnemonic": "nop",
+        "operands": ""
+      },
+      {
+        "address": "0x800ecc54",
+        "bytes": "0c008a10",
+        "mnemonic": "beq",
+        "operands": "$a0, $t2, 0x800ecc88"
+      },
+      {
+        "address": "0x800ecc58",
+        "bytes": "00000000",
+        "mnemonic": "nop",
+        "operands": ""
+      },
+      {
+        "address": "0x800ecc5c",
+        "bytes": "00000000",
+        "mnemonic": "nop",
+        "operands": ""
+      },
+      {
+        "address": "0x800ecc60",
+        "bytes": "04000825",
+        "mnemonic": "addiu",
+        "operands": "$t0, $t0, 4"
+      },
+      {
+        "address": "0x800ecc64",
+        "bytes": "ffff2925",
+        "mnemonic": "addiu",
+        "operands": "$t1, $t1, -1"
+      },
+      {
+        "address": "0x800ecc68",
+        "bytes": "f8ff2015",
+        "mnemonic": "bnez",
+        "operands": "$t1, 0x800ecc4c"
+      },
+      {
+        "address": "0x800ecc6c",
+        "bytes": "00000000",
+        "mnemonic": "nop",
+        "operands": ""
+      },
+      {
+        "address": "0x800ecc70",
+        "bytes": "00000000",
+        "mnemonic": "nop",
+        "operands": ""
+      },
+      {
+        "address": "0x800ecc74",
+        "bytes": "b0000a24",
+        "mnemonic": "addiu",
+        "operands": "$t2, $zero, 0xb0"
+      },
+      {
+        "address": "0x800ecc78",
+        "bytes": "51000924",
+        "mnemonic": "addiu",
+        "operands": "$t1, $zero, 0x51"
+      },
+      {
+        "address": "0x800ecc7c",
+        "bytes": "08004001",
+        "mnemonic": "jr",
+        "operands": "$t2"
+      },
+      {
+        "address": "0x800ecc80",
+        "bytes": "00000000",
+        "mnemonic": "nop",
+        "operands": ""
+      },
+      {
+        "address": "0x800ecc84",
+        "bytes": "00000000",
+        "mnemonic": "nop",
+        "operands": ""
+      },
+      {
+        "address": "0x800ecc88",
+        "bytes": "02000295",
+        "mnemonic": "lhu",
+        "operands": "$v0, 2($t0)"
+      },
+      {
+        "address": "0x800ecc8c",
+        "bytes": "00000000",
+        "mnemonic": "nop",
+        "operands": ""
+      },
+      {
+        "address": "0x800ecc90",
+        "bytes": "40510200",
+        "mnemonic": "sll",
+        "operands": "$t2, $v0, 5"
+      },
+      {
+        "address": "0x800ecc94",
+        "bytes": "40100200",
+        "mnemonic": "sll",
+        "operands": "$v0, $v0, 1"
+      },
+      {
+        "address": "0x800ecc98",
+        "bytes": "23104201",
+        "mnemonic": "subu",
+        "operands": "$v0, $t2, $v0"
+      },
+      {
+        "address": "0x800ecc9c",
+        "bytes": "0e800a3c",
+        "mnemonic": "lui",
+        "operands": "$t2, 0x800e"
+      },
+      {
+        "address": "0x800ecca0",
+        "bytes": "00cd4a35",
+        "mnemonic": "ori",
+        "operands": "$t2, $t2, 0xcd00"
+      },
+      {
+        "address": "0x800ecca4",
+        "bytes": "21104a00",
+        "mnemonic": "addu",
+        "operands": "$v0, $v0, $t2"
+      },
+      {
+        "address": "0x800ecca8",
+        "bytes": "0800e003",
+        "mnemonic": "jr",
+        "operands": "$ra"
+      },
+      {
+        "address": "0x800eccac",
+        "bytes": "00000000",
+        "mnemonic": "nop",
+        "operands": ""
+      },
+      {
+        "address": "0x800eccb0",
+        "bytes": "00000000",
+        "mnemonic": "nop",
+        "operands": ""
+      }
+    ]
+  },
+  "table": {
+    "ram": "0x800eccc0",
+    "length": 52,
+    "entry_count": 13,
+    "entry_format": "little-endian uint16 game code, uint16 glyph index"
+  },
+  "glyph_data": {
+    "ram": "0x800ecd00",
+    "length": 390
+  },
+  "glyphs": [
+    {
+      "index": 0,
+      "character": "교",
+      "code": "8952",
+      "source_bios_offset": "0x6aa88",
+      "ram": "0x800ecd00",
+      "glyph_sha256": "bbc0b479448e60d70db62157808a9531353ab48f6ccd762deea63c3b9bb80faf"
+    },
+    {
+      "index": 1,
+      "character": "섭",
+      "code": "8EB5",
+      "source_bios_offset": "0x7242c",
+      "ram": "0x800ecd1e",
+      "glyph_sha256": "438e50e4f2a0f1b3fec51281edd6dc0b3f31f314cc0edbd8a8fc4f34201ec721"
+    },
+    {
+      "index": 2,
+      "character": "중",
+      "code": "917E",
+      "source_bios_offset": "0x75ff0",
+      "ram": "0x800ecd3c",
+      "glyph_sha256": "5e735b8fa73ec6bf6b1e5542b57c9f6799dfa0fc0f94331f575041d416a58705"
+    },
+    {
+      "index": 3,
+      "character": "시",
+      "code": "8F62",
+      "source_bios_offset": "0x73098",
+      "ram": "0x800ecd5a",
+      "glyph_sha256": "1d6a357fe3801260b84dafb84766d448599326729cf54a1f321abee7c75020c3"
+    },
+    {
+      "index": 4,
+      "character": "간",
+      "code": "88A1",
+      "source_bios_offset": "0x69da4",
+      "ram": "0x800ecd78",
+      "glyph_sha256": "0d8a8f9288493d05c5eadf1400670bd27951321d1c5e2e9ff430a9ef1a144edb"
+    },
+    {
+      "index": 5,
+      "character": "경",
+      "code": "88E4",
+      "source_bios_offset": "0x6a57e",
+      "ram": "0x800ecd96",
+      "glyph_sha256": "001b1197251339908593b147c31ff7ca27160e2e29f6318bc25ef892858e2119"
+    },
+    {
+      "index": 6,
+      "character": "과",
+      "code": "88F8",
+      "source_bios_offset": "0x6a7d6",
+      "ram": "0x800ecdb4",
+      "glyph_sha256": "a13e16466c9e43bc41b31af070d515a88f38580d5a96cf80eabc948d6a99415a"
+    },
+    {
+      "index": 7,
+      "character": "부",
+      "code": "8DCC",
+      "source_bios_offset": "0x710d6",
+      "ram": "0x800ecdd2",
+      "glyph_sha256": "cf56d1f7d2b09f675ee799df3b7440b27cec82f35162c85a89f3dbc967e4ffe0"
+    },
+    {
+      "index": 8,
+      "character": "대",
+      "code": "8AE9",
+      "source_bios_offset": "0x6d224",
+      "ram": "0x800ecdf0",
+      "glyph_sha256": "a9779f0aa56c94e43635595bd7fb26c4d8bb7c1b23acc44817bfd41e2d3cdfe0"
+    },
+    {
+      "index": 9,
+      "character": "이",
+      "code": "90CA",
+      "source_bios_offset": "0x752b2",
+      "ram": "0x800ece0e",
+      "glyph_sha256": "5d376433c748470079ed9dc6645431c8855be4ae7edd5865222982aa8bf0c948"
+    },
+    {
+      "index": 10,
+      "character": "동",
+      "code": "8B5E",
+      "source_bios_offset": "0x6d800",
+      "ram": "0x800ece2c",
+      "glyph_sha256": "c8da58296ac7879ec0cc01ad2a3824a73a720cdab534c3b18088c89c840a9812"
+    },
+    {
+      "index": 11,
+      "character": "탐",
+      "code": "935C",
+      "source_bios_offset": "0x78804",
+      "ram": "0x800ece4a",
+      "glyph_sha256": "4d96fdfee9dc8500d2710e2a936c6d2d85b6f98bdf1d88599df870e0c2112525"
+    },
+    {
+      "index": 12,
+      "character": "색",
+      "code": "8E96",
+      "source_bios_offset": "0x7208a",
+      "ram": "0x800ece68",
+      "glyph_sha256": "73f39668cf14f079d4557f5c2e36a1531e10eba113a2f314e5d82dec9da579ec"
+    }
+  ],
+  "writes": [
+    {
+      "writer": "glyph_lookup_hook",
+      "offset": "0x7348c",
+      "ram": "0x80082c8c",
+      "length": 8,
+      "expected_sha256": "c9bf05136152313b32481a4c710a1ee0347d63ba61d503e6f1fac72370394d57",
+      "final_sha256": "a2872709d59e7c7cd5a1b901db1521893c1a9a868527ae674506916d3fb7f8dd",
+      "source_condition": "verified B0(51h) wrapper"
+    },
+    {
+      "writer": "table_lookup_code",
+      "offset": "0xdd440",
+      "ram": "0x800ecc40",
+      "length": 116,
+      "expected_sha256": "5b517952cbe9c4c147bc3f3434f9d82409e76d09ea58905aefe7fb5415912d9a",
+      "final_sha256": "306e7b0dd8423e4a1cf2684b6112bc505a775f34242f7ef0937cc8f3a422bf28",
+      "source_condition": "zero-filled development region"
+    },
+    {
+      "writer": "code_to_index_table",
+      "offset": "0xdd4c0",
+      "ram": "0x800eccc0",
+      "length": 52,
+      "expected_sha256": "7955cb2de90dd9efc6df9fdbf5f5d10c114f4135a9a6b52db1003be749e32f7a",
+      "final_sha256": "dfa164d34674cb47074ca6c9da4f5eba2784ad5fb3fdd05f22c59321e517def5",
+      "source_condition": "zero-filled development region"
+    },
+    {
+      "writer": "prior_and_menu_glyphs",
+      "offset": "0xdd500",
+      "ram": "0x800ecd00",
+      "length": 390,
+      "expected_sha256": "aa5d4a93a18a877fd1839669095f0f8b7946d0198a40e16b66c7f60c73dc7538",
+      "final_sha256": "b7ab4122cc25e8c064c729aa437f2944f5835a8f7e595ce804284bacd55b5007",
+      "source_condition": "zero-filled development region"
+    }
+  ],
+  "touched_sectors": [
+    {
+      "lba": 254,
+      "before_sha256": "6861ce79aeb570c6a6bf12809a0cdb85502944ada2c5013829c38273fd284d44",
+      "after_sha256": "e2cfabb387a5c09ac21def1ee8632dfe3365f33f2bd5cef1a5253054df2f3d97"
+    },
+    {
+      "lba": 466,
+      "before_sha256": "9db71777879b932724fa129ff6f935d1895d7bd8344e743c0e07c1cf9a198c92",
+      "after_sha256": "ef9307c7c92446e94f4ed625213a552924885a0f67e0794a883be6a806e748ea"
+    }
+  ],
+  "raw_diff_sectors": [
+    254,
+    466
+  ],
+  "limitations": [
+    "The zero-filled region remains a development PoC placement, not a product-safe allocation.",
+    "Local PoC embeds selected glyph bytes from the supplied BIOS and is not a distributable artifact.",
+    "Visual verification is separate."
+  ]
+}

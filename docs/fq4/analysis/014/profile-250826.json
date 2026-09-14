@@ -1,0 +1,17 @@
+{
+  "profile": "fq4-korean-sjis-v1",
+  "image_sha256": "9363cdfa247d38f5f819f5e79a25ff25ada3b2394f887726f29231da6ccbffb5",
+  "size": 101140704,
+  "exe_lba": 24,
+  "exe_size": 1075200,
+  "exe_sha256": "af6ce77c1bbcacb16e9145bc3c687c7d092c5c5095917b4d7303a7be6b1bc20f",
+  "load_address": 2147549184,
+  "dummy_lba": 24184,
+  "dummy_size": 38230976,
+  "init_call": 2147564088,
+  "krom_hook": 2148019340,
+  "code_start": 2148453440,
+  "region_end": 2148454224,
+  "lookup_domain_pairs": 15240,
+  "lookup_domain_unique_codes": 1401
+}

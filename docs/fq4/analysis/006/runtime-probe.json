@@ -1,0 +1,10 @@
+{
+  "supported": "PacketSize=4000;qXfer:features:read+;qXfer:memory-map:read+",
+  "stop": "S02",
+  "font_base": "0x801e6528",
+  "font_ready": 0,
+  "font_bytes": 70500,
+  "font_sha256": "8f467210b1f709b672c16b4edf37a4342f429a181fa9fc350fce078cc397fb93",
+  "trailer_hex": "c54f01068652086ce69f3d6e25dfb32e",
+  "pass": false
+}

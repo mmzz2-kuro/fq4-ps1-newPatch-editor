@@ -1,0 +1,9 @@
+{
+  "result": "interrupt timing hypothesis rejected",
+  "normal_wrapper": "0x8008F600",
+  "normal_calls_observed": 30,
+  "normal_example": {"a0_sector_count": 1, "a1_logical_lba": 16, "a2_destination": "0x801179BC", "raw_lba": 166},
+  "font_call": {"a0_sector_count": 1, "logical_lba_range": [24034, 24068], "destination_start": "0x801E6528", "calls": 35},
+  "cd_log": "all 35 Setloc/DataSector operations completed without missed data interrupt errors",
+  "conclusion": "the loader runs in a usable interrupt context; destination handling or high-memory constraints remain"
+}

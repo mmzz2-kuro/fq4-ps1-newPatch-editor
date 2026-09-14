@@ -1,0 +1,57 @@
+{
+  "magic": "SC 13 04",
+  "payload_size": 32768,
+  "character_array": {
+    "offset": "0x09a6",
+    "runtime_address": "0x8009eb80",
+    "record_size": 32,
+    "record_count": 640
+  },
+  "fields": {
+    "0x00": {
+      "name": "FT",
+      "type": "uint16_le"
+    },
+    "0x02": {
+      "name": "name_id",
+      "type": "uint16_le"
+    },
+    "0x0c": {
+      "name": "class_id",
+      "type": "uint8"
+    },
+    "0x18": {
+      "name": "level",
+      "type": "uint8"
+    },
+    "0x19": {
+      "name": "HR",
+      "type": "uint8"
+    },
+    "0x1a": {
+      "name": "HP",
+      "type": "uint16_le"
+    },
+    "0x1c": {
+      "name": "AT",
+      "type": "uint8"
+    },
+    "0x1d": {
+      "name": "AR",
+      "type": "uint8"
+    },
+    "0x1e": {
+      "name": "DF",
+      "type": "uint8"
+    },
+    "0x1f": {
+      "name": "DR",
+      "type": "uint8"
+    }
+  },
+  "internal_checksum": {
+    "stored_offset": "0x7da6",
+    "count": 8,
+    "algorithm": "zero all 8 stored bytes, then XOR each corresponding 0x1000-byte page"
+  }
+}

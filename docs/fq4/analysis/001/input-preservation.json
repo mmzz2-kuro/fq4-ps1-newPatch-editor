@@ -1,0 +1,42 @@
+[
+  {
+    "path": "original/First Queen IV - Varcia Senki (Japan).bin",
+    "unchanged": true
+  },
+  {
+    "path": "original/First Queen IV - Varcia Senki (Japan).cue",
+    "unchanged": true
+  },
+  {
+    "path": "patched/First Queen IV - Varcia Senki (kor).bin",
+    "unchanged": true
+  },
+  {
+    "path": "patched/First Queen IV - Varcia Senki (kor).cue",
+    "unchanged": true
+  },
+  {
+    "path": "korean-patch/SCPH1001.BIN",
+    "unchanged": true
+  },
+  {
+    "path": "korean-patch/xdelta.exe",
+    "unchanged": true
+  },
+  {
+    "path": "korean-patch/xdeltaUI.exe",
+    "unchanged": true
+  },
+  {
+    "path": "korean-patch/패치 방법.png",
+    "unchanged": true
+  },
+  {
+    "path": "korean-patch/퍼스트퀸4 한글패치(241112).xdelta",
+    "unchanged": true
+  },
+  {
+    "path": "korean-patch/퍼스트퀸4 한글패치(250826).xdelta",
+    "unchanged": true
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "game_wrapper": "0x8008F600",
+  "arguments": {"a0": "destination byte pointer", "a1": "ISO logical LBA", "a2": "sector count"},
+  "internal_calls": ["LBA-to-MSF 0x8008C708", "CdControl 0x8008C204", "retry wrapper 0x8008C688", "sync wrapper 0x8008C668"],
+  "raw_lba": 24184,
+  "logical_lba": 24034,
+  "result": "ABI confirmed, but the startup injection context cannot service CD data interrupts"
+}

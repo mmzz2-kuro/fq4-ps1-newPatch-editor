@@ -1,0 +1,67 @@
+{
+  "baseline_sha256": "616ae2e0e44949b9217b94de336fc2e279e621e8753039d0a77818829f59c45d",
+  "output_sha256": "684d47b644f961b6552c311dffe577418f0b74ba109da7c6c25d57838beeba31",
+  "size": 101140704,
+  "old_exclusive_budget": 480,
+  "new_exclusive_budget": 865,
+  "writes": [
+    {
+      "ram": "0x80017f58",
+      "file_offset": "0x8758",
+      "before": "284201e0",
+      "after": "28420361"
+    },
+    {
+      "ram": "0x8001832c",
+      "file_offset": "0x8b2c",
+      "before": "284201e0",
+      "after": "28420361"
+    },
+    {
+      "ram": "0x80020a70",
+      "file_offset": "0x11270",
+      "before": "284201e0",
+      "after": "28420361"
+    },
+    {
+      "ram": "0x80064f2c",
+      "file_offset": "0x5572c",
+      "before": "284201e0",
+      "after": "28420361"
+    },
+    {
+      "ram": "0x80065874",
+      "file_offset": "0x56074",
+      "before": "284201e0",
+      "after": "28420361"
+    },
+    {
+      "ram": "0x80065f04",
+      "file_offset": "0x56704",
+      "before": "284201e0",
+      "after": "28420361"
+    },
+    {
+      "ram": "0x8006b27c",
+      "file_offset": "0x5ba7c",
+      "before": "284201e0",
+      "after": "28420361"
+    },
+    {
+      "ram": "0x80072c28",
+      "file_offset": "0x63428",
+      "before": "298201e0",
+      "after": "29820361"
+    }
+  ],
+  "touched_sectors": [
+    40,
+    41,
+    58,
+    194,
+    196,
+    207,
+    222
+  ],
+  "changed_raw_sector_count": 7
+}

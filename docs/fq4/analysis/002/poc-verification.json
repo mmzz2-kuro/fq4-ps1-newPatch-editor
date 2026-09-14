@@ -1,0 +1,233 @@
+{
+  "artifact_sha256": "e419b4018a8aa02facc3a425ef05f325cb0fc0130e5822015ce43fa2e0baded9",
+  "evidence_class": "artifact verification and isolated MIPS execution; not game runtime",
+  "custom_results": [
+    {
+      "code": "0x8952",
+      "returned": "0x800ecd00",
+      "converted_sha256": "3b006688ccf5dd1db761a33312802c7981666a31c6e287b2790f5d9af9b91ef6",
+      "matches_supplied_bios_baseline": true
+    },
+    {
+      "code": "0x8eb5",
+      "returned": "0x800ecd1e",
+      "converted_sha256": "dfdf744988117e95498f54853421182e077a2983cc3a9670ed7dafbee5c81246",
+      "matches_supplied_bios_baseline": true
+    },
+    {
+      "code": "0x917e",
+      "returned": "0x800ecd3c",
+      "converted_sha256": "2628b260775fa2862a4df8e0841459dd79f351fe16b57ffd049e5fe396c77051",
+      "matches_supplied_bios_baseline": true
+    }
+  ],
+  "fallback": [
+    {
+      "pc": "0xb0",
+      "a0": "0x8140",
+      "t1": "0x51",
+      "t2": "0xb0"
+    }
+  ],
+  "instruction_count": 32,
+  "instructions": [
+    {
+      "address": "0x800ecc40",
+      "bytes": "52890834",
+      "mnemonic": "ori",
+      "operands": "$t0, $zero, 0x8952"
+    },
+    {
+      "address": "0x800ecc44",
+      "bytes": "0f008810",
+      "mnemonic": "beq",
+      "operands": "$a0, $t0, 0x800ecc84"
+    },
+    {
+      "address": "0x800ecc48",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc4c",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc50",
+      "bytes": "b58e0834",
+      "mnemonic": "ori",
+      "operands": "$t0, $zero, 0x8eb5"
+    },
+    {
+      "address": "0x800ecc54",
+      "bytes": "10008810",
+      "mnemonic": "beq",
+      "operands": "$a0, $t0, 0x800ecc98"
+    },
+    {
+      "address": "0x800ecc58",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc5c",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc60",
+      "bytes": "7e910834",
+      "mnemonic": "ori",
+      "operands": "$t0, $zero, 0x917e"
+    },
+    {
+      "address": "0x800ecc64",
+      "bytes": "11008810",
+      "mnemonic": "beq",
+      "operands": "$a0, $t0, 0x800eccac"
+    },
+    {
+      "address": "0x800ecc68",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc6c",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc70",
+      "bytes": "b0000a24",
+      "mnemonic": "addiu",
+      "operands": "$t2, $zero, 0xb0"
+    },
+    {
+      "address": "0x800ecc74",
+      "bytes": "51000924",
+      "mnemonic": "addiu",
+      "operands": "$t1, $zero, 0x51"
+    },
+    {
+      "address": "0x800ecc78",
+      "bytes": "08004001",
+      "mnemonic": "jr",
+      "operands": "$t2"
+    },
+    {
+      "address": "0x800ecc7c",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc80",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc84",
+      "bytes": "0e80023c",
+      "mnemonic": "lui",
+      "operands": "$v0, 0x800e"
+    },
+    {
+      "address": "0x800ecc88",
+      "bytes": "00cd4234",
+      "mnemonic": "ori",
+      "operands": "$v0, $v0, 0xcd00"
+    },
+    {
+      "address": "0x800ecc8c",
+      "bytes": "0800e003",
+      "mnemonic": "jr",
+      "operands": "$ra"
+    },
+    {
+      "address": "0x800ecc90",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc94",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecc98",
+      "bytes": "0e80023c",
+      "mnemonic": "lui",
+      "operands": "$v0, 0x800e"
+    },
+    {
+      "address": "0x800ecc9c",
+      "bytes": "1ecd4234",
+      "mnemonic": "ori",
+      "operands": "$v0, $v0, 0xcd1e"
+    },
+    {
+      "address": "0x800ecca0",
+      "bytes": "0800e003",
+      "mnemonic": "jr",
+      "operands": "$ra"
+    },
+    {
+      "address": "0x800ecca4",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800ecca8",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800eccac",
+      "bytes": "0e80023c",
+      "mnemonic": "lui",
+      "operands": "$v0, 0x800e"
+    },
+    {
+      "address": "0x800eccb0",
+      "bytes": "3ccd4234",
+      "mnemonic": "ori",
+      "operands": "$v0, $v0, 0xcd3c"
+    },
+    {
+      "address": "0x800eccb4",
+      "bytes": "0800e003",
+      "mnemonic": "jr",
+      "operands": "$ra"
+    },
+    {
+      "address": "0x800eccb8",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "address": "0x800eccbc",
+      "bytes": "00000000",
+      "mnemonic": "nop",
+      "operands": ""
+    }
+  ],
+  "iso_file_records": 398,
+  "disc_sectors": 43002,
+  "limitations": [
+    "No normal BIOS was executed; fallback reached B0 dispatch with verified registers.",
+    "No GPU or game screen was consumed."
+  ]
+}

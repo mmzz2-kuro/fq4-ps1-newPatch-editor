@@ -1,0 +1,225 @@
+{
+  "evidence_class": "runtime after explicit CPU-state intervention; not normal-play reachability or screenshot evidence",
+  "baseline_pc": "0x800912cc",
+  "scratch": "0x801ff5e0",
+  "input_codes": [
+    "0x8952",
+    "0x8eb5",
+    "0x917e",
+    "0x8f62",
+    "0x88a1",
+    "0x88e4",
+    "0x88f8",
+    "0x8dcc",
+    "0x8ae9",
+    "0x90ca",
+    "0x8b5e",
+    "0x935c",
+    "0x8e96"
+  ],
+  "hook_events": [
+    {
+      "code": "0x8952",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x8eb5",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x917e",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x8f62",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x88a1",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x88e4",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x88f8",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x8dcc",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x8ae9",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x90ca",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x8b5e",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x935c",
+      "ra": "0x800465a8"
+    },
+    {
+      "code": "0x8e96",
+      "ra": "0x800465a8"
+    }
+  ],
+  "upload_events": [
+    {
+      "code": "0x8952",
+      "rect_xywh": [
+        512,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "3b006688ccf5dd1db761a33312802c7981666a31c6e287b2790f5d9af9b91ef6",
+      "matches_isolated_conversion": true
+    },
+    {
+      "code": "0x8eb5",
+      "rect_xywh": [
+        516,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "dfdf744988117e95498f54853421182e077a2983cc3a9670ed7dafbee5c81246",
+      "matches_isolated_conversion": true
+    },
+    {
+      "code": "0x917e",
+      "rect_xywh": [
+        520,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "2628b260775fa2862a4df8e0841459dd79f351fe16b57ffd049e5fe396c77051",
+      "matches_isolated_conversion": true
+    },
+    {
+      "code": "0x8f62",
+      "rect_xywh": [
+        524,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "afe78373d3c7946eeb66731c6a0bac553980c7ed7b1803516d0738c0a053e06b",
+      "matches_isolated_conversion": true
+    },
+    {
+      "code": "0x88a1",
+      "rect_xywh": [
+        528,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "f450140c8ff43523b6ead8b9942f42ac3373d6eddaeb27a4da6cadbd009e9513",
+      "matches_isolated_conversion": true
+    },
+    {
+      "code": "0x88e4",
+      "rect_xywh": [
+        532,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "c2e8eb15f43a7629190dd5ed69b7091bf1da6dd8c16232489fc0a8333ca3a85e",
+      "matches_isolated_conversion": true
+    },
+    {
+      "code": "0x88f8",
+      "rect_xywh": [
+        536,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "718378fb5adeed5d7859748e424e06cedeb02ba021b7b9f55875b13eef8e4d83",
+      "matches_isolated_conversion": true
+    },
+    {
+      "code": "0x8dcc",
+      "rect_xywh": [
+        540,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "7b1a32245db739c4f2f97b1e03ee117b7046aa761edbfe7db23c6ba8dc75aece",
+      "matches_isolated_conversion": true
+    },
+    {
+      "code": "0x8ae9",
+      "rect_xywh": [
+        544,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "87033468bd1ac9f549f8a8aa2661d139bee9a5923947c1b1ef76e43bb7fca686",
+      "matches_isolated_conversion": true
+    },
+    {
+      "code": "0x90ca",
+      "rect_xywh": [
+        548,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "eeec1c52505bbba3f195f4765bc5837d7751169e37f837a95a84acfac88c43a0",
+      "matches_isolated_conversion": true
+    },
+    {
+      "code": "0x8b5e",
+      "rect_xywh": [
+        552,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "293b0dfcada53a43fa0a855408684f27b8da1f321f019abb58a098bdb5a498e3",
+      "matches_isolated_conversion": true
+    },
+    {
+      "code": "0x935c",
+      "rect_xywh": [
+        556,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "071e7fdbd16fd778b7cf7d7b2b6114d81c0fa8a4499758642835ff538c94b502",
+      "matches_isolated_conversion": true
+    },
+    {
+      "code": "0x8e96",
+      "rect_xywh": [
+        560,
+        416,
+        4,
+        16
+      ],
+      "data_sha256": "9ee10c7a1835b9bb4a1a0a404dac7cf8bf871075199419ee7a83a991aa6e2ecc",
+      "matches_isolated_conversion": true
+    }
+  ],
+  "unrelated_upload_events_ignored": [],
+  "returned_to_baseline_pc": true,
+  "cpu_registers_and_scratch_restored": true,
+  "global_and_gpu_state_restored": false,
+  "pass": true,
+  "claim_limit": "Proves actual game lookup, conversion, and LoadImage calls under the selected normal BIOS. It does not prove final pixels or normal-play reachability."
+}

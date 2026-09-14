@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "launch": {
+    "working_directory": "system temporary directory",
+    "python_script_used_by_frozen_worker": false,
+    "gui_process_alive_after_seconds": 4,
+    "console_window": false
+  },
+  "worker": {
+    "entry": "same EXE with --engine-json",
+    "exit_code": 0,
+    "unicode_and_space_arguments": "pass",
+    "utf8_progress_protocol": "pass",
+    "xdelta_child_process": "pass"
+  },
+  "dependencies": {
+    "tkinter": "bundled",
+    "capstone": "bundled",
+    "keystone": "bundled with keystone.dll",
+    "unicorn": "excluded"
+  },
+  "limitations": [
+    "The GUI window was process-level smoke tested; button-level behavior uses the same PLAN-011 code path.",
+    "Windows may display its normal warning for an unsigned executable."
+  ]
+}

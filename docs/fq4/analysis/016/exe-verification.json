@@ -1,0 +1,33 @@
+{
+  "plan": "FQ4-PLAN-016",
+  "tested_on": "2026-09-14",
+  "artifact": "tools/dist/FQ4-Standard-BIOS-Korean-Tool.exe",
+  "sha256": "c46feb6eeff3f17b1ed9eccb256df08315891c564d53a113843262fbed50e397",
+  "size": 15001851,
+  "pyinstaller": "6.11.0",
+  "hidden_module": "build_party_race_limit_patch",
+  "engine_results": {
+    "unchecked_exit_code": 0,
+    "unchecked_sha256": "616ae2e0e44949b9217b94de336fc2e279e621e8753039d0a77818829f59c45d",
+    "checked_exit_code": 0,
+    "checked_sha256": "684d47b644f961b6552c311dffe577418f0b74ba109da7c6c25d57838beeba31"
+  },
+  "checked_full_sector_audit": {
+    "sectors": 43002,
+    "mode2_form1": 40653,
+    "mode2_form2": 2349,
+    "sync_errors": 0,
+    "header_errors": 0,
+    "subheader_errors": 0,
+    "edc_errors": 0,
+    "p_errors": 0,
+    "q_errors": 0
+  },
+  "gui_source_checks": {
+    "checkbox_default": false,
+    "checkbox_disabled_while_running": true,
+    "checkbox_reenabled_after_completion": true,
+    "flag": "--expand-party-species-limit"
+  },
+  "pass": true
+}

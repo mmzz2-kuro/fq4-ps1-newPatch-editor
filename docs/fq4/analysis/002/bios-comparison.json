@@ -1,0 +1,29 @@
+{
+  "purpose": "Supplementary input record added after the immutable initial ROM survey",
+  "normal_bios": {
+    "path": "original/scph1001.bin",
+    "size": 524288,
+    "sha256": "71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3",
+    "sha1": "10155d8d6e6e832d6ea66db9bc098321fb5e8ebf",
+    "md5": "924e392ed05558ffdb115408c263dccf"
+  },
+  "supplied_korean_bios": {
+    "path": "korean-patch/SCPH1001.BIN",
+    "size": 524288,
+    "sha256": "f8658d98e32c6a8560a832c50f74f84662e1bff98c486c6480c207a2b404b88f",
+    "sha1": "e7e5ddb90b94a2db2c7cc35d180723f99d885e03",
+    "md5": "b987a0e3b3cefc6258f31a313f24f63f"
+  },
+  "comparison": {
+    "same_size": true,
+    "different_byte_count": 67422,
+    "first_difference": "0x69d68",
+    "last_difference": "0x7b0cb",
+    "differences_outside_reported_bounds": false,
+    "identical_before_first_difference": true,
+    "identical_after_last_difference": true
+  },
+  "rom_version_text": "System ROM Version 2.2 12/04/95 A",
+  "rom_version_text_matches": true,
+  "interpretation_limit": "The bounded difference region is consistent with a glyph-data replacement, but byte comparison alone does not prove the semantic role of every changed byte."
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "original",
+    "file_offset": "0x73494",
+    "ram": "0x80082c94",
+    "reason": "bios_function_51_candidate"
+  },
+  {
+    "kind": "patched",
+    "file_offset": "0x73494",
+    "ram": "0x80082c94",
+    "reason": "bios_function_51_candidate"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "cold_boot": true,
+  "resident_comparisons": {
+    "0x80017f58": "28420361",
+    "0x8001832c": "28420361",
+    "0x80020a70": "28420361"
+  },
+  "overlay_note": "Later comparison sites belong to code that is not resident at the sampled title-state moment; their disc payloads are verified in verification.json.",
+  "normal_bios_font": {
+    "font_base": "0x801e6528",
+    "ready": 1,
+    "sha256": "44b980275ca25888762cbd595e7eb2a4b39a57e7b49187b3f486cdbd4981e539"
+  },
+  "pass": true
+}

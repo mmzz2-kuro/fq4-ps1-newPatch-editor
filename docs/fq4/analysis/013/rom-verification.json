@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "rom": "work/fq4/rom/current.bin",
+  "size": 101140704,
+  "sha256": "616ae2e0e44949b9217b94de336fc2e279e621e8753039d0a77818829f59c45d",
+  "sectors": 43002,
+  "mode2_form1": 40653,
+  "mode2_form2": 2349,
+  "failure_counts": {
+    "sync": 0,
+    "header": 0,
+    "subheader": 0,
+    "edc": 0,
+    "p": 0,
+    "q": 0
+  },
+  "runtime": {
+    "normal_bios_boot": "pass",
+    "font_base": "0x801e6528",
+    "font_ready": 1,
+    "font_sha256": "44b980275ca25888762cbd595e7eb2a4b39a57e7b49187b3f486cdbd4981e539",
+    "trailer": "FQ4F"
+  }
+}

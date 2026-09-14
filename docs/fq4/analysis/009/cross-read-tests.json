@@ -1,0 +1,37 @@
+{
+  "status": "pass_root_cause_identified",
+  "wrapper": "0x8008f600",
+  "conversion": "0x8008c708",
+  "cases": [
+    {
+      "case": "A",
+      "request_sector": 16,
+      "destination": "0x801179bc",
+      "result": "BIN sector 16 PVD received",
+      "sha256": "fd9c59df7da8afc8d78bf7d7e52d52ed0707764038a2edba91eae753a86e397f"
+    },
+    {
+      "case": "B",
+      "request_sector": 16,
+      "destination": "0x801e6528",
+      "result": "same PVD received at high destination",
+      "sha256": "fd9c59df7da8afc8d78bf7d7e52d52ed0707764038a2edba91eae753a86e397f"
+    },
+    {
+      "case": "C",
+      "request_sector": 24034,
+      "destination": "0x801179bc",
+      "result": "BIN sector 24034 received; not font data",
+      "sha256": "61a14e3428776ef5d5ec643ef3e228726968e6b479743ebf465bff522f2d4887"
+    },
+    {
+      "case": "D",
+      "request_sectors": "24184..24218",
+      "destination": "runtime allocation at 0x801e6528",
+      "result": "full font payload received",
+      "font_sha256": "7d49b80781a274ebd0b83abcff87889c9081be7a3a3e9139b2314414ab520a84",
+      "font_ready": 1
+    }
+  ],
+  "conclusion": "destination address is valid; the previous -150 sector adjustment selected the wrong BIN sectors"
+}

@@ -1,0 +1,49 @@
+{
+  "plan": "FQ4-PLAN-016",
+  "tested_on": "2026-09-14",
+  "input_patch_revision": "250826",
+  "expected_sector_count": 43002,
+  "cases": [
+    {
+      "interface": "python-engine",
+      "expand_party_species_limit": false,
+      "sha256": "616ae2e0e44949b9217b94de336fc2e279e621e8753039d0a77818829f59c45d",
+      "size": 101140704,
+      "repaired_sectors": 11046,
+      "full_sector_audit_bad_sectors": 0,
+      "matches_expected": true
+    },
+    {
+      "interface": "python-engine",
+      "expand_party_species_limit": true,
+      "sha256": "684d47b644f961b6552c311dffe577418f0b74ba109da7c6c25d57838beeba31",
+      "size": 101140704,
+      "repaired_sectors": 11046,
+      "species_limit_touched_sectors": [40, 41, 58, 194, 196, 207, 222],
+      "full_sector_audit_bad_sectors": 0,
+      "matches_expected": true
+    },
+    {
+      "interface": "frozen-exe",
+      "expand_party_species_limit": false,
+      "sha256": "616ae2e0e44949b9217b94de336fc2e279e621e8753039d0a77818829f59c45d",
+      "size": 101140704,
+      "exit_code": 0,
+      "matches_python_engine": true
+    },
+    {
+      "interface": "frozen-exe",
+      "expand_party_species_limit": true,
+      "sha256": "684d47b644f961b6552c311dffe577418f0b74ba109da7c6c25d57838beeba31",
+      "size": 101140704,
+      "exit_code": 0,
+      "full_sector_audit_bad_sectors": 0,
+      "matches_python_engine": true
+    }
+  ],
+  "cue": {
+    "track": "MODE2/2352",
+    "bin_filename_matches": true,
+    "encoding": "UTF-8 with BOM"
+  }
+}

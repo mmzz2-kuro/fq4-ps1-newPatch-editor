@@ -1,0 +1,25 @@
+{
+  "status": "pass_python_gui",
+  "python_syntax": "pass",
+  "tkinter_version": 8.6,
+  "cases": {
+    "verified_inputs": "pass",
+    "plan_010_reproduction": "pass",
+    "korean_and_space_output_path": "pass",
+    "unicode_cue_filename": "pass",
+    "241112_patch_rejected_before_output": "pass",
+    "existing_output_rejected_without_overwrite": "pass",
+    "temporary_bin_removed_after_failure": "pass",
+    "input_output_path_collision_guard": "implemented",
+    "worker_thread_keeps_ui_responsive": "implemented",
+    "cancel_terminates_worker_and_removes_known_temp": "implemented"
+  },
+  "supported_patch": "250826",
+  "expected_output_sha256": "95bb338e4f836f37323b9011491f0fd7e376b31b4fc5514bccd6bf613f0df83e",
+  "retained_full_work_roms": 1,
+  "limitations": [
+    "The Python GUI requires a local Python 3 installation with tkinter.",
+    "A standalone Windows executable is deferred to a separate plan.",
+    "Final normal-play pixels were already user-confirmed for the identical PLAN-010 ROM."
+  ]
+}

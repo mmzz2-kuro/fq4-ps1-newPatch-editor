@@ -1,0 +1,24 @@
+{
+  "recommended": "dense arithmetic",
+  "accepted_code_domain": "Shift-JIS positions corresponding to JIS rows 0x30..0x48 and cells 0x21..0x7E",
+  "algorithm": [
+    "convert Shift-JIS lead/trail to JIS row/cell",
+    "reject rows outside 0x30..0x48 or cells outside 0x21..0x7E",
+    "index = (row - 0x30) * 94 + (cell - 0x21)",
+    "return font_base + index * 30 when font_ready",
+    "otherwise preserve a0 and dispatch to BIOS B0(51h)"
+  ],
+  "data_table_bytes": 0,
+  "worst_case": "constant time",
+  "abi": {
+    "input": "a0=game code",
+    "output": "v0=30-byte glyph pointer",
+    "fallback": "t1=0x51, t2=0xB0, a0 unchanged"
+  },
+  "r3000a_rules": [
+    "protect every load result with an independent instruction or nop",
+    "verify branch and jump delay slots",
+    "avoid unaligned halfword loads"
+  ],
+  "implementation_gate": "assemble and test the loader plus lookup in PLAN-006; no ROM write in PLAN-005"
+}

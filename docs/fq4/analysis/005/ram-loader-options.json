@@ -1,0 +1,33 @@
+{
+  "executable": {
+    "load_address": "0x80010000",
+    "text_size": 1073152,
+    "loaded_end": "0x80116000"
+  },
+  "stack": {
+    "initial_pointer": "0x801ffff0",
+    "startup_reserve": 32768
+  },
+  "bios_heap": {
+    "initheap_wrapper": "0x80082cec (A0:39h)",
+    "start": "0x80182068",
+    "size": 483208,
+    "end": "0x801f7ff0",
+    "main_allocation_wrapper": "0x80082d9c (A0:33h malloc)",
+    "main_allocation_call": "0x80013a10",
+    "request_strategy": "starts at 0x200000 and subtracts 0x400 until malloc succeeds; result and size become the game memory pool"
+  },
+  "proposal": {
+    "reserve_bytes": 70656,
+    "font_bytes": 70500,
+    "alignment_padding": 156,
+    "remaining_game_pool_estimate": 412552,
+    "method": "reserve the top of the successfully allocated game pool before its custom allocator is initialized; store a persistent font pointer",
+    "load": "read 35 sectors from DUMMY.DUM into the reserved block after CD initialization, then set font_ready"
+  },
+  "risks": [
+    "Reducing the game pool by 70,656 bytes requires long-play and scene-transition regression tests.",
+    "Exact CD file/read wrappers and synchronization point must be traced before implementation.",
+    "The 0x80116000..0x80182068 gap contains referenced buffers and is not a safe extension area."
+  ]
+}

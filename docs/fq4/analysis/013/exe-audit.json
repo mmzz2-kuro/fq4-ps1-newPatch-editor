@@ -1,0 +1,28 @@
+{
+  "image": "F:\\workspace-server\\fq4\\work\\fq4\\013\\exe-test.bin",
+  "size": 101140704,
+  "counts": {
+    "sectors": 43002,
+    "mode2_form1": 40653,
+    "mode2_form2": 2349,
+    "other": 0
+  },
+  "failure_counts": {
+    "sync": 0,
+    "header": 0,
+    "subheader": 0,
+    "edc": 0,
+    "p": 0,
+    "q": 0
+  },
+  "failures": {
+    "sync": [],
+    "header": [],
+    "subheader": [],
+    "edc": [],
+    "p": [],
+    "q": []
+  },
+  "bad_sector_count": 0,
+  "bad_sectors": []
+}

@@ -1,0 +1,29 @@
+{
+  "dummy_file": {
+    "iso_path": "/DUMMY.DUM;1",
+    "lba": 24184,
+    "size": 38230976,
+    "form": "Mode 2 Form 1",
+    "executable_filename_references": 0,
+    "proposal": "replace first 35 payload sectors with a font header and dense Hangul data; retain ISO extent and disc size",
+    "validation_required": "runtime proof that DUMMY.DUM content is never consumed for gameplay or seek timing"
+  },
+  "used_only": {
+    "confirmed_lower_bound_glyphs": 730,
+    "confirmed_glyph_bytes": 21900,
+    "confirmed_plus_candidates_glyph_bytes": 26010,
+    "direct_dense_map_bytes": 4700,
+    "note": "smaller, but incomplete until isolated candidates and other text containers are resolved"
+  },
+  "full_dense_hangul": {
+    "glyphs": 2350,
+    "glyph_bytes": 70500,
+    "sector_count": 35,
+    "sector_payload_bytes": 71680,
+    "padding_bytes": 1180,
+    "lookup_metadata_bytes": 0,
+    "note": "code can calculate a dense index; avoids static text omissions"
+  },
+  "recommendation": "full_dense_hangul",
+  "reason": "70,500 bytes fit in 35 existing DUMMY.DUM sectors and remove correctness dependence on a heuristic text inventory"
+}

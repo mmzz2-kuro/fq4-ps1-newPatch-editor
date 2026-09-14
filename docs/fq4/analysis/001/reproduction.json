@@ -1,0 +1,160 @@
+{
+  "command": "korean-patch/xdelta.exe -d -f -s <original.bin> <patch.xdelta> work/fq4/rom/current.bin",
+  "tool_version": "3.0u",
+  "current_sha256": "9363cdfa247d38f5f819f5e79a25ff25ada3b2394f887726f29231da6ccbffb5",
+  "supplied_sha256": "56efd993ffae15709bf3230c27e5fab35d3461616a31a95fbc56263ca65586b3",
+  "equal": false,
+  "file_records_equal": false,
+  "different_files": [
+    "/SLPS_006.04;1"
+  ],
+  "differing_sectors": [
+    {
+      "sector": 446,
+      "different_bytes": 402,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 447,
+      "different_bytes": 2140,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 448,
+      "different_bytes": 2270,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 449,
+      "different_bytes": 2271,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 450,
+      "different_bytes": 2269,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 451,
+      "different_bytes": 2279,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 452,
+      "different_bytes": 2283,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 453,
+      "different_bytes": 2246,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 454,
+      "different_bytes": 2249,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 455,
+      "different_bytes": 2245,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 456,
+      "different_bytes": 2217,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 457,
+      "different_bytes": 2216,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 458,
+      "different_bytes": 2221,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 459,
+      "different_bytes": 2251,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 460,
+      "different_bytes": 2224,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 461,
+      "different_bytes": 2238,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 462,
+      "different_bytes": 2218,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 463,
+      "different_bytes": 2236,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 464,
+      "different_bytes": 2230,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 465,
+      "different_bytes": 2237,
+      "header": false,
+      "payload": true,
+      "tail": true
+    },
+    {
+      "sector": 466,
+      "different_bytes": 1315,
+      "header": false,
+      "payload": true,
+      "tail": true
+    }
+  ]
+}

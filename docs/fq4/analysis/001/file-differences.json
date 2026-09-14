@@ -1,0 +1,142 @@
+[
+  {
+    "path": "/MOV/MOV03.STR;1",
+    "original": {
+      "path": "/MOV/MOV03.STR;1",
+      "extents": [
+        {
+          "lba": 10030,
+          "size": 17203200
+        }
+      ],
+      "size": 17203200,
+      "hash_basis": "raw_extent_sectors",
+      "sha256": "26d7d1263dfaed17c4ed1689a47d83d559f85c4d446adacb91fd3f7b31974e39"
+    },
+    "patched": {
+      "path": "/MOV/MOV03.STR;1",
+      "extents": [
+        {
+          "lba": 10030,
+          "size": 17203200
+        }
+      ],
+      "size": 17203200,
+      "hash_basis": "raw_extent_sectors",
+      "sha256": "60b7c033e24d0a37fe62bdd610479004bd126393ca699308f73ddb99907ca749"
+    },
+    "content_changed": true
+  },
+  {
+    "path": "/MOV/MOV04.STR;1",
+    "original": {
+      "path": "/MOV/MOV04.STR;1",
+      "extents": [
+        {
+          "lba": 18430,
+          "size": 8648704
+        }
+      ],
+      "size": 8648704,
+      "hash_basis": "raw_extent_sectors",
+      "sha256": "f49c29fd73dad0d57574f9748dda76bcb5a45570d843a02c3e2737564082ffb0"
+    },
+    "patched": {
+      "path": "/MOV/MOV04.STR;1",
+      "extents": [
+        {
+          "lba": 18430,
+          "size": 8648704
+        }
+      ],
+      "size": 8648704,
+      "hash_basis": "raw_extent_sectors",
+      "sha256": "760b97d5a75e3e991bc0fa13751cca8405f4db389f707c7229aae8f99e6676ce"
+    },
+    "content_changed": true
+  },
+  {
+    "path": "/SLPS_006.04;1",
+    "original": {
+      "path": "/SLPS_006.04;1",
+      "extents": [
+        {
+          "lba": 24,
+          "size": 1075200
+        }
+      ],
+      "size": 1075200,
+      "hash_basis": "logical_file_bytes",
+      "sha256": "579e159ecd9d9cfb2e8f25495267f34c136a236c90504c1c6e5a12bd04036a8b"
+    },
+    "patched": {
+      "path": "/SLPS_006.04;1",
+      "extents": [
+        {
+          "lba": 24,
+          "size": 1075200
+        }
+      ],
+      "size": 1075200,
+      "hash_basis": "logical_file_bytes",
+      "sha256": "8a33b5d7024a47f1e8e04fcb32d3621c2355dd6c7129d187e0bb573af32ddce1"
+    },
+    "content_changed": true
+  },
+  {
+    "path": "/SYS/TITLE1.GRP;1",
+    "original": {
+      "path": "/SYS/TITLE1.GRP;1",
+      "extents": [
+        {
+          "lba": 2115,
+          "size": 38400
+        }
+      ],
+      "size": 38400,
+      "hash_basis": "logical_file_bytes",
+      "sha256": "0999d691846ddf6b516b856697dbb48ef4a7b731fc48bac779be2ef4e414457c"
+    },
+    "patched": {
+      "path": "/SYS/TITLE1.GRP;1",
+      "extents": [
+        {
+          "lba": 2115,
+          "size": 38400
+        }
+      ],
+      "size": 38400,
+      "hash_basis": "logical_file_bytes",
+      "sha256": "6585bc3c5357b7a71badcf55c941e12403ff1f1cdf1f98ed75bae5efcb702f38"
+    },
+    "content_changed": true
+  },
+  {
+    "path": "/SYS/TITLE2.GRP;1",
+    "original": {
+      "path": "/SYS/TITLE2.GRP;1",
+      "extents": [
+        {
+          "lba": 2153,
+          "size": 38400
+        }
+      ],
+      "size": 38400,
+      "hash_basis": "logical_file_bytes",
+      "sha256": "b1bdab60b15fda78314014f6b1cc96b7763b277d834afcd5f12c13da9faa4c54"
+    },
+    "patched": {
+      "path": "/SYS/TITLE2.GRP;1",
+      "extents": [
+        {
+          "lba": 2153,
+          "size": 38400
+        }
+      ],
+      "size": 38400,
+      "hash_basis": "logical_file_bytes",
+      "sha256": "c5f61dbbedb404c80f3678ead4b2024437f8efdd00ee0075a69e06e57c23578a"
+    },
+    "content_changed": true
+  }
+]

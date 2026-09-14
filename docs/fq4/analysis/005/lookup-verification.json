@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "tested_valid_codes": 2350,
+  "valid_failures": [],
+  "tested_invalid_boundaries": [
+    "0000",
+    "8140",
+    "889E",
+    "9540",
+    "817F",
+    "80A1",
+    "F040",
+    "FFFF"
+  ],
+  "invalid_boundary_failures": [],
+  "first_pointer": "0x801e0000",
+  "last_pointer": "0x801f1346",
+  "end_exclusive": "0x801f1364",
+  "r3000a_implementation_requirements": [
+    "preserve a0 until fallback is selected",
+    "place a safe instruction or nop after each load",
+    "use explicit branch and jump delay slots",
+    "call BIOS B0(51h) for codes outside the dense Hangul domain or before font_ready"
+  ]
+}

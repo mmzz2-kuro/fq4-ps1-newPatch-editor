@@ -1,0 +1,14 @@
+{
+  "sectors": 43002,
+  "mode2_form1": 40653,
+  "mode2_form2": 2349,
+  "before": {
+    "241112": {"sync": 0, "header": 0, "subheader": 0, "edc": 11046, "p": 11046, "q": 11046},
+    "250826": {"sync": 0, "header": 0, "subheader": 0, "edc": 11046, "p": 11046, "q": 11046}
+  },
+  "after": {
+    "241112": {"sync": 0, "header": 0, "subheader": 0, "edc": 0, "p": 0, "q": 0},
+    "250826": {"sync": 0, "header": 0, "subheader": 0, "edc": 0, "p": 0, "q": 0}
+  },
+  "repair_scope": "all sectors; Mode 2 Form 1 tails only"
+}

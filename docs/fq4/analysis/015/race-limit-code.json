@@ -1,0 +1,1407 @@
+{
+  "executable_sha256": "579e159ecd9d9cfb2e8f25495267f34c136a236c90504c1c6e5a12bd04036a8b",
+  "validator": "0x80072a04",
+  "algorithm": "sum product of the three graphics-cost bytes once per distinct species; proposed species is included when absent",
+  "original_comparison": "total < 480 (0x1e0)",
+  "observed_costs": {
+    "32": 4,
+    "48": 146
+  },
+  "ordinary_species_capacity": 9,
+  "capacity_is_not_fixed_species_count": true,
+  "adopted_comparison": "total < 865 (0x361), allowing 18 ordinary 48-unit species",
+  "comparison_sites": [
+    {
+      "ram": "0x80017f58",
+      "file_offset": "0x8758",
+      "word": "284201e0"
+    },
+    {
+      "ram": "0x8001832c",
+      "file_offset": "0x8b2c",
+      "word": "284201e0"
+    },
+    {
+      "ram": "0x80020a70",
+      "file_offset": "0x11270",
+      "word": "284201e0"
+    },
+    {
+      "ram": "0x80064f2c",
+      "file_offset": "0x5572c",
+      "word": "284201e0"
+    },
+    {
+      "ram": "0x80065874",
+      "file_offset": "0x56074",
+      "word": "284201e0"
+    },
+    {
+      "ram": "0x80065f04",
+      "file_offset": "0x56704",
+      "word": "284201e0"
+    },
+    {
+      "ram": "0x8006b27c",
+      "file_offset": "0x5ba7c",
+      "word": "284201e0"
+    },
+    {
+      "ram": "0x80072c28",
+      "file_offset": "0x63428",
+      "word": "298201e0"
+    }
+  ],
+  "species_cost_table": [
+    {
+      "species": 0,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 1,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 2,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 3,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 4,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 5,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 6,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 7,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 8,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 9,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 10,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 11,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 12,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 13,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 14,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 15,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 16,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 17,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 18,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 19,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 20,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 21,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 22,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 23,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 24,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 25,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 26,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 27,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 28,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 29,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 30,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 31,
+      "factors": [
+        2,
+        2,
+        8
+      ],
+      "cost": 32
+    },
+    {
+      "species": 32,
+      "factors": [
+        2,
+        2,
+        8
+      ],
+      "cost": 32
+    },
+    {
+      "species": 33,
+      "factors": [
+        2,
+        2,
+        8
+      ],
+      "cost": 32
+    },
+    {
+      "species": 34,
+      "factors": [
+        2,
+        2,
+        8
+      ],
+      "cost": 32
+    },
+    {
+      "species": 35,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 36,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 37,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 38,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 39,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 40,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 41,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 42,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 43,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 44,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 45,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 46,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 47,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 48,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 49,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 50,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 51,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 52,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 53,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 54,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 55,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 56,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 57,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 58,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 59,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 60,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 61,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 62,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 63,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 64,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 65,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 66,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 67,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 68,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 69,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 70,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 71,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 72,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 73,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 74,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 75,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 76,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 77,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 78,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 79,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 80,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 81,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 82,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 83,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 84,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 85,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 86,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 87,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 88,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 89,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 90,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 91,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 92,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 93,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 94,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 95,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 96,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 97,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 98,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 99,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 100,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 101,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 102,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 103,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 104,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 105,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 106,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 107,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 108,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 109,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 110,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 111,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 112,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 113,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 114,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 115,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 116,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 117,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 118,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 119,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 120,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 121,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 122,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 123,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 124,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 125,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 126,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 127,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 128,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 129,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 130,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 131,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 132,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 133,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 134,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 135,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 136,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 137,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 138,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 139,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 140,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 141,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 142,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 143,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 144,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 145,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 146,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 147,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 148,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    },
+    {
+      "species": 149,
+      "factors": [
+        2,
+        2,
+        12
+      ],
+      "cost": 48
+    }
+  ]
+}

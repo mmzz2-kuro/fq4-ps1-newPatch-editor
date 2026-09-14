@@ -1,0 +1,160 @@
+{
+  "source_rom": "work/fq4/rom/current.bin",
+  "source_rom_sha256": "e419b4018a8aa02facc3a425ef05f325cb0fc0130e5822015ce43fa2e0baded9",
+  "mapping_basis": "KS X 1001 row/cell encoded into the corresponding Shift-JIS position; verified by prior 교/섭/중 samples",
+  "font_base": "0x5f82c",
+  "glyph_size": 30,
+  "strings": [
+    {
+      "text": "시간경과",
+      "game_code_hex": "8F6288A188E488F8",
+      "tokens": [
+        "8F62",
+        "88A1",
+        "88E4",
+        "88F8"
+      ],
+      "hits": [
+        {
+          "iso_path": "/SLPS_006.04;1",
+          "file_offset": "0x12d0",
+          "raw_context": "b8d40680403081408f6288a188e488f84032403081408dcc8a",
+          "next_byte": "0x40"
+        }
+      ]
+    },
+    {
+      "text": "부대이동",
+      "game_code_hex": "8DCC8AE990CA8B5E",
+      "tokens": [
+        "8DCC",
+        "8AE9",
+        "90CA",
+        "8B5E"
+      ],
+      "hits": [
+        {
+          "iso_path": "/SLPS_006.04;1",
+          "file_offset": "0x12de",
+          "raw_context": "88f84032403081408dcc8ae990ca8b5e403240308140935c8e",
+          "next_byte": "0x40"
+        }
+      ]
+    },
+    {
+      "text": "탐색",
+      "game_code_hex": "935C8E96",
+      "tokens": [
+        "935C",
+        "8E96"
+      ],
+      "hits": [
+        {
+          "iso_path": "/SLPS_006.04;1",
+          "file_offset": "0x12ec",
+          "raw_context": "8b5e403240308140935c8e96403240308140907b89",
+          "next_byte": "0x40"
+        },
+        {
+          "iso_path": "/SLPS_006.04;1",
+          "file_offset": "0xd5d1b",
+          "raw_context": "88a02fca35b98140935c8e962f9755408cb490b92f",
+          "next_byte": "0x2f"
+        }
+      ]
+    }
+  ],
+  "unique_glyph_count": 10,
+  "unique_glyphs": [
+    {
+      "character": "시",
+      "euc_kr": "BDC3",
+      "jis_row_cell": "3D43",
+      "game_code": "8F62",
+      "font_index": 2666,
+      "bios_offset": "0x73098",
+      "glyph_sha256": "1d6a357fe3801260b84dafb84766d448599326729cf54a1f321abee7c75020c3"
+    },
+    {
+      "character": "간",
+      "euc_kr": "B0A3",
+      "jis_row_cell": "3023",
+      "game_code": "88A1",
+      "font_index": 1412,
+      "bios_offset": "0x69da4",
+      "glyph_sha256": "0d8a8f9288493d05c5eadf1400670bd27951321d1c5e2e9ff430a9ef1a144edb"
+    },
+    {
+      "character": "경",
+      "euc_kr": "B0E6",
+      "jis_row_cell": "3066",
+      "game_code": "88E4",
+      "font_index": 1479,
+      "bios_offset": "0x6a57e",
+      "glyph_sha256": "001b1197251339908593b147c31ff7ca27160e2e29f6318bc25ef892858e2119"
+    },
+    {
+      "character": "과",
+      "euc_kr": "B0FA",
+      "jis_row_cell": "307A",
+      "game_code": "88F8",
+      "font_index": 1499,
+      "bios_offset": "0x6a7d6",
+      "glyph_sha256": "a13e16466c9e43bc41b31af070d515a88f38580d5a96cf80eabc948d6a99415a"
+    },
+    {
+      "character": "부",
+      "euc_kr": "BACE",
+      "jis_row_cell": "3A4E",
+      "game_code": "8DCC",
+      "font_index": 2395,
+      "bios_offset": "0x710d6",
+      "glyph_sha256": "cf56d1f7d2b09f675ee799df3b7440b27cec82f35162c85a89f3dbc967e4ffe0"
+    },
+    {
+      "character": "대",
+      "euc_kr": "B4EB",
+      "jis_row_cell": "346B",
+      "game_code": "8AE9",
+      "font_index": 1860,
+      "bios_offset": "0x6d224",
+      "glyph_sha256": "a9779f0aa56c94e43635595bd7fb26c4d8bb7c1b23acc44817bfd41e2d3cdfe0"
+    },
+    {
+      "character": "이",
+      "euc_kr": "C0CC",
+      "jis_row_cell": "404C",
+      "game_code": "90CA",
+      "font_index": 2957,
+      "bios_offset": "0x752b2",
+      "glyph_sha256": "5d376433c748470079ed9dc6645431c8855be4ae7edd5865222982aa8bf0c948"
+    },
+    {
+      "character": "동",
+      "euc_kr": "B5BF",
+      "jis_row_cell": "353F",
+      "game_code": "8B5E",
+      "font_index": 1910,
+      "bios_offset": "0x6d800",
+      "glyph_sha256": "c8da58296ac7879ec0cc01ad2a3824a73a720cdab534c3b18088c89c840a9812"
+    },
+    {
+      "character": "탐",
+      "euc_kr": "C5BD",
+      "jis_row_cell": "453D",
+      "game_code": "935C",
+      "font_index": 3412,
+      "bios_offset": "0x78804",
+      "glyph_sha256": "4d96fdfee9dc8500d2710e2a936c6d2d85b6f98bdf1d88599df870e0c2112525"
+    },
+    {
+      "character": "색",
+      "euc_kr": "BBF6",
+      "jis_row_cell": "3B76",
+      "game_code": "8E96",
+      "font_index": 2529,
+      "bios_offset": "0x7208a",
+      "glyph_sha256": "73f39668cf14f079d4557f5c2e36a1531e10eba113a2f314e5d82dec9da579ec"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "artifact": "tools/dist/FQ4-Standard-BIOS-Korean-Tool.exe",
+  "size": 14992062,
+  "sha256": "58ade5d840f2bf4cc2768755319fab1c0fce2ba2b978fa836cf8c886b8421292",
+  "format": {
+    "dos_signature": "MZ",
+    "pe_signature": "PE",
+    "machine": "0x8664",
+    "subsystem": "Windows GUI"
+  },
+  "toolchain": {
+    "python": "3.10.6",
+    "pyinstaller": "6.11.0",
+    "mode": "onefile windowed",
+    "upx": false
+  },
+  "keystone_dll_bundled": true,
+  "rom_bios_patch_xdelta_bundled": false,
+  "retained_exe_count": 1,
+  "intermediate_build_directory_removed": true
+}

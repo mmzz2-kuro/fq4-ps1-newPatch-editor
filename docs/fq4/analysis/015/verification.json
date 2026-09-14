@@ -1,0 +1,102 @@
+{
+  "rom_sha256": "684d47b644f961b6552c311dffe577418f0b74ba109da7c6c25d57838beeba31",
+  "size": 101140704,
+  "machine_code": {
+    "0x80017f58": "28420361",
+    "0x8001832c": "28420361",
+    "0x80020a70": "28420361",
+    "0x80064f2c": "28420361",
+    "0x80065874": "28420361",
+    "0x80065f04": "28420361",
+    "0x8006b27c": "28420361",
+    "0x80072c28": "29820361"
+  },
+  "ordinary_cases": [
+    {
+      "distinct_ordinary_species": 9,
+      "cost": 432,
+      "allowed": true
+    },
+    {
+      "distinct_ordinary_species": 10,
+      "cost": 480,
+      "allowed": true
+    },
+    {
+      "distinct_ordinary_species": 11,
+      "cost": 528,
+      "allowed": true
+    },
+    {
+      "distinct_ordinary_species": 17,
+      "cost": 816,
+      "allowed": true
+    },
+    {
+      "distinct_ordinary_species": 18,
+      "cost": 864,
+      "allowed": true
+    }
+  ],
+  "low_cost_cases": [
+    {
+      "costs": [
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32
+      ],
+      "allowed": true
+    },
+    {
+      "costs": [
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32
+      ],
+      "allowed": true
+    },
+    {
+      "costs": [
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32
+      ],
+      "allowed": true
+    }
+  ],
+  "pass": true,
+  "runtime_claim_limit": "Static and CPU-logic boundary verification; a naturally assembled 18-species party still needs user visual play testing."
+}

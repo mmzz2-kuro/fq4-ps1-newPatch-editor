@@ -1,0 +1,11 @@
+{
+  "selected": null,
+  "rejected_hypothesis": "move loader after interrupt enable",
+  "reason": "normal game CD reads already occur in the same startup phase, and the corrected font calls receive all data interrupts",
+  "next_candidates": [
+    "read one known PVD sector into the reserved high-memory address",
+    "read one font sector into the proven 0x801179BC buffer",
+    "identify bounce-buffer copy or DMA destination range limitation",
+    "load through a proven low-memory staging buffer and copy to font_base"
+  ]
+}

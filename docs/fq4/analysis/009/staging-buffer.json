@@ -1,0 +1,8 @@
+{
+  "status": "not_required",
+  "tested_low_buffer": "0x801179bc",
+  "tested_high_buffer": "0x801e6528",
+  "finding": "PVD data arrived identically at both addresses",
+  "decision": "retain direct sector reads into the persistent high font allocation",
+  "reason": "the failure was caused by an incorrect sector number, not a DMA destination restriction"
+}

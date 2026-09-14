@@ -1,0 +1,25 @@
+{
+  "tests": {
+    "exact_round_trip": true,
+    "single_field_bounded_diff": true,
+    "corrupt_payload_rejected": true,
+    "directory_unchanged": true,
+    "exe_window_process_started": true,
+    "slot2_screenshot_12_rows_match": true
+  },
+  "controlled_test": {
+    "path": "work\\fq4\\save-editor\\current-test.mcd",
+    "change": "slot 1, character record 229, class 9 AMAZONES -> 10 EXORCIST",
+    "difference_offsets": [
+      "0x4652",
+      "0x9da8"
+    ],
+    "difference_count": 2
+  },
+  "exe": {
+    "path": "tools\\dist\\FQ4-PS1-Save-Editor.exe",
+    "size": 9329884,
+    "sha256": "24add3fd816960410162475f0bd6c12cd021c2d648ad17f01650c99fef26e087"
+  },
+  "runtime_game_load": "pending user gameplay verification"
+}

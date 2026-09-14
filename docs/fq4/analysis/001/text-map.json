@@ -1,0 +1,135 @@
+{
+  "asset_id": "FQ4-TEXT-001",
+  "source": "/SLPS_006.04;1",
+  "consumer": "0x800464c0",
+  "bios_stub": "0x80082c8c",
+  "samples": [
+    {
+      "kind": "original",
+      "file_offset": "0xe0158",
+      "ram": "0x800ef958",
+      "raw_hex": "81408cf08fc292868145814581458140",
+      "tokens": [
+        "8140",
+        "8CF0",
+        "8FC2",
+        "9286",
+        "8145",
+        "8145",
+        "8145",
+        "8140"
+      ],
+      "terminator": "00",
+      "sample_roundtrip": true,
+      "interpretation": "　交渉中・・・　",
+      "interpretation_basis": "cp932 for original; visually inspected BIOS glyphs for patched, not standard Korean encoding"
+    },
+    {
+      "kind": "patched",
+      "file_offset": "0xe0158",
+      "ram": "0x800ef958",
+      "raw_hex": "814089528eb5917e8144814481448140",
+      "tokens": [
+        "8140",
+        "8952",
+        "8EB5",
+        "917E",
+        "8144",
+        "8144",
+        "8144",
+        "8140"
+      ],
+      "terminator": "00",
+      "sample_roundtrip": true,
+      "interpretation": " 교섭중... ",
+      "interpretation_basis": "cp932 for original; visually inspected BIOS glyphs for patched, not standard Korean encoding"
+    },
+    {
+      "kind": "reproduced",
+      "file_offset": "0xe0158",
+      "ram": "0x800ef958",
+      "raw_hex": "814089528eb5917e8144814481448140",
+      "tokens": [
+        "8140",
+        "8952",
+        "8EB5",
+        "917E",
+        "8144",
+        "8144",
+        "8144",
+        "8140"
+      ],
+      "terminator": "00",
+      "sample_roundtrip": true,
+      "interpretation": " 교섭중... ",
+      "interpretation_basis": "cp932 for original; visually inspected BIOS glyphs for patched, not standard Korean encoding"
+    }
+  ],
+  "population": {
+    "status": "lower_bound",
+    "confirmed_representative_strings": 1,
+    "direct_call_candidates": 34,
+    "call_sites": [
+      "0x80018ae8",
+      "0x8001a8a4",
+      "0x8001aecc",
+      "0x8001aed8",
+      "0x8001df40",
+      "0x80036678",
+      "0x8003681c",
+      "0x80036acc",
+      "0x80061bcc",
+      "0x80062840",
+      "0x8006292c",
+      "0x800638e4",
+      "0x800640e4",
+      "0x80064b24",
+      "0x800655b8",
+      "0x80065d8c",
+      "0x80066a10",
+      "0x8007063c",
+      "0x8007076c",
+      "0x80070a24",
+      "0x80071420",
+      "0x80071a14",
+      "0x80071f44",
+      "0x800728d8",
+      "0x80073c5c",
+      "0x800767ac",
+      "0x80078dac",
+      "0x8007fa34",
+      "0x8007fa94",
+      "0x8007fb00",
+      "0x8007fb5c",
+      "0x8007fb68",
+      "0x8008162c",
+      "0x80081fe4"
+    ],
+    "remaining": "All other strings, indirect callers, other rendering paths and graphics text unenumerated"
+  },
+  "renderer_identical_all_three": true,
+  "renderer_sha256": "8b59f95a1af17f60baa8e2b8f2e8bc07fbe02e6d6e02037c75303f3debd2f296",
+  "display": {
+    "glyph_input_bytes": 30,
+    "input_dimensions": [
+      16,
+      15
+    ],
+    "converted_bytes": 128,
+    "output_dimensions": [
+      16,
+      16
+    ],
+    "format": "4bpp; final row zero",
+    "upload_rectangle_words": [
+      4,
+      16
+    ],
+    "initial_vram_xy": [
+      512,
+      416
+    ],
+    "reset_mode_nominal_slots": 192,
+    "capacity_caveat": "Observed loop geometry only; aggregate append calls and other VRAM consumers not verified"
+  }
+}

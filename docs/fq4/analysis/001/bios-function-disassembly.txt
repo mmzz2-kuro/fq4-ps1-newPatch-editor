@@ -1,0 +1,36 @@
+bfc160e0 ffff8430 andi $a0, $a0, 0xffff
+bfc160e4 40810134 ori $at, $zero, 0x8140
+bfc160e8 e0ffbd27 addiu $sp, $sp, -0x20
+bfc160ec 2b088100 sltu $at, $a0, $at
+bfc160f0 08002014 bnez $at, 0xbfc16114
+bfc160f4 1400bfaf sw $ra, 0x14($sp)
+bfc160f8 bf840134 ori $at, $zero, 0x84bf
+bfc160fc 2b088100 sltu $at, $a0, $at
+bfc16100 05002010 beqz $at, 0xbfc16118
+bfc16104 9f880134 ori $at, $zero, 0x889f
+bfc16108 c6bf033c lui $v1, 0xbfc6
+bfc1610c 0d000010 b 0xbfc16144
+bfc16110 00606334 ori $v1, $v1, 0x6000
+bfc16114 9f880134 ori $at, $zero, 0x889f
+bfc16118 2b088100 sltu $at, $a0, $at
+bfc1611c 07002014 bnez $at, 0xbfc1613c
+bfc16120 73980134 ori $at, $zero, 0x9873
+bfc16124 2b088100 sltu $at, $a0, $at
+bfc16128 04002010 beqz $at, 0xbfc1613c
+bfc1612c 00000000 nop 
+bfc16130 c6bf033c lui $v1, 0xbfc6
+bfc16134 03000010 b 0xbfc16144
+bfc16138 689d6334 ori $v1, $v1, 0x9d68
+bfc1613c 08000010 b 0xbfc16160
+bfc16140 ffff0224 addiu $v0, $zero, -1
+bfc16144 9c19000c jal 0xb0006670
+bfc16148 1800a3af sw $v1, 0x18($sp)
+bfc1614c 00710200 sll $t6, $v0, 4
+bfc16150 1800a38f lw $v1, 0x18($sp)
+bfc16154 2370c201 subu $t6, $t6, $v0
+bfc16158 40700e00 sll $t6, $t6, 1
+bfc1615c 21106e00 addu $v0, $v1, $t6
+bfc16160 1400bf8f lw $ra, 0x14($sp)
+bfc16164 2000bd27 addiu $sp, $sp, 0x20
+bfc16168 0800e003 jr $ra
+bfc1616c 00000000 nop 

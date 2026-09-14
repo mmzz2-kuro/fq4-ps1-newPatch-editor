@@ -1,0 +1,26 @@
+{
+  "status": "root_cause_confirmed",
+  "sector_count": 43002,
+  "original": {
+    "mode2_form1": 40654,
+    "mode2_form2": 2348,
+    "bad_sectors": 0
+  },
+  "patched_250826_before_bios_conversion": {
+    "mode2_form1": 40653,
+    "mode2_form2": 2349,
+    "bad_sectors": 11046,
+    "edc_failures": 11046,
+    "p_failures": 11046,
+    "q_failures": 11046,
+    "first_failure": 10030,
+    "last_failure": 22652
+  },
+  "plan_010_before_repair": {
+    "mode2_form1": 40653,
+    "mode2_form2": 2349,
+    "bad_sectors": 11046,
+    "same_failure_set_as_250826": true
+  },
+  "conclusion": "The 250826 xdelta changes raw sector payload/form data without updating the existing EDC/P/Q tails. The standard-BIOS modifications did not add failures."
+}

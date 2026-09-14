@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "inputs": {
+    "original_sha256": "858f3a806cbb97d0b9dd1a43c285989ac31200959c3fbff61296780a99b81e2a",
+    "patch_250826_sha256": "86b9404f0e596f5dc300234465da4fb6a80cd9a603b5c9658d544be8bcf6abd2",
+    "korean_bios_sha256": "f8658d98e32c6a8560a832c50f74f84662e1bff98c486c6480c207a2b404b88f"
+  },
+  "expected_plan_010_sha256": "95bb338e4f836f37323b9011491f0fd7e376b31b4fc5514bccd6bf613f0df83e",
+  "gui_engine_output_sha256": "95bb338e4f836f37323b9011491f0fd7e376b31b4fc5514bccd6bf613f0df83e",
+  "byte_identical": true,
+  "output_size": 101140704,
+  "cue": {
+    "track": "MODE2/2352",
+    "unicode_filename_test": "pass",
+    "encoding": "UTF-8 with BOM"
+  },
+  "temporary_product_rom_removed": true
+}

@@ -1,0 +1,19 @@
+{
+  "status": "independent_algorithm_pass_user_tool_recheck_pending",
+  "references": [
+    "https://sources.debian.org/src/cdrkit/9%3A1.1.9-1/libedc/edc_ecc.c",
+    "https://fossies.org/linux/cdrtools/libedc/ecc.h",
+    "https://learn.microsoft.com/en-us/windows/win32/api/imapi2/ne-imapi2-imapi_cd_sector_type"
+  ],
+  "independence_evidence": {
+    "original_disc_vectors_checked": 40654,
+    "original_edc_p_q_byte_matches": 40654,
+    "original_failures": 0,
+    "repaired_current_vectors_checked": 40653,
+    "repaired_current_failures": 0
+  },
+  "user_external_checker": {
+    "before": "reported bad sectors",
+    "after": "pending user rerun"
+  }
+}
