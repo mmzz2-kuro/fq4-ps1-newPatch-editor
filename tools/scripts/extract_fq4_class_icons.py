@@ -44,8 +44,10 @@ def fit_large_icon(im):
     canvas.alpha_composite(im,((64-im.width)//2,(64-im.height)//2))
     return canvas
 
-def layout(data):
+def layout(class_id,data):
     tiles=len(data)//256
+    if 211<=class_id<=218:
+        return 64,4,4,True,'large_front_frame_64x64_column_major_normalized_palette'
     if tiles>=72 and tiles%9==0:
         return 36,3,3,True,'large_front_frame_48x48_column_major_normalized_palette'
     if tiles>=20:
@@ -57,7 +59,7 @@ def main():
     names=json.loads((UI/'class_names.json').read_text(encoding='utf-8-sig'));OUT.mkdir(parents=True,exist_ok=True);catalog=[]
     for i,name in enumerate(names):
         path=f'/CHR{i>>4:X}/C{i:02X}.P'; rec=by[path]; e=rec['extents'][0]; data=b''.join(raw[(e['lba']+n)*2352+24:(e['lba']+n)*2352+2072] for n in range((e['size']+2047)//2048))[:e['size']]
-        base_tile,width_tiles,height_tiles,column_major,status=layout(data)
+        base_tile,width_tiles,height_tiles,column_major,status=layout(i,data)
         frame,im=render_frame(data,base_tile,width_tiles,height_tiles,column_major)
         im=fit_large_icon(im) if width_tiles==3 and height_tiles==3 else im.resize((64,64),Image.Resampling.NEAREST)
         fn=f'class-{i:03}.png';im.save(OUT/fn)

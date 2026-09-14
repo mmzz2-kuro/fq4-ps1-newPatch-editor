@@ -3590,137 +3590,137 @@
     "id": 211,
     "name": "그리폰",
     "icon": "class_icons/class-211.png",
-    "image_status": "front_frame_32x32_column_major_normalized_palette",
+    "image_status": "large_front_frame_64x64_column_major_normalized_palette",
     "source": "/CHRD/CD3.P",
     "source_lba": 3594,
     "tile_layout": {
-      "base_tile": 16,
-      "width_tiles": 2,
-      "height_tiles": 2,
+      "base_tile": 64,
+      "width_tiles": 4,
+      "height_tiles": 4,
       "column_major": true,
       "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "ac21ce30b5d09f2a684db52dea585ce48b84cc968e0767613275cf364ebad7e2"
+    "frame_sha256": "bd1ef236fa1887728669788d92741c5a2ec57228f142772ead0f3b99e7e91c88"
   },
   {
     "id": 212,
     "name": "자이언트",
     "icon": "class_icons/class-212.png",
-    "image_status": "front_frame_32x32_column_major_normalized_palette",
+    "image_status": "large_front_frame_64x64_column_major_normalized_palette",
     "source": "/CHRD/CD4.P",
     "source_lba": 3618,
     "tile_layout": {
-      "base_tile": 16,
-      "width_tiles": 2,
-      "height_tiles": 2,
+      "base_tile": 64,
+      "width_tiles": 4,
+      "height_tiles": 4,
       "column_major": true,
       "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "220939c2ec489814ef2ecf413cf8540cf6a2546a45e5cec907126416cc6789c6"
+    "frame_sha256": "be5d22ba2ec42a81b888f381de9ccb5a623691b645629fb3d260c4d9509ed259"
   },
   {
     "id": 213,
     "name": "골렘(큰사이즈)",
     "icon": "class_icons/class-213.png",
-    "image_status": "front_frame_32x32_column_major_normalized_palette",
+    "image_status": "large_front_frame_64x64_column_major_normalized_palette",
     "source": "/CHRD/CD5.P",
     "source_lba": 3642,
     "tile_layout": {
-      "base_tile": 16,
-      "width_tiles": 2,
-      "height_tiles": 2,
+      "base_tile": 64,
+      "width_tiles": 4,
+      "height_tiles": 4,
       "column_major": true,
       "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "38319b2df7e293640c8de09fbecf5a4551f05e1f694fa4afe4c7cb9796becee7"
+    "frame_sha256": "b222832c0d0597fda77be193a47c3c97fadd650fdf2d7e92f0efaa858604686a"
   },
   {
     "id": 214,
     "name": "드래곤(소환형)",
     "icon": "class_icons/class-214.png",
-    "image_status": "front_frame_32x32_column_major_normalized_palette",
+    "image_status": "large_front_frame_64x64_column_major_normalized_palette",
     "source": "/CHRD/CD6.P",
     "source_lba": 3666,
     "tile_layout": {
-      "base_tile": 16,
-      "width_tiles": 2,
-      "height_tiles": 2,
+      "base_tile": 64,
+      "width_tiles": 4,
+      "height_tiles": 4,
       "column_major": true,
       "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "71b92bd59b6aaa8422cb548f8a5dcd08153353d93d0b9754274413c30dac534e"
+    "frame_sha256": "04fe6adfcf9afa257c6461235c07995a145149a7fabca2f917d637883cf7837b"
   },
   {
     "id": 215,
     "name": "그리폰",
     "icon": "class_icons/class-215.png",
-    "image_status": "front_frame_32x32_column_major_normalized_palette",
+    "image_status": "large_front_frame_64x64_column_major_normalized_palette",
     "source": "/CHRD/CD7.P",
     "source_lba": 3690,
     "tile_layout": {
-      "base_tile": 16,
-      "width_tiles": 2,
-      "height_tiles": 2,
+      "base_tile": 64,
+      "width_tiles": 4,
+      "height_tiles": 4,
       "column_major": true,
       "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "d96b1cd3914c226bbc2d2c9de88636790bc3b8e57abf958f8d6fb0ab84b1afe7"
+    "frame_sha256": "33e3576a3009adfa77add64cf0bb931947c3728776428ed24d8e737bbeeeaed3"
   },
   {
     "id": 216,
     "name": "용기병",
     "icon": "class_icons/class-216.png",
-    "image_status": "front_frame_32x32_column_major_normalized_palette",
+    "image_status": "large_front_frame_64x64_column_major_normalized_palette",
     "source": "/CHRD/CD8.P",
     "source_lba": 3714,
     "tile_layout": {
-      "base_tile": 16,
-      "width_tiles": 2,
-      "height_tiles": 2,
+      "base_tile": 64,
+      "width_tiles": 4,
+      "height_tiles": 4,
       "column_major": true,
       "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "ffe2def928d90fdb49388a07d4e0415dc3952fb8039377763b8fec0830b0f30c"
+    "frame_sha256": "1a5e4fb69bbf3245d9527d5f49413d6c4f7498368181b3c31a6eedb5c7da8759"
   },
   {
     "id": 217,
     "name": "뱀파이어",
     "icon": "class_icons/class-217.png",
-    "image_status": "large_front_frame_48x48_column_major_normalized_palette",
+    "image_status": "large_front_frame_64x64_column_major_normalized_palette",
     "source": "/CHRD/CD9.P",
     "source_lba": 3738,
     "tile_layout": {
-      "base_tile": 36,
-      "width_tiles": 3,
-      "height_tiles": 3,
+      "base_tile": 64,
+      "width_tiles": 4,
+      "height_tiles": 4,
       "column_major": true,
       "tile_count": 216
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "eae30d0e6b524ccd5783f054bd948d7b5a703802a3f52d8efa5a2f752e521713"
+    "frame_sha256": "4cd973efbed36e70ef78d1b7d4d58c7a4addd9d677e8daeaa2c4510c9942f0cc"
   },
   {
     "id": 218,
     "name": "가디언",
     "icon": "class_icons/class-218.png",
-    "image_status": "front_frame_32x32_column_major_normalized_palette",
+    "image_status": "large_front_frame_64x64_column_major_normalized_palette",
     "source": "/CHRD/CDA.P",
     "source_lba": 3765,
     "tile_layout": {
-      "base_tile": 16,
-      "width_tiles": 2,
-      "height_tiles": 2,
+      "base_tile": 64,
+      "width_tiles": 4,
+      "height_tiles": 4,
       "column_major": true,
       "tile_count": 192
     },
     "palette": "normalized groups approved from CLASS 25 preview v1",
-    "frame_sha256": "2f8ec6c0d9d1369d0a638b4a1c2584ccb8f893e65c8ee013127fcced6a1e6834"
+    "frame_sha256": "2032a82ba2108fe1d27a243c4426f25d02acc593275e991547a3f15ff435845d"
   },
   {
     "id": 219,
