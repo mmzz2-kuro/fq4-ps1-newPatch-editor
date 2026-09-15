@@ -29,6 +29,7 @@ FORM1_DATA_OFFSET = 24
 FORM1_DATA_SIZE = 2048
 ENDING_MOV04_LBA_START = 18430
 ENDING_MOV04_LBA_END = 22652
+ENDING_MOV04_ORIGINAL_TAIL_SECTORS = 64
 ENDING_TEMPLATE_EXE_OFFSET = 0xE0400
 ENDING_TEMPLATE_LENGTH = 0xB0
 ENDING_TEMPLATE_REPLACEMENTS = (
@@ -87,7 +88,11 @@ def write_form1_file_slice(image: bytearray, lba0: int, logical_offset: int, pay
 
 
 def apply_ending_result_fix(image: bytearray, original_image: bytes, exe_lba: int, exe_size: int) -> dict[str, object]:
-    for lba in range(ENDING_MOV04_LBA_START, ENDING_MOV04_LBA_END + 1):
+    # Preserve the Korean-subtitled MOV04 body. Runtime testing for PLAN-037
+    # showed that replacing only the final 64 raw sectors with the original
+    # movie tail restores the post-movie character result transition.
+    tail_start = ENDING_MOV04_LBA_END - ENDING_MOV04_ORIGINAL_TAIL_SECTORS + 1
+    for lba in range(tail_start, ENDING_MOV04_LBA_END + 1):
         start = lba * RAW_SECTOR
         image[start:start + RAW_SECTOR] = original_image[start:start + RAW_SECTOR]
 
@@ -111,7 +116,9 @@ def apply_ending_result_fix(image: bytearray, original_image: bytes, exe_lba: in
         })
     touched_template = write_form1_file_slice(image, exe_lba, ENDING_TEMPLATE_EXE_OFFSET, bytes(template))
     return {
-        "mov04_replaced_lba": [ENDING_MOV04_LBA_START, ENDING_MOV04_LBA_END],
+        "mov04_preserved_lba": [ENDING_MOV04_LBA_START, tail_start - 1],
+        "mov04_original_tail_lba": [tail_start, ENDING_MOV04_LBA_END],
+        "mov04_original_tail_sectors": ENDING_MOV04_ORIGINAL_TAIL_SECTORS,
         "template_offset": hex(ENDING_TEMPLATE_EXE_OFFSET),
         "template_length": hex(ENDING_TEMPLATE_LENGTH),
         "template_touched_lba": touched_template,

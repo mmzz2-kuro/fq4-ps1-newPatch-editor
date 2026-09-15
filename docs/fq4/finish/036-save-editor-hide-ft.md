@@ -45,7 +45,7 @@ powershell -ExecutionPolicy Bypass -File tools\scripts\build_fq4_save_editor_exe
 빌드 산출물:
 
 - `tools/dist/FQ4-PS1-Save-Editor.exe`
-- SHA-256: `94189339CF7176E0DAFE5D371A277108C7CDCFE2A376FA2C2069E30439090ADA`
+- SHA-256: `AB1940994E9D5E4273D819F96B9CF5DF9F19CCC50D14DEDE1F6E949F74C86F74`
 
 ## 비고
 
