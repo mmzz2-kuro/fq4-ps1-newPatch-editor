@@ -22,18 +22,41 @@ def rgba(v):
     if 96<=v<=127:return ramp(v,(105,45,0),(255,215,45),96,127)
     return (100,100,105,255)
 
+def rgba_for_class(class_id,v):
+    if class_id==0:
+        if v==0:return (0,0,0,0)
+        if v==3:return (4,8,18,255)
+        if 1<=v<=15:return ramp(v,(5,10,18),(52,58,68),1,15)
+        if 16<=v<=31:return ramp(v,(45,95,135),(218,245,255),16,31)
+        if 40<=v<=47:return ramp(v,(70,35,4),(190,105,18),40,47)
+        if 48<=v<=63:return ramp(v,(75,34,0),(220,128,22),48,63)
+        if 80<=v<=95:return ramp(v,(70,78,86),(248,248,244),80,95)
+        if 96<=v<=119:return ramp(v,(28,115,50),(60,210,85),96,119)
+        if 120<=v<=127:return ramp(v,(160,92,45),(255,199,135),120,127)
+    if class_id==10:
+        if v==0:return (0,0,0,0)
+        if v==3:return (4,6,12,255)
+        if 1<=v<=15:return ramp(v,(5,8,12),(35,35,38),1,15)
+        if 16<=v<=31:return ramp(v,(60,105,125),(170,220,235),16,31)
+        if 40<=v<=47:return ramp(v,(145,84,8),(255,212,55),40,47)
+        if 48<=v<=63:return ramp(v,(95,42,0),(238,116,12),48,63)
+        if 80<=v<=95:return ramp(v,(12,118,26),(88,235,48),80,95)
+        if 96<=v<=119:return ramp(v,(8,95,22),(48,190,38),96,119)
+        if 120<=v<=127:return ramp(v,(172,100,55),(255,207,150),120,127)
+    return rgba(v)
+
 def tile_offset(tile_x, tile_y, width_tiles, height_tiles, column_major):
     if column_major:
         return tile_x*height_tiles+tile_y
     return tile_y*width_tiles+tile_x
 
-def render_frame(data, base_tile, width_tiles, height_tiles, column_major=False):
+def render_frame(data, base_tile, width_tiles, height_tiles, column_major=False, class_id=None):
     indices=[]
     for y in range(height_tiles*16):
         for x in range(width_tiles*16):
             tile=base_tile+tile_offset(x//16,y//16,width_tiles,height_tiles,column_major)
             indices.append(data[tile*256+(y%16)*16+(x%16)])
-    frame=bytes(indices); im=Image.new('RGBA',(width_tiles*16,height_tiles*16));im.putdata([rgba(x) for x in frame])
+    frame=bytes(indices); im=Image.new('RGBA',(width_tiles*16,height_tiles*16));im.putdata([rgba_for_class(class_id,x) for x in frame])
     return frame,im
 
 def fit_large_icon(im):
@@ -67,9 +90,10 @@ def main():
     for i,name in enumerate(names):
         path=f'/CHR{i>>4:X}/C{i:02X}.P'; rec=by[path]; e=rec['extents'][0]; data=b''.join(raw[(e['lba']+n)*2352+24:(e['lba']+n)*2352+2072] for n in range((e['size']+2047)//2048))[:e['size']]
         base_tile,width_tiles,height_tiles,column_major,status=layout(i,data)
-        frame,im=render_frame(data,base_tile,width_tiles,height_tiles,column_major)
+        frame,im=render_frame(data,base_tile,width_tiles,height_tiles,column_major,i)
         im=fit_large_icon(im) if width_tiles>=3 and height_tiles>=3 else im.resize((64,64),Image.Resampling.NEAREST)
         fn=f'class-{i:03}.png';im.save(OUT/fn)
-        catalog.append({'id':i,'name':name,'icon':f'class_icons/{fn}','image_status':status,'source':path,'source_lba':e['lba'],'tile_layout':{'base_tile':base_tile,'width_tiles':width_tiles,'height_tiles':height_tiles,'column_major':column_major,'tile_count':len(data)//256},'palette':'normalized groups approved from CLASS 25 preview v1','frame_sha256':hashlib.sha256(frame).hexdigest()})
+        palette='class_specific_sample_override_v1' if i in (0,10) else 'normalized groups approved from CLASS 25 preview v1'
+        catalog.append({'id':i,'name':name,'icon':f'class_icons/{fn}','image_status':status,'source':path,'source_lba':e['lba'],'tile_layout':{'base_tile':base_tile,'width_tiles':width_tiles,'height_tiles':height_tiles,'column_major':column_major,'tile_count':len(data)//256},'palette':palette,'frame_sha256':hashlib.sha256(frame).hexdigest()})
     (UI/'class_catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print('extracted',len(catalog))
 if __name__=='__main__':main()

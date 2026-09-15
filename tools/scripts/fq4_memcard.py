@@ -21,6 +21,14 @@ CHARACTER_OFFSET = 0x09A6
 CHARACTER_STRIDE = 0x20
 CHARACTER_COUNT = 640
 SPECIES_COUNT = 220
+GOLD_OFFSET = 0x0692
+GOLD_MAX = 0xFFFF
+ITEM_OFFSET = 0x0492
+ITEM_STRIDE = 2
+# The observed inventory area ends at 0x0520 in the available PS1 saves:
+# (0x0520 - 0x0492) / 2 = 71 entries.
+ITEM_CAPACITY = 71
+ITEM_QUANTITY_MAX = 99
 
 
 class SaveFormatError(ValueError):
@@ -79,6 +87,17 @@ class Character:
 
 
 @dataclass
+class InventoryItem:
+    index: int
+    item_id: int
+    quantity: int
+
+    @property
+    def empty(self) -> bool:
+        return self.item_id == 0 and self.quantity == 0
+
+
+@dataclass
 class FQ4Slot:
     filename: str
     start_block: int
@@ -134,6 +153,57 @@ class FQ4Slot:
         struct.pack_into("<H", self.payload, off + 26, character.hp)
         self.payload[off + 28:off + 32] = bytes((character.at, character.ar, character.df, character.dr))
         repair_payload_checksums(self.payload)
+
+    def gold(self) -> int:
+        return struct.unpack_from("<H", self.payload, GOLD_OFFSET)[0]
+
+    def set_gold(self, value: int) -> None:
+        if not 0 <= value <= GOLD_MAX:
+            raise SaveFormatError(f"gold must be between 0 and {GOLD_MAX}")
+        struct.pack_into("<H", self.payload, GOLD_OFFSET, value)
+        repair_payload_checksums(self.payload)
+
+    def items(self, include_empty: bool = False) -> list[InventoryItem]:
+        result = []
+        for index in range(ITEM_CAPACITY):
+            off = ITEM_OFFSET + index * ITEM_STRIDE
+            item = InventoryItem(index, self.payload[off], self.payload[off + 1])
+            if include_empty or not item.empty:
+                result.append(item)
+        return result
+
+    def set_item_quantity(self, item_id: int, quantity: int) -> InventoryItem | None:
+        if not 1 <= item_id <= 0xFF:
+            raise SaveFormatError("item ID must be between 1 and 255")
+        if not 0 <= quantity <= ITEM_QUANTITY_MAX:
+            raise SaveFormatError(f"item quantity must be between 0 and {ITEM_QUANTITY_MAX}")
+
+        empty_index = None
+        for item in self.items(include_empty=True):
+            if item.empty and empty_index is None:
+                empty_index = item.index
+            if item.item_id == item_id:
+                return self._write_item(item.index, 0 if quantity == 0 else item_id, quantity)
+
+        if quantity == 0:
+            return None
+        if empty_index is None:
+            raise SaveFormatError("inventory has no empty slot")
+        return self._write_item(empty_index, item_id, quantity)
+
+    def clear_item_slot(self, index: int) -> None:
+        self._write_item(index, 0, 0)
+
+    def _write_item(self, index: int, item_id: int, quantity: int) -> InventoryItem:
+        if not 0 <= index < ITEM_CAPACITY:
+            raise SaveFormatError("inventory slot index out of range")
+        if item_id == 0 and quantity != 0:
+            raise SaveFormatError("empty item slot must have quantity 0")
+        off = ITEM_OFFSET + index * ITEM_STRIDE
+        self.payload[off] = item_id
+        self.payload[off + 1] = quantity
+        repair_payload_checksums(self.payload)
+        return InventoryItem(index, item_id, quantity)
 
 
 class MemoryCard:

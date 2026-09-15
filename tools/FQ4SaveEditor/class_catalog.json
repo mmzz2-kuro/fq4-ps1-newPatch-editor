@@ -13,7 +13,7 @@
       "column_major": true,
       "tile_count": 48
     },
-    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "palette": "class_specific_sample_override_v1",
     "frame_sha256": "fe4df35e267886d5a03e4c7f3d75a3c21c3f21c2112b089123cd607c16d59a3a"
   },
   {
@@ -183,7 +183,7 @@
       "column_major": true,
       "tile_count": 48
     },
-    "palette": "normalized groups approved from CLASS 25 preview v1",
+    "palette": "class_specific_sample_override_v1",
     "frame_sha256": "0793a75aea31fe9ac0913bd9a7f3247ccb1b3d4f6614698cb975c96204ec4b13"
   },
   {

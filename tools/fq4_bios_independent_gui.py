@@ -33,12 +33,13 @@ class App(tk.Tk):
     def __init__(self) -> None:
         super().__init__()
         self.title("퍼스트퀸4 일반 BIOS용 ROM 만들기")
-        self.geometry("780x650")
-        self.minsize(700, 600)
+        self.geometry("1200x900")
+        self.minsize(1000, 900)
         self.process: subprocess.Popen[str] | None = None
         self.vars = {name: tk.StringVar(value=str(DEFAULTS.get(name, ""))) for name in ("original", "patch", "bios", "xdelta", "output")}
         self.status = tk.StringVar(value="파일을 선택한 뒤 만들기 버튼을 누르세요.")
         self.expand_species_limit = tk.BooleanVar(value=False)
+        self.fix_ending_result = tk.BooleanVar(value=True)
         self._build_ui()
         self.protocol("WM_DELETE_WINDOW", self._close)
 
@@ -66,6 +67,12 @@ class App(tk.Tk):
             variable=self.expand_species_limit,
         )
         self.species_checkbox.pack(anchor="w")
+        self.ending_checkbox = ttk.Checkbutton(
+            options,
+            text="엔딩 후 결산 화면 수정 적용 (권장)",
+            variable=self.fix_ending_result,
+        )
+        self.ending_checkbox.pack(anchor="w", pady=(6, 0))
         ttk.Label(
             options,
             text="종족별 그래픽 비용에 따라 실제 허용 수가 달라질 수 있습니다. 기본 동작은 확인됐으며 장시간 플레이 검증이 더 필요합니다.",
@@ -116,11 +123,14 @@ class App(tk.Tk):
             command.append("--overwrite")
         if self.expand_species_limit.get():
             command.append("--expand-party-species-limit")
+        if self.fix_ending_result.get():
+            command.append("--fix-ending-result")
         self.run_button.configure(state="disabled")
         self.cancel_button.configure(state="normal")
         for entry in self.entries:
             entry.configure(state="disabled")
         self.species_checkbox.configure(state="disabled")
+        self.ending_checkbox.configure(state="disabled")
         self.progress.start(12)
         self.status.set("작업을 시작합니다…")
         self._append("작업 시작")
@@ -160,6 +170,7 @@ class App(tk.Tk):
         for entry in self.entries:
             entry.configure(state="normal")
         self.species_checkbox.configure(state="normal")
+        self.ending_checkbox.configure(state="normal")
         if code == 0 and success:
             self.status.set("완료")
             messagebox.showinfo("완료", f"일반 BIOS용 ROM을 만들었습니다.\n\n{output}\n프로필: {success['profile']}\n교정 sector: {success['repaired_sectors']}\nSHA-256: {success['sha256']}")

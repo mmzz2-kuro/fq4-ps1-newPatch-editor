@@ -24,6 +24,22 @@ from verify_cdrom_xa_ecc import audit_range  # noqa: E402
 
 EXPECTED_SIZE = 101_140_704
 
+RAW_SECTOR = 2352
+FORM1_DATA_OFFSET = 24
+FORM1_DATA_SIZE = 2048
+ENDING_MOV04_LBA_START = 18430
+ENDING_MOV04_LBA_END = 22652
+ENDING_TEMPLATE_EXE_OFFSET = 0xE0400
+ENDING_TEMPLATE_LENGTH = 0xB0
+ENDING_TEMPLATE_REPLACEMENTS = (
+    ("名前", bytes.fromhex("90 ca 8c a5"), "이름"),
+    ("クラス", bytes.fromhex("91 97 8f f5 20 20"), "직업"),
+    ("パワー", bytes.fromhex("93 c2 90 96 20 20"), "파워"),
+    ("討数", bytes.fromhex("88 db 92 7e"), "격추"),
+    ("戦場より生還！", bytes.fromhex("90 fa 90 e3 90 40 8e ab 8e 9d 94 ad 81 49"), "전장에서생환!"),
+    ("にて死亡", bytes.fromhex("90 40 8e ab 8e 87 8c bf"), "에서사망"),
+)
+
 
 def sha256(path: Path) -> str:
     digest = hashlib.sha256()
@@ -46,8 +62,65 @@ def cue_text(bin_name: str) -> str:
     return f'FILE "{bin_name}" BINARY\r\n  TRACK 01 MODE2/2352\r\n    INDEX 01 00:00:00\r\n'
 
 
+
+def read_form1_file(image: bytes, lba: int, size: int) -> bytes:
+    sectors = (size + FORM1_DATA_SIZE - 1) // FORM1_DATA_SIZE
+    return b"".join(
+        image[(lba + i) * RAW_SECTOR + FORM1_DATA_OFFSET:(lba + i) * RAW_SECTOR + FORM1_DATA_OFFSET + FORM1_DATA_SIZE]
+        for i in range(sectors)
+    )[:size]
+
+
+def write_form1_file_slice(image: bytearray, lba0: int, logical_offset: int, payload: bytes) -> list[int]:
+    touched: set[int] = set()
+    position = 0
+    while position < len(payload):
+        logical = logical_offset + position
+        lba = lba0 + logical // FORM1_DATA_SIZE
+        in_sector = logical % FORM1_DATA_SIZE
+        length = min(len(payload) - position, FORM1_DATA_SIZE - in_sector)
+        start = lba * RAW_SECTOR + FORM1_DATA_OFFSET + in_sector
+        image[start:start + length] = payload[position:position + length]
+        touched.add(lba)
+        position += length
+    return sorted(touched)
+
+
+def apply_ending_result_fix(image: bytearray, original_image: bytes, exe_lba: int, exe_size: int) -> dict[str, object]:
+    for lba in range(ENDING_MOV04_LBA_START, ENDING_MOV04_LBA_END + 1):
+        start = lba * RAW_SECTOR
+        image[start:start + RAW_SECTOR] = original_image[start:start + RAW_SECTOR]
+
+    original_exe = read_form1_file(original_image, exe_lba, exe_size)
+    template = bytearray(original_exe[ENDING_TEMPLATE_EXE_OFFSET:ENDING_TEMPLATE_EXE_OFFSET + ENDING_TEMPLATE_LENGTH])
+    replacements = []
+    for old_text, new, new_text in ENDING_TEMPLATE_REPLACEMENTS:
+        old = old_text.encode("cp932")
+        rel = bytes(template).find(old)
+        if rel < 0:
+            raise ValueError(f"엔딩 결산 원본 라벨을 찾을 수 없습니다: {old_text}")
+        if len(new) > len(old):
+            raise ValueError(f"엔딩 결산 라벨이 원본 폭을 초과합니다: {new_text} {len(new)}>{len(old)}")
+        template[rel:rel + len(old)] = new + b" " * (len(old) - len(new))
+        replacements.append({
+            "relative_offset": hex(rel),
+            "old_text": old_text,
+            "new_text": new_text,
+            "old_bytes": old.hex(" "),
+            "new_game_bytes_padded": bytes(template[rel:rel + len(old)]).hex(" "),
+        })
+    touched_template = write_form1_file_slice(image, exe_lba, ENDING_TEMPLATE_EXE_OFFSET, bytes(template))
+    return {
+        "mov04_replaced_lba": [ENDING_MOV04_LBA_START, ENDING_MOV04_LBA_END],
+        "template_offset": hex(ENDING_TEMPLATE_EXE_OFFSET),
+        "template_length": hex(ENDING_TEMPLATE_LENGTH),
+        "template_touched_lba": touched_template,
+        "replacements": replacements,
+    }
+
+
 def build(original: Path, patch: Path, bios: Path, output: Path, xdelta: Path, overwrite: bool,
-          expand_party_species_limit: bool = False) -> dict[str, object]:
+          expand_party_species_limit: bool = False, fix_ending_result: bool = False) -> dict[str, object]:
     paths = [item.resolve() for item in (original, patch, bios, output, xdelta)]
     original, patch, bios, output, xdelta = paths
     if len({str(original).casefold(), str(patch).casefold(), str(bios).casefold(), str(output).casefold()}) != 4:
@@ -105,6 +178,14 @@ def build(original: Path, patch: Path, bios: Path, output: Path, xdelta: Path, o
             species_report = apply_species_budget_expansion(image)
             temp.write_bytes(image)
 
+        ending_report = None
+        if fix_ending_result:
+            emit("ending_fix", "엔딩 동영상 이후 결산 화면 수정을 적용하고 있습니다.")
+            image = bytearray(temp.read_bytes())
+            ending_report = apply_ending_result_fix(image, original.read_bytes(), structure["exe_lba"], structure["exe_size"])
+            temp.write_bytes(image)
+
+
         emit("ecc_repair", "전체 디스크의 EDC/ECC를 검사하고 교정하고 있습니다.")
         repair = repair_image(temp, workers=1)
 
@@ -130,6 +211,8 @@ def build(original: Path, patch: Path, bios: Path, output: Path, xdelta: Path, o
         final = {"status": "success", "output": str(output), "cue": str(cue), "size": output.stat().st_size, "sha256": output_sha, "patch_sha256": identities["patch"], "profile": structure["profile"], "structure": structure, "sector_structure": sector_structure, "final_failure_counts": failure_counts, "repaired_sectors": repair["repaired_sector_count"], "party_species_limit_expanded": expand_party_species_limit}
         if species_report is not None:
             final["species_limit_touched_sectors"] = species_report["touched_sectors"]
+        if ending_report is not None:
+            final["ending_result_fix"] = ending_report
         emit("complete", "일반 BIOS용 ROM 생성이 완료되었습니다.", **final)
         return final
     except BaseException:
@@ -153,10 +236,11 @@ def main() -> None:
     parser.add_argument("--xdelta-exe", type=Path, required=True)
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument("--expand-party-species-limit", action="store_true")
+    parser.add_argument("--fix-ending-result", action="store_true")
     args = parser.parse_args()
     try:
         build(args.original, args.patch, args.bios, args.output, args.xdelta_exe, args.overwrite,
-              args.expand_party_species_limit)
+              args.expand_party_species_limit, args.fix_ending_result)
     except Exception as exc:
         emit("error", str(exc), error_type=type(exc).__name__)
         raise SystemExit(1)
