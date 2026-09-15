@@ -1,0 +1,506 @@
+[
+  {
+    "id": 1,
+    "name": "숏소드",
+    "original_name": "ショートソード",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 2,
+    "name": "롱소드",
+    "original_name": "ロングソード",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 3,
+    "name": "아이스소드",
+    "original_name": "アイスソード",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 4,
+    "name": "히트소드",
+    "original_name": "ヒートソード",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 5,
+    "name": "클레이모어",
+    "original_name": "クレイモアー",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 6,
+    "name": "절명의검",
+    "original_name": "絶命の剣",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 7,
+    "name": "저주의검",
+    "original_name": "呪いの剣",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 8,
+    "name": "양날의검",
+    "original_name": "諸刃の剣",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 9,
+    "name": "암살의단검",
+    "original_name": "暗殺の短剣",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 10,
+    "name": "제비반환의검",
+    "original_name": "燕返しの剣",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 11,
+    "name": "참룡검",
+    "original_name": "斬竜剣",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 12,
+    "name": "동결의검",
+    "original_name": "凍結の剣",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 13,
+    "name": "번개의검",
+    "original_name": "稲妻の剣",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 14,
+    "name": "분쇄의검",
+    "original_name": "粉砕の剣",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 15,
+    "name": "작열의검",
+    "original_name": "灼熱の剣",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 16,
+    "name": "엑스칼리버",
+    "original_name": "エクスカリバー",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 17,
+    "name": "할버드",
+    "original_name": "ハルベルト",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 18,
+    "name": "파르티잔",
+    "original_name": "パルチザン",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 19,
+    "name": "롱기누스의창",
+    "original_name": "ロンの槍",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 20,
+    "name": "투신의창",
+    "original_name": "闘神の槍",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 21,
+    "name": "도끼",
+    "original_name": "戦斧",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 22,
+    "name": "파괴의도끼",
+    "original_name": "破壊の斧",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 23,
+    "name": "프레일",
+    "original_name": "フレイル",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 24,
+    "name": "모닝스타",
+    "original_name": "モーニングスター",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 25,
+    "name": "마도사의지팡이",
+    "original_name": "魔導士の杖",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 26,
+    "name": "간반테인",
+    "original_name": "ガンバンテイン",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 27,
+    "name": "마법의활",
+    "original_name": "魔法の弓矢",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 28,
+    "name": "궁극의활",
+    "original_name": "究極の弓矢",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 29,
+    "name": "집념의활",
+    "original_name": "執念の弓矢",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 30,
+    "name": "체인메일",
+    "original_name": "チェインメイル",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 31,
+    "name": "플레이트메일",
+    "original_name": "プレイトメイル",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 32,
+    "name": "스케일메일",
+    "original_name": "スケイルメイル",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 33,
+    "name": "토바토",
+    "original_name": "トバート",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 34,
+    "name": "은의갑옷",
+    "original_name": "銀の鎧",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 35,
+    "name": "금의갑옷",
+    "original_name": "金の鎧",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 36,
+    "name": "동의갑옷",
+    "original_name": "鏡の鎧",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 37,
+    "name": "사자의갑옷",
+    "original_name": "獅子の鎧",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 38,
+    "name": "바람의베일",
+    "original_name": "風のベール",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 39,
+    "name": "폭소의마스크",
+    "original_name": "爆笑のマスク",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 40,
+    "name": "메듀사의목",
+    "original_name": "メドゥーサの首",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 41,
+    "name": "늑대의반지",
+    "original_name": "狼の指輪",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 42,
+    "name": "호랑이의반지",
+    "original_name": "虎の指輪",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 43,
+    "name": "사자의반지",
+    "original_name": "獅子の指輪",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 44,
+    "name": "천사의반지",
+    "original_name": "天使の指輪",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 45,
+    "name": "적십자",
+    "original_name": "赤十字",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 46,
+    "name": "불의부적",
+    "original_name": "火の守り",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 47,
+    "name": "땅의부적",
+    "original_name": "地の守り",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 48,
+    "name": "바람의부적",
+    "original_name": "風の守り",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 49,
+    "name": "물의부적",
+    "original_name": "水の守り",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 50,
+    "name": "소라",
+    "original_name": "ほら貝",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 51,
+    "name": "카라르호름",
+    "original_name": "ギャラルホルン",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 52,
+    "name": "흡혈의피리",
+    "original_name": "吸血の笛",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 53,
+    "name": "엘프의피리",
+    "original_name": "エルフの笛",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 54,
+    "name": "천사의피리",
+    "original_name": "天使の笛",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 55,
+    "name": "흙의호각",
+    "original_name": "地の呼子",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 56,
+    "name": "물의호각",
+    "original_name": "水の呼子",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 57,
+    "name": "바람의호각",
+    "original_name": "風の呼子",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 58,
+    "name": "발리스타키트",
+    "original_name": "バレスタキット",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 59,
+    "name": "빛의돌",
+    "original_name": "光の石",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 60,
+    "name": "불의돌",
+    "original_name": "炎の石",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 61,
+    "name": "번개의돌",
+    "original_name": "稲妻の石",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 62,
+    "name": "얼음의결정",
+    "original_name": "氷の結晶",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 63,
+    "name": "암흑의돌",
+    "original_name": "闇の石",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 64,
+    "name": "파괴의돌",
+    "original_name": "破壊の石",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 65,
+    "name": "안약",
+    "original_name": "目薬",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 66,
+    "name": "박카스의술",
+    "original_name": "バッカスの酒",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 67,
+    "name": "인삼엑기스",
+    "original_name": "人参エキス",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 68,
+    "name": "체력회복제",
+    "original_name": "体力回復薬",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 69,
+    "name": "피로회복제",
+    "original_name": "疲労回復薬",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 70,
+    "name": "해독약",
+    "original_name": "解毒薬",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 71,
+    "name": "석화해제약",
+    "original_name": "石化解除薬",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  },
+  {
+    "id": 72,
+    "name": "부활의약",
+    "original_name": "復活の薬",
+    "source": "patched-exe",
+    "confidence": "table-1based"
+  }
+]

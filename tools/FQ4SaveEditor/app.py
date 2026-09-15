@@ -17,6 +17,9 @@ import preset_store  # noqa: E402
 CHARACTER_NAMES = json.loads((HERE / "character_names.json").read_text(encoding="utf-8"))
 CLASS_NAMES = json.loads((HERE / "class_names.json").read_text(encoding="utf-8"))
 CLASS_CATALOG = json.loads((HERE / "class_catalog.json").read_text(encoding="utf-8"))
+ITEM_NAMES = json.loads((HERE / "item_names.json").read_text(encoding="utf-8"))
+ITEM_BY_ID = {int(item["id"]): item for item in ITEM_NAMES}
+ITEM_CHOICES = [f"{item['id']:03d}  {item['name']}" for item in ITEM_NAMES]
 
 
 def parse_number(text: str, name: str) -> int:
@@ -24,6 +27,13 @@ def parse_number(text: str, name: str) -> int:
     if not value:
         raise ValueError(f"{name} 값을 입력하세요.")
     return int(value, 0)
+
+
+def item_label(item_id: int) -> str:
+    item = ITEM_BY_ID.get(item_id)
+    if item:
+        return str(item["name"])
+    return f"Item 0x{item_id:02X}"
 
 
 class App(tk.Tk):
@@ -127,22 +137,27 @@ class App(tk.Tk):
         ttk.Spinbox(economy, textvariable=self.gold_var, from_=0, to=GOLD_MAX, width=12).grid(row=0, column=1, sticky="ew", padx=4)
         ttk.Button(economy, text="자금 적용", command=self.apply_gold).grid(row=0, column=2, sticky="ew")
         ttk.Label(economy, text="게임 내 표시 자금은 입력값 × 10으로 반영됩니다.", foreground="#555").grid(row=1, column=0, columnspan=3, sticky="w", pady=(4, 0))
-        item_cols = ("slot", "id", "qty")
+        item_cols = ("slot", "id", "name", "qty")
         self.item_tree = ttk.Treeview(economy, columns=item_cols, show="headings", height=7, selectmode="browse")
-        for c, h, w in (("slot", "칸", 45), ("id", "아이템 ID", 90), ("qty", "수량", 55)):
+        for c, h, w in (("slot", "칸", 45), ("id", "아이템 ID", 90), ("name", "아이템명", 150), ("qty", "수량", 55)):
             self.item_tree.heading(c, text=h)
             self.item_tree.column(c, width=w, anchor="center")
         self.item_tree.grid(row=2, column=0, columnspan=3, sticky="nsew", pady=(8, 4))
         self.item_tree.bind("<<TreeviewSelect>>", self.select_item)
         self.item_id_var = tk.StringVar()
+        self.item_name_var = tk.StringVar()
         self.item_qty_var = tk.StringVar(value="1")
-        ttk.Label(economy, text="ID").grid(row=3, column=0, sticky="w")
-        ttk.Entry(economy, textvariable=self.item_id_var, width=10).grid(row=3, column=1, sticky="ew", padx=4)
-        ttk.Label(economy, text="수량").grid(row=4, column=0, sticky="w")
-        ttk.Spinbox(economy, textvariable=self.item_qty_var, from_=0, to=ITEM_QUANTITY_MAX, width=10).grid(row=4, column=1, sticky="ew", padx=4)
-        ttk.Button(economy, text="추가/수정", command=self.apply_item).grid(row=3, column=2, rowspan=2, sticky="nsew")
-        ttk.Button(economy, text="선택 삭제", command=self.delete_item).grid(row=5, column=0, columnspan=3, sticky="ew", pady=(5, 0))
-        ttk.Label(economy, text="ID는 10진수 또는 0x2A 같은 16진수로 입력할 수 있습니다. 없는 아이템은 첫 빈 칸에 추가합니다.", foreground="#555", wraplength=360).grid(row=6, column=0, columnspan=3, sticky="w", pady=(6, 0))
+        ttk.Label(economy, text="이름").grid(row=3, column=0, sticky="w")
+        self.item_name_box = ttk.Combobox(economy, textvariable=self.item_name_var, values=ITEM_CHOICES, state="readonly")
+        self.item_name_box.grid(row=3, column=1, columnspan=2, sticky="ew", padx=4)
+        self.item_name_box.bind("<<ComboboxSelected>>", self.select_item_name)
+        ttk.Label(economy, text="ID").grid(row=4, column=0, sticky="w")
+        ttk.Entry(economy, textvariable=self.item_id_var, width=10).grid(row=4, column=1, sticky="ew", padx=4)
+        ttk.Label(economy, text="수량").grid(row=5, column=0, sticky="w")
+        ttk.Spinbox(economy, textvariable=self.item_qty_var, from_=0, to=ITEM_QUANTITY_MAX, width=10).grid(row=5, column=1, sticky="ew", padx=4)
+        ttk.Button(economy, text="추가/수정", command=self.apply_item).grid(row=4, column=2, rowspan=2, sticky="nsew")
+        ttk.Button(economy, text="선택 삭제", command=self.delete_item).grid(row=6, column=0, columnspan=3, sticky="ew", pady=(5, 0))
+        ttk.Label(economy, text="이름을 선택하면 ID가 자동 입력됩니다. ID는 10진수 또는 0x2A 같은 16진수로 직접 입력할 수도 있습니다.", foreground="#555", wraplength=390).grid(row=7, column=0, columnspan=3, sticky="w", pady=(6, 0))
         economy.columnconfigure(1, weight=1)
         economy.rowconfigure(1, weight=1)
 
@@ -365,7 +380,7 @@ class App(tk.Tk):
             return
         self.gold_var.set(str(slot.gold()))
         for item in slot.items():
-            iid = self.item_tree.insert("", "end", values=(item.index, f"0x{item.item_id:02X} ({item.item_id})", item.quantity))
+            iid = self.item_tree.insert("", "end", values=(item.index, f"0x{item.item_id:02X} ({item.item_id})", item_label(item.item_id), item.quantity))
             self.item_rows[iid] = item
 
     def apply_gold(self):
@@ -387,7 +402,16 @@ class App(tk.Tk):
             return
         item = self.item_rows[sel[0]]
         self.item_id_var.set(f"0x{item.item_id:02X}")
+        if 1 <= item.item_id <= len(ITEM_CHOICES):
+            self.item_name_box.current(item.item_id - 1)
+        else:
+            self.item_name_var.set("")
         self.item_qty_var.set(str(item.quantity))
+
+    def select_item_name(self, event=None):
+        index = self.item_name_box.current()
+        if 0 <= index < len(ITEM_NAMES):
+            self.item_id_var.set(str(ITEM_NAMES[index]["id"]))
 
     def apply_item(self):
         slot = self.selected_slot()
@@ -401,12 +425,13 @@ class App(tk.Tk):
             messagebox.showerror("아이템 입력 오류", str(e))
             return
         self.refresh_economy()
+        name = item_label(item_id)
         if changed is None:
-            self.status.set(f"아이템 0x{item_id:02X}는 보유하지 않은 상태입니다.")
+            self.status.set(f"{name}(0x{item_id:02X})는 보유하지 않은 상태입니다.")
         elif quantity == 0:
-            self.status.set(f"아이템 0x{item_id:02X}를 삭제했습니다. 파일 저장 전 상태입니다.")
+            self.status.set(f"{name}(0x{item_id:02X})를 삭제했습니다. 파일 저장 전 상태입니다.")
         else:
-            self.status.set(f"아이템 0x{item_id:02X} 수량을 {quantity}으로 변경했습니다. 파일 저장 전 상태입니다.")
+            self.status.set(f"{name}(0x{item_id:02X}) 수량을 {quantity}으로 변경했습니다. 파일 저장 전 상태입니다.")
 
     def delete_item(self):
         slot = self.selected_slot()
@@ -415,7 +440,7 @@ class App(tk.Tk):
             messagebox.showinfo("선택 필요", "삭제할 아이템을 선택하세요.")
             return
         item = self.item_rows[sel[0]]
-        if not messagebox.askyesno("아이템 삭제", f"아이템 0x{item.item_id:02X}를 삭제할까요?"):
+        if not messagebox.askyesno("아이템 삭제", f"{item_label(item.item_id)}(0x{item.item_id:02X})를 삭제할까요?"):
             return
         try:
             slot.clear_item_slot(item.index)
@@ -423,7 +448,7 @@ class App(tk.Tk):
             messagebox.showerror("삭제 실패", str(e))
             return
         self.refresh_economy()
-        self.status.set(f"아이템 0x{item.item_id:02X}를 삭제했습니다. 파일 저장 전 상태입니다.")
+        self.status.set(f"{item_label(item.item_id)}(0x{item.item_id:02X})를 삭제했습니다. 파일 저장 전 상태입니다.")
 
     def save_as(self):
         if not self.card:
