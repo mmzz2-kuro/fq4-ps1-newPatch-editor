@@ -20,6 +20,9 @@ CLASS_CATALOG = json.loads((HERE / "class_catalog.json").read_text(encoding="utf
 ITEM_NAMES = json.loads((HERE / "item_names.json").read_text(encoding="utf-8"))
 ITEM_BY_ID = {int(item["id"]): item for item in ITEM_NAMES}
 ITEM_CHOICES = [f"{item['id']:03d}  {item['name']}" for item in ITEM_NAMES]
+SPELL_NAMES = json.loads((HERE / "spell_names.json").read_text(encoding="utf-8"))
+SPELL_BY_ID = {int(spell["id"]): spell for spell in SPELL_NAMES}
+SPELL_CHOICES = ["(없음)"] + [f"{spell['id']:02d}  {spell['name']}" for spell in SPELL_NAMES]
 
 
 def parse_number(text: str, name: str) -> int:
@@ -59,6 +62,8 @@ class App(tk.Tk):
         self.slot = ttk.Combobox(top, state="readonly", width=25)
         self.slot.pack(side="left")
         self.slot.bind("<<ComboboxSelected>>", lambda e: self.load_slot())
+        self.magic_button = ttk.Button(top, text="배운 마법 편집", command=self.edit_magic, state="disabled")
+        self.magic_button.pack(side="left", padx=(10, 0))
         ttk.Button(top, text="다른 이름으로 저장", command=self.save_as).pack(side="right")
         ttk.Button(top, text="현재 파일 저장", command=self.save_current).pack(side="right", padx=(0, 6))
 
@@ -195,6 +200,7 @@ class App(tk.Tk):
             return
         self.rows.clear()
         self.current = None
+        self.magic_button.configure(state="disabled")
         for item in self.tree.get_children():
             self.tree.delete(item)
         slot = self.selected_slot()
@@ -214,6 +220,72 @@ class App(tk.Tk):
             self.vars[k].set(CHARACTER_NAMES[c.name_id] if k == "name" else str(getattr(c, k)))
         self.class_box.current(c.class_id)
         self.update_class_preview()
+        self.update_magic_summary()
+
+    def update_magic_summary(self):
+        if not self.current:
+            return
+        c = self.rows[self.current]
+        try:
+            spells = self.selected_slot().spells_for_class(c.class_id)
+        except SaveFormatError as exc:
+            self.status.set(f"마법 목록 오류: {exc}")
+            self.magic_button.configure(state="disabled")
+            return
+        if spells is None:
+            self.status.set(f"{CHARACTER_NAMES[c.name_id]}: 이 CLASS에는 마법 목록이 없습니다.")
+            self.magic_button.configure(state="disabled")
+        else:
+            names = [SPELL_BY_ID[spell]["name"] for spell in spells]
+            self.status.set(f"{CHARACTER_NAMES[c.name_id]} 배운 마법: {', '.join(names) if names else '없음'} (같은 CLASS에 함께 적용)")
+            self.magic_button.configure(state="normal")
+
+    def edit_magic(self):
+        if not self.current:
+            messagebox.showinfo("선택 필요", "캐릭터를 먼저 선택하세요.")
+            return
+        c = self.rows[self.current]
+        slot = self.selected_slot()
+        try:
+            spells = slot.spells_for_class(c.class_id)
+        except SaveFormatError as exc:
+            messagebox.showerror("마법 목록 오류", str(exc))
+            return
+        if spells is None:
+            messagebox.showinfo("마법 편집 불가", "이 CLASS에는 마법 목록이 없습니다.")
+            return
+        win = tk.Toplevel(self)
+        win.title(f"배운 마법 - {CLASS_NAMES[c.class_id]}")
+        win.transient(self)
+        frame = ttk.Frame(win, padding=12)
+        frame.pack(fill="both", expand=True)
+        ttk.Label(frame, text=f"{CHARACTER_NAMES[c.name_id]} / CLASS {c.class_id:03d}").grid(
+            row=0, column=0, columnspan=2, sticky="w", pady=(0, 8))
+        ttk.Label(frame, text="마법은 CLASS별로 저장됩니다. 같은 CLASS의 캐릭터 모두에게 적용됩니다.",
+                  foreground="#555", wraplength=390).grid(row=1, column=0, columnspan=2, sticky="w", pady=(0, 8))
+        boxes = []
+        for index in range(5):
+            ttk.Label(frame, text=f"마법 {index + 1}").grid(row=index + 2, column=0, sticky="w", pady=3)
+            box = ttk.Combobox(frame, values=SPELL_CHOICES, state="readonly", width=28)
+            box.current(spells[index] if index < len(spells) else 0)
+            box.grid(row=index + 2, column=1, sticky="ew", pady=3)
+            boxes.append(box)
+
+        def apply_spells():
+            selected = [box.current() for box in boxes if box.current() > 0]
+            try:
+                slot.set_class_spells(c.class_id, selected)
+            except SaveFormatError as exc:
+                messagebox.showerror("마법 입력 오류", str(exc), parent=win)
+                return
+            self.update_magic_summary()
+            self.status.set(f"CLASS {c.class_id:03d}의 마법을 메모리에 적용했습니다. 파일 저장 전 상태입니다.")
+            win.destroy()
+
+        ttk.Button(frame, text="마법 적용", command=apply_spells).grid(
+            row=7, column=0, columnspan=2, sticky="ew", pady=(10, 0))
+        frame.columnconfigure(1, weight=1)
+        win.grab_set()
 
     def update_class_preview(self):
         class_id = self.class_box.current()

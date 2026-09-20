@@ -29,6 +29,10 @@ ITEM_STRIDE = 2
 # (0x0520 - 0x0492) / 2 = 71 entries.
 ITEM_CAPACITY = 71
 ITEM_QUANTITY_MAX = 99
+MAGIC_OFFSET = 0x06DE
+MAGIC_END = 0x07F0  # 0x07F0.. contains other save fields.
+MAGIC_MAX_PER_CLASS = 5
+MAGIC_MAX_ID = 53
 
 
 class SaveFormatError(ValueError):
@@ -97,6 +101,12 @@ class InventoryItem:
         return self.item_id == 0 and self.quantity == 0
 
 
+@dataclass(frozen=True)
+class ClassMagic:
+    class_id: int
+    spell_ids: tuple[int, ...]
+
+
 @dataclass
 class FQ4Slot:
     filename: str
@@ -152,6 +162,57 @@ class FQ4Slot:
         self.payload[off + 25] = character.hr
         struct.pack_into("<H", self.payload, off + 26, character.hp)
         self.payload[off + 28:off + 32] = bytes((character.at, character.ar, character.df, character.dr))
+        repair_payload_checksums(self.payload)
+
+    def magic_sets(self) -> list[ClassMagic]:
+        """Read the save's class-keyed, FF-terminated learned-magic list."""
+        result = []
+        seen = set()
+        pos = MAGIC_OFFSET
+        while pos < MAGIC_END:
+            class_id = self.payload[pos]
+            if class_id == 0xFF:
+                return result
+            if pos + 2 > MAGIC_END:
+                break
+            count = self.payload[pos + 1]
+            if (class_id >= SPECIES_COUNT or class_id in seen or
+                    count > MAGIC_MAX_PER_CLASS or pos + 2 + count >= MAGIC_END):
+                break
+            spells = tuple(self.payload[pos + 2:pos + 2 + count])
+            if any(not 1 <= spell <= MAGIC_MAX_ID for spell in spells) or len(set(spells)) != count:
+                break
+            result.append(ClassMagic(class_id, spells))
+            seen.add(class_id)
+            pos += 2 + count
+        raise SaveFormatError(f"invalid learned-magic list at payload 0x{pos:04X}")
+
+    def spells_for_class(self, class_id: int) -> tuple[int, ...] | None:
+        return next((row.spell_ids for row in self.magic_sets() if row.class_id == class_id), None)
+
+    def set_class_spells(self, class_id: int, spell_ids: list[int] | tuple[int, ...]) -> None:
+        rows = self.magic_sets()
+        if class_id not in {row.class_id for row in rows}:
+            raise SaveFormatError(f"class {class_id} has no learned-magic entry")
+        spells = tuple(spell_ids)
+        if len(spells) > MAGIC_MAX_PER_CLASS or len(set(spells)) != len(spells):
+            raise SaveFormatError("a class may have up to five distinct spells")
+        if any(not isinstance(spell, int) or not 1 <= spell <= MAGIC_MAX_ID for spell in spells):
+            raise SaveFormatError(f"spell IDs must be 1..{MAGIC_MAX_ID}")
+        packed = bytearray()
+        for row in rows:
+            values = spells if row.class_id == class_id else row.spell_ids
+            packed.extend((row.class_id, len(values)))
+            packed.extend(values)
+        packed.append(0xFF)
+        if len(packed) > MAGIC_END - MAGIC_OFFSET:
+            raise SaveFormatError("learned-magic list has no remaining space")
+        old = self.payload[MAGIC_OFFSET:MAGIC_END]
+        old_end = old.find(0xFF)
+        # Every sample uses zero padding after the terminator; refuse unknown data.
+        if old_end < 0 or any(old[old_end + 1:]):
+            raise SaveFormatError("learned-magic padding contains unknown data")
+        self.payload[MAGIC_OFFSET:MAGIC_END] = packed + bytes(MAGIC_END - MAGIC_OFFSET - len(packed))
         repair_payload_checksums(self.payload)
 
     def gold(self) -> int:

@@ -1,0 +1,373 @@
+[
+  {
+    "id": 1,
+    "name": "블레이드",
+    "original": "ブレード",
+    "source": "patched-rom",
+    "offset": "0xEC357"
+  },
+  {
+    "id": 2,
+    "name": "용소환",
+    "original": "竜召喚",
+    "source": "patched-rom",
+    "offset": "0xEC362"
+  },
+  {
+    "id": 3,
+    "name": "사자소환",
+    "original": "死者召喚",
+    "source": "patched-rom",
+    "offset": "0xEC36D"
+  },
+  {
+    "id": 4,
+    "name": "정령소환",
+    "original": "精霊召喚",
+    "source": "patched-rom",
+    "offset": "0xEC378"
+  },
+  {
+    "id": 5,
+    "name": "천사소환",
+    "original": "天使召喚",
+    "source": "patched-rom",
+    "offset": "0xEC383"
+  },
+  {
+    "id": 6,
+    "name": "썬더",
+    "original": "サンダー",
+    "source": "patched-rom",
+    "offset": "0xEC38E"
+  },
+  {
+    "id": 7,
+    "name": "노바",
+    "original": "ノバ",
+    "source": "patched-rom",
+    "offset": "0xEC399"
+  },
+  {
+    "id": 8,
+    "name": "퀘이크",
+    "original": "クエイク",
+    "source": "patched-rom",
+    "offset": "0xEC3A4"
+  },
+  {
+    "id": 9,
+    "name": "전선이탈",
+    "original": "戦線離脱",
+    "source": "patched-rom",
+    "offset": "0xEC3AF"
+  },
+  {
+    "id": 10,
+    "name": "분신",
+    "original": "分身",
+    "source": "patched-rom",
+    "offset": "0xEC3BA"
+  },
+  {
+    "id": 11,
+    "name": "그라네이드",
+    "original": "グラネード",
+    "source": "patched-rom",
+    "offset": "0xEC3C5"
+  },
+  {
+    "id": 12,
+    "name": "토네이도",
+    "original": "トルネード",
+    "source": "patched-rom",
+    "offset": "0xEC3D0"
+  },
+  {
+    "id": 13,
+    "name": "아이스",
+    "original": "アイス",
+    "source": "patched-rom",
+    "offset": "0xEC3DB"
+  },
+  {
+    "id": 14,
+    "name": "블리자드",
+    "original": "ブリザード",
+    "source": "patched-rom",
+    "offset": "0xEC3E6"
+  },
+  {
+    "id": 15,
+    "name": "회복",
+    "original": "回復",
+    "source": "patched-rom",
+    "offset": "0xEC3F1"
+  },
+  {
+    "id": 16,
+    "name": "디스트로이",
+    "original": "デストロイ",
+    "source": "patched-rom",
+    "offset": "0xEC3FC"
+  },
+  {
+    "id": 17,
+    "name": "매혹의노래",
+    "original": "魅惑の歌",
+    "source": "patched-rom",
+    "offset": "0xEC407"
+  },
+  {
+    "id": 18,
+    "name": "회복의노래",
+    "original": "回復の歌",
+    "source": "patched-rom",
+    "offset": "0xEC412"
+  },
+  {
+    "id": 19,
+    "name": "종속의채찍",
+    "original": "従属の鞭",
+    "source": "patched-rom",
+    "offset": "0xEC41D"
+  },
+  {
+    "id": 20,
+    "name": "사신소환",
+    "original": "死神召喚",
+    "source": "patched-rom",
+    "offset": "0xEC428"
+  },
+  {
+    "id": 21,
+    "name": "호랑이인형",
+    "original": "トラグルミ",
+    "source": "patched-rom",
+    "offset": "0xEC433"
+  },
+  {
+    "id": 22,
+    "name": "팬더인형",
+    "original": "パングルミ",
+    "source": "patched-rom",
+    "offset": "0xEC43E"
+  },
+  {
+    "id": 23,
+    "name": "거북이인형",
+    "original": "ガメグルミ",
+    "source": "patched-rom",
+    "offset": "0xEC449"
+  },
+  {
+    "id": 24,
+    "name": "고질라인형",
+    "original": "ゴジグルミ",
+    "source": "patched-rom",
+    "offset": "0xEC454"
+  },
+  {
+    "id": 25,
+    "name": "늑대인형",
+    "original": "狼グルミ",
+    "source": "patched-rom",
+    "offset": "0xEC45F"
+  },
+  {
+    "id": 26,
+    "name": "만족의노래",
+    "original": "蛮族の歌",
+    "source": "patched-rom",
+    "offset": "0xEC46A"
+  },
+  {
+    "id": 27,
+    "name": "주박의노래",
+    "original": "呪縛の歌",
+    "source": "patched-rom",
+    "offset": "0xEC475"
+  },
+  {
+    "id": 28,
+    "name": "변신",
+    "original": "変身",
+    "source": "patched-rom",
+    "offset": "0xEC480"
+  },
+  {
+    "id": 29,
+    "name": "변장",
+    "original": "代わり身",
+    "source": "patched-rom",
+    "offset": "0xEC48B"
+  },
+  {
+    "id": 30,
+    "name": "해독",
+    "original": "解毒",
+    "source": "patched-rom",
+    "offset": "0xEC496"
+  },
+  {
+    "id": 31,
+    "name": "석화해제",
+    "original": "石化解除",
+    "source": "patched-rom",
+    "offset": "0xEC4A1"
+  },
+  {
+    "id": 32,
+    "name": "마법벽",
+    "original": "魔法壁",
+    "source": "patched-rom",
+    "offset": "0xEC4AC"
+  },
+  {
+    "id": 33,
+    "name": "거미줄",
+    "original": "クモの糸",
+    "source": "patched-rom",
+    "offset": "0xEC4B7"
+  },
+  {
+    "id": 34,
+    "name": "독안개",
+    "original": "毒霧",
+    "source": "patched-rom",
+    "offset": "0xEC4C2"
+  },
+  {
+    "id": 35,
+    "name": "호밍",
+    "original": "ホーミング",
+    "source": "patched-rom",
+    "offset": "0xEC4CD"
+  },
+  {
+    "id": 36,
+    "name": "롤링",
+    "original": "ローリング",
+    "source": "patched-rom",
+    "offset": "0xEC4D8"
+  },
+  {
+    "id": 37,
+    "name": "피닉스",
+    "original": "フェニクス",
+    "source": "patched-rom",
+    "offset": "0xEC4E3"
+  },
+  {
+    "id": 38,
+    "name": "안개은신",
+    "original": "霧隠れ",
+    "source": "patched-rom",
+    "offset": "0xEC4EE"
+  },
+  {
+    "id": 39,
+    "name": "미확인 마법 39",
+    "original": "",
+    "source": "unknown",
+    "offset": "0xEC4F9"
+  },
+  {
+    "id": 40,
+    "name": "석화",
+    "original": "石化",
+    "source": "patched-rom",
+    "offset": "0xEC504"
+  },
+  {
+    "id": 41,
+    "name": "혼란",
+    "original": "混乱",
+    "source": "patched-rom",
+    "offset": "0xEC50F"
+  },
+  {
+    "id": 42,
+    "name": "독심",
+    "original": "読心",
+    "source": "patched-rom",
+    "offset": "0xEC51A"
+  },
+  {
+    "id": 43,
+    "name": "미확인 마법 43",
+    "original": "???",
+    "source": "unknown",
+    "offset": "0xEC525"
+  },
+  {
+    "id": 44,
+    "name": "미확인 마법 44",
+    "original": "",
+    "source": "unknown",
+    "offset": null
+  },
+  {
+    "id": 45,
+    "name": "미확인 마법 45",
+    "original": "",
+    "source": "unknown",
+    "offset": null
+  },
+  {
+    "id": 46,
+    "name": "미확인 마법 46",
+    "original": "",
+    "source": "unknown",
+    "offset": null
+  },
+  {
+    "id": 47,
+    "name": "미확인 마법 47",
+    "original": "",
+    "source": "unknown",
+    "offset": null
+  },
+  {
+    "id": 48,
+    "name": "미확인 마법 48",
+    "original": "",
+    "source": "unknown",
+    "offset": null
+  },
+  {
+    "id": 49,
+    "name": "미확인 마법 49",
+    "original": "",
+    "source": "unknown",
+    "offset": null
+  },
+  {
+    "id": 50,
+    "name": "미확인 마법 50",
+    "original": "",
+    "source": "unknown",
+    "offset": null
+  },
+  {
+    "id": 51,
+    "name": "미확인 마법 51",
+    "original": "",
+    "source": "unknown",
+    "offset": null
+  },
+  {
+    "id": 52,
+    "name": "미확인 마법 52",
+    "original": "",
+    "source": "unknown",
+    "offset": null
+  },
+  {
+    "id": 53,
+    "name": "미확인 마법 53",
+    "original": "",
+    "source": "unknown",
+    "offset": null
+  }
+]
